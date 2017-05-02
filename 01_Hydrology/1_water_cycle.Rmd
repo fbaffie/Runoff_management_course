@@ -142,10 +142,10 @@ http://unesdoc.unesco.org/images/0022/002218/221862M.pdf
 -->
 
 ## Show me the watershed
-<img src="images/culvert_catchment.png"  height="530" width="auto">
+<img src="images/culvert_catchment.png"  height="500" width="auto">
 
 ## Exception: karstic aquifers
-<img src="images/map_dabube.png" height="530" width="auto">
+<img src="images/map_dabube.png" height="500" width="auto">
 
 ## Exception: karstic aquifers
 Spring at Aachtopf: approx. 10m3/s
@@ -156,7 +156,7 @@ http://www.donauversickerung.info/querschnitt_1.html
 -->
 
 ## Exception: human alterations
-<img src="images/LA_water_map.png" height="530" width="auto">
+<img src="images/LA_water_map.png" height="500" width="auto">
 
 ## Exception: human alterations
 <img src="images/damma_catchment.jpg" height="500" width="auto">
@@ -252,7 +252,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 
 ## Cycles in the Artic / Norway
 
-<img src="images/RECAP_arctic_norway_cycles.png" height="530" width="auto">
+<img src="images/RECAP_arctic_norway_cycles.png" height="500" width="auto">
 
 # Hydro-meteorology
 
@@ -300,7 +300,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 > - 30-35%
 
 ## Typical albedo values
-<img src="images/albedo_values.png" height="530" width="auto">
+<img src="images/albedo_values.png" height="500" width="auto">
 
 ## Feedback between climate and local hydrological variables
 > - **Which important negative feedback effect from land surface changes will affect the climate in alpine / polar areas?**
@@ -318,7 +318,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 > - Eastern Patagonia, deep valleys (Eikesdalen, Valais in CH), chinook wind in Calgary, Finnmark east of Lyngen
 
 ## Precipitation map: regions with foehn effect?
-<img src="images/wcprecipitationworldmap.gif" height="530" width="auto">
+<img src="images/wcprecipitationworldmap.gif" height="500" width="auto">
 
 ## Take home messages
 

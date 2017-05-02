@@ -88,7 +88,7 @@ Knowledge of:
 
 ## Teaching philosophy
 
-- Open source text-based material (for collaboration), later available on the web
+- Open source text-based material (for collaboration), available [online](https://fbaffie.github.io/Runoff_management_course/)
 - Links to a lot freely available material
 - Lots of questions to force thinking / active learning
 - Open to a variety of projects this year
@@ -509,17 +509,17 @@ Water as an Element of Urban Design: Drawing Lessons from Four European Case Stu
 
 # Projects
 
-## Design projects: Leikanger 100 dwellings on 10ha
+## Design projects: Leikanger 100 dwellings, 10ha
 <img src="images/PPT_Body.png" class="cover">
-<img src="images/project_kaupanger_zoom_aerial.png" height="530" width="auto">
+<img src="images/project_kaupanger_zoom_aerial.png" height="460" width="auto">
 
 ## Design projects: site map
 <img src="images/PPT_Body.png" class="cover">
-<img src="images/project_kaupanger_zoom.png" height="530" width="auto">
+<img src="images/project_kaupanger_zoom.png" height="520" width="auto">
 
 ## Design projects: catchment
 <img src="images/PPT_Body.png" class="cover">
-<img src="images/project_kaupanger.png" height="530" width="auto">
+<img src="images/project_kaupanger.png" height="520" width="auto">
 
 ## Design projects: options
 <img src="images/PPT_Body.png" class="cover">
@@ -534,10 +534,10 @@ Different groups could tackle different design challenges:
 - (sub)tropical climate (NSW, central America)
 
 ## Design projects: example drawings
-<img src="02_hydraulics/images/plan_initial_vancia.png" height="530" width="auto">
+<img src="02_Hydraulics/images/plan_initial_vancia.jpg" height="520" width="auto">
 
 ## Design projects: example drawings
-<img src="02_hydraulics/images/vancia_2_bassins_enterres.png" height="530" width="auto">
+<img src="02_Hydraulics/images/vancia_2_bassins_enterres.jpg" height="520" width="auto">
 
 ## Design projects: other ideas
 <img src="images/PPT_Body.png" class="cover">
