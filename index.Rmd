@@ -269,13 +269,12 @@ Why does it rain more in Fjaerland than in Sogndal? Why is it warmer...
 
 ## Hydrological processes
 <img src="images/PPT_Body.png" class="cover">
-[Lecture](01_Hydrology/2_hydrological_processes.html)
 
-We will discuss hydrological processes most relevant to hydrology in Norway: snow hydrology and forest hydrology.
-Groundwater and evapotranspiration are important processes for the design of green stormwater infrastructure.
-We will in particular look at the effect of changes in land use (i.e. reforestation) on water resources.
+We will first discuss hydrological processes most relevant to hydrology in Norway: snow hydrology and vegetation processes: [Lecture](01_Hydrology/2_hydrological_processes_1.html)
 
-[Quiz](01_Hydrology/2_hydrological_processes_quiz.html)
+We then cover groundwater, soil water and runoff generation which are important for the design of green stormwater infrastructure: [Lecture](01_Hydrology/2_hydrological_processes_2.html)
+
+The quiz focuses on the impact of forest on water resources: [Quiz](01_Hydrology/2_hydrological_processes_quiz.html)
 
 <!--
 Forest, tress and water in arid lands: a delicate balance
@@ -455,7 +454,7 @@ Get students to brainstorm on potential green infrastructure techniques. Then li
 Then present some typical drawings, discuss and get them to explore further for the next session.
 -->
 
-## Non-technical constraints on SW infrastructure  
+## Green SW infrastructure  
 <img src="images/PPT_Body.png" class="cover">
 <!--
 [Lecture](04_Urban_SW/2_constraints.html)
@@ -463,12 +462,19 @@ Then present some typical drawings, discuss and get them to explore further for 
 
 Lecture by Eli Heiberg (HVL)
 
+Role of green infrastructure in urban storm water management:
+
+Principles, measures and technology for local, open runoff management. 
+We will also discuss the multifunctionality of green infrastructure
+
+
+<!-- ELI
+
 This session will focus on green SW infrastructure and their non-physical design constraints.
 Those include cost and maintenance issues, social acceptance, multifunctionality (depollution, recreation, agriculture).
 What are the responsibilities of decision makers regarding the design of such infrastructure?
 Which official design guidelines exist and why do they matter?
 
-<!-- ELI
 - Quiz: discuss paper "Stormwater management and urban planning:Lessons from 40 years of innovation"
 - Lecture topics:
 National guidelines in development
