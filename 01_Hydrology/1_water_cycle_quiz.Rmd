@@ -1,0 +1,68 @@
+---
+title: "The water cycle quiz"
+author: Back to [course overview](../index.html#the-water-cycle)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
+---
+
+# Your quiz!
+
+## Trond
+> - **How long is the river Glomma?**
+> - 621km 
+> - **How many kilometers is Norway’s municipal pipeline for water?**
+> - Ca 46000km
+> - **How many % of Norway is covered of freshwater?**
+> - 6%   
+
+## Jan
+> - **What is the difference between arid and humid climate?**
+> - Arid: mean annual potential evaporation is higher than mean annual precipitation. Humid: mean annual potential evaporation is lower than mean annual precipitation
+> - **What are the main features of continental and maritime climate regarding temperature?**
+> - Continental climate: hot summers, cold winters
+Maritime climate: cooler summers, warmer winters
+
+## Christian
+> - **What_does_isothermal_mean**
+> - it_is_a_thermodynamic_phase_change_without_temperature_change
+> - **Florian: you should have asked - what is an isothermal process? Your example is not the only one. Some gas compression processes can be isothermal.**
+
+## Håkon
+> - **What is the term used to describe how easily water penetrates the ground?**
+> - Permeability  
+> - **Florian's note: It is called the intrinsic permeability. It is 1 of 2 factors in hydraulic conductivity that describe the properties of the porous material (pore size). The other factor represents the fluid properties (elements of hydrology chap. 6)**
+
+## Håkon
+> - **What is Transpiration?**
+> - Water moving from the ground through a plant to then be evaporated to the atmosphere  
+> - **What is the difference between a meandering stream and a braided stream?**
+> - Meandering stream moves like an S, moves with erosion of banks. Braided stream is a combination of many smaller streams crossing each other, often full of sediments, forming a “braid”
+
+## Jostein
+> - **What was the daily average water flow (m3/s) in Sogndalselvi during the flood in October 2014? **
+> - 113,67 m3/s
+> - **What is the volume of Jostedalsbreen?**
+> - 73 km3
+> - **What is the volume of all glaciers in Norway?**
+> - 262 km3 (NVE 2015)
+
+## Simen
+> - **What is the residence time of water in rivers and lakes?**
+> - 4 years
+> - **Where does the peruvian government look to retain water supply during summer months as CC worsen?**
+> - The bofedales
+> - **Florian's note: https://shapeofthingstocome.org/2014/09/19/what-the-hell-is-a-bofedal/**
+
+## Calum
+> - **How has urban drainage management changed over time since 1960? (What is now thought of alongside just 'flood mitigation'). **
+> - Instead of just focusing on flood mitiagtion, management of urban drainage systems now take into account; recreation + aesthetics of system/area, using stormwater as a resource, water quality, the ecology of water course that system drains into and flow regime restoration.  
+
+## Calum
+> - **What are some of the obstacles to the uptake of blue green solutions in storm water management? **
+> - Path dependency - it is easier to stick to what you know rather than risk a more difficult option. BG solutions can take up a lot of space - difficult to pursuade people to allow high value sites to be used for BG solutions. Funding difficulty - BG solutions cannot be funded through water tax. People scared about running costs and maintenance (especially here in Sogndal in winter climate). ETC ETC. 
+> - **Florian's note:** automatic connection of new houses to the piped network. Kristian mentioned it here (houses that are within reasonable distance to the network). This is highlighted as a policy problem in a UK report on flooding.
