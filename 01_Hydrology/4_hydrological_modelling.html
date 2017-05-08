@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hydrological modelling</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Hydrological modelling</h1>
+    <p>Back to <a href="../index.html#hydrological-modelling">course overview</a></p>
+  </header>
+
+    
+  
+<section id="plan" class="slide level2">
+<h2>Plan</h2>
+<ul>
+<li><a href="./4_hydrological_modelling.html#modelling-options">Modelling options</a></li>
+<li><a href="./4_hydrological_modelling.html#field-intuition-and-modelling">Field intuition and modelling</a></li>
+<li><a href="./4_hydrological_modelling.html#climate-change-phd-example">Climate change - PhD example</a></li>
+<li><a href="./4_hydrological_modelling.html#further-resources">Further resources</a> <!--
+## putting text in specific location
+<div style="font-size: 60%; position: absolute; right: 5%;   width: fit-content; height: fit-content; border:3px solid blue; top:90%; z-index:10">blabla</div>
+--></li>
+</ul>
+<!--
+## Trying to automatically read a folder with many pictures
+
+-->
+<!--
+## { .fullpage }
+A widget
+<iframe src="../00_Widgets/test_widget.html" width="100%" height="100%" frameBorder="0"></iframe>
+
+<span class="footnote">Data source: US Census Bureau</span>
+-->
+<!--
+## { .fullpage }
+crosstalk between 2 graphs
+<iframe src="../00_Widgets/cross_talk.html" width="100%" height="100%" frameBorder="0"></iframe>
+-->
+<!--
+## { .fullpage }
+crosstalk selector
+<iframe src="../00_Widgets/test_widget2.html" width="100%" height="100%" frameBorder="0"></iframe>
+-->
+</section>
+<section id="modelling-options" class="titleslide slide level1"><h2 class="shout">Modelling options</h2></section><section id="purpose-of-hydrological-modelling" class="slide level2">
+<h2>Purpose of hydrological modelling</h2>
+<ul>
+<li class="fragment next"><strong>Why do hydrological modelling</strong></li>
+<li class="fragment next">To predict future discharge</li>
+<li class="fragment next">To size infrastructure</li>
+<li class="fragment next">To understand hydrological processes in a catchment</li>
+</ul>
+</section><section id="example-flood-forecasting" class="slide level2">
+<h2>Example: flood forecasting</h2>
+<p><img src="images/flood_forecasting_app.png" height="500" width="auto"></p>
+</section><section id="main-modelling-approaches" class="slide level2">
+<h2>Main modelling approaches</h2>
+<ul>
+<li class="fragment next">Physically-based</li>
+<li class="fragment next">Conceptual</li>
+<li class="fragment next">Data based models: machine learning, non-linear regressions…</li>
+<li class="fragment next">Lumped (Hydrological Response Units) vs distributed</li>
+</ul>
+<!--
+## Vocabulary
+> - **Rising limb** 
+> - The rising limb of hydro graph, also known as concentration curve, reflects a prolonged increase in discharge from a catchment area, typically in response to a rainfall event
+> - **Recession (or falling) limb** 
+> - The recession limb extends from the peak flow rate onward. The end of stormflow (a.k.a. quickflow or direct runoff) and the return to groundwater-derived flow (base flow) is often taken as the point of inflection of the recession limb. The recession limb represents the withdrawal of water from the storage built up in the basin during the earlier phases of the hydrograph.
+
+> - **Peak discharge**
+> - The highest point on the hydro graph when the rate of discharge is greatest
+
+## Vocabulary
+> - **Lag time** 
+> - The time interval from the center of mass of rainfall excess to the peak of the resulting hydrograph
+
+> - **Time to peak** 
+> - Time interval from the start of the resulting hydro graph
+
+> - **Discharge** 
+> - the rate of flow (volume per unit time) passing a specific location in a river or other channel
+
+## Time of concentration
+<img src="images/time_of_concentration.gif" class="h" width="100%">
+-->
+</section><section id="physically-based-models" class="slide level2">
+<h2>Physically-based models?</h2>
+<ul>
+<li class="fragment next"><strong>Limitations</strong></li>
+<li class="fragment next">High quality distributed data required</li>
+</ul>
+<ul>
+<li class="fragment next"><strong>Advantages</strong></li>
+<li class="fragment next">Less parametrization required</li>
+</ul>
+</section><section id="conceptual-models" class="slide level2">
+<h2>Conceptual models</h2>
+<ul>
+<li class="fragment next"><strong>Limitations</strong></li>
+<li class="fragment next">Risk of over-parametrization</li>
+<li class="fragment next">Risk of right answers for wrong reasons</li>
+</ul>
+<ul>
+<li class="fragment next"><strong>Advantages</strong></li>
+<li class="fragment next">Can help help conceptually understand hydrological processes in a catchment</li>
+<li class="fragment next">Good if data is lacking</li>
+</ul>
+</section><section id="variable-data-availability" class="slide level2">
+<h2>Variable data availability</h2>
+<p><img src="images/meteo_station.jpg" height="500" width="auto"></p>
+</section><section id="distribution-of-meteorological-variables" class="slide level2">
+<h2>Distribution of meteorological variables</h2>
+<p><img src="images/RECAP_met_param_interpolation.png" height="500" width="auto"></p>
+</section><section id="conceptual-approach-linear-reservoir" class="slide level2">
+<h2>Conceptual approach: linear reservoir</h2>
+<div class="double">
+<p class="double-flow">
+<svg height="450" width="auto">
+<image xlink:href="images/LinearReservoir.svg" src="svg.png" height="350">
+</svg>
+</p>
+<p class="double-flow">
+<p>Assumption:</p>
+<p>Q is proportional to S, the storage volume</p>
+R is a recharge term (rainfall and/or GW recharge)
+</p>
+</div>
+<!--
+> - **Why do linear conceptual models tend to work OK?**
+-->
+</section><section id="linear-reservoir-equations" class="slide level2">
+<h2>Linear reservoir equations</h2>
+<p>Based on 2 equations:</p>
+<p>Linear flow equation: <span class="math inline">\(Q = A*S\)</span></p>
+<p>Water balance equation: <span class="math inline">\(R = Q + \Delta{S}/\Delta{T}\)</span></p>
+<p>where <span class="math inline">\(Q\)</span> is the runoff or discharge, <span class="math inline">\(A\)</span> is the recession constant [unit 1/T] and <span class="math inline">\(S\)</span> is the water storage</p>
+<p>if the recharge term R = 0, then:</p>
+<p><span class="math inline">\(Q(t) = Q_0*exp^{-A*t}\)</span> with <span class="math inline">\(Q_0\)</span> the flow at the start of the recession event (t=0)</p>
+<!--
+A combination of the two previous equations results in a differential equation, whose solution is:
+
+\[Q2 = Q1 * exp { −A (T2 − T1) } + R [ 1 − exp { −A (T2 − T1) } ]\]
+
+$\Delta{S}$ is a small variation of S
+$\Delta{T}$ is a small variation of T
+-->
+</section><section id="example-structure-of-hbv-model" class="slide level2">
+<h2>Example: structure of HBV model</h2>
+<p><img src="images/hbv_structure.gif" height="500" width="auto"></p>
+</section><section id="calibration-validation-process" class="slide level2">
+<h2>Calibration / Validation process</h2>
+<ul>
+<li class="fragment next"><strong>What is it?</strong></li>
+<li class="fragment next">It consists in calibrating the model on one period, and testing its predictive ability on another period</li>
+<li class="fragment next"><strong>Why is it important?</strong></li>
+<li class="fragment next">There are often several sets of parameters which “work” for a specific period.</li>
+<li class="fragment next">If the model is over-parametrized, it is also possible that several parameter sets pass the validation process</li>
+<li class="fragment next">This is called equifinality</li>
+</ul>
+<!--
+## Model parametrization
+> - **What is equifinality? (an issue we can run into when using too complex mopdels)**
+> - This is when 2 (or more) different sets of parameters can lead to the same results
+> - This means the model is oper-parametrized and does not give the right answers for the right reasons
+-->
+</section><section id="getting-the-right-answers-for-the-right-reason" class="slide level2">
+<h2>Getting the right answers for the right reason</h2>
+<p><img src="images/Trying%20to%20debug%20code%20-%20Imgur.gif" class="h" width="100%"></p>
+</section><section id="how-quality-measures-can-be-deceiving" class="slide level2">
+<h2>How quality measures can be deceiving</h2>
+<p>Nash–Sutcliffe efficiency coefficient:</p>
+<p><span class="math display">\[E = 1-\frac{\sum_{t=1}^{T} \left(Q_m(t)-Q_o(t)\right)^2}{\sum_{t=1}^{T} \left(Q_o(t)-\overline{Q_o}\right)^2}\]</span></p>
+<p>where <span class="math inline">\(\overline{Q_o}\)</span> is the mean of observed discharges, <span class="math inline">\(Q_o(t)\)</span> and <span class="math inline">\(Q_m(t)\)</span> are observed and modeled discharge at time <span class="math inline">\(t\)</span></p>
+<ul>
+<li class="fragment next"><strong>Which value has a perfect model?</strong></li>
+<li class="fragment next">1</li>
+<li class="fragment next"><strong>Why is it not very good when used on different hydrological regimes?</strong></li>
+<li class="fragment next">It is much easier to have a good value with highly variable hydrographs</li>
+</ul>
+</section><section id="other-model-assessment-criteria" class="slide level2">
+<h2>Other model assessment criteria</h2>
+<ul>
+<li>Benchmark efficiency</li>
+<li>Root Mean Square</li>
+<li>Volumetric error</li>
+<li>Kling-Gupta Efficiency</li>
+</ul>
+<!--
+video on conceptual GW model
+<iframe width="800" height="450" src="https://www.youtube.com/embed/g414kKPGqDE" frameborder="0" allowfullscreen></iframe>
+-->
+</section>
+<section id="field-intuition-and-modelling" class="titleslide slide level1"><h2 class="shout">Field intuition and modelling</h2></section><section id="conceptual-view-of-my-phd-catchment" class="slide level2">
+<h2>Conceptual view of my PhD catchment</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%207.png" height="450" width="auto"></p>
+</section><section id="electrical-conductivity-natural-tracer" class="slide level2">
+<h2>Electrical conductivity: natural tracer</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%201.png" height="450" width="auto"></p>
+<!--
+> - **From this graph, what can you tell about the relationship between electrical conductivity and streamflow?**
+> - There is an inverse proportionality which seems to depend on the season and the discharge.
+> - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
+> - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
+-->
+</section><section id="initial-data-and-modelling-results" class="slide level2">
+<h2>Initial data and modelling results</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%203.png" height="450" width="auto"></p>
+</section><section id="two-component-mixing-model" class="slide level2">
+<h2>Two component mixing model</h2>
+<ul>
+<li class="fragment next"><strong>Write the water balance to express <span class="math inline">\(Q(t)\)</span>, the total discharge at time t, as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, the groundwater exfiltration and <span class="math inline">\(Q_{gl}(t)\)</span>, the glacier melt contribution (we neglect rain and evapotranspiration)</strong></li>
+<li class="fragment next"><span class="math inline">\(Q(t) = Q_{gw}(t) + Q_{gl}(t)\)</span></li>
+<li class="fragment next"><strong>Write the solute mass balance to express <span class="math inline">\(Q(t) EC(t)\)</span> (the mass of solutes exiting the catchment per second) as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(Q_{gl}(t)\)</span> as well as <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span>, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.</strong></li>
+<li class="fragment next"><span class="math inline">\(Q(t) EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}\)</span></li>
+</ul>
+</section><section id="total-discharge-as-a-function-of-q_gwt" class="slide level2">
+<h2>Total discharge as a function of <span class="math inline">\(Q_{gw}(t)\)</span></h2>
+<ul>
+<li class="fragment next"><strong>By substituting <span class="math inline">\(Q_{gl}(t)\)</span> in one of the previous equations, express <span class="math inline">\(Q(t)\)</span> as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(EC(t)\)</span> and the constants <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span></strong></li>
+<li class="fragment next"><span class="math inline">\(Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})\)</span></li>
+<li class="fragment next"><span class="math inline">\(Q(t) = \frac{{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}}\)</span></li>
+</ul>
+<!--
+> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
+$Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
+
+## GW exfiltration as a function of groundwater level
+\[Q_{gw}(t) = V_{slow}(t)*T_{slow} + V_{fast}(t) T_{fast}\]
+-->
+<!--
+## Recession discharge
+\[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
+-->
+</section><section id="modelled-baseflow-recession" class="slide level2">
+<h2>Modelled baseflow recession</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%202.png" height="450" width="auto"></p>
+<!--
+## Groundwater storage as a function of field GW measurements
+\[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
+with $L_{integral}(t_{end}) = L_{residual}$
+
+
+##  Total groundwater flow as a function of field GW measurements
+\[Q_{gw}(t) = baseflow_{max} + A_{fast} × L_{integral}(t) × \Phi * T_{fast}\]
+
+
+## Benchmark efficiency
+\[E = 1 − P_t (Q_{meas}(t) − Q_{mod}(t))^2 P_t (Q_{meas}(t) − Q_{bench}(t))^2\]
+
+## Verifying $A_{slow}$ with snowmelt recharge
+\[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
+-->
+</section><section id="aquifer-recharge-with-snowmelt" class="slide level2">
+<h2>Aquifer recharge with snowmelt</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%206.png" height="450" width="auto"></p>
+</section><section id="mass-balance-verification-for-the-infiltration-rate" class="slide level2">
+<h2>Mass balance verification for the infiltration rate</h2>
+<ul>
+<li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume and the exfiltration rate <span class="math inline">\(Q_{gw}\)</span></strong></li>
+<li class="fragment next">We neglect evapotranspiration and recharge from rain</li>
+<li class="fragment next"><span class="math display">\[Q_{inf}(t) = dV(t)dt + Q_{gw}(t) \]</span></li>
+</ul>
+<!--
+## Figure 4
+<img src="images/phd/Paper%204%20-%20Figure%204.png" height="450" width="auto">
+-->
+</section><section id="seasonaly-variable-gw-contribution" class="slide level2">
+<h2>Seasonaly variable GW contribution</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%205.png" height="450" width="auto"></p>
+</section>
+<section id="climate-change-phd-example" class="titleslide slide level1"><h2 class="shout">Climate change PhD example</h2></section><section id="climate-change-impacts" class="slide level2">
+<h2>Climate change impacts</h2>
+<ul>
+<li class="fragment next"><strong>Remember what “downscaling” is?</strong></li>
+<li class="fragment next">Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid</li>
+<li class="fragment next"><strong>Which parameters are affected?</strong></li>
+<li class="fragment next">Air temperature</li>
+<li class="fragment next">Precipitation</li>
+<li class="fragment next">Relative humidity</li>
+<li class="fragment next">Wind speed</li>
+<li class="fragment next">Wind direction</li>
+</ul>
+<!--
+> - **What is an ensemble forecast?**
+> - A forecast using many different models
+-->
+</section><section id="climate-change-scenarios" class="slide level2">
+<h2>Climate change scenarios</h2>
+<p><img src="images/phd/p2_fig2%20-%20Climate%20change%20scenarios%20for%20station%20Guetsch.jpg" height="500" width="auto"></p>
+</section><section id="map-of-the-study-area" class="slide level2">
+<h2>Map of the study area</h2>
+<p><img src="images/phd/p2_fig1%20-%20Map%20of%20the%20study%20area.jpg" height="500" width="auto"></p>
+<!--
+## Difference between modeled and measured runoff during validation period
+<img src="images/phd/p2_fig3%20-%20Difference%20between%20modeled%20and%20measured%20runoff%20during%20the%20validation%20period.jpg" height="500" width="auto">
+-->
+</section><section id="climate-change-predictions" class="slide level2">
+<h2>Climate change predictions</h2>
+<p><img src="images/phd/p2_fig4%20Climate%20change%20predictions%20for%20PREVAH%20and%20ALPINE3D.jpg" height="500" width="auto"></p>
+</section><section id="differences-in-mean-flow" class="slide level2">
+<h2>Differences in mean flow</h2>
+<p><img src="images/phd/p2_fig5%20-Differences%20between%20the%20reference%20and%20future%20periods.jpg" height="450" width="auto"></p>
+</section><section id="differences-in-cumulative-flow" class="slide level2">
+<h2>Differences in cumulative flow</h2>
+<p><img src="images/phd/p2_fig6%20-%20Future%20variations%20in%20yearly%20and%20seasonal%20runoff.jpg" height="500" width="auto"></p>
+</section><section id="take-home-messages" class="slide level2">
+<h2>Take home messages</h2>
+<ul>
+<li>Why modelling</li>
+<li>The why influences the how</li>
+<li>Conceptual approaches vs physically based models</li>
+<li>Assessing model quality is not straightforward</li>
+<li>Equifinality problem with over-parametrization</li>
+<li>Know the assumptions and their impact</li>
+<li>Plotting choices can influence analysis</li>
+</ul>
+</section>
+<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="book-chapters" class="slide level2">
+<h2>Book chapters</h2>
+<p>Elements of physical hydrology. Chapters 5, 7, 9</p>
+<p>Hydrology in Practice. Chapers 10, 12, 17</p>
+</section><section id="nevina-web-tool-from-nve" class="slide level2">
+<h2>Nevina web tool from NVE</h2>
+<p><a href="http://nevina.nve.no/" class="uri">http://nevina.nve.no/</a></p>
+<p><a href="./pdf/NevinaRapport_Sogndal.pdf">Report for the Sogndal catchment</a></p>
+<!--
+quiz theme?
+-->
+</section><section id="norway-europe" class="slide level2">
+<h2>Norway / Europe</h2>
+<p>Hydrological atlas for Norway: <a href="./pdf/Avrenningskart_Norge.pdf">local</a>, <a href="http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf">web</a></p>
+<p>Hydrological atlas of Switzerland: <a href="http://www.hydrologischeratlas.ch" class="uri">http://www.hydrologischeratlas.ch</a></p>
+<p>Models for green stormwater infrastructure <a href="http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf" class="uri">http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf</a></p>
+</section><section id="resources-from-the-usda" class="slide level2">
+<h2>Resources from the USDA</h2>
+<p>National Engineering Handbook: hydrology <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063" class="uri">https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063</a></p>
+<p>An interesting old USGS report making analogies between conceptual hydrological models and electrical circuits: <a href="https://pubs.usgs.gov/pp/0506a/report.pdf">Use of analog models in the analysis of flood runoff</a></p>
+</section>
+<section id="annoted-video-resources" class="titleslide slide level1"><h2 class="shout">Annoted video resources</h2></section><section id="prof.hubert-savenije-breakthroughs-in-landscape-based-rainfall-runoff" class="slide level2">
+<h2>Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff</h2>
+<p><a href="https://www.youtube.com/watch?v=BTmIAA0R4Tc" class="uri">https://www.youtube.com/watch?v=BTmIAA0R4Tc</a></p>
+<ul>
+<li>Linking landscape to hydrological modelling concepts.</li>
+<li>12: interesting sorting of landscapes that can apply to Norway: wetland, hillslope, plateau</li>
+<li>19: Very good introduction of calibration vs validation</li>
+<li>30: Rooting depth deeper on sand that on clay. Ecosystems tune their root zone storage capacity to a drought of 1/15 years, which is a good proxy of their lifetime. If it becomes drier, plants will root deeper</li>
+</ul>
+</section><section id="prof.hubert-savenije-breakthroughs-in-landscape-based-rainfall-runoff-1" class="slide level2">
+<h2>Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff</h2>
+<ul>
+<li>41: interesting question on his model</li>
+<li>45: don’t model a catchment that you don’t know. analyse the landscape His appproach can be linked to my conceptual analysis in Damma. The idea is to have a model to learn, rather than to predict</li>
+</ul>
+</section><section id="hoshin-gupta-a-general-theory-of-learning-with-models-data-not-easy-topic" class="slide level2">
+<h2>Hoshin Gupta: A General Theory of Learning with Models &amp; Data (Not easy topic)</h2>
+<p><a href="https://www.youtube.com/watch?v=eH6vwiukIsA&amp;t=848s" class="uri">https://www.youtube.com/watch?v=eH6vwiukIsA&amp;t=848s</a></p>
+<ul>
+<li>14: dynamic environmental systems models. A DESM is a simplified representation of the structure and function of a dynamical system that: enables Simulations (that are quite accurate), Testable predictions (under new circumstances), Reasoning (with an idealized framework). By encoding knowledge about: Physics, System properties (geometry and materials), Uncertainty (what we know that we don’t know)</li>
+<li>29: conceptual modelling of a watershed</li>
+<li>41: darcy’s law works well at the small / medium scale but non-uniformities at the larger scale will affect it.</li>
+</ul>
+</section><section id="hoshin-gupta-a-general-theory-of-learning-with-models-data-not-easy-topic-1" class="slide level2">
+<h2>Hoshin Gupta: A General Theory of Learning with Models &amp; Data (Not easy topic)</h2>
+<ul>
+<li>43: what happens when the model doesn’t work: inference process in an educated way</li>
+<li>54: trade-off between performance and uncertainty between different model structures</li>
+<li>58: conclusions</li>
+</ul>
+<!--
+## R packages
+airGR
+http://meetingorganizer.copernicus.org/EGU2017/EGU2017-7311.pdf
+http://meetingorganizer.copernicus.org/EGU2017/EGU2017-11789.pdf
+-->
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>
