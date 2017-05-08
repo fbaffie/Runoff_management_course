@@ -202,17 +202,30 @@ Put the recession figure from my paper, or from sogndal (february 2017)
 <li class="fragment next"><strong>Check whether this makes sense, considering what you heard on Wednesday!</strong></li>
 <li class="fragment next"><strong>The whole thing is done here without calculator with “useful” approximations!</strong></li>
 <li class="fragment next">The reservoir was 1000m3 and represented 6h max of daily consumption</li>
+<li class="fragment next">So daily consumption: 4000m3</li>
+<li class="fragment next">The sand filters need to be able to produce the daily consumption in 24h!</li>
 </ul>
 </section><section id="conductivity-of-dyna-sand-sand-filters-1" class="slide level2">
 <h2>Conductivity of “Dyna Sand” sand filters</h2>
 <ul>
 <li class="fragment next"><strong>Calculate the required flow per minute</strong></li>
+<li class="fragment next">4000 / 60x24 = 4000 / 1440 -&gt; 4000 / 1600 (easier) = 2.5m3/min</li>
 <li class="fragment next"><strong>Calculate the required surface for this flow</strong></li>
+<li class="fragment next">3.5gpm/SqFt -&gt; 3.5x4 = 14 l/min/sqft -&gt; 14x10 l/min/m2 = 0.14 m3/min/m2</li>
+<li class="fragment next">Recapitulation: 2.5m3/min is required and the sand filter has a capacity of 0.14 m3/min/m2</li>
+<li class="fragment next">So 15-20m2 required: 5 filters of 3-4m2</li>
+<li class="fragment next">Makes sense!</li>
 </ul>
 </section><section id="conductivity-of-dyna-sand-sand-filters-2" class="slide level2">
 <h2>Conductivity of “Dyna Sand” sand filters</h2>
 <ul>
 <li class="fragment next"><strong>The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand</strong></li>
+<li class="fragment next">10 bars makes 100m of head at the inlet</li>
+<li class="fragment next">The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter</li>
+<li class="fragment next">So hydraulic head gradient across the sand filter: 95 / 4 -&gt; 24</li>
+<li class="fragment next">using Darcy’s Law: <span class="math inline">\(q=-k \nabla{\phi}\)</span></li>
+<li class="fragment next"><span class="math inline">\(K*24 = 0.14m^3/min/m^2\)</span> -&gt; <span class="math inline">\(K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s\)</span></li>
+<li class="fragment next">Makes sense!</li>
 </ul>
 </section><section id="specific-yield-vs-porosity" class="slide level2">
 <h2>Specific yield vs porosity</h2>
