@@ -236,10 +236,10 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 <img src="images/map_example_ch.png" height="500" width="auto">
 
 ## Signs of high water table / soil moisture
-<img src="images/gw_signs1.jpg" height="500" width="auto">
+<img src="images/gw_signs1.JPG" height="500" width="auto">
 
 ## Signs of high water table / soil moisture
-<img src="images/gw_signs2.jpg" height="500" width="auto">
+<img src="images/gw_signs2.JPG" height="500" width="auto">
 
 <!--
 dec1_2011.jpg
@@ -397,7 +397,7 @@ $t$ is time.
 > - Answer: **c**
 
 ## Intermittent alpine stream
-<img src="images/damma/29apr2011_noflow.jpg" height="500" width="auto">
+<img src="images/damma/29apr2011_noflow.JPG" height="500" width="auto">
 
 ## Stream / groundwater interactions
 > - **What is a "losing" and "gaining" reach?**
