@@ -335,7 +335,7 @@ $K$ the saturated hydraulic conductivity (L/T)
 $F(t)$ the cumulative depth of infiltration (L)
 
 ## Soil water storage
-<img src="images/soil_water_storage.jpg" height="450">
+<img src="images/soil_water_storage.JPG" height="450">
 
 <!--
 ## Soil water storage: ratios
