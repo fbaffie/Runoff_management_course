@@ -1,0 +1,27 @@
+---
+title: "Green infrastructure quiz"
+author: Back to [course overview](../index.html#green-sw-infrastructure)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
+---
+
+## Quiz to submit sunday 14th, 24:00
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdvmJ-AFlRA?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli" frameborder="0" allowfullscreen></iframe>
+
+Reverse engineer his installation! You can focus on sizing, functionality, a specific detail if you have time.
+
+## Specifications
+Do the schematics / drawings of his stormwater and greywater setup. By hand or computer and send me a picture file 
+
+Inspiration for drawings / schematics:
+
+Pinterest collections: [green infrastructure](https://no.pinterest.com/fbaffie/green-sw-infrastructure/), [drawing examples](https://no.pinterest.com/fbaffie/drawing-examples/)
+
+Lots of drawings examples in the library book (https://www.hisf.no/biblioteket/):
+
+Public safety guidance for urban SW facilities

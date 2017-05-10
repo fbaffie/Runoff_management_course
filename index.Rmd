@@ -208,11 +208,11 @@ Most teaching blocks will be structured as follows:
 - 10:00-12:00 Lecture, exercises, discussion
 - Homework: prepare 2-3 questions AND answers for the next quiz. Send them latest midnight before the quiz to fkba@hvl.no in this format:
 
-`## Your_Name`
+`## Your Name`
 
-`> - **Your_Question**`
+`> - **Your Question**`
 
-`> - Your_Answer`
+`> - Your Answer`
 
 <!--
 <img src="images/PPT_Body.png" class="cover">
@@ -467,6 +467,7 @@ Role of green infrastructure in urban storm water management:
 Principles, measures and technology for local, open runoff management. 
 We will also discuss the multifunctionality of green infrastructure
 
+[Quiz](04_Urban_SW/2_green_infra_quiz.html)
 
 <!-- ELI
 
@@ -699,8 +700,7 @@ Good mix of theory and practice
 - **Optimizing Stormwater Treatment Practices  - A handbook of assessment and maintenance** A.J. Erickson (*DL*)
 Very applied
 - **Urban stormwater management in the US** National Research Council (*online*) 
-Lots of good drawings
-- **Public safety guidance for urban SW facilities** ASCE Task Committee. (*online*)
+- **Public safety guidance for urban SW facilities** ASCE Task Committee. (*online*) Lots of good drawings
 - **Low impact development of sustainable stormwater management** T.H. Cahill and W. Horner. (*online*) 
 Good balance of theory, planning. Good overview of LID systems
 

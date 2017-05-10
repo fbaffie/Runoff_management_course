@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hydrological extremes</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Hydrological extremes</h1>
+    <p>Back to <a href="../index.html#hydrological-extremes">course overview</a></p>
+  </header>
+
+    
+  
+<section id="plan" class="slide level2">
+<h2>Plan</h2>
+<ul>
+<li><a href="./3_hydrological_extremes.html#flood-risk">Flood risk</a></li>
+<li><a href="./3_hydrological_extremes.html#key-probability-concepts">Key probability concepts</a></li>
+<li><a href="./3_hydrological_extremes.html#flood-frequency-analysis">Flood frequency analysis</a></li>
+<li><a href="./3_hydrological_extremes.html#further-resources">Further resources</a></li>
+</ul>
+<!--
+## TODO
+Quote: Sir Ronald Fisher 
+"The one 'chance in a million' will occur, with no less and no more than its appropriate frequency, however surprised we may be that it should occur to us."
+html widget to play with distribution parameters
+-->
+</section>
+<section id="flood-risk" class="titleslide slide level1"><h2 class="shout">Flood risk</h2></section><section id="types-of-flood" class="slide level2">
+<h2>Types of flood</h2>
+<ul>
+<li class="fragment next"><strong>flash floods:</strong> rapid, localized, associated with intense precipitation</li>
+<li class="fragment next"><strong>coastal floods:</strong> sea level rise from tsunamis or storm surges</li>
+<li class="fragment next"><strong>urban floods:</strong> flooding resulting from urbanization, usually linked to intense rather than sustained precipitation</li>
+<li class="fragment next"><strong>fluvial floods:</strong> rivers rise out of the banks, due to sustained intense rainfall (catchment-scale)</li>
+<li class="fragment next"><strong>ponding (pluvial flood):</strong> local ponding due to rainfall intensity exceeding infiltration</li>
+<li class="fragment next"><strong>groundwater rise (very local):</strong> flood of cellars and other low areas due to extraordinary shallow water table</li>
+</ul>
+</section><section id="defining-flooding-risk" class="slide level2">
+<h2>Defining flooding risk</h2>
+<p><img src="images/flooding_risk.png" height="500" width="auto"></p>
+</section><section id="flood-zoning-and-risk-assessment" class="slide level2">
+<h2>Flood zoning and risk assessment</h2>
+<ul>
+<li>Get flood return levels (design flood) for an area (or model discharge from extreme precipitation)</li>
+<li>Use a hydraulic model to understand how high the water level will come (<a href="http://www.hec.usace.army.mil/software/hec-ras/">HEC-RAS</a> for example)</li>
+<li>Intersecting those water levels with the topography gives flood zone maps(see <a href="http://gis3.nve.no/kartkatalog/metadatahg_datasett.html">NVE map catalog</a>)</li>
+<li>Do a risk and vulnerability assessment (ROS: risiko og sårbarheitsanalyse) of the infrastructure in the flood zones</li>
+<li>Decide on protection measures, change the land use plan, or implement warning systems</li>
+</ul>
+</section><section id="design-flood-estimation-methods" class="slide level2">
+<h2>Design flood estimation methods</h2>
+<p><img src="images/design_flood_estimation_methods.jpg" height="500" width="auto"></p>
+</section>
+<section id="key-probability-concepts" class="titleslide slide level1"><h2 class="shout">Key probability concepts</h2></section><section id="vocabulary" class="slide level2">
+<h2>Vocabulary</h2>
+<ul>
+<li class="fragment next"><strong>Annual exceedance probability</strong></li>
+<li class="fragment next">Probability (p) that a flood will be equal or greater than a specific flood discharge called return level (or design flood).</li>
+<li class="fragment next"><strong>Return period (also called return interval)?</strong></li>
+<li class="fragment next">The recurrence period (T) of a flood event equal or greater than the corresponding return level (<span class="math inline">\(Q_T\)</span>)</li>
+<li class="fragment next">Also means: the average time until the next occurrence of an event equal or greater than <span class="math inline">\(Q_T\)</span> is T years</li>
+<li class="fragment next"><strong>What is the relationship between the probability p and the return period T?</strong></li>
+<li class="fragment next">T = 1/p</li>
+</ul>
+</section><section id="flood-probability-exercises---see-link" class="slide level2">
+<h2><a href="http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page01a.html">Flood probability exercises - see link</a></h2>
+<!--
+http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page13.html
+-->
+<ul>
+<li class="fragment next"><strong>What is the probability of a 100-year flood happening in any given year?</strong></li>
+<li class="fragment next">1/100 = 0.01</li>
+<li class="fragment next"><strong>Can a 100-year flood happen 2 years in a row?</strong></li>
+<li class="fragment next">Yes</li>
+<li class="fragment next"><strong>What would be the probability of this happening?</strong></li>
+<li class="fragment next">0.01*0.01 = 0.0001</li>
+</ul>
+</section><section id="flood-probability-exercises" class="slide level2">
+<h2>Flood probability exercises</h2>
+<p><img src="images/pdf.jpg" height="200" width="auto"></p>
+<ul>
+<li class="fragment next"><strong>Probability of a 100-year flood not happening in 100 years?</strong></li>
+<li class="fragment next"><span class="math inline">\((1-0.01)^{100} = 36.6\%\)</span></li>
+<li class="fragment next">Of course, if the expected floods don’t happen anymore, the flood should maybe be re-estimated.</li>
+<li class="fragment next"><strong>What is the probability of having a 25-year flood in a 10 year period?</strong></li>
+</ul>
+</section><section id="last-question-in-steps" class="slide level2">
+<h2>Last question in steps</h2>
+<ul>
+<li class="fragment next"><strong>What’s the probability of a 25-year flooding event occurring each year?</strong></li>
+<li class="fragment next">1/25 = 4%</li>
+<li class="fragment next"><strong>What is the probability that a 25-year flood will not occurr in any given year?</strong></li>
+<li class="fragment next">1 - 1/25 = 96%</li>
+<li class="fragment next"><strong>What’s the probability that there will not be a 25-year flood in a 10 year period?</strong><br />
+</li>
+<li class="fragment next"><span class="math inline">\(0.96^{10} = 66.5\%\)</span></li>
+<li class="fragment next"><strong>What’s the probability that there will be a 25-year flood with a 10 year period?</strong></li>
+<li class="fragment next">100 - 66.5 = 33.5%</li>
+</ul>
+<!--
+Good exercise table:
+http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page14.html
+-->
+</section><section id="probability-distribution-functions-pdf" class="slide level2">
+<h2>Probability distribution functions (pdf)</h2>
+<p><img src="images/pdf.jpg" height="200" width="auto"></p>
+<ul>
+<li class="fragment next"><strong>Why does the mean annual flood correspond to a return period of 2.3 years?</strong></li>
+<li class="fragment next">The Gumbel probability distribution is designed so that the average flood (arithmetic mean of all floods in the record) has a theoretical return period of 2.33 years.</li>
+<li class="fragment next"><strong>On the other hand, the median flood corresponds to a return period of …?</strong></li>
+<li class="fragment next">2 years, because the median corresponds to a 50% probability of occurence</li>
+</ul>
+</section><section id="probability-distributions" class="slide level2">
+<h2>Probability distributions</h2>
+<ul>
+<li class="fragment next"><strong>mode, mean and median?</strong></li>
+<li class="fragment next"><img src="images/Visualisation_mode_median_mean.png" width="auto" height="400"></li>
+</ul>
+</section><section id="mean-median-mode" class="slide level2">
+<h2>Mean, median, mode</h2>
+<svg height="450" width="auto">
+<image xlink:href="images/mean_median.svg" src="svg.png" min-width="100%" height="450"/>
+</svg>
+</section><section id="probability-distributions-moments" class="slide level2">
+<h2>Probability distributions moments</h2>
+<ul>
+<li class="fragment next"><strong>Name the first 3 moments (0th, first and second) of a probability distribution</strong></li>
+<li class="fragment next">Mean, variance, skewness</li>
+<li class="fragment next"><strong>Draw the impacts of an increase in mean of hydrological extremes</strong></li>
+<li class="fragment next"><strong>Draw the impacts of an increase in variance of hydrological extremes</strong></li>
+</ul>
+</section><section id="probability-distributions-mean-and-variance" class="slide level2">
+<h2>Probability distributions (mean and variance)</h2>
+<p><img src="images/RECAP_probability_distrib.png" height="500" width="auto"></p>
+</section><section id="analogy-between-moments-of-a-pdf-and-mechanics" class="slide level2">
+<h2>Analogy between moments of a pdf and mechanics</h2>
+<ul>
+<li class="fragment next"><strong>Analog of the mean?</strong></li>
+<li class="fragment next">Center of mass</li>
+<li class="fragment next"><strong>Analog of variance?</strong></li>
+<li class="fragment next">Moment of inertia (also know as angular mass or rotational area)</li>
+<li class="fragment next"><strong>The <span class="math inline">\(0^{th}\)</span> moment is mechanics is the weight. What is it for a pdf?</strong></li>
+<li class="fragment next">1: the integral of the pdf is equal to a 100% probability!</li>
+</ul>
+<!--
+## Analogy in formulas
+
+> - **Variance (squared standard deviation)**
+> - $Var(X) = \sum_{i=1}^{n}{p_i * (x_i-\mu)^2}$ with $\mu = \sum_{i=1}^{n}{p_i*x_i}$
+> - **Moment of inertia?**
+> - $I = \int_{Q}{r^{2}\mathrm {d} m}$
+
+## Probability density function
+<svg height="450" width="auto">
+  <image xlink:href="images/Boxplot_vs_PDF.svg" src="svg.png" min-width="100%" height="450"/>
+</svg>
+
+## Gumbel distribution
+
+\[\frac {1}{\beta }e^{{-(z+e^{{-z}})}}\]
+
+where $z=\frac{x-\mu }{\beta }$
+
+$\mu$ location (real)
+
+$\beta >0$ scale (real)
+-->
+<!--
+## Generalized extreme value distribution
+
+\[f(x;\mu ,\sigma ,\xi ) = \frac{1}{\sigma }(1+\xi s)^{(-1/\xi )-1}\exp(-(1+\xi s)^{-1/\xi })\]
+with $\xi \neq 0\] and \[>-1/\xi$
+
+\[f(x;\mu ,\sigma ,0)={\frac {1}{\sigma }}\exp(-s)\exp(-\exp(-s))\]
+
+$\mu$ location,
+
+$\sigma > 0$ scale,
+
+$\xi$ shape.
+-->
+</section>
+<section id="extreme-precipitation" class="titleslide slide level1"><h2 class="shout">Extreme precipitation</h2></section><section id="intensity-duration-frequency-curve" class="slide level2">
+<h2>Intensity-Duration-Frequency Curve</h2>
+<ul>
+<li class="fragment next"><strong>Draw what you think an IDF curve looks like (no need for numbers)</strong></li>
+<li class="fragment next"><img src="images/ivf_oppstryn.png" height="400" width="auto"></li>
+</ul>
+<!--
+> - ** What is an "Intensity-Duration-Frequency Curve"?**
+> - A plot of precipitation intensity of a function of rain event duration for various return periods
+-->
+</section><section id="intensity-duration-frequency-curve-1" class="slide level2">
+<h2>Intensity-Duration-Frequency Curve</h2>
+<p>IDF (IVF in Norwegian) for various regions in Norway: <a href="https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner" class="uri">https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner</a> <a href="./pdf/IVF_58700_OPPSTRYN.pdf">Example for Oppstryn</a></p>
+<p>Important concept to size stormwater infrastructure in small urban catchments</p>
+<ul>
+<li class="fragment next"><strong>Does a 100-year storm always cause a 100-year flood?</strong></li>
+<li class="fragment next">No, there are different types of 100-year precipitation events and there are other important factors such as pre-storm ground condition, timing and spatial variability of the storm…</li>
+</ul>
+</section>
+<section id="flood-frequency-analysis" class="titleslide slide level1"><h2 class="shout">Flood frequency analysis</h2></section><section id="two-main-methods-to-select-flood-data" class="slide level2">
+<h2>Two main methods to select flood data</h2>
+<p><img src="images/peak_over_threshold.jpg" height="350" width="auto"></p>
+<ul>
+<li class="fragment next"><strong>Peak over threshold or annual maximum series?</strong></li>
+<li class="fragment next">Peak over threshold</li>
+</ul>
+</section><section id="two-main-methods-to-select-flood-data-1" class="slide level2">
+<h2>Two main methods to select flood data</h2>
+<!--
+http://stream1.cmatc.cn/pub/comet/HydrologyFlooding/flood/comet/hydro/basic/FloodFrequency/print_version/03-analyzing.htm
+-->
+<p><img src="images/ams.gif" height="350" width="auto"></p>
+<ul>
+<li class="fragment next">Annual maximum series</li>
+</ul>
+</section><section id="flood-frequency-analysis-1" class="slide level2">
+<h2>Flood frequency analysis</h2>
+<p><img src="images/ffa_example.png" height="auto" width="900"></p>
+</section><section id="flood-forecasting" class="slide level2">
+<h2>Flood forecasting</h2>
+<p><img src="images/flood_forecasting_app.png" height="500" width="auto"></p>
+</section><section id="take-home-messages" class="slide level2">
+<h2>Take home messages</h2>
+<ul>
+<li>Extreme values derived for both river discharge and precipitation (IDF curves)</li>
+<li>Annual exceedance probability is the probability <span class="math inline">\(p\)</span> that a flood will be <strong>equal or greater</strong> than a specific return level <span class="math inline">\(Q_T\)</span> (for the return period <span class="math inline">\(T=1/p\)</span>)</li>
+<li>Flood frequency analysis: various statistical methods based on fitting probability distributions to historical data</li>
+<li>Most methods used (so far in most countries) assume stationarity</li>
+<li>Extremes discharge values can be hydrological modelling results of applying extreme precipitation to specific catchments</li>
+</ul>
+</section>
+<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="norway-and-europe" class="slide level2">
+<h2>Norway and Europe</h2>
+<p>Klimaendring og framtidige flommer i Norge (NVE report): <a href="./pdf/NVE%20report%20-%20Klimaendring%20og%20framtidige%20flommer%20i%20Norge.pdf">local</a>, <a href="http://publikasjoner.nve.no/rapport/2016/rapport2016_81.pdf">web</a></p>
+<p>Norsk Klimaservice senter: Nedbør med kort varighethttps://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/korttidsnedbor</p>
+<p>NVE Reports: <a href="http://publikasjoner.nve.no/rapport/2015/rapport2015_11.pdf">Flommen på Vestlandet - oktober 2014</a> <a href="http://publikasjoner.nve.no/dokument/2003/dokument2003_06.pdf">Flomsonekartprosjektet - Flomberegning for Sogndalselvi</a> <a href="http://publikasjoner.nve.no/rapport/2015/rapport2015_27.pdf">Flomberegning for Flåmselvi ved Brekke bru</a> <a href="http://publikasjoner.nve.no/rapport/2015/rapport2015_97.pdf">Anbefale metoder for flomberegninger i små uregulerte felt</a></p>
+</section><section id="world" class="slide level2">
+<h2>World</h2>
+<p>USDA: Frequency Curve Determination <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1042910" class="uri">https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1042910</a></p>
+<p>Good list of resources on flood and drought: <a href="http://fdmt.iwlearn.org/en/resources-and-e-learning" class="uri">http://fdmt.iwlearn.org/en/resources-and-e-learning</a></p>
+<p><a href="http://www.wmo.int/pages/prog/hwrp/documents/FFI/Intercomparison_of_flood_forecasting_models_for_review.pdf">Decision-Support for the Selection of Flood Forecasting Models</a></p>
+</section><section id="types-of-droughts" class="slide level2">
+<h2><a href="http://drought.unl.edu/DroughtBasics/TypesofDrought.aspx">Types of droughts</a></h2>
+<ul>
+<li class="fragment next"><strong>Think about different types of drought</strong></li>
+<li class="fragment next">meteorological (lack of precipitation)</li>
+<li class="fragment next">hydrological (lack of streamflow, soil moisture and/or groundwater)</li>
+<li class="fragment next">agricultural (lack of plant available water, during specific periods of growth)</li>
+<li class="fragment next">socioeconomic (impact human activities like energy production)</li>
+<li class="fragment next">ecological (long and widespread deficit in water, affecting whole ecosystems)</li>
+</ul>
+</section><section id="low-flows" class="slide level2">
+<h2>Low flows</h2>
+<p>California water blog - UC Davis center for watershed sciences: <a href="https://californiawaterblog.com/2017/04/09/californias-drought-and-floods-are-over-and-just-beginning/">California’s drought and floods are over and just beginning</a></p>
+<p>World Meteorological Organisation: Manual of low-flow estimation and prediction <a href="http://www.wmo.int/pages/prog/hwrp/publications/low-flow_estimation_prediction/WMO%201029%20en.pdf">http://www.wmo.int/pages/prog/hwrp/publications/low-flow_estimation_prediction/WMO%201029%20en.pdf</a></p>
+</section>
+<section id="annoted-video-resources" class="titleslide slide level1"><h2 class="shout">Annoted video resources</h2></section><section id="g.-bloeschl-breakthroughs-in-flood-research" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=ClpTlBQzOxE">G. Bloeschl: Breakthroughs in Flood Research</a></h2>
+<ul>
+<li>21: seasonality of floods in austria / CH</li>
+<li>22: importance of antecedent soil moisture conditions</li>
+<li>26: use of indicator plants in the field</li>
+<li>29: two very different catchment responses. Interesting influence of lanscape forms / geology.</li>
+<li>32: climate change scenarios</li>
+<li>37: hydrodynamic simulations</li>
+<li>40: socio hydrology: green society vs techno society. Very good!</li>
+<li>44: flood damage with those 2 scenarios</li>
+</ul>
+</section><section id="richard-vogel-breakthroughs-in-water-resource-engineering" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=AMGeyf9CI24">Richard Vogel: Breakthroughs in water resource engineering</a></h2>
+<p>On non stationarity in flood frequency analysis: - Changes in the last 30/40 years are the effect of urbanization not climate change - Be careful in assessing the cause of a non stationarity</p>
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>
