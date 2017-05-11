@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fluid dynamics</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Fluid dynamics</h1>
+    <p>Back to <a href="../index.html#fluid-dynamics">course overview</a></p>
+  </header>
+
+    
+  
+<section id="plan" class="slide level2">
+<h2>Plan</h2>
+<p><a href="./1_fluid_dynamics.html#flow-neglecting-friction">Flow neglecting friction</a></p>
+<p><a href="./1_fluid_dynamics.html#flow-with-friction">Flow with friction</a></p>
+<p><a href="./1_fluid_dynamics.html#types-of-flows">Types of flows</a></p>
+<p><a href="./1_fluid_dynamics.html#further-resources">Further resources</a></p>
+</section>
+<section id="flow-neglecting-friction" class="titleslide slide level1"><h2 class="shout">Flow neglecting friction</h2></section><section id="pressure-in-atmosphere-and-oceans" class="slide level2">
+<h2>Pressure in atmosphere and oceans</h2>
+<svg height="450" width="auto">
+<image xlink:href="images/pressure_water_air.svg" src="svg.png" min-width="100%" height="450"/>
+</svg>
+<!--
+https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pressure_water_air_%28en%29.svg/1200px-Pressure_water_air_%28en%29.svg.png" alt="Pressure water air (en).svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Kdkeller" title="User:Kdkeller">Klaus-Dieter Keller</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=25608823">Link</a></p>
+-->
+</section><section id="air-pressure-and-water-pressure" class="slide level2">
+<h2>Air pressure and water pressure</h2>
+<ul>
+<li class="fragment next"><strong>What is the pressure under a 10m water collumn?</strong></li>
+<li class="fragment next">1 bar = 100 kPa</li>
+<li class="fragment next"><strong>Why?</strong></li>
+<li class="fragment next">1 Pa is 1 N/m^2 which is equivalent to 0.1 kg/m^2 with g=10 m/s2</li>
+<li class="fragment next">So 10^5 Pa is equivalent to 10 000 kg/m2</li>
+<li class="fragment next">1m water is 1000kg/m2</li>
+<li class="fragment next">10m water is 10 000kg/m2</li>
+</ul>
+</section><section id="total-head-elevation-head-pressure-head-velocity-head" class="slide level2">
+<h2>Total head: elevation head + pressure head + velocity head</h2>
+<ul>
+<li class="fragment next">Elevation head: <span class="math inline">\(z\)</span></li>
+<li class="fragment next">Pressure head: <span class="math inline">\(\frac {p}{\rho g}\)</span></li>
+<li class="fragment next">Elevation head + pressure head = the piezometric head <span class="math inline">\(h\)</span> (static hydraulic head) that we used for Darcy’s Law</li>
+<li class="fragment next"><strong>But we neglected the velocity head, because of slow velocities in porous media</strong></li>
+<li class="fragment next">Velocity head:<span class="math inline">\(\frac {v^{2}}{2g}\)</span></li>
+</ul>
+</section><section id="bernouillis-equation" class="slide level2">
+<h2>Bernouilli’s equation</h2>
+<p>States that the total head <span class="math inline">\(H\)</span> is constant:</p>
+<p><span class="math display">\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}}= h + \frac {v^{2}}{2g} = constant\]</span> where <span class="math inline">\(z\)</span> is the elevation head and <span class="math inline">\(h\)</span> the piezometric head</p>
+<p>Assumptions:</p>
+<ul>
+<li>no friction</li>
+<li>incompressible fluid</li>
+<li>steady flow</li>
+<li>homogeneous fluid</li>
+</ul>
+</section><section id="exercise-flow-out-of-a-reservoir" class="slide level2">
+<h2>Exercise: flow out of a reservoir</h2>
+<ul>
+<li class="fragment next"><strong>An open top reservoir (atmospheric pressure) is pierced at <span class="math inline">\(z_1\)</span>, d=20cm below the top water level <span class="math inline">\(z_2\)</span>. Calculate the average flow velocity out of the hole.</strong></li>
+<li class="fragment next"><span class="math inline">\(z_1 + p_{atmo}/\rho g = v^2/(2g)+z_2+p_{atmo}/\rho g\)</span></li>
+<li class="fragment next"><span class="math inline">\(v= (2gd)^{1/2} = (20*0.20)^{1/2} = 2m/s\)</span></li>
+</ul>
+</section><section id="pump-example-the-ram-pump" class="slide level2">
+<h2>Pump example: the ram pump</h2>
+<ul>
+<li class="fragment next"><strong>How would we design a pump that doesn’t use any external energy (only gravity)?</strong></li>
+<li class="fragment next">By using the momentum of falling water and wasting much water in the process: the ram pump</li>
+<li class="fragment next">drive pipe brings intake water</li>
+<li class="fragment next">delivery pipe is the pressurized pipe</li>
+<li class="fragment next">check valve to stop pressurized pipe from emptying</li>
+<li class="fragment next">waste valve to evacuate excess water and control the ram effect</li>
+<li class="fragment next">air chamber to make the ram effect smoother to avoid damaging the pump</li>
+</ul>
+<!--
+http://www.rampumps.net/face/20120410150106.html
+-->
+</section><section id="schematics-of-a-ram-pump" class="slide level2">
+<h2>Schematics of a ram pump</h2>
+<p><img src="images/ram_pump.jpg" height="500" width="auto"></p>
+</section><section id="animation-of-a-ramp-pump" class="slide level2">
+<h2>Animation of a ramp pump</h2>
+<p><img src="images/ram_pump.gif" height="500" width="auto"></p>
+</section><section id="how-much-water-can-it-pump" class="slide level2">
+<h2>How much water can it pump</h2>
+<ul>
+<li class="fragment next"><strong>Can you guess the likely formula to calculate this?</strong></li>
+<li class="fragment next"><span class="math inline">\(D = E*Q*F/L\)</span></li>
+<li class="fragment next">Where: <span class="math inline">\(D\)</span> amount delivered in cube meters per hour.</li>
+<li class="fragment next"><span class="math inline">\(Q\)</span> quantity of water supplied from the source in cube meters per hour.</li>
+<li class="fragment next"><span class="math inline">\(F\)</span> the fall or height of the source above the ram in meters.</li>
+<li class="fragment next"><span class="math inline">\(L\)</span> the lift height of the point of use above the ram in meters</li>
+<li class="fragment next"><span class="math inline">\(E\)</span> the efficiency of the ram (typically 60%)</li>
+<li class="fragment next"><strong>How does the efficiency likely vary as a function of the lift / working fall ratio</strong></li>
+<li class="fragment next">The efficiency is likely to drop with high lift / working fall ratios due to more water wastage, higher velocities, turbulence…</li>
+</ul>
+</section><section id="other-instances-of-water-hammer" class="slide level2">
+<h2>Other instances of water hammer</h2>
+<ul>
+<li class="fragment next"><strong>Why can a water hammer be a problem with pumps and pipes?</strong></li>
+<li class="fragment next">The ram effect can destroy valves or pipes by applying sudden high pressure</li>
+</ul>
+<ul>
+<li class="fragment next"><strong>How is that mitigated in pump pressurized networks?</strong></li>
+<li class="fragment next">Pressure release chambers or pressure release valve</li>
+</ul>
+</section><section id="analogy-with-the-cardio-vascular-system" class="slide level2">
+<h2>Analogy with the cardio vascular system</h2>
+<ul>
+<li class="fragment next"><strong>The cardio-vascular system also has a pulse pump. The flow in blood vessels is however more regular, like in the ram pump after the air chamber. Which mechanical property of the blood vessels plays an analog role as the air chamber?</strong></li>
+<li class="fragment next">The elasticity of the arteries</li>
+</ul>
+</section><section id="micro-hydropower-exercise" class="slide level2">
+<h2>Micro-hydropower exercise</h2>
+<p><a href="https://gis3.nve.no/link/?link=smakraft">NVE - småkraft potensial</a>: estimate the hydro-electric potential (“Produksjon”) of some sites around Sogndal in GWh/year (using mean available discharge “Vannføring” and elevation difference “Brutto fallhøyde”)</p>
+<p>Compare to NVE’s estimate: it looks like they included a 1.3 factor to account for climate change? In the field “effekt”, it looks like they took efficiency into account. Why can I say that?</p>
+<p>You can also look at the figures for the site in Berge: <a href="http://www.smaakraft.no/prosjekter-i-utvikling/berge/">Technical details</a>, <a href="https://www.nve.no/konsesjonssaker/konsesjonssak/?id=4244&amp;type=V-1">NVE’s concession document</a></p>
+</section>
+<section id="flow-with-friction" class="titleslide slide level1"><h2 class="shout">Flow with friction</h2></section><section id="shear-forces-and-viscosity" class="slide level2">
+<h2>Shear forces and viscosity</h2>
+<svg height="450" width="auto">
+<image xlink:href="images/shear_stresses.svg" src="svg.png" min-width="100%" height="450"/>
+</svg>
+</section><section id="shear-stress-and-viscosity" class="slide level2">
+<h2>Shear stress and viscosity</h2>
+<p>The shear stress <span class="math inline">\(\tau\)</span> (unit of pressure: Pa), is the ratio of shear forces <span class="math inline">\(F\)</span> per unit area <span class="math inline">\(A\)</span>: <span class="math inline">\(\tau=\frac{F}{A} = \mu {\frac {du}{dy}}\)</span></p>
+<p>with <span class="math inline">\(\mu\)</span> the viscosity (in Pa*s), and <span class="math inline">\(\frac{du}{dy}\)</span> the velocity gradient perpendicular to the flow direction (m/s per m = <span class="math inline">\(s^{-1}\)</span>)</p>
+<p><strong>Viscosity of water at <span class="math inline">\(20^{\circ} C\)</span> is <span class="math inline">\(10^{-3}\)</span> Pa.s</strong></p>
+</section><section id="bernouillis-equation-friction-factor" class="slide level2">
+<h2>Bernouilli’s equation + friction factor</h2>
+<p>A head loss term <span class="math inline">\(h_l\)</span> is added to Bernouilli’s equation to account for total head losses due to friction:</p>
+<p><span class="math display">\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l=h+{\frac {v^{2}}{2g}}+h_l\]</span></p>
+<p><span class="math inline">\(h_l\)</span> can be expressed as a function of a dimensionless friction factor <span class="math inline">\(f\)</span>:</p>
+<p><span class="math inline">\(h_l=f*\frac{L.v^2}{D*2g}\)</span> where L and D are the length and diameter of the pipe</p>
+</section>
+<section id="types-of-flows" class="titleslide slide level1"><h2 class="shout">Types of flows</h2></section><section id="laminar-vs-turbulent-flows" class="slide level2">
+<h2>Laminar vs turbulent flows</h2>
+<ul>
+<li class="fragment next"><strong>What kind flows can we have (from a fluid dynamics perspectice)?</strong></li>
+<li class="fragment next">Laminar flow occurs when a fluid flows in parallel layers, with no disruption between the layers (viscous forces are dominant). Flow in slow canals can be laminar</li>
+<li class="fragment next">Turbulent flow characterized by sudden changes in pressure and flow velocity (inertial forces are dominant). White water, wind behind an obstacle are turbulent</li>
+</ul>
+</section><section id="characterizing-turbulent-flow-reynolds-number" class="slide level2">
+<h2>Characterizing turbulent flow: Reynolds number</h2>
+<p>The Reynolds number is defined as</p>
+<p><span class="math inline">\(Re =\frac{\rho vL}{\mu }\)</span></p>
+<p>where: <span class="math inline">\(\rho\)</span> is the density of the fluid (kg/m3)</p>
+<p><span class="math inline">\(v\)</span> is a characteristic velocity (m/s), mean velocity in our case</p>
+<p><span class="math inline">\(L\)</span> is a characteristic linear dimension. In the case of a pipe, it is its diameter</p>
+<p><span class="math inline">\(\mu\)</span> is the dynamic viscosity of the fluid (Pa.s or N.s/m2 or kg/(m·s))</p>
+</section><section id="reynolds-number-example" class="slide level2">
+<h2>Reynolds number example</h2>
+<p><span class="math inline">\(Re &lt; 2000\)</span> usually qualifies as laminar <span class="math inline">\(Re &gt; 4000\)</span> is clearly turbulent. In between is a transition between those 2 flow regimes</p>
+<ul>
+<li class="fragment next"><strong>Example: Water at 20c (<span class="math inline">\(\mu = 10^{-3}\)</span>), flowing at 0.1m/s in a 10cm wide pipe:</strong></li>
+<li class="fragment next"><strong>Calculate the Reynolds number:</strong> <span class="math inline">\(Re =\frac{\rho vL}{\mu }\)</span></li>
+<li class="fragment next"><span class="math inline">\(Re = 0.1*0.1*1000/10^{-3} = 10 000 &gt; 4000\)</span></li>
+<li class="fragment next">So the flow in the pipe is turbulent</li>
+</ul>
+</section><section id="friction-factor" class="slide level2">
+<h2>Friction factor</h2>
+<!--
+https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_diagram.jpg
+-->
+<p><img src="images/moody_diagram.jpg" height="500" width="auto"></p>
+</section><section id="poiseuille-law-for-laminar-flow" class="slide level2">
+<h2>Poiseuille Law for laminar flow</h2>
+<p>Can be derived theoretically</p>
+<p><span class="math inline">\(v =-\frac{dh}{ds} \frac{\rho g D^{2}}{32\mu}\)</span></p>
+<p><span class="math inline">\(v\)</span> is the water velocity in the pipe <span class="math inline">\(\frac{dh}{ds}\)</span> is the hydraulic head gradient over the length of pipe (often the slope of the pipe, but not always),</p>
+<p><span class="math inline">\(\mu\)</span> is the dynamic viscosity,</p>
+<p><span class="math inline">\(D\)</span> is the pipe diameter.</p>
+</section><section id="hazen-williams-equation-for-turbulent-flow" class="slide level2">
+<h2>Hazen Williams equation for turbulent flow</h2>
+<p>It is an empirical formula used to deisgn water networks, irrigation systems…</p>
+<p><span class="math inline">\(v=C{\sqrt{RS}}\)</span></p>
+<p><span class="math inline">\(v\)</span> is the water velocity in the pipe</p>
+<p>C is a roughness coefficient</p>
+<p>R is the hydraulic radius (pipe radius in case of a pipe)</p>
+<p>S is the slope of the pipe</p>
+<!--
+## Questions
+> - **What is the typical pressure recommended for residence drinking water supply?**
+> - 300 kPa
+> - **How to deal with the presence of air in a pressurized water network?**
+> - Install an air release valve at a high point
+> - **What is cavitation?**
+> - Depression in a pumping system that creates air bubbles and can lead to pump failure (TO CHECK)
+> - **What influences the optimal size of arteries and veins?**
+> - Balance between big arteries and cost of blood production
+> - **Flow in a pipe is proportional to a power of the pipe radius. Which and why?**
+> - XX
+-->
+</section><section id="take-home-messages" class="slide level2">
+<h2>Take home messages</h2>
+<ul>
+<li>Bernouilli equation: conservation of total head if we ignore friction</li>
+<li>Frictional losses of energy create head losses</li>
+<li>If head losses are important, they must be added to Bernouilli’s Law</li>
+<li>Viscosity is temperature dependent. Is ratio of shear stress / velocity gradient</li>
+<li>Viscosity of water at 20c is 1*10^-3 Pa.s</li>
+<li>Reynolds number measures importance of viscous forces</li>
+<li>If Reynolds number &gt; 2000, then turbulent flow</li>
+<li>Friction factor for laminar pipe flow: f = 64/R</li>
+<li>This gives the mean velocity of laminar flow in a pipe (Poiseuille)</li>
+<li>Mean velocity proportional to <span class="math inline">\(D^2\)</span> for laminar flow and <span class="math inline">\(D^{1/2}\)</span> for turbulent flow</li>
+</ul>
+</section>
+<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="book-chapters" class="slide level2">
+<h2>Book chapters</h2>
+<p>Elements of physical hydrology: Chapter 3 (covers key topics in a clear and math-light way)</p>
+</section><section id="selected-online-resources" class="slide level2">
+<h2>Selected online resources</h2>
+<p>More details, more equations: <a href="https://www.youtube.com/playlist?list=PLQv9IPdrtoKjRyCQlzxss9LsvzQf2EOYa">Isaac Wait online lectures</a></p>
+<p><a href="http://www.caee.utexas.edu/prof/kinnas/319LAB/Lab/lab%204-Bernoulli%27s%20equation/4-Bernoulli.htm">Bernouilli’s equation</a></p>
+<p>Different kinds of pumps:</p>
+<p><a href="http://www.fao.org/docrep/010/ah810f/AH810F12.htm" class="uri">http://www.fao.org/docrep/010/ah810f/AH810F12.htm</a></p>
+</section><section id="cardiovascular-and-tree-water-pumping-analogy" class="slide level2">
+<h2>Cardiovascular and tree water pumping analogy</h2>
+<p><a href="http://cardiac-output.info/the-determinants-of-cardiac/the-determinants-of-cardiac/">The determinants of cardiac output - Video</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1084489/pdf/pnas01840-0073.pdf">The physiological principle of minimum work: the vascular system and the cost of blood volume</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1084544/pdf/pnas01842-0027.pdf">The physiological principle of minimum work: Oxygen exchange in capillaries</a></p>
+<p>Water transport in plants:</p>
+<p><a href="http://biologylabs.utah.edu/sperry/publications/nature03.pdf">Water transport in plants obeys Murray’s Law</a></p>
+<p><a href="http://jgp.rupress.org/content/jgp/78/4/431.full.pdf">On connection large vessels to small: the meaning of Murrays Law</a></p>
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>

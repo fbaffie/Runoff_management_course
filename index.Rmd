@@ -161,29 +161,30 @@ Day	| Time	| Topic	| Room
 Tue. 02 May | 09:15-12:00	| The water cycle	| Høgskbygget 2.etg kl Stad
 Wed. 03 May | 09:15-12:00	| Introduction to SW | Svingen F3
 Wed. 03 May | 12:30-?	| Excursion drinking water | Stadionbygget 02-02
-Thu. 04 May | 09:15-12:00	| Hydrological processes	| Svingen F3
-Fri. 05 May | 09:15-12:00	| Open channel hydraulics	| Svingen F3
+Thu. 04 May | 09:15-12:00	| Hydrological processes 1 | Svingen F3
+Fri. 05 May | 09:15-12:00	| Hydrological processes 2	| Svingen F3
 
 ## Agenda 08-12 May
 <img src="images/PPT_Body.png" class="cover">
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Mon. 08 May | 09:15-12:00	| Hydrological extremes	| Svingen F3
+Mon. 08 May | 09:15-12:00	| Hydrological modelling	| Svingen F3
 Tue. 09 May | 12:15-15:00	| Constraints in green infra. | Stadionbygget 02-02
-Wed. 10 May | 09:15-12:00	| Hydrological modelling	| Svingen F3
-Thu. 11 May | 09:15-12:00	| Pressurized systems	| Svingen F3
-Fri. 12 May | 09:15-12:00	| Land use | Svingen AF1
+Wed. 10 May | 09:15-12:00	| Hydrological extremes	| Svingen F3
+Thu. 11 May | 09:15-12:00	| Fluids dynamics	| Svingen F3
+Fri. 12 May | 09:15-12:00	| Project discussions | My office
 
 ## Agenda: 15-16, 22-24 May
 <img src="images/PPT_Body.png" class="cover">
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Mon. 15 May | 12:15-15:00	| Soils (erosion, deposition)	| Stadionbygget 02-02
+Mon. 15 May | 12:15-15:00	| Urban hydraulics	| Stadionbygget 02-02
 Tue. 16 May | 12:15-15:00	| Floodplain  management	| Stadionbygget 02-02
-Mon. 22 May | 09:15-12:00	| Urban hydraulics	| Svingen F3
-Tue. 23 May | 09:15-12:00	| Flood protection | Stadionbygget 02-04
+Mon. 22 May | 09:15-12:00	| Soils and land use	| Svingen F3
+Mon. 22 May | 12:30-?	| Excursion SW + sewage | Sogndal
+Tue. 23 May | 09:15-12:00	| Open channel | Stadionbygget 02-04
 Wed. 24 May | 09:15-12:00	| Hydropower and flooding	| Stadionbygget 02-04
 Wed. 24 May | ?	| Excursion	| Lærdal / Flåm
 
@@ -194,7 +195,7 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Mon. 29 May | 09:15-12:00	| Design	| Svingen F3
 Tue. 30 May | 09:15-12:00	| Examples	| Stadionbygget 02-02
-Wed. 31 May | 09:15-12:00	| If we need it!	| Stadionbygget 02-02
+Wed. 31 May | 09:15-12:00	| Synthesis	| Stadionbygget 02-02
 Fri. 09 Jun | 24:00 | Send project reports | fkba@hvl.no + fronter
 Tue. 13 Jun | 08:00-16:00 | Group presentations | ?
 Wed. 15 Jun | 08:00-16:00 | Individual exam | ? 
@@ -296,8 +297,6 @@ Present documents for the quiz: impact of forest on hydrological resources
 
 Quantifying floods and droughts helps better designing protection / adaptation measures. 
 
-[Quiz](01_Hydrology/3_hydrological_extremes_quiz.html)
-
 <!--
 - Brainstorming hydrological extremes
 Discuss hydrological extremes with students before the lecture to get an understanding of their intuitions or previous knowledge.
@@ -318,8 +317,6 @@ Fit some distributions to the historical data: annual maximum, peak over thresho
 
 Being able to model streamflow helps make better management decisions such as sizing of reservoirs, culverts or allowances for irrigation. We will look at different modelling concepts used in hydrology, their data requirements, forecasting abilities and limitations.
 
-[Quiz](01_Hydrology/4_hydrological_modelling_quiz.html)
-
 <!--
 Discuss hydrological modelling with students before the lecture to get an understanding of their intuitions or previous knowledge.
 This could maybe also be written down and collected for research purposes.
@@ -332,32 +329,26 @@ Rational method
 
 # HYDRAULICS
 
-## Open channel hydraulics
+## Fluid dynamics
 <img src="images/PPT_Body.png" class="cover">
-[Lecture](02_Hydraulics/1_open_channel.html)
-
-How much flow can an open channel convey? How high will the water level be for a specifc discharge rate and slope?
-Those questions are important when sizing infrastructure or defining the extend of flood zones.
-
-[Quiz](02_Hydraulics/1_open_channel_quiz.html)
-
-<!--
-Irrigation schemes in the US west (Arizona, maps and drawings?). Open water irrigation schemes
--->
-
-
-## Pressurized systems
-<img src="images/PPT_Body.png" class="cover">
-[Lecture](02_Hydraulics/2_pressurized_systems.html)
+[Lecture](02_Hydraulics/1_fluid_dynamics.html)
 
 We will look at water in pressure pipes. This is usually the domain of drinking water only but in somes instances, SW will have to be pumped out of a depression. Alternatively, SW could be used in off-grid design for micro-hydropower production or gravity fed irrigation schemes.
-
-[Quiz](02_Hydraulics/2_pressurized_systems_quiz.html)
 
 <!--
 Microhydro, ram pump, pumps, off the grid gravity fed networks...
 -->
 
+## Open channel hydraulics
+<img src="images/PPT_Body.png" class="cover">
+[Lecture](02_Hydraulics/2_open_channel.html)
+
+How much flow can an open channel convey? How high will the water level be for a specifc discharge rate and slope?
+Those questions are important when sizing infrastructure or defining the extend of flood zones.
+
+<!--
+Irrigation schemes in the US west (Arizona, maps and drawings?). Open water irrigation schemes
+-->
 
 ## Soils, erosion and deposition
 <img src="images/PPT_Body.png" class="cover">
@@ -366,9 +357,8 @@ Microhydro, ram pump, pumps, off the grid gravity fed networks...
 Water can mobilize particules of various sizes. In extreme cases, boulders can be taken with the flow and form devastating debris flows.
 On the other hand, the smallest suspended particules are those that carry most pollution in SW runoff
 
-[Quiz](02_Hydraulics/3_erosion_deposition_quiz.html)
-
 <!--
+[Quiz](02_Hydraulics/3_erosion_deposition_quiz.html)
 Quiz on Illgraben: you tube videos...
 -->
 
@@ -379,9 +369,8 @@ Quiz on Illgraben: you tube videos...
 We will try to summarize how hydrology and hydraulic come into play for the design of (green) SW infrastructure.
 this will involve simplified calculations for small catchments.
 
-[Quiz](02_Hydraulics/4_urban_hydraulics_quiz.html)
-
 <!--
+[Quiz](02_Hydraulics/4_urban_hydraulics_quiz.html)
 Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 -->
 
