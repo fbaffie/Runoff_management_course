@@ -1,0 +1,356 @@
+---
+title: "Urban hydraulics"
+author: Back to [course overview](../index.html#urban-hydraulics)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
+---
+
+##  Plan
+
+
+[Runoff from small catchments](./4_urban_hydraulics.html#runoff-from-small-catchments)
+
+[Water harvesting example](./4_urban_hydraulics.html#water-harvesting-example)
+
+[Exercises](./4_urban_hydraulics.html#exercises)
+
+[Further resources](./4_urban_hydraulics.html#further-resources)
+
+<!--
+## Vocabulary
+> - **Rising limb** 
+> - The rising limb of hydro graph, also known as concentration curve, reflects a prolonged increase in discharge from a catchment area, typically in response to a rainfall event
+> - **Recession (or falling) limb** 
+> - The recession limb extends from the peak flow rate onward. The end of stormflow (a.k.a. quickflow or direct runoff) and the return to groundwater-derived flow (base flow) is often taken as the point of inflection of the recession limb. The recession limb represents the withdrawal of water from the storage built up in the basin during the earlier phases of the hydrograph.
+
+> - **Peak discharge**
+> - The highest point on the hydro graph when the rate of discharge is greatest
+
+## Vocabulary
+> - **Lag time** 
+> - The time interval from the center of mass of rainfall excess to the peak of the resulting hydrograph
+
+> - **Time to peak** 
+> - Time interval from the start of the resulting hydro graph
+
+> - **Discharge** 
+> - the rate of flow (volume per unit time) passing a specific location in a river or other channel
+
+
+-->
+
+# Runoff from small catchments
+
+## Rational method
+Recommended for catchments up to 5km2.
+Sogndal's overvassnorm, as in Lindholm (2008), recommends up to 0.5km2 (50Ha)
+
+$Q = C * i * A * S$ where:
+
+$Q$ is discharge (m3/s), 
+
+$C$ is a runoff coefficient, 
+
+$i$ is the precipitation intensity (m/s),
+
+$A$ is the contributing catchment area (m2) and $S$ is a safety (and climate change) factor
+
+## Runoff coefficient and land use
+Concrete, asphalt, bare rock: 0.6-0.9
+
+Gravel roads: 0.3-0.7
+
+Agricultural and grass areas: 0.2-0.5
+
+Forests: 0.2-0.5
+
+C should be adapted to the duration D of the rain event (NVE / Vegvesen veileder):
+
+- If D < 1h: better to use the lower value
+- If D > 3h: better to use the higher value
+
+## Runoff coefficient and design return period
+If the return period is high, increase the value of C:
+
+25-year event: +10%
+
+50-year event: +20%
+
+100-year event: +25%
+
+200-year event: +30%
+
+## Safety / climate factor
+
+Sogndal's overvassnorm recommends a safety factor $S=1.2$. 
+
+Vegvesen goes up to $S=1.5$ for long lasting infrastructure
+
+## Intensity-Duration-Frequency Curve
+Which precipitation event should we choose for peak discharge?
+<img src="images/ivf_oppstryn.png" height="400" width="auto">
+
+## Time of concentration
+<img src="images/time_of_concentration.gif" height="300" width="auto">
+
+Time when 100% of the catchment area contributes to discharge at the outlet:
+
+Also the longest time taken by surface runoff to reach the outlet
+
+## Time of concentration
+
+Concentration time $T$ for natural catchments (non urbanized)
+$T=0.6*LH-0.5+3000*P_l$
+
+For urban catchments:
+
+$T=1.15*0.02*LH-0.39$
+
+where $L$ is the length of the longest flow path in the catchment
+
+$H$ the total height difference of the catchment
+
+$P_{l}$ the percentage of lake area in the catchment
+
+<!--
+## Time of concentration
+
+> - **For rain events of equal intensity, which parameter will affect peak discharge at the outlet of the basin?**
+> - The duration of the rain event
+> - **What is the minimum duration to leads to the highest discharge?**
+> - The "lag time" or "concentration time" of the catchment
+
+-->
+
+## Time of concentration
+
+Other possible methods:
+
+- Hydraulic routing formulas for surface runoff through the catchment (open channel flow, sheet flow...)
+- Hydrological modelling of the whole catchment
+- Measuring the (hydrograph) response of the catchment to a typical rain event
+
+
+## Example: proposed development
+<img src="images/plan_initial_vancia.jpg" height="500" width="auto">
+
+## Example: measuring active runoff surfaces
+<img src="images/surfaces_actives.png" height="400" width="auto">
+
+Does this level of precision make sense?
+
+<!--
+## Methode des pluies
+<img src="images/methode_des_pluies.png" height="500" width="auto">
+-->
+
+## Runoff curve number (only as an example)
+Popular method in the USA:
+
+\[Q = \begin{cases}0\ \ \text{for }P<I_{a}\\{\frac{(P-I_a)^2}{P-I_a+S}\ \ \text{for }P>I_a}\end{cases}\]
+
+where Q is runoff, P is rainfall, S is the potential maximum soil moisture retention after runoff begins, $I_a$ is the initial interception / depression storage
+
+$S = \frac{1000}{CN}-10$ where $CN$ ranges from 30 to 100; lower numbers indicate low runoff potential while larger numbers are for increasing runoff potential. Numbers depend on antecedent moisture conditions
+
+## Take home messages
+
+- A variety of empirical formulas for the response of small catchments to precipitation
+- Runoff coefficients are a conceptual simplification of infiltration / retention processes
+- Time of concentration: longest time taken by rain on the catchment to reach the outlet
+- Time of concentration decreases with increase urbanization / impermeabilization
+- Follow your local guidelines, understand the limitations and maybe look for improvements
+- Keep in mind the assumptions and how much precision really makes sense
+- SW control at the source will always help downstream: slow it, spread it and sink it.
+- Always keep in mind where the overflow will go
+
+
+# Water harvesting example
+
+## Overview of Lancaster water harvesting strategies: street SW
+
+<iframe width="400" height="250" src="https://www.youtube.com/embed/xdvmJ-AFlRA?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli" frameborder="0" allowfullscreen></iframe>
+
+- Cut street curb to let SW infiltrate into a sunken mulch basin with native trees
+- We can guess a drainage grate from the municipal network in the middle of the pedestrian footpath (dirtpath).
+
+## Walking paths and lower roof
+
+- Home paths discharging into a sunken mulch basin with citrus tree
+- Raised planting bed doubles as seating area
+- Salvaged playground ladder
+- Roof turned into terrace strong enough for many people (30m2 incl. non-terraced part)
+- Roof painted white to reflect summer heat, and non-toxic
+- His roof doesn't have any edges to avoid water falling onto the sides. Maybe the roof is slightly concave
+
+## Higher roof and storage tanks
+
+- Water goes into 2*1000 gallons tanks (8000L total, 2m high x 2m2 each)
+- Water from higher roof (3m high, 50m2) is gathered into a wet system which discharges onto the lower gutter (2.5m), before the tanks
+- Let's assume 100mm downspouts
+- Rain is filtered by a self-sleaning filter before going into the tanks
+- The 2mm screen is at an angle for self-cleaning
+
+## First flush
+
+- First flush goes into a 2m high, 100mm first flush pipe
+- Screwcap end on this pipe conveniently located close to the entrance, so that he doesn't forget emptying it
+- Grape vine to use the dirty (fertilized) water.
+- Grape will grow over the trellis to shade and cool the tanks
+- Not mentioned: we can see the pipe out of the bottom of his tanks with 2 valves
+- Youtube comment: link a slow, drip irrigation setup to the first flush pipe so that you don't even need to empty it.
+
+## Storage overflow and greywater
+
+- Overflow pipe goes behind the fence and into a mulch bed with trees
+- Not mentioned: there is a black pipe sticking out of the ground at the start of his overflow mulch / tree bed. I think it is his second overflow safety to the SW network
+There was also one sticking out of his grape (very high though)
+- Some greywater also discharges into this rather large infiltration bed
+- Soil care: no sodium soap
+- 4 options for the greywater. Every load sends its water to a different tree
+- Daylights about the mulch so no roots can grow into the pipe.
+- Meets the arizona greywater guidelines as the water goes below the mulch: nobody can come in direct contact with standing water
+
+## Wet system drainage
+
+- The wet system can be flushed into the citrus tree (T jonction + screw cap)
+- The screw cap is also conviniently placed so that he doesn't forget about it
+- Be careful with this system in cold climate
+- I think he should be careful in his climate too as roots like to attack wet pipes
+
+## Student comments: Pro
+
+- If emptied prior to rain flooding events it can reduce the flow spike (very locally)
+- Storage of contaminated water to fertilize plants
+- Outlet Points in case of periods below freezing to prevent destruction by thaw freeze cycles
+
+## Student comments: Con
+
+- Pipe runs underneath plants unclear whether or not he has accounted for roots destroying the pipe in the wet system
+- In the video things get stuck in his filter. this could contaminate the water in the tanks. If this happens emptying the tanks may prove challenging
+- If neglected for an extended period of time (vacation) all pipes and tanks may be contaminated and in need of extensive cleaning for further use
+
+# Exercises
+
+## Street SW infiltration
+> - Let's say his system handles 5m of road width with a 1m wide infiltration strip
+> - So 5m2 of road runoff needs to infiltrate in 1m2
+> - What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100l/s per Ha)
+> - By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in m/s). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation) for the link between infiltration rate and saturated hydraulic conductivity)
+
+## Amount of precipitation to fill up the tank
+> - We assume $80m^2$ of total roof area. The total storage volume is 8000 liters
+> - How much precipitation is required to fill up the tanks?
+
+## Infiltration rate required if the tank overflows
+> - Assume that his tanks are already full when a 5min 10-year precipitation event happens (100l/s per Ha)
+> - Assume that his infiltration mulch bed is 20m2 in area
+> - Which infiltration rate is required to avoid ponding in the infiltration area?
+
+## Storage volume in mulch bed
+> - Assume that the infiltration area has the previously calculated infiltration capacity: $4*10^{-4}$ m/s
+> - How much ponding storage (height of the paddle in the mulch bed) is needed to handle a 3min 100-year precipitation event (200l/s per Ha)
+
+## How much flow can the tank inlet convey before the filter overflows
+> - This exercise assumes that the filter has more capacity than the pipe below
+> - The first flush pipe is already full
+> - The tanks are assumed empty, meaning that the inlet pipe is at atmospheric pressure when water is discharged into the tanks (in other words: the inlet pipe is not underwater) 
+> - There is a 20cm height difference between the tank's inflow pipe and the top of the filter (top of the cone)
+> - Calculate the maximum flow into the reservoir before the water overflow from the filter
+
+## Time to empty the tank through a 10mm pipe
+> - Imagine the water level of the full tank is 2m higher than the r=10mm irrigation hose. The cross-sectional area of the tank is A=2m2.
+> - How long would it take to empty the water tank through this hose?
+
+## Flow out of a water filter
+> - Imagine a water filter with charcoal (5cm length of porous media) that has a hydraulic conductivity of $10^{-4}$ m/s. Which cross sectional area should the filter have to fill up 1 L in 5 seconds when the tank is full?
+> - We have 2m of head difference to push water through the 5cm filter.
+
+
+# Further resources
+
+## Norway: NVE / Vegvesen
+
+[Sammenligning av metoder for flomberegninger i små uregulerte felt](http://publikasjoner.nve.no/rapport/2015/rapport2015_86.pdf)
+
+[Veileder for flomberegninger i små uregulerte felt](http://publikasjoner.nve.no/veileder/2015/veileder2015_07.pdf)
+
+[NVE: Veileder for flomberegninger i små uregulerte felt](http://publikasjoner.nve.no/veileder/2015/veileder2015_07.pdf)
+
+[Vegvesen Håndbok N200 - Vegbygging](http://www.vegvesen.no/_attachment/188382/binary/980128?fast_title=H%C3%A5ndbok+N200+Vegbygging+%2821+MB%29.pdf)
+
+<!--
+[Flaumfare langs bekker](http://publikasjoner.nve.no/veileder/2015/veileder2015_03.pdf)
+
+many other methods [there](http://echo2.epfl.ch/VICAIRE/mod_1b/chapt_10/main.htm)
+-->
+
+## USDA National engineering handbooks
+
+[Hydrology hanbook](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063)
+
+[Engineering Field Handbook (surveying, estimating runoff, hydraulics, grassed waterways, ponds...)](https://directives.sc.egov.usda.gov/viewerFS.aspx?hid=21429)
+
+[Technical Release 55 (TR-55)](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1044171.pdf): "Presents simplified procedures to calculate storm runoff volume, peak rate of discharge, hydrographs, and storage volumes required for floodwater reservoirs. These procedures are applicable in small watersheds, especially urbanizing watersheds, in the United States"
+
+## Some guidelines (municipal / states)
+
+Minnesota:
+
+[Minnesota SW manual](https://stormwater.pca.state.mn.us/index.php?title=Main_Page)
+
+[Cold climate impact on runoff management](https://stormwater.pca.state.mn.us/index.php/Cold_climate_impact_on_runoff_management)
+
+Santa Clara:
+
+[Urban Runoff - Pollution prevention program](http://www.scvurppp-w2k.com/)
+
+[Santa Clara - Stormwater handbook](http://www.scvurppp-w2k.com/c3_handbook.shtml)
+
+Puget Sound Low Impact Development:
+[Technical guidance for Puget Sound](http://www.psp.wa.gov/downloads/LID/LID_manual2005.pdf)
+
+
+
+## Hydrology and Hydraulics in Civil 3D
+
+https://www.youtube.com/watch?v=xzgONT9ekpE&list=WL&index=180
+
+<img src="images/civil3d.png" height="500" width="auto">
+
+
+<!--
+## Oil separator
+> - **Let's try to desing one!**
+> - <img src="images/oil_separator.gif" height="400" width="auto">
+
+## Oil grit separator
+<img src="images/oilgritseparators.jpg" height="400" width="auto">
+
+## Flow regulator
+> - **Let's try to design one!**
+> - <img src="images/flow_regulators.png" height="400" width="auto">
+
+## Vancia: 2 underground storages
+<img src="images/vancia_2_bassins_enterres.jpg" height="500" width="auto">
+
+## Vancia: surface reservoir
+<img src="images/vancia_1_bassin_ouvert.png" height="500" width="auto">
+
+## Flow regulators
+<img src="images/flow_regulators.png" height="500" width="auto">
+
+## Kalbskopf factors (width pb)
+<img src="images/facteurs_Kalbskopf.png" height="500" width="auto">
+
+## Vancia: Decantation and infiltration model
+<img src="images/decantation_infiltration_bassins_xls_model.png" height="500" width="auto">
+
+## Vancia: Decantation and infiltration bassins
+<img src="images/decantation_infiltration_bassins.png" height="auto" width="900">
+-->
