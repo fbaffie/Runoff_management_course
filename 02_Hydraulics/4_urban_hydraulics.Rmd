@@ -105,11 +105,11 @@ Also the longest time taken by surface runoff to reach the outlet
 ## Time of concentration
 
 Concentration time $T$ for natural catchments (non urbanized)
-$T=0.6*LH-0.5+3000*P_l$
+$T=0.6*L*H^{-0.5}+3000*P_l$
 
 For urban catchments:
 
-$T=1.15*0.02*LH-0.39$
+$T=0.02*L^{1.15}*H^{-0.39}$
 
 where $L$ is the length of the longest flow path in the catchment
 
@@ -321,7 +321,7 @@ Puget Sound Low Impact Development:
 
 https://www.youtube.com/watch?v=xzgONT9ekpE&list=WL&index=180
 
-<img src="images/civil3d.png" height="500" width="auto">
+<img src="images/civil3d.png" height="450" width="auto">
 
 
 <!--
