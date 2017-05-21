@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open channel hydraulics</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Open channel hydraulics</h1>
+    <p>Back to <a href="../index.html#open-channel-hydraulics">course overview</a></p>
+  </header>
+
+    
+  
+<section id="plan" class="slide level2">
+<h2>Plan</h2>
+<p><a href="./2_open_channel.html#flow-criticality">Flow criticality</a></p>
+<p><a href="./2_open_channel.html#open-channel-flow">Open channel equations</a></p>
+<p><a href="./2_open_channel.html#streamflow-gauging">Streamflow gauging</a></p>
+<p><a href="./2_open_channel.html#further-resources">Further resources</a></p>
+<!--
+Exercises
+-->
+</section>
+<section id="flow-criticality" class="titleslide slide level1"><h2 class="shout">Flow criticality</h2></section><section id="specific-energy" class="slide level2">
+<h2>Specific energy</h2>
+<p>With <a href="1_fluid_dynamics.html#bernouillis-equation">Bernouilli’s Law</a>, we defined the total hydraulic head:</p>
+<p><span class="math display">\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}}\]</span></p>
+<p>where <span class="math inline">\(v\)</span> the mean flow velocity.</p>
+<p>In rivers, there is no pressure term and <span class="math inline">\(z=h+z_b\)</span> is the sum of the water depth <span class="math inline">\(h\)</span> and the elevation of the stream bed <span class="math inline">\(z_b\)</span>. So we can define the specific energy:</p>
+<p><span class="math inline">\(E = h+{\frac {v^{2}}{2g}}\)</span></p>
+<p><span class="math inline">\(E+z_b=H\)</span></p>
+</section><section id="alternate-depths-for-a-given-specific-energy" class="slide level2">
+<h2>2 alternate depths for a given specific energy</h2>
+<p><img src="images/alternate_depths.png" height="500" width="auto"> <!--
+https://en.wikipedia.org/wiki/Energy%E2%80%93depth_relationship_in_a_rectangular_channel
+--></p>
+</section><section id="froude-number-and-flow-criticality" class="slide level2">
+<h2>Froude number and flow criticality</h2>
+<p>Solving <span class="math inline">\(dE/dh=0\)</span> yields a condition for which there is only 1 possible water depth for a given specific energy: <span class="math inline">\(h_0=v_0^2/g\)</span>. This is the condition for <strong>critical flow</strong></p>
+<p>The <strong>Froude number</strong> is defined as:</p>
+<p><span class="math inline">\(Fr=\frac{v_{0}}{\sqrt{g*h_{0}}}\)</span></p>
+<p>If F=1, the flow is <strong>critical</strong> and <span class="math inline">\(h=2*E/3\)</span></p>
+<p>If F&lt;1, the flow is <strong>subcritical</strong></p>
+<p>If F&gt;1, the flow is <strong>supercritical</strong></p>
+</section><section id="transition-from-subcritical-to-supercritical" class="slide level2">
+<h2>Transition from subcritical to supercritical</h2>
+<p><img src="images/subcritical_supercritical.png" height="350" width="auto"></p>
+</section><section id="hydraulic-jump-high-velocity-discharges-into-low-velocity" class="slide level2">
+<h2>Hydraulic jump: high velocity discharges into low velocity</h2>
+<p><img src="images/hydraulic_jump_burdekin_dam.jpg" height="300" width="auto"></p>
+<ul>
+<li class="fragment next"><strong>What is often the purpose of a hydraulic jump / well designed spillways?</strong></li>
+<li class="fragment next">Lose energy through turbulence</li>
+</ul>
+</section><section id="local-spillway-above-kaupanger" class="slide level2">
+<h2>Local spillway above Kaupanger</h2>
+<p><img src="images/kaup2.jpg" height="500" width="auto"></p>
+</section>
+<section id="open-channel-equations" class="titleslide slide level1"><h2 class="shout">Open channel equations</h2></section><section id="weir-formula" class="slide level2">
+<h2>Weir formula</h2>
+<p>From the previous equations can be derived a general formulation for discharge <span class="math inline">\(Q\)</span> over weirs:</p>
+<p><span class="math inline">\(Q = C L H^n\)</span></p>
+<p><span class="math inline">\(C\)</span> is the flow coefficent for the structure. <span class="math inline">\(C= \sqrt { \frac{8g}{27}}\)</span> for a horizontal weir.</p>
+<p><span class="math inline">\(L\)</span> is the width of the weir at its crest</p>
+<p><span class="math inline">\(H\)</span> is the height of water over the crest (where the flow is subcritical)</p>
+<p><span class="math inline">\(n\)</span> varies with structure (e.g., 3/2 for horizontal weir, 5/2 for v-notch weir…)</p>
+</section><section id="chezy-formula-for-open-channel-flow" class="slide level2">
+<h2>Chézy formula for open channel flow</h2>
+<p>Using the <a href="1_fluid_dynamics.html#friction-factor">friction factor</a>, the Chézy formula can be derived as:</p>
+<p><span class="math display">\[v=C{\sqrt {R_h\,S}}\]</span></p>
+<p><span class="math inline">\(v\)</span> is the mean velocity (m/s),</p>
+<p><span class="math inline">\(C\)</span> is the Chézy coefficient in <span class="math inline">\(m^{1/2}/s\)</span>,</p>
+<p><span class="math inline">\(R_h\)</span> is the hydraulic radius in m: cross-sectional area / wetted perimeter (~ water depth for wide rivers)</p>
+<p><span class="math inline">\(S\)</span> is the slope of the river bed (unitless).</p>
+</section><section id="chezy-formula" class="slide level2">
+<h2>Chézy formula</h2>
+<p>Theoretically, the Chézy coefficient <span class="math inline">\(C\)</span> can be expressed as a function of the friction factor:</p>
+<p><span class="math inline">\(C= \sqrt { \frac{8g}{f}}\)</span></p>
+<p>As it depends on both the hydraulic radius <span class="math inline">\(R_h\)</span> and the channel roughness, this empirical formula was proposed:</p>
+<p><span class="math inline">\(C = \frac {1}{n}R_h^{1/6}\)</span></p>
+<p>where <span class="math inline">\(R_h\)</span> is the hydraulic radius and <span class="math inline">\(n\)</span> is Manning’s roughness coefficient.</p>
+</section><section id="mannings-equation" class="slide level2">
+<h2>Manning’s equation</h2>
+<p>Replacing the last expression for <span class="math inline">\(C\)</span> into Chézy’s equation yields:</p>
+<p><span class="math display">\[V = {\frac{R_h^{2/3} S^{1/2}}{n}} \]</span></p>
+<p><span class="math inline">\(V\)</span> is the cross-sectional average velocity</p>
+<p><span class="math inline">\(n\)</span> is the Manning coefficient. (in <span class="math inline">\(s*m^{-\frac {1}{3}}\)</span>)</p>
+<p><span class="math inline">\(R_h\)</span> is the hydraulic radius in meters</p>
+<p><span class="math inline">\(S\)</span> is the gradient in hydraulic head, which is the channel bed slope when the water depth is constant</p>
+</section><section id="typical-manning-roughness-coefficients" class="slide level2">
+<h2>Typical Manning roughness coefficients</h2>
+<p>According to “Elements of physical hydrology”</p>
+<table>
+<thead>
+<tr class="header">
+<th>Channel material</th>
+<th>Manning’s n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glass</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td>Smooth concrete</td>
+<td>0.012</td>
+</tr>
+<tr class="odd">
+<td>Earth canal</td>
+<td>0.02</td>
+</tr>
+<tr class="even">
+<td>Natural streams</td>
+<td>0.024-0.075</td>
+</tr>
+</tbody>
+</table>
+</section><section id="application" class="slide level2">
+<h2>Application</h2>
+<ul>
+<li class="fragment next"><strong>Calculate the flow in a rectangular earth canal (width = height= 1m) of 1% slope</strong></li>
+<li class="fragment next"><span class="math inline">\(V = {\frac{R_h^{2/3} S^{1/2}}{n}}\)</span></li>
+<li class="fragment next"><span class="math inline">\(R_h = 1/3\)</span>, <span class="math inline">\(S = 1/100\)</span> and <span class="math inline">\(n = 0.02\)</span></li>
+<li class="fragment next">So <span class="math inline">\(Q=v*1=2.4 \ m^3/s\)</span></li>
+</ul>
+</section><section id="flood-routing-methods" class="slide level2">
+<h2>Flood routing methods</h2>
+<p>Useful to forecast the attenuation of a flood wave through a stream channel, assess the impact of mitigation measures, a dam failure…</p>
+<ul>
+<li>Shallow water equations (or Saint-Venant equations): extensively used in computer models such as HEC-RAS, InfoWorks, MIKE SHE…</li>
+<li>Weir discharge formulas for flood routing through a reservoir</li>
+<li><a href="http://nptel.ac.in/courses/105101002/downloads/module5/lecture3.pdf">The Muskingum method</a> uses a more conceptual approach</li>
+</ul>
+</section>
+<section id="streamflow-gauging" class="titleslide slide level1"><h2 class="shout">Streamflow gauging</h2></section><section id="stage-discharge-relationship" class="slide level2">
+<h2>Stage-discharge relationship</h2>
+<ul>
+<li class="fragment next"><strong>From Manning’s equation, Which parameters affect flow in an open channel?</strong></li>
+<li class="fragment next">slope</li>
+<li class="fragment next">channel roughness</li>
+<li class="fragment next">cross-sectional area</li>
+<li class="fragment next">wetted perimeter</li>
+</ul>
+</section><section id="stage-discharge-relationship-rating-curve" class="slide level2">
+<h2>Stage-discharge relationship: rating curve</h2>
+<p>At a specific location, slope is constant so discharge can be expressed as a function of water height, typically a power law:</p>
+<p><span class="math inline">\(Q=a*H^b\)</span></p>
+<p>where <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are constants and <span class="math inline">\(H\)</span> is the river stage</p>
+<p>This relationship need to be calibrated for a variety of flows and needs regular re-calibration in erosive environments</p>
+<p>More details: <a href="https://library.wmo.int/opac/index.php?lvl=notice_display&amp;id=540#.WR3PnuvyhaR">WMO - Manual on stream gauging</a></p>
+</section><section id="stage-discharge-relationship-field-setup" class="slide level2">
+<h2>Stage-discharge relationship: field setup</h2>
+<p><img src="images/damma_runoff_station.jpg" height="500" width="auto"></p>
+</section><section id="streamflow-measurements" class="slide level2">
+<h2>Streamflow measurements</h2>
+<ul>
+<li class="fragment next"><strong>Many streamflow measurements are required to calibrate the rating curve. How to measure flow in a stream?</strong></li>
+<li class="fragment next">Dilution gauging with salt / dye + electrical conductivity meter / fluorometer</li>
+<li class="fragment next">Portable current meter</li>
+<li class="fragment next">To skip the streamflow measurements: use / build a weir</li>
+</ul>
+<!--
+> - **How to run a dilution gauging experiment and intepret the results?**
+> - Salt or dye dilution
+> - **Let's call C(t) the concentration of salt or dye. Find the equation relating it to discharge.**
+-->
+</section><section id="streamflow-measurementsdilution" class="slide level2">
+<h2>Streamflow measurements:dilution</h2>
+<ul>
+<li>Salt and/or dye dilution experiments</li>
+<li>Here, very low flow in a mountain torrent</li>
+</ul>
+<p><img src="images/dilution.JPG" height="400" width="auto"></p>
+</section><section id="streamflow-measurements-current-meter" class="slide level2">
+<h2>Streamflow measurements: current meter</h2>
+<ul>
+<li>Measuring average flow for a series of channel sub-sections</li>
+<li>With H the height of a section, the mean velocity is at <span class="math inline">\(h=0.4*H\)</span> (logaritmic profile)</li>
+</ul>
+<p><img src="images/streamflow_computation.gif" height="400" width="auto"></p>
+<!--
+## Shallow water equations: Saint-Venant equations
+\[\frac{\partial A}{\partial t} + \frac{\partial \left(Au\right)}{\partial x} = 0 \]
+and
+\[\frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x}+g\frac{\partial \zeta }{\partial x} = -\frac {P}{A}\frac {\tau }{\rho}\]
+
+where x is the space coordinate along the channel axis, $t$ denotes time, $A(x,t)$ is the cross-sectional area of the flow at location $x$, $u(x,t)$ is the flow velocity, $\xi(x,t)$ is the free surface elevation and $τ(x,t)$ is the wall shear stress along the wetted perimeter $P(x,t)$ of the cross section at $x$. Further $\rho$ is the (constant) fluid density and $g$ is the gravitational acceleration.
+
+## Run-of-river hydroelectricity
+> - **What is a run-of-river hydroelectricity installation?**
+> - A hydropower plant which has no or very little storage
+> - **What are its main properties in terms of hydraulic head and flow?**
+> - Low head, high flow.
+Typically installed on big rivers: Rhin, rhone.
+In France 30% of hydro comes from this. 50% in Switzerland.
+
+<img src="images/run_of_river_Chief_Joseph_Dam.jpg" height="500" width="auto">
+-->
+</section><section id="take-home-messages" class="slide level2">
+<h2>Take home messages</h2>
+<ul>
+<li>For a given discharge, the specific energy is minimum at critical flow, when the Froude number <span class="math inline">\(Fr=\frac{v_{0}}{\sqrt{g*h_{0}}} = 1\)</span></li>
+<li>For F&lt;1, the flow is subcritical, slow and not agitaded</li>
+<li>For F&gt;1, the flow is supercritical, rapid and torrential</li>
+<li>Some specific weir / channel shapes have either theoretical or empirical stage / discharge relationships</li>
+<li>Many flow phenomena in rivers can be explained by: the equation of continuity, the Bernouilli equation, and the friction factor relationships</li>
+</ul>
+</section><section id="take-home-messages-1" class="slide level2">
+<h2>Take home messages</h2>
+<ul>
+<li>For steady, uniform open channel flows, the friction slope is equal to the bottom slope: depth, velocity and specific energy are constant</li>
+<li>Hydraulic radius <span class="math inline">\(R_h\)</span> of a stream channel: cross-sectional area / wetted perimeter</li>
+<li>The Chézy equation can be derived from the friction factor</li>
+<li>The widely used Manning’s equation relates mean velocity to slope and hydraulic radius.</li>
+<li>Mean velocity for flow with a logarithmic profile at 0.4h above the stream bed</li>
+</ul>
+<!--
+# Exercices 
+
+## [Water and fluids](http://engineeringinterviewquestions.com/hydraulics-and-fluid-mechanics-interview-questions-civil-engineering-objective-type-questions-and-answers/)
+> - **The density of water is maximum at:**
+> - **a**: $0^{\circ}C$
+> - **b**: $0^{\circ}K$
+> - **c**: $4^{\circ}C$
+> - **d**: $100^{\circ}C$
+> - **e**: $20^{\circ}C$ 
+> - Answer: **c**
+
+## Water and fluids
+> - **The density of ice in $g/cm^3$ at $0^{\circ}C$:**
+> - **a**: 1
+> - **b**: 1000
+> - **c**: 920
+> - **d**: 1.1
+> - **e**: 0.92
+> - Answer: **e**
+
+## Water and fluids
+> - **The specific weight of water is 1000 $kg/m^3$**
+> - **a**: at normal pressure of 760 mm
+> - **b**: at 4°C temperature
+> - **c**: at mean sea level
+> - **d**: all the above 
+> - **e**: none of the above.
+> - Answer: **d**
+
+## Water and fluids
+> - **A fluid is a substance that:**
+> - **a**: cannot be subjected to shear forces
+> - **b**: always expands until it fills any container
+> - **c**: has the same shear stress at a point regardless of its motion
+> - **d**: cannot remain at rest under action of any shear force
+> - **e**: flows
+> - Answer: **d**
+
+## Water and fluids
+> - **A fluid offers no resistance to a change of:**
+> - **a**: pressure
+> - **b**: flow
+> - **c**: shape
+> - **d**: volume
+> - **e**: temperature
+> - Answer: **c**
+
+## Water and fluids
+> - **In a static fluid,**
+> - **a**: resistance to shear stress is small
+> - **b**: fluid pressure is zero
+> - **c**: linear deformation is small
+> - **d**: only normal stresses can exist
+> - **e**: viscosity is nil
+> - Answer: **d**
+
+## Water and fluids
+> - **Mercury does not wet glass. This is due to a property of liquids known as**
+> - **a**: adhesion
+> - **b**: surface tension
+> - **c**: cohesion
+> - **d**: compressibility
+> - **e**: viscosity
+> - Answer: **b**
+
+## Water and fluids
+> - **When the flow parameters at instant $t$ are the same at every point, the flow is**
+> - **a**: quasi static
+> - **b**: steady state
+> - **c**: laminar
+> - **d**: static
+> - **e**: uniform
+> - Answer: **e**
+
+## Water and fluids
+> - **In a chute spillway, the flow is usually**
+> - **a**: uniform
+> - **b**: subcritical
+> - **c**: critical
+> - **d**: supercritical
+> - Answer: **d*
+
+## Water and fluids
+> - **Generally, a weir is perpendicular to the main river flow because**
+> - **a**: it keeps the weir shorter
+> - **b**: it gives the weir more discharge capacity
+> - **c**: it is economical
+> - **d**: all of the above
+> - Answer: **d*
+> - **The ratio of average values of shear stresses produced on the bed and the banks of a channel due to flowing water is?**
+> - **a** < 1
+> - **b** = 1
+> - **c** > 1
+> - **d** = 0
+>- Answer: **c**
+-->
+</section>
+<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="book-chapters" class="slide level2">
+<h2>Book chapters</h2>
+<p>Elements of physical hydrology: Chapters 4, 5</p>
+<p>Hydrology in Practice: Chapters 6, 16</p>
+<p>Vassdragshåndboka: Chapters 4, 10</p>
+</section><section id="handbooks-and-online-lectures" class="slide level2">
+<h2>Handbooks and online lectures</h2>
+<p><a href="https://www.wcc.nrcs.usda.gov/ftpref/wntsc/H&amp;H/NEHhydraulics/neh5.pdf">USDA - National Engineering Handbook Section 5 Hydraulics</a></p>
+<p><a href="https://pubs.usgs.gov/twri/twri3a8/html/pdf.html">Discharge measurement at gauging stations</a></p>
+<p>Hydraulics course with a lot more detail: <a href="https://www.youtube.com/playlist?list=PLQv9IPdrtoKjRyCQlzxss9LsvzQf2EOYa">Isaac Wait online lectures</a></p>
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>
