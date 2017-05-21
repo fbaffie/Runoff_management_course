@@ -182,20 +182,36 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Mon. 15 May | 12:15-15:00	| Urban hydraulics	| Stadionbygget 02-02
 Tue. 16 May | 12:15-15:00	| Floodplain  management	| Stadionbygget 02-02
-Mon. 22 May | 09:15-12:00	| Soils and land use	| Svingen F3
-Mon. 22 May | 12:30-?	| Excursion SW + sewage | Sogndal
-Tue. 23 May | 09:15-12:00	| Open channel | Stadionbygget 02-04
-Wed. 24 May | 09:15-12:00	| Hydropower and flooding	| Stadionbygget 02-04
-Wed. 24 May | ?	| Excursion	| Lærdal / Flåm
 
-## Agenda: 29-31 May, 13-15 June
+## Agenda: 22-24 May
 <img src="images/PPT_Body.png" class="cover">
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Mon. 29 May | 09:15-12:00	| Design	| Svingen F3
-Tue. 30 May | 09:15-12:00	| Examples	| Stadionbygget 02-02
-Wed. 31 May | 09:15-12:00	| Synthesis	| Stadionbygget 02-02
+Mon. 22 May | 09:15-10:30	| Floods in Flåm	| Svingen F3
+Mon. 22 May | 10:30-12:00	| Soils and land use	| Svingen F3
+Mon. 22 May | 13:00-?	| Excursion SW + sewage | Sogndal
+Tue. 23 May | 09:15-10:30	| Society and green infra | Stadionbygget 02-04
+Tue. 23 May | 10:30-12:00	| Open channel | Stadionbygget 02-04
+Wed. 24 May | 08:00-?	| Excursion	| Lærdal / Flåm
+
+## Agenda: 29-31 May
+<img src="images/PPT_Body.png" class="cover">
+
+Day	| Time	| Topic	| Room
+--- | --- | --- | --- 
+Mon. 29 May | 09:15-10:30	| Leikanger design	| Svingen F3
+Mon. 29 May | 10:30-12:00	| Design examples	| Svingen F3
+Tue. 30 May | 09:15-10:30	| Floods in Voss	| Stadionbygget 02-02
+Tue. 30 May | 10:30-12:00	| Synthesis and keywords	| Stadionbygget 02-02
+Wed. 31 May | 09:15-10:30	| Infiltration experiments	| Stadionbygget 02-02
+Wed. 31 May | 10:30-12:00	| Brunch and exercises	| Stadionbygget 02-02
+
+## Agenda: 09-15 June
+<img src="images/PPT_Body.png" class="cover">
+
+Day	| Time	| Topic	| Room
+--- | --- | --- | --- 
 Fri. 09 Jun | 24:00 | Send project reports | fkba@hvl.no + fronter
 Tue. 13 Jun | 08:00-16:00 | Group presentations | ?
 Wed. 15 Jun | 08:00-16:00 | Individual exam | ? 
