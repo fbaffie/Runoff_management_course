@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soils and solid transport</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Soils and solid transport</h1>
+    <p>Back to <a href="../index.html#soils-erosion-and-deposition">course overview</a></p>
+  </header>
+
+    
+  
+<section id="plan" class="slide level2">
+<h2>Plan</h2>
+<!--
+[Soils](./3_erosion_deposition.html#soils)
+grain sizes
+pollution load as a function of grain size
+-->
+<p><a href="./3_erosion_deposition.html#erosion-and-deposition">Erosion and deposition</a></p>
+<!--
+typical mobilization velocities
+deposition velocities as a function of particle size
+solid load in rivers
+-->
+<p><a href="./3_erosion_deposition.html#examples-around-sogndal">Examples around Sogndal</a></p>
+<p><a href="./3_erosion_deposition.html#further-resources">Further resources</a></p>
+<!--
+Link to geohazards?
+Bjørnar NVE on his master thesis?
+
+## Available water capacity in soils
+<img src="images/available_water_capacity.png" height="500" width="auto">
+Source: https://stormwater.pca.state.mn.us/images/d/d5/Available_water_capacity.png
+-->
+</section>
+<section id="erosion-and-deposition" class="titleslide slide level1"><h2 class="shout">Erosion and deposition</h2></section><section id="erosion-deposition-which-forces-are-at-play" class="slide level2">
+<h2>Erosion / deposition: which forces are at play</h2>
+<ul>
+<li class="fragment next">Gravity</li>
+<li class="fragment next">Buyancy (Archimedes’ principle)</li>
+<li class="fragment next">Shear stress (viscous forces) from water flow</li>
+<li class="fragment next">Soil cohesion</li>
+<li class="fragment next"><strong>Where do silting and scouring happen in a river bend?</strong></li>
+<li class="fragment next">silting on the convex side</li>
+<li class="fragment next">scouring on the concave side</li>
+</ul>
+</section><section id="hjulstrom-curve" class="slide level2">
+<h2>Hjulström curve</h2>
+<p><img src="images/hjulstrom.gif" height="500" width="auto"></p>
+</section><section id="soil-textural-triangle" class="slide level2">
+<h2>Soil textural triangle</h2>
+<p><img src="images/empty_soil_texture_triangle.png" height="500" width="auto"></p>
+</section><section id="soil-textural-triangle-1" class="slide level2">
+<h2>Soil textural triangle</h2>
+<p><img src="images/soil_textural_triangle.jpg" height="500" width="auto"></p>
+<!--
+## QUestions (TO CHECK)
+> - **The minimum size of stone that will remain at rest in a channel of longitudinal slope S and hydraulic mean deph R is:**
+> - **a**: 4*RS
+> - **b**: 11*RS
+> - **c**: 7*RS
+> - **d**: 15*RS
+> - Answer: **b** 
+
+## Erosion / deposition processes as a function of grain size
+
+> - **How are erosion / deposition processes related to grain size?**
+> - 
+> - **What is the impact of water reservoirs on those processes?**
+> -
+> - **Potential impact of climate change on erosion in the region?**
+> -
+> - **What is a debris flow?**
+> -
+> - **when / why does it tend to happen?**
+> -
+> - **How to alleviate erosion?**
+> -
+> - **What happens when water flows through those 2 soils: well aggregrated compost / forest soil vs "dirt"**
+> -
+
+## QUESTIONS
+
+> - **Impact of erosion on the carbon and nitrogen cycles?**
+> -
+> - **Link between agricultural practices and erosion?**
+> -
+> - **Grain size is not the only control on erosion processes. What charactistic of a healthy agricultural / forest soil helps prevent erosion?**
+> -
+> - **Link between landslides and erosion?**
+> -
+> - **What is the relation between grain size and pollution in stormwater?**
+> -
+-->
+</section><section id="pollution-in-sediments" class="slide level2">
+<h2><a href="http://www.fao.org/docrep/W2598E/w2598e05.htm">Pollution in sediments</a></h2>
+<ul>
+<li class="fragment next">Pollution by sediment has two main aspects:</li>
+<li class="fragment next">Physical: top soil loss and land degradation leads to high turbidity and to later deposition in river and lake beds.</li>
+<li class="fragment next">Chemical: the silt and clay fractions (&lt;63m m fraction) are primary carriers of adsorbed chemicals, especially phosphorus, chlorinated pesticides and heavy metals</li>
+<li class="fragment next">This is why sedimentations basins are often important for SW depollution</li>
+<li class="fragment next">Of course a big part of the chemical pollution is also disolved</li>
+</ul>
+</section><section id="stokes-sphere" class="slide level2">
+<h2>Stokes sphere</h2>
+<svg height="450" width="auto">
+<image xlink:href="images/Stokes_sphere.svg" src="svg.png" min-width="100%" height="450"/>
+</svg>
+</section><section id="stokes-law" class="slide level2">
+<h2>Stokes Law</h2>
+<p>If we assume: laminar flow, spherical particles, homogeneous material, smooth surfaces and particles not interfering with each other.</p>
+<p>The force of viscosity on a small sphere moving through a viscous fluid is given by:</p>
+<p><span class="math display">\[F_d = 6 \pi \mu r v\]</span> where: <span class="math inline">\(F_d\)</span> is the frictional force, Stokes’ drag <span class="math inline">\(\mu\)</span> is the dynamic viscosity <span class="math inline">\(r\)</span> is the radius of the spherical object <span class="math inline">\(v\)</span> is the flow velocity relative to the object.</p>
+</section><section id="velocity-of-a-sphere-falling-in-a-fluid" class="slide level2">
+<h2>Velocity of a sphere falling in a fluid</h2>
+<p>At terminal (or settling) velocity, the excess force <span class="math inline">\(F_g\)</span> due to the difference between the weight and buoyancy of the sphere is:</p>
+<p><span class="math display">\[F_g = \left(\rho _{p}-\rho _{f}\right)\,g\,{\frac {4}{3}}\pi \,R^{3},\]</span></p>
+<p>with <span class="math inline">\(\rho_p\)</span> and <span class="math inline">\(\rho_f\)</span> the mass densities of the sphere and fluid</p>
+<p><span class="math inline">\(R\)</span> the particle diameter</p>
+<p><span class="math inline">\(g\)</span> is the gravitational acceleration (m/s2)</p>
+</section><section id="velocity-v-ms-of-a-sphere-falling-in-a-fluid" class="slide level2">
+<h2>Velocity V (m/s) of a sphere falling in a fluid</h2>
+<p><span class="math inline">\(V={\frac {2}{9}}{\frac {\left(\rho _{p}-\rho _{f}\right)}{\mu }}g\,R^{2}\)</span></p>
+<p><span class="math inline">\(\rho _{p}\)</span> is the mass density of the particles (kg/m3)</p>
+<p><span class="math inline">\(\rho _{f}\)</span> is the mass density of the fluid (kg/m3)</p>
+<p><span class="math inline">\(\mu = 10^{-3} Pa.s\)</span> is the dynamic viscosity.</p>
+<p>V &gt; 0 when a particle is falling.</p>
+<p>V is proportional to <span class="math inline">\(R^2\)</span></p>
+</section><section id="settling-velocities-you-can-compare-with-the-theory" class="slide level2">
+<h2>Settling velocities: you can compare with the theory</h2>
+<p>Recommended maximum velocities in “SW Management for smart growth”</p>
+<p><img src="images/deposition_velocities_sw_management_for_smart_growth.png" height="350" width="auto"></p>
+</section><section id="example-from-my-masters-thesis-plan" class="slide level2">
+<h2>Example from my Master’s thesis: plan</h2>
+<p><img src="images/plan_decantation_infiltration_epida.png" height="500" width="auto"></p>
+</section><section id="example-from-my-masters-thesis-xls-model" class="slide level2">
+<h2>Example from my Master’s thesis: xls model</h2>
+<p><img src="images/decantation_infiltration_bassins_xls_model.png" height="500" width="auto"></p>
+<!--
+## Universal soil loss equation
+$A=RKLSCP$ The USLE has another concept of experimental importance, the unit plot concept. The unit plot is defined as the standard plot condition to determine the soil's erodibility. These conditions are when the $LS$ factor = 1 (slope = 9% and length = 72.6 feet) where the plot is fallow and tillage is up and down slope and no conservation practices are applied (CP=1). In this state:
+
+$K=A/R$ A simpler method to predict $K$ was presented by Wischmeier et al.[7] which includes the particle size of the soil, organic matter content, soil structure and profile permeability. The soil erodibility factor $K$ can be approximated from a nomograph if this information is known. The $LS$ factors can easily be determined from a slope effect chart by knowing the length and gradient of the slope. The cropping management factor ($C$) and conservation practices factor ($P$) are more difficult to obtain and must be determined empirically from plot data. They are described in soil loss ratios ($C$ or $P$ with / $C$ or $P$ without).
+-->
+</section>
+<section id="examples-around-sogndal" class="titleslide slide level1"><h2 class="shout">Examples around Sogndal</h2></section><section id="internal-erosion-piping-through-dams" class="slide level2">
+<h2>Internal erosion: Piping through dams</h2>
+<p>Water flow through soils can lead to (internal) soil erosion if quick enough.</p>
+<p>It is a common cause of failure for earth dams and levees (dikes) as it is often detected too late. This is why they need to be regularly monitored.</p>
+<p>It is one of the reasons for not planting vegetation on dikes</p>
+<p><a href="http://www.ecy.wa.gov/programs/wr/dams/EmergencyBroetje_Block_96.html">Brotje Block 96 Dam Breach - Piping Failure</a></p>
+<p><a href="https://www.youtube.com/watch?v=PC58mGG55io">Video: Piping failures at dams</a></p>
+</section><section id="hydro-dam-below-breidesetevatnet" class="slide level2">
+<h2>Hydro dam below Breidesetevatnet</h2>
+<p><img src="images/hydro_dam_kaupanger.png" height="400" width="auto"></p>
+<p>NOTE: Taken as general example: probably no erosion problem but a similar site could</p>
+</section><section id="hydro-dam-below-breidesetevatnet-1" class="slide level2">
+<h2>Hydro dam below Breidesetevatnet</h2>
+<p><img src="images/kaup3.jpg" height="500" width="auto"></p>
+</section><section id="hydro-dam-below-breidesetevatnet-2" class="slide level2">
+<h2>Hydro dam below Breidesetevatnet</h2>
+<p><img src="images/kaup6.jpg" height="500" width="auto"></p>
+</section><section id="hydro-dam-below-breidesetevatnet-3" class="slide level2">
+<h2>Hydro dam below Breidesetevatnet</h2>
+<p><img src="images/kaup7.jpg" height="500" width="auto"></p>
+</section><section id="whats-the-problem" class="slide level2">
+<h2>What’s the problem</h2>
+<p><img src="images/sogndal/erosion_from_building_site.jpg" height="500" width="auto"></p>
+</section><section id="bad-erosion-management-on-construction-site" class="slide level2">
+<h2>Bad erosion management on construction site</h2>
+<ul>
+<li>Not a huge issue in the case</li>
+<li>It will just create them more work to come tidy it up</li>
+</ul>
+<p>Fixes:</p>
+<ul>
+<li>Easing the slope of the fill above</li>
+<li>Having a flat terrasse between the fill and the next slope</li>
+<li>Installing erosion control materials</li>
+</ul>
+</section><section id="road-grit-transported-onto-field" class="slide level2">
+<h2>Road grit transported onto field!</h2>
+<p><img src="images/sogndal/erosion_from_road.jpg" height="500" width="auto"></p>
+</section><section id="road-grit-transported-onto-field-1" class="slide level2">
+<h2>Road grit transported onto field!</h2>
+<p><img src="images/sogndal/erosion_from_road2.jpg" height="500" width="auto"></p>
+</section><section id="unpaved-access-roads-are-hard-to-design-in-the-region" class="slide level2">
+<h2>Unpaved access roads are hard to design in the region</h2>
+<p><img src="images/sogndal/hodlekve_erosion.jpg" height="500" width="auto"></p>
+</section><section id="consequences-of-erosion-on-sw-grid" class="slide level2">
+<h2>Consequences of erosion on SW grid</h2>
+<p><img src="images/sogndal/manhole.JPG" height="500" width="auto"></p>
+</section><section id="erosion-at-asphalt-gravel-interface" class="slide level2">
+<h2>Erosion at asphalt / gravel interface</h2>
+<p><img src="images/sogndal/roadside_erosion.jpg" height="500" width="auto"></p>
+</section><section id="whats-the-problem-and-why" class="slide level2">
+<h2>What’s the problem and why?</h2>
+<p><img src="images/sogndal/signs_of_erosion.jpg" height="500" width="auto"></p>
+</section><section id="signs-of-erosion-already" class="slide level2">
+<h2>Signs of erosion: already!</h2>
+<ul>
+<li>The local biome is resilient (regular rainfall, not too many extremes)</li>
+<li>But clear-cutting steep slopes can still lead to erosion</li>
+<li>In dry mediteranean, this could be more dramatic</li>
+</ul>
+<!--
+## Take home messages
+Pollution is usually attached to finer particles (adsorbtion)
+-->
+</section>
+<section id="exercise" class="titleslide slide level1"><h2 class="shout">Exercise</h2></section><section id="sedimentation-analogy-why-dont-clouds-fall" class="slide level2">
+<h2>Sedimentation analogy: <a href="http://lamp.tu-graz.ac.at/~hadley/whydontcloudsfall.html">Why don’t clouds fall?</a></h2>
+<ul>
+<li class="fragment next"><strong>Clouds can hold a lot of water so why don’t they fall?</strong></li>
+<li class="fragment next">The small water droplets that make up clouds fall extremely slowly. The drag force of the air dominates over the gravitational force for small particles. The drag force increases as the size of an object decreases. Applying Stokes Law gives: <span class="math inline">\(F = 6\pi\eta Rv\)</span> -<span class="math inline">\(R\)</span> is the radius of the sphere, <span class="math inline">\(v\)</span> is the velocity, and <span class="math inline">\(\eta\)</span> is the viscosity. The viscosity of air is about <span class="math inline">\(0.018*10^-3 Pa.s\)</span> and the viscosity of water is about <span class="math inline">\(1.8*10^-3 Pa.s\)</span>.</li>
+<li class="fragment next">Stokes’s law is valid if the Reynolds number <span class="math inline">\(N_{reynolds} = 2R \rho v/\eta\)</span> is less than about 2000. Here <span class="math inline">\(\rho\)</span> is the mass density.</li>
+</ul>
+</section><section id="why-dont-clouds-fall" class="slide level2">
+<h2>Why don’t clouds fall?</h2>
+<ul>
+<li class="fragment next">A spherical particle falling under the force of gravity will reach terminal velocity when the gravitational force matches the drag force: <span class="math inline">\(mg = 6\pi\eta Rv\)</span></li>
+<li class="fragment next">Solving this for the terminal velocity yields: <span class="math inline">\(v_{terminal} = 2g\rho R^2/(9\eta)\)</span></li>
+<li class="fragment next">A water droplet with a 10 nm radius falls at 12 nm/s in air. It would take 2.6 years for this droplet to fall one meter. It is only when the small droplets begin to coalesce into larger droplets that they fall with significant speed.</li>
+</ul>
+<!--
+In some sense, the inverse effect to rain is the rising of bubbles in beer. Bubbles are lighter than the surrounding liquid so gravity pushes them up. They rise with a constant velocity which is described by Stokes law. If you are the type that carefully observes your beer, you will have noticed that sometimes the bubbles move down. This is because of the circulation of liquid in the beer glass. The rising bubbles in the center of the glass drag some liquid along with them. After this liquid reaches the top of the glass, it returns to the bottom along the sides of the glass. This downward flow can drag bubbles, especially small bubbles, downwards against the force of gravity.
+
+In a similar manner, small rain drops can be pull up by air currents against the force of gravity."
+-->
+</section>
+<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="norway-europe" class="slide level2">
+<h2>Norway / Europe</h2>
+<p>The <a href="http://www.recare-hub.eu/">RECARE</a> project presents 17 case studies in Europe dealing with prevention and mitigation of soil degradation.</p>
+<p>One of the case studies is in a Norwegian catchment: <a href="http://www.recare-hub.eu/case-studies/vansjo-hobol-catchment-norway">preventing soil degradation in the Vansjø-Hobøl catchment</a></p>
+<p>Erosive flood events: theory and protection measures <a href="http://www.vegvesen.no/fag/publikasjoner/Publikasjoner/Statens+vegvesens+rapporter/_attachment/519072?_ts=140e2d18e58&amp;fast_title=SVV_73_Flom-_og_sorpeskred.pdf">Vegvesen - Flom- og sørpeskred - Sikring av veger og jernbaner</a></p>
+</section><section id="world" class="slide level2">
+<h2>World</h2>
+<p>The Global Environment Facility report on <a href="https://www.thegef.org/sites/default/files/publications/STAP-SOC-Report-lowres-1_0.pdf">“Managing soil organic carbon for global benefits”</a>. This links to the theme “land use”.</p>
+<p><a href="http://www.fao.org/soils-portal/soil-degradation-restoration/en/">FAO Soils portal</a></p>
+<p><a href="http://www.fao.org/docrep/W2598E/w2598e00.htm#Contents">Control of water pollution from agriculture - FAO irrigation and drainage paper 55</a></p>
+</section><section id="usda-erosion-control-in-agriculture" class="slide level2">
+<h2>USDA: Erosion control in agriculture</h2>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/vt/home/?cid=nrcs142p2_010552">Erosion control practices and systems</a></p>
+<p><a href="https://www.ers.usda.gov/publications/pub-details/?pubid=41202">Adoption of Agricultural Production Practices: Lessons Learned from the U.S. Department of Agriculture Area Studies Project</a></p>
+<p>Includes <a href="https://www.ers.usda.gov/webdocs/publications/41192/32127_aer792e_002.pdf?v=41304">soil management</a> and <a href="https://www.ers.usda.gov/webdocs/publications/41192/32128_aer792f_002.pdf?v=41304">water management</a></p>
+</section><section id="usda-soils-and-erosion-control-in-agriculture" class="slide level2">
+<h2>USDA: Soils and erosion control in agriculture</h2>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/college/">Educational resources on soil</a></p>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/edu/?cid=nrcs142p2_054311">USDA Guide to soil texture by feel</a></p>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/health/assessment/?cid=nrcs142p2_053870">Soil health for educators</a></p>
+<p><a href="https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051576.pdf">Soil infiltration</a></p>
+</section><section id="other-links" class="slide level2">
+<h2>Other links</h2>
+<p><a href="https://nrcca.cals.cornell.edu/soil/CA5/">Cornell University: great online documents on soil conservation from an agricultural perspective</a></p>
+<p><a href="https://nrcca.cals.cornell.edu/soil/CA5/CA0545.php">The Revised Universal Soil Loss Equation (RUSLE)</a></p>
+<p><a href="http://www.topps-life.org/uploads/8/0/0/3/8003583/bmp_runoff_16_09_2015.pdf">Presentation on erosion from agricultural areas</a></p>
+</section>
+<section id="annoted-video-resources" class="titleslide slide level1"><h2 class="shout">Annoted video resources</h2></section><section id="erosion-and-soil-cover" class="slide level2">
+<h2>Erosion and soil cover</h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/im4HVXMGI68" frameborder="0" allowfullscreen>
+</iframe>
+</section><section id="rainfall-simulator-soil-management-impacts-on-water-infiltration-very-good" class="slide level2">
+<h2>Rainfall simulator: Soil Management Impacts on Water Infiltration (very good)</h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/4IIoyFYEcBc" frameborder="0" allowfullscreen>
+</iframe>
+</section><section id="green-stormwater-infrastructure-low-impact-development-toolbox-of-solutions" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=CyCDQlguKPg">Green Stormwater Infrastructure / Low-Impact Development Toolbox of Solutions</a></h2>
+<p>15:00 Compost blankets for erosion control during contruction -&gt; buildingsoils.org</p>
+</section><section id="dr.efi-foufoula-georgiou---breakthroughs-in-engineering-hydrology" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=auqXqTqhbSM">Dr. Efi Foufoula-Georgiou - Breakthroughs in Engineering Hydrology</a></h2>
+<p>20:00 reasons and effects of changes in erosion 23:00 sand transport velocity. non libear relationship with slope 36:00 definitions of resilience 49:00 EPA conlusions on expected change sin erosion / pollution patterns</p>
+</section><section id="the-evolution-of-floodplain-complexity" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=l7mLNc63lzg&amp;list=WL&amp;index=203">The evolution of floodplain complexity</a></h2>
+<p>Research combining erosion, sediment load and open channel flow (long and difficult)</p>
+</section><section id="impact-of-stable-soil-aggregates-on-erodability" class="slide level2">
+<h2>Impact of stable soil aggregates on erodability</h2>
+<p><a href="https://www.youtube.com/watch?v=9_ItEhCrLoQ" class="uri">https://www.youtube.com/watch?v=9_ItEhCrLoQ</a></p>
+<p><a href="https://www.youtube.com/watch?v=Rpl09XP_f-w">Comparing infiltration properties at tilled vs non-tilled land</a></p>
+<p><a href="https://www.youtube.com/channel/UCKULTAeygQyCD_lLmex0eJA">Linking no till cereal farming with grazing cover crops</a></p>
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>
