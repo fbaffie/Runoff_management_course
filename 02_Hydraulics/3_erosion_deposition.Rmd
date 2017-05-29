@@ -156,11 +156,13 @@ V > 0 when a particle is falling.
 
 V is proportional to $R^2$
 
-## Settling velocities: you can compare with the theory
+## Settling velocities: some examples
 
-Recommended maximum velocities in "SW Management for smart growth"
+Fine sand, 0.1mm: 0.7 cm/s
 
-<img src="images/deposition_velocities_sw_management_for_smart_growth.png" height="350" width="auto">
+Silt, 0.02mm: 0.03 cm/s
+
+Clay, 0.005mm: 0.0018 cm/s
 
 ## Example from my Master's thesis: plan
 
@@ -246,8 +248,11 @@ Fixes:
 - But clear-cutting steep slopes can still lead to erosion
 - In dry mediteranean, this could be more dramatic 
 
-
 <!--
+## Other examples
+## Infiltration / decantation basins: modelling results
+<img src="images/modelling_results_decantation_infiltration_epida.png" height="500" width="auto">
+
 ## Take home messages
 Pollution is usually attached to finer particles (adsorbtion)
 -->
