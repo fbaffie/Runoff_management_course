@@ -209,7 +209,7 @@ NOTE: Taken as general example: probably no erosion problem but a similar site c
 <img src="images/kaup7.jpg" height="500" width="auto">
 
 ## What's the problem
-<img src="images/sogndal/erosion_from_building_site.jpg" height="500" width="auto">
+<img src="images/sogndal/erosion_from_building_site.JPG" height="500" width="auto">
 
 ## Bad erosion management on construction site
 
@@ -223,22 +223,22 @@ Fixes:
 - Installing erosion control materials
 
 ## Road grit transported onto field!
-<img src="images/sogndal/erosion_from_road.jpg" height="500" width="auto">
+<img src="images/sogndal/erosion_from_road.JPG" height="500" width="auto">
 
 ## Road grit transported onto field!
-<img src="images/sogndal/erosion_from_road2.jpg" height="500" width="auto">
+<img src="images/sogndal/erosion_from_road2.JPG" height="500" width="auto">
 
 ## Unpaved access roads are hard to design in the region
-<img src="images/sogndal/hodlekve_erosion.jpg" height="500" width="auto">
+<img src="images/sogndal/hodlekve_erosion.JPG" height="500" width="auto">
 
 ## Consequences of erosion on SW grid
 <img src="images/sogndal/manhole.jpg" height="500" width="auto">
 
 ## Erosion at asphalt / gravel interface
-<img src="images/sogndal/roadside_erosion.jpg" height="500" width="auto">
+<img src="images/sogndal/roadside_erosion.JPG" height="500" width="auto">
 
 ## What's the problem and why?
-<img src="images/sogndal/signs_of_erosion.jpg" height="500" width="auto">
+<img src="images/sogndal/signs_of_erosion.JPG" height="500" width="auto">
 
 ## Signs of erosion: already!
 
