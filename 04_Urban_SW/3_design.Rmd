@@ -115,7 +115,7 @@ Example: transport systems, commercial practices, agricultural tools and methods
 
 ## Ditches that serve as parking spots
 
-<img src="images/sogndal/degraded_roadside.jpg" height="500" width="auto">
+<img src="images/sogndal/degraded_roadside.JPG" height="500" width="auto">
 
 ## What's the problem?
 <img src="images/rhone_bridge.png" width="350" height="auto"  class="one-col-image">
@@ -132,7 +132,7 @@ Example: transport systems, commercial practices, agricultural tools and methods
 -->
 
 ## What's the problem?
-<img src="images/sogndal/gym_hangboard.jpg" height="500" width="auto">
+<img src="images/sogndal/gym_hangboard.JPG" height="500" width="auto">
 
 ## Road turnoff for Hafslo. Problem?
 <img src="images/aerial_hafslo.png" height="500" width="auto">
@@ -209,19 +209,19 @@ Example: transport systems, commercial practices, agricultural tools and methods
 > - Wrong slope. Why not slope towards the landscaped area.
 
 ## What's the problem?
-<img src="images/sogndal/wrong_slope2.jpg" height="500" width="auto">
+<img src="images/sogndal/wrong_slope2.JPG" height="500" width="auto">
 
 ## What's the problem?
-<img src="images/sogndal/wrong_slope3.jpg" height="500" width="auto">
+<img src="images/sogndal/wrong_slope3.JPG" height="500" width="auto">
 
 ## What's the problem?
-<img src="images/sogndal/wrong_slope4.jpg" height="500" width="auto">
+<img src="images/sogndal/wrong_slope4.JPG" height="500" width="auto">
 
 ## What's the problem?
-<img src="images/sogndal/wrong_slope5.jpg" height="500" width="auto">
+<img src="images/sogndal/wrong_slope5.JPG" height="500" width="auto">
 
 ## What's the problem?
-<img src="images/sogndal/wrong_slope6.jpg" height="500" width="auto">
+<img src="images/sogndal/wrong_slope6.JPG" height="500" width="auto">
 
 ## Bad design + bad construction
 
@@ -240,13 +240,13 @@ Example: transport systems, commercial practices, agricultural tools and methods
 
 
 ## What's the problem?
-<img src="images/sogndal/misplaced_manhole.jpg" height="500" width="auto">
+<img src="images/sogndal/misplaced_manhole.JPG" height="500" width="auto">
 
 ## Design mistakes?
-<img src="images/sogndal/last_SW_grate.jpg" height="500" width="auto">
+<img src="images/sogndal/last_SW_grate.JPG" height="500" width="auto">
 
 ## Same place, looking down. See the problem?
-<img src="images/sogndal/wrong_slope7.jpg" height="500" width="auto">
+<img src="images/sogndal/wrong_slope7.JPG" height="500" width="auto">
 
 ## Think about users and use comment sense
 
@@ -257,26 +257,26 @@ Example: transport systems, commercial practices, agricultural tools and methods
 
 
 ## People taking logical shortcuts
-<img src="images/sogndal/shortcut_hogskulen.jpg" height="400" width="auto">
+<img src="images/sogndal/shortcut_hogskulen.JPG" height="400" width="auto">
 
 Can lead to disfunctionning SW infrastructure
 
 ## Can you see the misuse?
-<img src="images/sogndal/shortcut_beachvolley.jpg" height="500" width="auto">
+<img src="images/sogndal/shortcut_beachvolley.JPG" height="500" width="auto">
 
 ## What's the problem?
 <img src="images/sogndal/shortcut2.jpg" height="500" width="auto">
 
 ## People are lazy and you have to respect that!
-<img src="images/sogndal/shortcut.jpg" height="500" width="auto">
+<img src="images/sogndal/shortcut.JPG" height="500" width="auto">
 
 ## People are lazy
-<img src="images/sogndal/small_shortcut.jpg" height="400" width="auto">
+<img src="images/sogndal/small_shortcut.JPG" height="400" width="auto">
 
 Clear function and landscaping required if this swale was to have significant SW value
 
 ## What's good?
-<img src="images/sogndal/gym_locks.jpg" height="500" width="auto">
+<img src="images/sogndal/gym_locks.JPG" height="500" width="auto">
 
 ## Bars for lockers
 
@@ -284,10 +284,10 @@ Clear function and landscaping required if this swale was to have significant SW
 - Easy to install, doesn't require a big additional expense
 
 ## Green roof: which one is better from a user perspective (less dangerous) and why?
-<img src="images/sogndal/green_roof1.jpg" height="400" width="auto">
+<img src="images/sogndal/green_roof1.JPG" height="400" width="auto">
 
 ## Second option: straight roof
-> - <img src="images/sogndal/green_roof2.jpg" height="400" width="auto">
+> - <img src="images/sogndal/green_roof2.JPG" height="400" width="auto">
 > - This one drips directly onto the house entrance and poses a slipping hazard in winter!
 
 # Multifunctionality
@@ -328,7 +328,7 @@ Clear function and landscaping required if this swale was to have significant SW
 # Constructability
 
 ## Misformed asphalt: probably poor construction
-<img src="images/sogndal/misformed_asphalt.jpg" height="400" width="auto">
+<img src="images/sogndal/misformed_asphalt.JPG" height="400" width="auto">
 
 ## What's done well?
 <img src="images/O_Bossi_1.jpg" height="500" width="auto">
@@ -361,18 +361,18 @@ Clear function and landscaping required if this swale was to have significant SW
 <img src="images/float_flow_regulator.png" height="500" width="auto">
 
 ## Debris grid, outflow and overflow pipes
-<img src="images/sogndal/intake_overflow.jpg" height="500" width="auto">
+<img src="images/sogndal/intake_overflow.JPG" height="500" width="auto">
 
 ## Debris grid, outflow and overflow pipes
-<img src="images/sogndal/intake_with_overflow.jpg" height="500" width="auto">
+<img src="images/sogndal/intake_with_overflow.JPG" height="500" width="auto">
 
 ## Intake structure with small sediment trap
-<img src="images/sogndal/intake_structure.jpg" height="500" width="auto">
+<img src="images/sogndal/intake_structure.JPG" height="500" width="auto">
 
 # Durability
 
 ## Can you see the problem?
-<img src="images/sogndal/malformed_depression.jpg" height="500" width="auto">
+<img src="images/sogndal/malformed_depression.JPG" height="500" width="auto">
 
 ## Not a big issue in this context
 
@@ -382,7 +382,7 @@ Clear function and landscaping required if this swale was to have significant SW
 - Maybe filled with fine sediment due to the construction site
 
 ## Natural deterioration: freeze-thaw cycles?
-<img src="images/sogndal/natural_deterioration.jpg" height="500" width="auto">
+<img src="images/sogndal/natural_deterioration.JPG" height="500" width="auto">
 
 <!--
 ## This area is temporary but what's the pb?
@@ -391,7 +391,7 @@ Clear function and landscaping required if this swale was to have significant SW
 
 
 ## Post-construction settlement
-<img src="images/sogndal/sunken_asphalt.jpg" height="500" width="auto">
+<img src="images/sogndal/sunken_asphalt.JPG" height="500" width="auto">
 
 ## What's good about inflow structure?
 <img src="images/O_Bossi_2.jpg" height="500" width="auto">
@@ -407,16 +407,16 @@ Clear function and landscaping required if this swale was to have significant SW
 # Physical context
 
 ## Debris screen + flow breaker
-<img src="images/sogndal/flow_breaker.jpg" height="500" width="auto">
+<img src="images/sogndal/flow_breaker.JPG" height="500" width="auto">
 
 ## Hard grit management of roadside ditches
-<img src="images/sogndal/grit_everywhere.jpg" height="500" width="auto">
+<img src="images/sogndal/grit_everywhere.JPG" height="500" width="auto">
 
 ## This concrete housing protects the street
-<img src="images/sogndal/protective_concrete_box.jpg" height="500" width="auto">
+<img src="images/sogndal/protective_concrete_box.JPG" height="500" width="auto">
 
 ## Difficulties with snow and saturated ground
-<img src="images/sogndal/snowed_malfunc_swale.jpg" height="500" width="auto">
+<img src="images/sogndal/snowed_malfunc_swale.JPG" height="500" width="auto">
 
 ## What's smart here?
 <img src="images/swale_with_checkdams.jpg" height="500" width="auto">
@@ -428,15 +428,15 @@ Clear function and landscaping required if this swale was to have significant SW
 - Trade-off: give more maintenance work
 
 ## Good-looking long small swale
-<img src="images/sogndal/long_small_swale.jpg" height="500" width="auto">
+<img src="images/sogndal/long_small_swale.JPG" height="500" width="auto">
 
 # Social context
 
 ## Stacked stones erosion protection wall
-<img src="images/sogndal/protection_wall.jpg" height="500" width="auto">
+<img src="images/sogndal/protection_wall.JPG" height="500" width="auto">
 
 ## Riprap erosion protection wall
-<img src="images/sogndal/protection_rip_rap.jpg" height="500" width="auto">
+<img src="images/sogndal/protection_rip_rap.JPG" height="500" width="auto">
 
 ## [Complex vs complicated](http://learningforsustainability.net/post/complicated-complex/)
 
