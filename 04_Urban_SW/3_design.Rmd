@@ -262,10 +262,10 @@ Example: transport systems, commercial practices, agricultural tools and methods
 Can lead to disfunctionning SW infrastructure
 
 ## Can you see the misuse?
-<img src="images/sogndal/shortcut_beachvolley.jpg" height="500" width="auto">
+<img src="images/sogndal/shortcut_beachvolley.JPG" height="500" width="auto">
 
 ## What's the problem?
-<img src="images/sogndal/shortcut2.jpg" height="500" width="auto">
+<img src="images/sogndal/shortcut2.JPG" height="500" width="auto">
 
 ## People are lazy and you have to respect that!
 <img src="images/sogndal/shortcut.JPG" height="500" width="auto">
