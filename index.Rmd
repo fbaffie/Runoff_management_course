@@ -408,13 +408,13 @@ Those results are used to produce flood zoning maps. We will now focus on the bi
 
 ## Flood protection works
 <img src="images/PPT_Body.png" class="cover">
-[Lecture](03_Catchment_scale/2_flood_protection.html)
 
 Based on flood zoning maps and the quantification of hydrological extremes in specifc catchments, protection measures can be designed. Those consist of dikes, diverting channels.
 
 This session consists of a full-day excursion with Sven Vågane from NVE Førde.
 
 <!--
+[Lecture](03_Catchment_scale/2_flood_protection.html)
 Quiz / exercises on the infrastructure in Laerdal
 -->
 
@@ -658,11 +658,11 @@ For example students would work on a project that develops their weak point why 
 
 Main project	| People	| Second project
 --- | --- | --- 
-Social | Håk. Chr. Cal. | Design
 Design | Tew. Ragn. Bjø. Rann. | Social
-Voss | Tro. Jos. Vic. Gur. | Flåm 
+Social | Håk. Chr. Cal. | Flåm
 Flåm | Ann. Mar. Mat. | Lab
 Lab | Jan. Oli. Sim. | Voss
+Voss | Tro. Jos. Vic. Gur. | Design 
 
 ## Project reporting and presentation
 <img src="images/PPT_Body.png" class="cover">
