@@ -166,7 +166,7 @@ Example: transport systems, commercial practices, agricultural tools and methods
 > - Maybe bigger distances at which the intersections come?
 
 ## Swiss cycle network
-<img src="images/Velorouten_Schweiz.gif" height="500" width="auto">
+<img src="images/Velorouten_Schweiz.GIF" height="500" width="auto">
 
 ## Swiss bike signs: good or bad? why?
 
@@ -205,7 +205,7 @@ Example: transport systems, commercial practices, agricultural tools and methods
 <img src="images/bad_bike_infrastructure.jpg" height="500" width="auto">
 
 ## What's the problem?
-> - <img src="images/sogndal/wrong_slope1.jpg" height="400" width="auto">
+> - <img src="images/sogndal/wrong_slope1.JPG" height="400" width="auto">
 > - Wrong slope. Why not slope towards the landscaped area.
 
 ## What's the problem?
@@ -262,7 +262,7 @@ Example: transport systems, commercial practices, agricultural tools and methods
 Can lead to disfunctionning SW infrastructure
 
 ## Can you see the misuse?
-<img src="images/sogndal/shortcut_beachvolley.JPG" height="500" width="auto">
+<img src="images/sogndal/shortcut_beachvolley.jpg" height="500" width="auto">
 
 ## What's the problem?
 <img src="images/sogndal/shortcut2.jpg" height="500" width="auto">
