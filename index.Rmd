@@ -160,7 +160,7 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Tue. 02 May | 09:15-12:00	| The water cycle	| Høgskbygget 2.etg kl Stad
 Wed. 03 May | 09:15-12:00	| Introduction to SW | Svingen F3
-Wed. 03 May | 12:30-?	| Excursion drinking water | Stadionbygget 02-02
+Wed. 03 May | 12:30-16:00	| Excursion drinking water | Stadionbygget 02-02
 Thu. 04 May | 09:15-12:00	| Hydrological processes 1 | Svingen F3
 Fri. 05 May | 09:15-12:00	| Hydrological processes 2	| Svingen F3
 
@@ -189,11 +189,11 @@ Tue. 16 May | 12:15-15:00	| Floodplain  management	| Stadionbygget 02-02
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Mon. 22 May | 09:15-10:30	| Floods in Flåm	| Svingen F3
-Mon. 22 May | 10:30-12:00	| Soils and land use	| Svingen F3
-Mon. 22 May | 13:00-?	| Excursion SW + sewage | Sogndal
+Mon. 22 May | 10:30-12:00	| Open channel	| Svingen F3
+Mon. 22 May | 13:00-14:00	| Excursion SW + sewage | Sogndal
 Tue. 23 May | 09:15-10:30	| Society and green infra | Stadionbygget 02-04
-Tue. 23 May | 10:30-12:00	| Open channel | Stadionbygget 02-04
-Wed. 24 May | 08:00-?	| Excursion	| Lærdal / Flåm
+Tue. 23 May | 10:30-12:00	| Exercises | Stadionbygget 02-04
+Wed. 24 May | 08:00-17:30	| Excursion	| Lærdal / Flåm
 
 ## Agenda: 29-31 May
 <img src="images/PPT_Body.png" class="cover">
@@ -201,11 +201,11 @@ Wed. 24 May | 08:00-?	| Excursion	| Lærdal / Flåm
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Mon. 29 May | 09:15-10:30	| Leikanger design	| Svingen F3
-Mon. 29 May | 10:30-12:00	| Design examples	| Svingen F3
+Mon. 29 May | 10:30-12:00	| Erosion and land use	| Svingen F3
 Tue. 30 May | 09:15-10:30	| Floods in Voss	| Stadionbygget 02-02
-Tue. 30 May | 10:30-12:00	| Synthesis and keywords	| Stadionbygget 02-02
+Tue. 30 May | 10:30-12:00	| Design examples	| Stadionbygget 02-02
 Wed. 31 May | 09:15-10:30	| Infiltration experiments	| Stadionbygget 02-02
-Wed. 31 May | 10:30-12:00	| Brunch and exercises	| Stadionbygget 02-02
+Wed. 31 May | 10:30-12:00	| Debriefing and keywords 	| Stadionbygget 02-02
 
 ## Agenda: 09-15 June
 <img src="images/PPT_Body.png" class="cover">
@@ -397,11 +397,14 @@ Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 <!--
 [Lecture](03_Catchment_scale/1_floodplain_management.html)
 -->
-
-Lecture by Deborah Davies (HVL)
+Lecture by Deborah Davies (HVL) on natural flood management.
 
 We saw how precipitation led to runoff and how water level in channels varies as a function of discharge.
 Those results are used to produce flood zoning maps. We will now focus on the bigger picture of flood management in large catchments.
+
+<!--
+
+-->
 
 ## Flood protection works
 <img src="images/PPT_Body.png" class="cover">
@@ -409,10 +412,13 @@ Those results are used to produce flood zoning maps. We will now focus on the bi
 
 Based on flood zoning maps and the quantification of hydrological extremes in specifc catchments, protection measures can be designed. Those consist of dikes, diverting channels.
 
+This session consists of a full-day excursion with Sven Vågane from NVE Førde.
+
 <!--
 Quiz / exercises on the infrastructure in Laerdal
 -->
 
+<!--
 ## Hydropower and flooding
 <img src="images/PPT_Body.png" class="cover">
 [Lecture](03_Catchment_scale/3_hydropower_management.html)
@@ -420,7 +426,6 @@ Quiz / exercises on the infrastructure in Laerdal
 Hydropower reservoirs can store substantial amounts of water and can therefore be managed specifically to avoid flooding downstream.
 Flood forecasting becomes particularly important as a reservoir may first need emptying before acting as a damper to a flooding event. We will focus on a case study in Zürich, Switzerland. 
 
-<!--
 Quiz / exercises on the Swiss case studies and possibilities in Norway.
 -->
 
@@ -492,11 +497,11 @@ Constructive critiscm on the blue/green factor method could be used as an exerci
 - Exercises or maybe project presentation / discussion as this session might come early in the course
 -->
 
-## Designing resilient SW infrastructure
+## Designing resilient infrastructure
 <img src="images/PPT_Body.png" class="cover">
 [Lecture](04_Urban_SW/3_design.html)
 
-We will focus on specific green SW infrastructures. How do they work? How to size them according to our hydrological and hydraulics knowledge? Finally we will discuss practicallity, multi-functionnality and esthetics in design.
+We look at some good and bad design examples and try to understand the reasons behing design choices and possibly unintended consequences / uses. Some examples focus on SW infrastructures but not all, in an effort to distinguish important design principles and constraints. This includes legibility. practicallity, multi-functionnality...
 
 <!--
 Quiz / exercises on design calculations / drawings (redesign the campus?)
@@ -508,18 +513,7 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 - Design exercises
 -->
 
-## Good and bad design examples
-<img src="images/PPT_Body.png" class="cover">
-[Lecture](04_Urban_SW/4_examples.html)
-
-We look at some good and bad design examples and try to understand the reasons behing design choices and possibly unintended consequences / uses.
-
-<!--
-Last hour: discussion on project and article:
-Water as an Element of Urban Design: Drawing Lessons from Four European Case Studies
--->
-
-# Projects
+# Suggested projects
 
 ## Design projects: Leikanger 100 dwellings, 10ha
 <img src="images/PPT_Body.png" class="cover">
@@ -660,6 +654,15 @@ https://en.wikipedia.org/wiki/Infiltrometer
 For example students would work on a project that develops their weak point why being client on a topic they feel more at ease with.
 -->
 
+## Project groups + second project
+
+Main project	| People	| Second project
+--- | --- | --- 
+Social | Håk. Chr. Cal. | Design
+Design | Tew. Ragn. Bjø. Rann. | Social
+Voss | Tro. Jos. Vic. Gur. | Flåm 
+Flåm | Ann. Mar. Mat. | Lab
+Lab | Jan. Oli. Sim. | Voss
 
 ## Project reporting and presentation
 <img src="images/PPT_Body.png" class="cover">
