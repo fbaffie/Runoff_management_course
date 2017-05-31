@@ -1,0 +1,22 @@
+Darcy's Law
+Poiseuille capillary rise
+Penman Monteith equation
+Bernouilli
+Navier Stokes
+Horton's equation
+Richard's equation
+Green Ampt's equation
+
+Viscosity
+Turbulent flow
+Laminar flow
+
+Meteorological variables
+Pressure
+Temperature
+Wind speed
+Long wave radiation
+Short wave radiation
+
+Deterministic model
+Statistical model

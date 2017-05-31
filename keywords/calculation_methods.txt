@@ -1,0 +1,41 @@
+Intensity-Duration-Frequency curves for rainfall (IVF in Norwegian)
+Rational method
+Time of concentration
+Time-area method
+Runoff coefficient
+Runoff curve number
+Temperature-index snowmelt
+Linear reservoir model
+Flow duration curve
+Mixing model with conservative tracers
+Flood frequency analysis
+Peak over threshold
+Unit hydrograph method
+Stage-discharge relationship: rating curve
+
+
+Peak annual discharge
+Date of peak annual discharge
+Water stage
+Recurrence interval
+Rainfall runoff models
+Runoff routing models
+Flood routing
+Conceptual hydrological models
+
+Validation period
+Calibration period
+Nash-Sutcliffe performance
+Benchmark performance
+Root Mean Square Error
+Equifinaly
+
+Blue green factor method
+
+Forecasting
+Now-casting
+
+Digital Terrain Model
+
+Safety factor
+

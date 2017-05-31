@@ -669,10 +669,10 @@ Voss | Tro. Jos. Vic. Gur. | Design
 
 - Videos could be part of the reporting, but not only
 - The reports are sent to everyone: Friday 9th of June. 24:00
-- Slide show of 15 minutes (± 3 min), all students participate
-- Next group on the list are «opponents» to the presentation 
+- Slide show of 5 minutes per person (so 15 or 20 min depending on the group)
+- The group with the same "second project" gets priority for questions
 - Student need to prepare what they like/agree or don't in each project
-- Then the individual exam can discuss anything!
+- Then the individual exam will discuss the personal project, the second project and the course material
 
 ## Assessment
 <img src="images/PPT_Body.png" class="cover">
@@ -680,8 +680,6 @@ Voss | Tro. Jos. Vic. Gur. | Design
 1. Written project work in groups of 2-3, combining students with different academic backgrounds. Grading A-F. The group gets one common grading. If not approved, a new version of the project work must be handed in.
 2. Individual in-depth oral presentation of a subject from the project work.
 Grading A-F.
-
-In the final assessment, 1) counts 75 % and 2) counts 25 %
 
 # Resources
 
@@ -737,6 +735,10 @@ http://echo2.epfl.ch/VICAIRE/mod_4/chapt_8/main.htm
 
 [USDA Urban hydrology for small watersheds](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1044171.pdf)
 
+## Keywords
+
+For future reference, here is a list of [keywords](./keywords/keywords.html) (loosely) organized in themes.
+
 ## Referencing / credits
 <img src="images/PPT_Body.png" class="cover">
 
@@ -747,7 +749,7 @@ https://no.pinterest.com/fbaffie
 In parallel, I have compiled a youtube playlist for the course:
 https://www.youtube.com/playlist?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli
 
-Other credits go to google maps, Norwegian maps (https://kart.finn.no/, https://norgeskart.no), Swiss Topo (https://map.geo.admin.ch), previous colleagues for some pictures
+Other credits go to Wikipedia, Google maps, Norwegian maps (https://kart.finn.no/, https://norgeskart.no), Swiss Topo (https://map.geo.admin.ch), previous colleagues for some pictures
 
 
 

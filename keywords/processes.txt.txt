@@ -1,0 +1,76 @@
+Condensation
+Rain
+Snow
+Hail
+Sublimation
+Interception
+Evaporation
+Evapotranspiration
+Potential evapotranspiration
+Actual evapotranspiration
+Horton overland flow (exceeded infiltration capacity)
+Interfow
+Baseflow
+Exfiltration
+Infiltration
+Deep percolation
+Erosion
+Sedimentation
+Turbulent heat fluxes
+Sensible heat flux
+Latent heat flux
+Temperature lapse rate
+Orographic forcing of precipitation
+Foehn
+Atmospheric rivers
+
+Flow in unsaturated soils
+Water retention curve
+Flow in saturated soils
+Preferential flow paths
+
+Soil fractions
+Clay
+Silt
+Sand
+Gravel
+Cobble
+Soil horizons
+
+
+Field capacity
+Soil saturation
+Soi moisture deficit
+Porosity
+Hydraulic conductivity
+Permeability
+Aquifer depth
+Depth to bedrock
+Root zone depth
+Water table depth
+
+Debris flow
+Flash flood
+
+Eutrophication
+Nutrient trapping / cycling
+Particulate pollution
+
+Gaining stream reach
+Losing stream reach
+
+Confined aquifer
+Unconfined aquifer
+
+Cavitation
+Pump priming
+
+wilting point
+
+Precipitation undercatch
+
+Wetting front
+
+Critical zone
+Soil horizons
+Tilling pane

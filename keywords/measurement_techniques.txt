@@ -1,0 +1,24 @@
+Tipping bucket
+Water pressure sensor
+Water temperature sensor
+Soil temperature sensor
+Soil moisture sensor
+Soil matric potential: tensiometer, neutron probes, time-domain reflectometry
+Wind speed and direction
+Air temperature
+Air relative humidity
+Salt dilution with electrical conductivity meter
+Dye dilution with fluorometer
+In-stream flowmeter
+Natural isotopes
+Radon content in groundwater
+Geo-electrics
+Ground penetrating radar
+Gravitation methods
+Pumping tests
+Snow water equivalent measurement
+Electrical conductivity meter
+pH meter
+Turbidity meter
+Infiltrometer
+Permeameter

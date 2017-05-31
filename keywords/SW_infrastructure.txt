@@ -1,0 +1,84 @@
+Pipe
+Green roof
+Rain garden
+Swale
+Bio-swale
+Infiltration trench
+Porous pavement
+Onsite water tank
+Detention basin / pond
+Infiltration basin / pond
+Keyline trench off contour
+Pond on keypoint
+Water pumps
+Air valve
+Stop valve
+Sluice valve
+Thrust block
+Manhole
+Overflow
+Rock rip-rap
+Culvert
+Drainage channel
+Irrigation canal
+Weir
+
+Roof washing
+Rooftop
+Gutter
+Downspout
+Downspout filter
+Downspout extention
+
+First-flush devices and roof washers
+Water treatment technologies
+Fog collection 
+Greywater collection
+Cooling tower
+Rainwater harvesting
+
+Permaculture
+Urban farming
+Micro-climate
+
+Mulch
+Gravel ballast
+Root barrier
+Road subgrade
+Access
+Geotextile
+
+Annual plants
+Perennial plants
+
+Check dam
+Curb extension
+Setback (i.e. from foundations)
+
+Water sensitive urban design
+Blue green infrastructure
+Best Management Practices (BMPs)
+Low Impact Development (LID)
+Sustainable Urban Design (SUD)
+Sustainable Drainage System (SuDS) 
+
+Temporary infrastructure for erosion control:
+Pipe slope drains
+Sediment traps
+Surface roughening
+Erosion control blankets
+Armoring, energy disspator
+Gabions
+Live Fascines for riverbank stabilitzation
+Turbidity curtain
+
+Riparian buffer
+
+submersible pump
+
+Debris screen
+
+Flood levee
+
+
+

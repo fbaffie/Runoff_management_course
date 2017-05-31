@@ -1,0 +1,27 @@
+Conifer forest
+Deciduous forest
+Snow covered area
+Lakes
+Glacier
+Bushes
+Wetland
+Bare rock
+Pasture
+Orchard
+Plowed cereal field
+Plowed vegetable field
+Agro-forestry
+Constructed
+Asphalt road
+Gravel road
+Recreation area
+Permafrost
+
+Catchment
+Flood plain
+Riparian zone
+River channel
+River delta
+
+No-till farming
+
