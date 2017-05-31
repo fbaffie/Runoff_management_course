@@ -214,7 +214,7 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Fri. 09 Jun | 24:00 | Send project reports | fkba@hvl.no + fronter
 Tue. 13 Jun | 08:00-16:00 | Group presentations | ?
-Wed. 15 Jun | 08:00-16:00 | Individual exam | ? 
+Thu. 15 Jun | 08:00-16:00 | Individual exam | ? 
 
 ## Time blocks 
 <img src="images/PPT_Body.png" class="cover">
