@@ -172,7 +172,7 @@ $S = \frac{1000}{CN}-10$ where $CN$ ranges from 30 to 100; lower numbers indicat
 
 # Water harvesting example
 
-## Overview of Lancaster water harvesting strategies: street SW
+## Overview of [Brad Lancaster's](https://www.youtube.com/watch?v=xdvmJ-AFlRA&list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli&index=2&t=256s) water harvesting strategies: street SW
 
 - Cut street curb to let SW infiltrate into a sunken mulch basin with native trees
 - We can guess a drainage grate from the municipal network in the middle of the pedestrian footpath (dirtpath).
