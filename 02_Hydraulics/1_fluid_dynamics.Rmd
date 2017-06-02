@@ -118,8 +118,6 @@ http://www.rampumps.net/face/20120410150106.html
 
 [NVE - småkraft potensial](https://gis3.nve.no/link/?link=smakraft): estimate the hydro-electric potential ("Produksjon") of some sites around Sogndal in GWh/year (using mean available discharge "Vannføring" and elevation difference "Brutto fallhøyde")
 
-Compare to NVE's estimate: it looks like they included a 1.3 factor to account for climate change? In the field "effekt", it looks like they took efficiency into account. Why can I say that?
-
 You can also look at the figures for the site in Berge: [Technical details](http://www.smaakraft.no/prosjekter-i-utvikling/berge/), [NVE's concession document](https://www.nve.no/konsesjonssaker/konsesjonssak/?id=4244&type=V-1)
 
 # Flow with friction
@@ -258,6 +256,10 @@ More details, more equations: [Isaac Wait online lectures](https://www.youtube.c
 Different kinds of pumps:
 
 http://www.fao.org/docrep/010/ah810f/AH810F12.htm
+
+<!--
+http://www.physics.usyd.edu.au/teach_res/jp/fluids/viscosity.pdf
+-->
 
 ## Cardiovascular and tree water pumping analogy
 
