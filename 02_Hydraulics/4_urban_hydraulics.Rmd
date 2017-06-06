@@ -310,8 +310,8 @@ Which infiltration rate is required to avoid ponding water
 ## How much flow can the tank inlet convey before the filter overflows
 > - [There](./1_fluid_dynamics.html#exercise-flow-out-of-a-reservoir), we calculated the flow out of a reservoir in very similar conditions. In this case, the reservoir is the overflowing filter cone.
 > - This gives us a velocity of $v= (2gd)^{1/2} = 2m/s$ for water falling into the storage tanks. We need to multiply it by the cross-sectional area of the pipe to get the flow rate:
-> - Assuming a 10cm wide pipe: $Q=\pi*0.05^2 = 0.00785 m^3/s$
-> - With a capacity of $7.9*10^{-3} m^3/s$, the inlet to the reservoir has almost 8 times the capacity required to handle a 3min 100-year precipitation event 
+> - Assuming a 10cm wide pipe: $Q=2*0.05^2 \pi = 0.0157 m^3/s$
+> - With a capacity of $15.7*10^{-3} m^3/s$, the inlet to the reservoir has almost 16 times the capacity required to handle a 3min 100-year precipitation event 
 > - We neglected head loss but with such as margin, this is not an issue
 
 ## Time to empty the tank through a 10mm pipe
