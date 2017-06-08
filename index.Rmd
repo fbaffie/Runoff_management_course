@@ -679,8 +679,8 @@ For example students would work on a project that develops their weak point why 
 ## Assessment
 <img src="images/PPT_Body.png" class="cover">
 
-1. Written project work in groups of 2-3, combining students with different academic backgrounds. Grading A-F. The group gets one common grading. If not approved, a new version of the project work must be handed in.
-2. Individual in-depth oral presentation of a subject from the project work, the "second" project and finally some aspects of the course material (remembering the most difficult equations will not be required, but they should be qualitatively understood and you should have an idea on how to apply them).
+1. Written group project work (+ oral presentation). The group gets one common grading. If not approved, a new version of the project work must be handed in. Grading A-F.
+2. Individual in-depth oral discussion on the project work, the "second" project and finally some aspects of the course material (remembering the most difficult equations will not be required, but they should be qualitatively understood and you should have an idea on how to apply them).
 Grading A-F.
 
 # Resources
