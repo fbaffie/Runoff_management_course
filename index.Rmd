@@ -76,7 +76,9 @@ Knowledge of:
 ## Skills
 <img src="images/PPT_Body.png" class="cover">
 
-- Make simple hydrological, hydrogeological  and hydraulic calculations relevant to runoff management
+- Understand hydrological and hydraulics processes.
+- Make simple hydrological, hydrogeological  and hydraulic calculations relevant to runoff management. 
+- Use processes understanding to have a critical view on those calculations
 - Provide input for action plans and suggests solutions for local runoff management
 - Use different measuring techniques and carry out simple dimensional calculations of green infrastructure systems for urban runoff management
 - Use relevant computer software and GIS to identify flood-prone areas and potential problems arising from urban flooding and runoff 

@@ -299,9 +299,6 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 > - **Average earth's albedo**
 > - 30-35%
 
-## Typical albedo values
-<img src="images/albedo_values.png" height="500" width="auto">
-
 ## Feedback between climate and local hydrological variables
 > - **Which important negative feedback effect from land surface changes will affect the climate in alpine / polar areas?**
 > - Albedo effect: one reason why high latitude are more affected by warming
@@ -335,7 +332,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 
 Prepare general knowledge questions such as:
 
-- what is the driest region in Norway? 
+- What is the driest region in Norway? 
 - What are its precipation and mean annual temperature values? 
 - Why is it so dry?
 
