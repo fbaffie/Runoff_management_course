@@ -1,6 +1,6 @@
 ---
 title: "Runoff management course"
-author: Florian Kobierska Baffie
+author: Back to [the course GitHub repository](https://github.com/fbaffie/Runoff_management_course)
 output:
   rmdshower::shower_presentation:
     self_contained: false
@@ -20,16 +20,16 @@ output:
 </p><p class="double-flow">
 Florian Kobierska Baffie
 
-Tel: +47 57677604
-
 Cell: +33 783690626
 
-Email: fkba@hvl.no (best)
+Email: fbaffie (at) gmail (dot) com
 
-Office: 3 past Tarald, on the left
 </p>
 </div>
 
+<!--
+Tel: +47 57677604
+-->
 
 ## Something about you!
 <img src="images/PPT_Body.png" class="cover">
@@ -753,7 +753,7 @@ https://no.pinterest.com/fbaffie
 In parallel, I have compiled a youtube playlist for the course:
 https://www.youtube.com/playlist?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli
 
-Other credits go to Wikipedia, Google maps, Norwegian maps (https://kart.finn.no/, https://norgeskart.no), Swiss Topo (https://map.geo.admin.ch), previous colleagues for some pictures
+Other credits go to Wikipedia, Google maps, Norwegian maps (https://kart.finn.no/, https://norgeskart.no), Swiss Topo (https://map.geo.admin.ch), Sebastian Mermild and previous colleagues for some pictures
 
 
 
