@@ -11,6 +11,8 @@ The course website is accessible [there](http://fbaffie.github.io/Runoff_managem
 I have used pictures gleaned from the internet and have on most occasions not referenced them directly within the course material to keep it simple. All the source websites and pictures are however listed in my pinterest collections:
 https://no.pinterest.com/fbaffie/
 
+Credits for sources that are not in the pinterest collections are listed [there](https://fbaffie.github.io/Runoff_management_course/#referencing-credits).
+
 If a reference is missing, or you are unhappy about the use of an image, please raise an issue.
 
 ## Collaboration
