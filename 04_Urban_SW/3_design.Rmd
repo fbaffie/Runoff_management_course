@@ -1,6 +1,6 @@
 ---
 title: "Design"
-author: Back to [course overview](../index.html#design)
+author: Back to [course overview](../index.html#designing-resilient-infrastructure)
 output:
   rmdshower::shower_presentation:
     self_contained: false

@@ -12,7 +12,7 @@ output:
 
 ## Plan
 
-- Main water storages and key hydrological processes between them
+- [Main components of the water cycle](./1_water_cycle.html#main-components-of-the-water-cycle)
 - Global figures: storages, fluxes and residence times
 - Definitions and example of catchments
 - Water budget for Switzerland and Norway
@@ -21,7 +21,6 @@ output:
 
 
 <!--
-## Main components of the water cycle
 
 - Water storage in oceans
 - Water in the atmosphere
@@ -38,6 +37,8 @@ Draw together a conceptual sketch of the water cycle
 How were the numbers evaluated?
 How does this sketch link to the next session?
 -->
+
+# Main components of the water cycle
 
 ##  Draw the water cycle with water storages, and processes between each storage.
 

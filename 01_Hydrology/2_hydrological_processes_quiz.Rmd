@@ -1,5 +1,5 @@
 ---
-title: "*Hydrological processes quiz"
+title: "Hydrological processes quiz"
 author: Back to [course overview](../index.html#hydrological-processes)
 output:
   rmdshower::shower_presentation:
