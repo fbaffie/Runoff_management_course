@@ -57,9 +57,9 @@ Bring sand and sil, dry and saturated to demonstrate the relationship between hy
 > - Can be the main aquifer recharge event for some catchments (arid mountains)
 
 > - **How do you link snow depth to the "Snow Water Equivalent" (SWE) of the snowpack?**
-> - density relative to water (< 1) * height (m) = SWE in m
-> - density (kg/m3) * height (m) = SWE in kg/m2 
-> - SWE in kg/m2 = SWE in liters of water / m2 = SWE in mm/m2 
+> - density relative to water (< 1) * height ($m$) = SWE in $m$
+> - density ($kg/m^3$) * height ($m$) = SWE in $kg/m^2$ 
+> - SWE in $kg/m^2$ = SWE in liters of water / $m^2$ = SWE in $mm/m^2$ 
 
 ## Snow and forest
 > - **What is the impact of forest on snow?**
@@ -147,8 +147,7 @@ Further info: [Different models for snowmelt - T. Schuler UiO](http://www.uio.no
 > - **What is the difference between potential and actual evapotranspiration?**
 > - Potential evapotranspiration only depends on energy input. It is the ET when the soil is wet
 > - Actual evapotranspiration is limited by soil moisture and can be much smaller
-> - Typical monthly values: 
-http://www.waterandclimatechange.eu/evaporation/average-monthly-1985-1999
+> - [Typical monthly values around the world](http://www.waterandclimatechange.eu/evaporation/average-monthly-1985-1999)
 
 > - **How can you reduce evaporation from bare soil?**
 > - Cover it
@@ -267,29 +266,27 @@ Hydrology in Practice. Chapers 2, 3, 4, 9, 11
 
 # Annoted video resources
 
-## Sally Thompson "Breakthroughs in Complex Water Systems"
-https://www.youtube.com/watch?v=gM8KENCWHMg
+## [Sally Thompson "Breakthroughs in Complex Water Systems"](https://www.youtube.com/watch?v=gM8KENCWHMg)
 
 A good application of hydrological science to complex water resources pbs.
 
-- 5:00 the mysterious dispoapearance of a river in india
-- 26:00 eucalypts trees pumping water out of the aquifer.
-- 27:00 need a common conceptual understanding of what is going on with the river
-- 29:00 put all hypotheses on the table. test all different perceptions of people (good to involve people)
+- 05: The mysterious dispoapearance of a river in india
+- 26: eucalypts trees pumping water out of the aquifer.
+- 27: need a common conceptual understanding of what is going on with the river
+- 29: put all hypotheses on the table. test all different perceptions of people (good to involve people)
 
 ## Sally Thompson "Breakthroughs in Complex Water Systems"
 
-- 31:00 first pb: climate change, stopped raining. second hypo: too form
+- 31: First pb: climate change, stopped raining. second hypo: too form
 third: connectiviy in the channel lost, final related to land use change and eucapypts.
 scientists hypo: too much gw abstraction
-- 33:00 no change in evapotranspiration according to data
-- 34:00 no long term change in rainfall
-- 37:00 expansion of forestry
-- 50:00 prob 50% of decrease from gw level drop, 50% from forestry
-- 39:00 difficult to get hold of good depth to gw data
+- 33: no change in evapotranspiration according to data
+- 34: no long term change in rainfall
+- 37: expansion of forestry
+- 50: prob 50% of decrease from gw level drop, 50% from forestry
+- 39: difficult to get hold of good depth to gw data
 
-## Dr Christina Tague - Forest eco-hydrology and drought: Why geology matters!
-https://www.youtube.com/watch?v=wNi6Lgt-nRg
+## [Dr Christina Tague - Forest eco-hydrology and drought: Why geology matters!](https://www.youtube.com/watch?v=wNi6Lgt-nRg)
 
 She presents some examples from california, and mediteranean climates in general. Impact of snowpack too.
 Shift of hydrological towards earlier in the season is not what we want or what forests want.
@@ -298,10 +295,9 @@ Field capacity and it's control on plant water use.
 Wilting point to define
 macropores, rocks in the soil...
 
-## Prof. Kevin Bishop: Breakthroughs in the biogeochemistry of Nordic aquatic systems
-https://www.youtube.com/watch?v=hiC32HMZ_Xk
+## [Prof. Kevin Bishop: Breakthroughs in the biogeochemistry of Nordic aquatic systems](https://www.youtube.com/watch?v=hiC32HMZ_Xk)
 
-- 33: natural pollution in sweden. influence of depth to water table
+- 33: Natural pollution in sweden. influence of depth to water table
 riparian controls are the place to begin when looking at water quality in streams
 start simple and then see what we have to explain afterwards.
 

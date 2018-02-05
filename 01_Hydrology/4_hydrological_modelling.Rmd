@@ -239,7 +239,7 @@ video on conceptual GW model
 ## Total discharge as a function of $Q_{gw}(t)$
 
 > - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
-> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
+> - $Q(t) = Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
 
 
 
@@ -285,7 +285,7 @@ with $L_{integral}(t_{end}) = L_{residual}$
 
 > - **Write the infiltration rate as a function of the storage volume and the exfiltration rate $Q_{gw}$**
 > - We neglect evapotranspiration and recharge from rain 
-> - \[Q_{inf}(t) = dV(t)dt + Q_{gw}(t) \]
+> - $Q_{inf}(t) = dV(t)dt + Q_{gw}(t)$
 
 <!--
 ## Figure 4
@@ -355,24 +355,22 @@ Hydrology in Practice. Chapers 10, 12, 17
 
 http://nevina.nve.no/
 
-[Report for the Sogndal catchment](./pdf/NevinaRapport_Sogndal.pdf)
+TODO: structure small exercise similar to NVEs conference
 
 <!--
 quiz theme?
 -->
 ## Norway / Europe
 
-Hydrological atlas for Norway: [local](./pdf/Avrenningskart_Norge.pdf), [web](http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf)
+[Hydrological atlas for Norway](http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf)
 
-Hydrological atlas of Switzerland: http://www.hydrologischeratlas.ch
+[Hydrological atlas of Switzerland](http://www.hydrologischeratlas.ch)
 
-Models for green stormwater infrastructure
-http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf
+[Models for green stormwater infrastructure](http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf)
 
 ## Resources from the USDA
 
-National Engineering Handbook: hydrology
-https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063
+[National Engineering Handbook: hydrology](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063)
 
 An interesting old USGS report making analogies between conceptual hydrological models and electrical circuits:
 [Use of analog models in the analysis of flood runoff](https://pubs.usgs.gov/pp/0506a/report.pdf)
@@ -381,8 +379,7 @@ An interesting old USGS report making analogies between conceptual hydrological 
 
 # Annoted video resources
 
-## Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff
-https://www.youtube.com/watch?v=BTmIAA0R4Tc
+## [Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff](https://www.youtube.com/watch?v=BTmIAA0R4Tc)
 
 - Linking landscape to hydrological modelling concepts. 
 - 12: interesting sorting of landscapes that can apply to Norway: wetland, hillslope, plateau
@@ -390,19 +387,21 @@ https://www.youtube.com/watch?v=BTmIAA0R4Tc
 - 30: Rooting depth deeper on sand that on clay. Ecosystems tune their root zone storage capacity to a drought of 1/15 years, which is a good proxy of their lifetime. If it becomes drier, plants will root deeper
 
 ## Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff
+
 - 41: interesting question on his model
 - 45: don't model a catchment that you don't know. analyse the landscape
 His appproach can be linked to my conceptual analysis in Damma. The idea is to have a model to learn, rather than to predict
 
 
-## Hoshin Gupta: A General Theory of Learning with Models & Data (Not easy topic)
-https://www.youtube.com/watch?v=eH6vwiukIsA&t=848s
+## [Hoshin Gupta: A General Theory of Learning with Models & Data](https://www.youtube.com/watch?v=eH6vwiukIsA&t=848s)
+
+Interesting but not easy!
 
 - 14: dynamic environmental systems models. A DESM is a simplified representation of the structure and function of a dynamical system that: enables Simulations (that are quite accurate), Testable predictions (under new circumstances), Reasoning (with an idealized framework). By encoding knowledge about: Physics, System properties (geometry and materials), Uncertainty (what we know that we don't know)
 - 29: conceptual modelling of a watershed
 - 41: darcy's law works well at the small / medium scale but non-uniformities at the larger scale will affect it.
 
-## Hoshin Gupta: A General Theory of Learning with Models & Data (Not easy topic)
+## Hoshin Gupta: A General Theory of Learning with Models & Data
 - 43: what happens when the model doesn't work: inference process in an educated way
 - 54: trade-off between performance and uncertainty between different model structures
 - 58: conclusions

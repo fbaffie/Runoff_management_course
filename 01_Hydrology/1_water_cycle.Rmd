@@ -351,21 +351,22 @@ Hydrology in Practice. Chaper 1
 
 ## Online resources: Norway / Europe
 
-- Hydrological atlas of Switzerland: http://www.hydrologischeratlas.ch
-- Norwegian realtime hydrological data: https://www.nve.no/hydrologi/hydrologiske-data
-- Hydrological atlas of Switzerland: http://www.hydrologischeratlas.ch
+- [Hydrological atlas of Switzerland](http://www.hydrologischeratlas.ch)
+- [Norwegian realtime hydrological data](https://www.nve.no/hydrologi/hydrologiske-data)
 
 ## Online resources: USA
 
-- https://californiawaterblog.com/2017/03/19/post-drought-groundwater-in-california-like-the-economy-after-a-deep-recession-recovery-will-be-slow/
-- USGS summary of the water cycle: https://water.usgs.gov/edu/watercyclesummary.html
+- [Post-drougth groundwater in California](https://californiawaterblog.com/2017/03/19/post-drought-groundwater-in-california-like-the-economy-after-a-deep-recession-recovery-will-be-slow/)
+- [USGS summary of the water cycle](https://water.usgs.gov/edu/watercyclesummary.html)
 
 ## Climate change impact on water resources
+
 http://drought.unl.edu/DroughtBasics/ClimateChange.aspx#Water_Resources
 
 ## [Manuals from the World Meteorological Organization](http://www.wmo.int/pages/prog/hwrp/manuals.php)
 
 Includes: 
+
 - glossary of hydrology (http://hydrologie.org/glu/aglo.htm)
 - manual on flood forecasting and warning (in french)
 - manual on stream gauging
@@ -375,7 +376,6 @@ Includes:
 
 ## Recent and likely future changes in the hydrological cycle
 
-https://www.youtube.com/watch?v=bQ8_UZpbtz8&index=179&list=WL
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bQ8_UZpbtz8" frameborder="0" allowfullscreen></iframe>
 
 # Annoted video resources
@@ -385,19 +385,19 @@ https://www.youtube.com/watch?v=bQ8_UZpbtz8&index=179&list=WL
 https://www.youtube.com/watch?v=zMjchti6LdM
 
 - 8: Interaction between land and atmosphere
-- 18: dry springs followed by hot summers
+- 18: Dry springs followed by hot summers
 Meteorological drought: critical precipitation deficit
 Soil-moisture drought: soil-moisture deficit
 Hydrological drought: streamflow and groundwater deficit.
 - 25: How are they inter related
-- 28: comparing 2 methods for potential evapotranspiration
+- 28: Comparing 2 methods for potential evapotranspiration
 
 ## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change
 
 
-- 29: uncertaincy in evapotranspiration (can be up to 30%)
-- 34: wetter gets wetter, drier gets drier? no!
-- 39: impact of no-till farming. crop residues modify the albedo: increases the albedo. strongest cooling for the strongest temperature
+- 29: Uncertaincy in evapotranspiration (can be up to 30%)
+- 34: Wetter gets wetter, drier gets drier? no!
+- 39: Impact of no-till farming. crop residues modify the albedo: increases the albedo. strongest cooling for the strongest temperature
 very strong asymetric impact of temperature: a bit like forest -> importance of looking at extremes and not mean
 - 45: Question: with climate change, less cloud cover more cooling? feedback loops 
 - 51: Question: how strong is the link between soil moisture storage and streamflow?
