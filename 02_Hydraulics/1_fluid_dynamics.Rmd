@@ -38,10 +38,10 @@ https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:
 > - **What is the pressure under a 10m water collumn?**
 > - 1 bar = 100 kPa
 > - **Why?**
-> - 1 Pa is 1 N/m^2 which is equivalent to 0.1 kg/m^2 with g=10 m/s2
-> - So 10^5 Pa is equivalent to 10 000 kg/m2
-> - 1m water is 1000kg/m2
-> - 10m water is 10 000kg/m2
+> - 1 Pa is 1 $N/m^2$ which is equivalent to 0.1 $kg/m^2$ with $g = 10 m/s^2$
+> - So $10^5 Pa$ is equivalent to $10 000 kg/m^2$
+> - 1$m$ water is 1000$kg/m^2$
+> - 10$m$ water is 10 000$kg/m^2$
 
 
 
@@ -132,7 +132,7 @@ You can also look at the figures for the site in Berge: [Technical details](http
 The shear stress $\tau$ (unit of pressure: Pa), is the ratio of shear forces $F$ per unit area $A$:
 $\tau=\frac{F}{A} = \mu {\frac {du}{dy}}$
 
-with $\mu$ the viscosity (in Pa*s), and $\frac{du}{dy}$ the velocity gradient perpendicular to the flow direction (m/s per m = $s^{-1}$)
+with $\mu$ the viscosity (in $Pa*s$), and $\frac{du}{dy}$ the velocity gradient perpendicular to the flow direction ($m/s$ per $m$ gives $s^{-1}$)
 
 **Viscosity of water at $20^{\circ} C$ is $10^{-3}$ Pa.s**
 
@@ -145,7 +145,7 @@ A head loss term $h_l$ is added to Bernouilli's equation to account for total he
 $h_l$ can be expressed as a function of a dimensionless friction factor $f$:
 
 $h_l=f*\frac{L.v^2}{D*2g}$
-where L and D are the length and diameter of the pipe
+where $L$ and $D$ are the length and diameter of the pipe
 
 # Types of flows
 
@@ -159,13 +159,13 @@ The Reynolds number is defined as
 
 $Re =\frac{\rho vL}{\mu }$
 
-where: $\rho$ is the density of the fluid (kg/m3)
+where: $\rho$ is the density of the fluid ($kg/m^3$)
 
 $v$ is a characteristic velocity (m/s), mean velocity in our case
 
 $L$ is a characteristic linear dimension. In the case of a pipe, it is its diameter
 
-$\mu$ is the dynamic viscosity of the fluid (Pa.s or N.s/m2 or kg/(m·s))
+$\mu$ is the dynamic viscosity of the fluid ($Pa.s$ or $N.s/m^2$ or $kg/(m·s)$)
 
 
 
@@ -206,11 +206,11 @@ $v=C{\sqrt{RS}}$
 
 $v$ is the water velocity in the pipe
 
-C is a roughness coefficient
+$C$ is a roughness coefficient
 
-R is the hydraulic radius (pipe radius in case of a pipe)
+$R$ is the hydraulic radius (pipe radius in case of a pipe)
 
-S is the slope of the pipe
+$S$ is the slope of the pipe
 
 
 <!--

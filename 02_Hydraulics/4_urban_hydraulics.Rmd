@@ -47,18 +47,18 @@ output:
 # Runoff from small catchments
 
 ## Rational method
-Recommended for catchments up to 5km2.
-Sogndal's overvassnorm, as in Lindholm (2008), recommends up to 0.5km2 (50Ha)
+Recommended for catchments up to 5$km^2$.
+Sogndal's overvassnorm, as in Lindholm (2008), recommends up to 0.5$km^2$ (50 Ha)
 
 $Q = C * i * A * S$ where:
 
-$Q$ is discharge (m3/s), 
+$Q$ is discharge ($m^3/s$), 
 
 $C$ is a runoff coefficient, 
 
-$i$ is the precipitation intensity (m/s),
+$i$ is the precipitation intensity ($m/s$),
 
-$A$ is the contributing catchment area (m2) and $S$ is a safety (and climate change) factor
+$A$ is the contributing catchment area ($m^2$) and $S$ is a safety (and climate change) factor
 
 ## Runoff coefficient and land use
 Concrete, asphalt, bare rock: 0.6-0.9
@@ -154,7 +154,7 @@ Popular method in the USA:
 
 \[Q = \begin{cases}0\ \ \text{for }P<I_{a}\\{\frac{(P-I_a)^2}{P-I_a+S}\ \ \text{for }P>I_a}\end{cases}\]
 
-where Q is runoff, P is rainfall, S is the potential maximum soil moisture retention after runoff begins, $I_a$ is the initial interception / depression storage
+where $Q$ is runoff, $P$ is rainfall, $S$ is the potential maximum soil moisture retention after runoff begins, $I_a$ is the initial interception / depression storage
 
 $S = \frac{1000}{CN}-10$ where $CN$ ranges from 30 to 100; lower numbers indicate low runoff potential while larger numbers are for increasing runoff potential. Numbers depend on antecedent moisture conditions
 
@@ -188,15 +188,15 @@ $S = \frac{1000}{CN}-10$ where $CN$ ranges from 30 to 100; lower numbers indicat
 
 ## Higher roof and storage tanks
 
-- Water goes into 2*1000 gallons tanks (8000L total, 2m high x 2m2 each)
-- Water from higher roof (3m high, 50m2) is gathered into a wet system which discharges onto the lower gutter (2.5m), before the tanks
-- Let's assume 100mm downspouts
+- Water goes into 2*1000 gallons tanks (8000$L$ total, 2$m$ high x 2$m^2$ each)
+- Water from higher roof (3$m$ high, 50$m^2$) is gathered into a wet system which discharges onto the lower gutter (2.5$m$), before the tanks
+- Let's assume 100$mm$ downspouts
 - Rain is filtered by a self-sleaning filter before going into the tanks
-- The 2mm screen is at an angle for self-cleaning
+- The 2$mm$ screen is at an angle for self-cleaning
 
 ## First flush
 
-- First flush goes into a 2m high, 100mm first flush pipe
+- First flush goes into a 2$m$ high, 100$mm$ first flush pipe
 - Screwcap end on this pipe conveniently located close to the entrance, so that he doesn't forget emptying it
 - Grape vine to use the dirty (fertilized) water.
 - Grape will grow over the trellis to shade and cool the tanks
@@ -243,14 +243,14 @@ There was also one sticking out of his grape (very high though)
 
 ## Street SW infiltration
 > - Let's say his system handles 5m of road width with a 1m wide infiltration strip
-> - So 5m2 of road runoff + 1m2 of infiltration strip needs to infiltrate in 1m2
-> - What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100l/s per Ha)
-> - By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in m/s). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation) for the link between infiltration rate and saturated hydraulic conductivity)
+> - So 5$m^2$ of road runoff + 1$m^2$ of infiltration strip needs to infiltrate in 1$m^2$
+> - What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100$l/s$ per Ha)
+> - By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in $m/s$). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation) for the link between infiltration rate and saturated hydraulic conductivity)
 
 ## Street SW infiltration
 > - We use the rational formula for the road runoff
 > - $Q = C*i*A = 0.9*i*A$ we use 0.9 as arunoff coefficient. You could also use 1 if you neglect the small retention and infiltration properties of the asphalt.
-> - Unit conversion: 100l/Ha of precipitation intensity is $0.1m3/s$ for $10000m^2$ (1 Ha is 100*100m)
+> - Unit conversion: 100l/Ha of precipitation intensity is $0.1m3/s$ for $10000m^2$ (1 Ha is $100*100m$)
 > - So for $5m^2$ of road $Q = C*i*A = 0.9*0.5/10000 = 4.5*10^{-5} m3/s$
 > - In addition, $Q = i*A = 0.1*1/10000 = 1*10^{-5} m3/s$ of rain fall onto the infiltrationa area
 > - So in total, for an infiltration area of 1m2, we required an infiltration rate of $4.5*10^{-5}+1*10^{-5} = 5.5*10^{-5} m/s$ 
@@ -260,8 +260,8 @@ There was also one sticking out of his grape (very high though)
 > - How much precipitation is required to fill up the tanks?
 
 ## Amount of precipitation to fill up the tank
-> - 1mm of rain is the equivalent of 1l/m2. So 1mm of rain gives him 80l = 0.08m3
-> - So his tanks will need 8000/80 = 100mm of rain to fill up
+> - 1mm of rain is the equivalent of 1$l/m^2$. So 1$mm$ of rain gives him 80$l$ = 0.08$m^3$
+> - So his tanks will need 8000/80 = 100$mm$ of rain to fill up
 > - Which precipitation event does it correspond to in the Oppstryn IVF?
 > - A 200-year 24h long precipitation event
 > - Considering that it rains approx 300mm/year in Tucson, he can store a lot of the year's precipitation 
@@ -275,7 +275,7 @@ Which infiltration rate is required to avoid ponding water
 -->
 
 ## Infiltration rate required if the tank overflows
-> - Assume that his tanks are already full when a 5min 10-year precipitation event happens (100l/s per Ha)
+> - Assume that his tanks are already full when a 5min 10-year precipitation event happens (100$l/s$ per Ha)
 > - Assume that his infiltration mulch bed is 20m2 in area
 > - Which infiltration rate is required to avoid ponding in the infiltration area?
 
@@ -293,12 +293,12 @@ Which infiltration rate is required to avoid ponding water
 > - Intensity has doubled, so inflow has doubled: $2*10^{-3}$ m3/s of inflow into the infiltration area
 > - Based on the previous exercise, the extra flow (above $10^{-3} m^3/s$) is what the infiltration rate cannot handle: $2*10^{-3}-10^{-3} = 10^{-3} m^3/s$
 > - So during 3 min, the accumulated volume that could not infiltrate is: $3*60*10^{-3}= 180*10^{-3}=0.180 m^{3}$ 
-> - Spread over 20m2, this makes a ponding height of: $0.180/20 = 0.009m = 9mm$
+> - Spread over 20$m^2$, this makes a ponding height of: $0.180/20 = 0.009m = 9mm$
 
 ## How much flow can the tank inlet convey before the filter overflows
 > - This exercise assumes that the filter has more capacity than the 10cm (diameter) pipe below and acts as a small reservoir
 > - The first flush pipe is already full
-> - There is a 20cm height difference between the storage inflow pipe and the top of the filter cone / expansion
+> - There is a 20$cm$ height difference between the storage inflow pipe and the top of the filter cone / expansion
 > - Calculate the maximum flow into the reservoir before the water overflows from the filter's cone / expansion
 
 ## How much flow can the tank inlet convey before the filter overflows
@@ -323,7 +323,7 @@ Which infiltration rate is required to avoid ponding water
 > - Applying the conservation of mass per increment of time dt:
 > - Flow out of the irrigation hose = A*dh/dt = the area of the tank x small drop in water level (dh) per increment of time (dt)
 > - $(2gh(t))^{1/2} * r^2* \pi = A*dh/dt$
-> - The trick now is to separate dh and dt, to have only h(t) and dh on one side
+> - The trick now is to separate $dh$ and $dt$, to have only $h(t)$ and $dh$ on one side
 
 ## Time to empty the tank through a 10mm pipe
 > - $dt= C*h(t)^{-1/2}*dh$ with $C=A/(r^2* \pi * (2g)^{1/2})$
@@ -336,7 +336,7 @@ Which infiltration rate is required to avoid ponding water
 
 ## Flow out of a water filter
 > - Imagine a water filter with charcoal (5cm length of porous media) that has a hydraulic conductivity of $10^{-4}$ m/s. Which cross sectional area should the filter have to fill up 1 L in 5 seconds when the tank is full?
-> - We have 2m of head difference to push water through the 5cm filter.
+> - We have 2$m$ of head difference to push water through the 5$cm$ filter.
 
 ## Flow out of a water filter
 > - We apply Darcy's Law in a very similar way to his [experiment](../01_Hydrology/2_hydrological_processes_2.html#darcys-experiment)
