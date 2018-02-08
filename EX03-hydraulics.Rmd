@@ -1,0 +1,48 @@
+---
+title: "Hydraulics: pipes and open channel"
+output: 
+  learnr::tutorial:
+    progressive: true
+    allow_skip: true
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+tutorial_options(exercise.timelimit = 60)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+## Case study: Jostedal
+
+Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
+
+Calculate much flow can be achieved in the tunnel
+
+How much flow can be directed from the side-catchments back to the main reservoir by gravity.
+Will one of the side intake need a non-return valve to avoid a backflow through the intake?
+Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
+
+
+
+In this tutorial, you will learn how to summarise a table of data, including:
+
+* How to summarise tables with `summarise()` 
+* How to recognize the most useful families of functions to combine with `summarise()`
+* How to combine multiple dplyr operations with the pipe, `%>%`
+* How to compute counts of observations with `n()`
+* How to summarise groups of observations with `group_by()` and `summarise()`
+
+The readings in this tutorial follow [_R for Data Science_](http://r4ds.had.co.nz/), section 5.6.
+
+### Setup
+
+
+I've preloaded the packages for this tutorial with 
+
+```{r eval = FALSE}
+library(tidyverse) # loads dplyr, ggplot2, and others
+```
+    
+
+    
