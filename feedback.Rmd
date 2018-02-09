@@ -1,0 +1,273 @@
+---
+title: "Feedback"
+author: Back to [course overview](./index.html)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+---
+
+## How the course was organised
+
+- 4 themes: hydrology, hydraulics, "catchment scale flooding" and "urban stormwater (SW)"
+- Course material prepared as a [website](https://fbaffie.github.io/Runoff_management_course/)
+- Hosted open source on [github](https://github.com/fbaffie/Runoff_management_course): allows anonymous feedback whenever
+- Evaluation on group project work (report + presentation) and an individual exam
+- Individual exam: questions on main project, secondary project and course material (20min)
+- Grade ratio: 75% group work + 25% individual assessment
+
+## Other people involved
+
+- Kyrre Groven from Vestlandforskning: introduction to SW management
+- Eli Heiberg: green SW infrastructure
+- Deborah Davies: natural flood management
+- Kristian Karlsen and Jarle Stølen from Sogndal kommune: 3-water excursions
+- Svein Vågane from NVE, Førde: Laerdal / Flåm excursion
+
+## External lecturers
+
+- Their style was quite different from mine
+- I felt they came as a good complement
+- No mention in the comments except that content was repeated once (heat island and green walls)
+
+## Excursions
+
+- Everyone was happy!
+- Presentation and visit of the Sogndal kommune (2 afternoons): very interested insight into both management issues and engineering details.
+- Laerdal / Flåm: Svein was very generous in explanations. Was a bit long for students
+
+## Feedback on the question-based teaching style
+
+- Good for the more extrovert students
+- The introvert students felt a bit agressed at the start
+- Lack of design skill for exercises led to unclear exercises
+- Students complained about this but did not ask enough questions
+- They need recipes but it may only make things worse in the long term
+- So unclear exercises are not necessarily bad for them!
+- Need to find the balance between spoon-feeding and lack of clarity
+
+## Feedback on my teaching style
+
+- Not enough steps in exercises
+- Jump around in thoughts
+- Talked too quickly
+- Was very helpful and dedicated
+- I think I try to share too much!
+
+##  Teaching style: my opinion
+
+- Pros: productive struggle
+- Cons: problem with prioritizing content
+- **Improvement: color codes for each type of slide (i.e. key content, exercises, example...)**
+- Stressful for some students (less extrovert)
+- **Improvement: let them be, and do more exercise sessions**
+
+## Content delivery
+
+> - Liked the organisation as the website
+> - Complained that the course structure changed a few times
+> - Liked having most the lectures before project work
+> - Would like more time to do reading and exercises
+
+## Content delivery: improvements
+
+- Need more exercise sessions
+- Personal exercise sessions would be great but requires much time
+- Sessions could be 2hrs + 1 hour exercises for the motivated
+
+## Content
+
+- Strong divide between people who thought it was useful to get more into water science, and the others
+- Some thought I presented a good overview, others thought it lacked perspective
+- Too much science, not enough management
+- Too many things and everything in brief
+- A few seem to have blocked on the fact that they had other expections
+
+
+## Content: my opinion
+
+- We can debate it forever
+- We should to a certain extent but **should also focus on general skills**
+- I did the latter but did not **prioritize** correctly ([ram pump example](https://fbaffie.github.io/Runoff_management_course/02_Hydraulics/1_fluid_dynamics.html))
+- Being clearer on the why of the course content: Which concepts are key to know and which are only introduced to build general skills (21st century skills)
+- Also need to communicate better on this philosophy at the start
+- Follow a dummy catchment throughout the course to give perspective
+- Change course name: **Water resources**
+
+<!--
+The "ram pump" exercise was for example included only as a side-content to work on creativy and problem solving.
+Separate more clearly: key content, "if you want to go further"-content, and skill-building content.
+-->
+
+## Content prioritization
+
+- I think I missed the wrap up of the course a bit 
+- Had a list of keywords but ended up leaving it to everyone's responsibility to arrange them for each project.
+- Better way: have group exercises every few lectures to make mind maps of what has been covered, and go back to them for the final lecture
+- This could be within a big exercise session
+
+## [Quizzes](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/1_water_cycle_quiz.html#your-quiz)
+
+- 1 positive comment, no negatives
+- Shy students did not try, should maybe introduce kahoot next time, although not everything will be digital in real life...
+- I like the concept but need to be much stricter on the theme
+- Only 1 quiz per week is a realistic frequency
+- Could be linked to an exercise session or a quick recap on the previous sessions
+
+##  [Projects](https://fbaffie.github.io/Runoff_management_course/index.html#suggested-projects)
+
+The project teams and ideas were (almost) not imposed.
+I tried to come up with a lot of suggestions from different focus points so that the projects can come as a complement to what was not covered in detail in the course.
+I feel the day devoted to discussing each project for 1h was worth it and should be kept.
+
+Having such various projects makes the grading harder but complements the course material very well, giving a more complete course experience.
+
+## [Evaluation](https://fbaffie.github.io/Runoff_management_course/index.html#project-assessment)
+
+- Unclear at the start: I agree but I also have the feeling students don't read very thoroughly the guidelines
+- Very varied project suggestions: some liked it, some criticized the grade-ability
+- Second project idea worked really well: the students did almost all the questioning during the group presentations
+- Maybe the unclear grading helped produce good work...
+
+## Evalution: my opinion
+- We need to decide what we want: differentiating students or making them work
+- The A-E/F system is not the best for differentiating if most students have worked well. Plus and minuses (i.e. A-) would help!
+- Quite a few are going for the grade but do it well!
+- I should leverage the concept of "course requirement" more
+
+## Student performance
+
+- Good report writing for most
+- Quite good presenting (some students said: "best presentations of the year" so probably good progress during this first year)
+- Good oral argumentation on oral exam (too good for some...)
+- Lack of math / numerical ease for many
+- Lack of problem solving in unclear situations
+- They don't know what they want to do later, yet some block on content expectations...
+
+# Specific lectures
+
+## Erosion
+
+A bit light on the erosion lecture but on the other hand, students seemed to have had enough "heavy" material at this point
+
+## Alternative land use
+
+I ran a bit through the material. There were maybe too many links in the further resources section but on the other hand, this whole topic was more formulated as a theme of further study for those interested.
+
+<!--
+## Student saying I said they were lazy
+Lazyness is relative
+You can a hard worker and therefore copy paste stuff from stackoverflow to go quicker
+You can be a hard-working sportsman but somehow have the wrong mindset and lose
+
+-->
+
+# Debriefing with the censor
+
+<!--
+## Discussed and agreed with my philosophy
+Book: [teaching in the digital age](https://opentextbc.ca/teachinginadigitalage/part/chapter-1-fundamental-change-in-education/)
+
+"As student numbers have increased, teaching has regressed for a variety of reasons to a greater focus on information transmission and less focus on questioning, exploration of ideas, presentation of alternative viewpoints, and the development of critical or original thinking. Yet these are the very skills needed by students in a knowledge-based society."
+
+-->
+
+## Group exam
+
+- Good overall quality and amount of work put into the projects.
+- Students could have spent 1/2 days going over the homogeneity of the reports and fix some last details.
+- The "secondary project" concept worked well to get them to ask questions and helped them prepare for the  individual exam. The questions were also very good.
+- The structural problems found in the reports were improved during presentations
+- GIS should be encouraged or suggested as group projects and kept out of the course content.
+- Could show the projects from the previous year for the students to decide better and know what is good and bad.
+
+
+## Individual exam
+
+- Very good analysis of own and "secondary" project by almost all students.
+- Good general understanding of the course material with 3 students above average and 3 below.
+- Quite impressed by the best students.
+- We shared the philosophy that grades are only a part of the evaluation.
+- We therefore gave individual oral feedback to each student based on course participation, group work and presentations. We have the feeling that it was beneficial to a majority of them.
+
+## Individual exam
+
+- Our test of the course material was adapted to each student's ability and taken into account for the grading. We also tried to ask questions on the course material that were linked to the topics tackled on both projects (main and secondary).
+- We tested their problem solving ability by linking additional concepts to course material. We were quite satisfied by the reaction to these questions.
+- We think this type of exam is a good practice for later job interviews.
+- Some students learned more course material through their project than the social project people.
+
+## Individual exam
+- Be clear from the start that the projects are very free to alllow people to dig into "management" if they feel it will missing from the course.
+- We are quite satisfied by the "secondary project" as a evaluation tool. It probably helped the students prepare for the exam.
+- We could have some homework exercises as part of the grading, or at least the course requirements.
+- At NTNU you need to do 8 out of 12 exercises (over the course of a semester)
+
+## Potential improvements
+
+- Along with the prioritizing of the content, some parts could be left as optional for project work.
+- Could almost have red/yellow tags: red is compulsory. If you don't do it, you drop by 1 grade step.
+- If you do, you stay. If you exceed you go up 1.
+
+## Course requirements
+- Have clear and very central exercises to do at home as course requirements. Solutions would be given once everyone has passed.
+- Ill-posed and open problems could be tackled in groups during class sessions. They could also be suggested by the students and discussed together.
+- Be quite strict with the course requirements so that everyone learns, and then tough on the final exam to distinguish the best.
+- The grading would remain difficult if projects are varied.
+
+## Evaluation
+
+- The rules related to uneven ratios between multiple exams were actually well explained in the documents given to the censor.
+- The order of the candidate numbers should be always in the same order, to avoid confusion and mistakes.
+- The censor will go through the course material to comment further.
+
+# Further ideas on the Master
+
+## Coherence of the Master: design philosophy
+
+- I like the freedom that is given in Norway, but I think key aspects of the Master / individual courses could be more discussed:
+- Are we educating researchers or practitioners? If both, I think we need to open up the master projects to more practice.
+- Is it a technical Master or a very general soft-technique / general knowledge Master
+- The general evaluation philosophy should also be discussed more
+- Alternative evaluation suggestion: obligatory online portfolio of every project + small individual examinations?
+
+## Coherence of the Master: future ideas
+- Giving more course options within the Master? natural resources management + societal changes management ?
+- Societal changes could include "zero emission society", Eli's planning, Carlo's society, business, communication / leadership
+- Natural resources: ecology, geohazards, water resources, agriculture...
+- Compulsory: methods + scientific writing + climate change
+- This would require more resources unless the "fusion" of HVL can be leveraged well
+
+
+# Conclusions
+
+## Teaching choices and philosophy
+- Quite happy with the level and innovation and risk put in
+- I think I made the right choice to focus on skill development rather than only delivering content
+- But every teaching concept has trade-offs
+- Should be clearer my philosophy and its trade-offs from the start
+- Need to better prioritize content and maybe also sacrifice some
+
+## Style and content
+- Refine balance between sharing a lot and legibility / not being "too much of a pain"
+- Refine balance between cristal clear and ill-posed problems 
+- Get better at curating group work, using for example the think-pair-share technique
+- Want to remain different but a bit more inclusive of Norwegian specificities!
+- Prioritizing better and having more exercise session could solve many issues
+
+
+## Evaluation
+- Lack of clarity on evaluation may have contributed to high quality exam!
+- Censor keen to keep existing concept with 50/50 share and more exercises as course requirements
+- Simon's tip on initial exam communication: "I am here to help you impress the censor for the final examination"
+- Evaluation and content: need to discuss more Master-wide
+
+<!--
+Say this:
+"I'm giving you these comments because I have very high expectations and I know that you can reach them"
+
+Good coaches are experts at helping you to learn through failure: you learn a growth mindset
+interesting that noone complained about not being outside more to study hydrology, or having more experiments
+-->

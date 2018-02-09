@@ -13,7 +13,11 @@ tutorial_options(exercise.timelimit = 60)
 knitr::opts_chunk$set(error = TRUE)
 ```
 
-## Case study: Jostedal
+## Case study: Oslo?
+
+https://www.nve.no/flaum-og-skred/fagsamlinger-2018-2019/
+
+
 
 Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
 
