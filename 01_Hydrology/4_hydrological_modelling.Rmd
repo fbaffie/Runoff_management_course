@@ -234,12 +234,12 @@ video on conceptual GW model
 > - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)**
 > - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$
 > - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.**
-> - $Q(t) EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$
+> - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$
 
 ## Total discharge as a function of $Q_{gw}(t)$
 
 > - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
-> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
+> - $Q(t) = Q_{gw}(t)*(EC_{gw} − EC_{gl}) / (EC(t) − EC_{gl})$
 
 
 

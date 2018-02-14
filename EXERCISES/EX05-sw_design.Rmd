@@ -1,0 +1,45 @@
+---
+title: "Resilient design for urban stormwater"
+output: 
+  learnr::tutorial:
+    progressive: true
+    allow_skip: true
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+tutorial_options(exercise.timelimit = 60)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+## Exercise concept
+
+Those exercises are coded and allow you to add code.
+Every group will have to hand in an .Rmd and .html file of this exercise sheet with their answers. Additional questions + answers, comments or improvements on the exercise session will be appreciated.
+
+## Home owner example in tucson, Arizona
+
+Copy here Tucson example
+
+## Leikanger case study
+
+Calculate the impact on downstream runoff of a new development and try to minimize this impact.
+
+
+Design the on-site retention measures for the mean flood
+
+Estimate the concentration time and choose the design rain event accordingly.
+
+Design the development-scale retention / infiltration measures for the 20-year flood
+Provide safe flow paths for the 200-year flood.
+
+## Sandane case study
+
+they have the option to flood their football filled. Quantify how useful this could be for different flood events.
+
+Evaluate the volume of water than can be stored in the football field. How to control the flow out of this temporary reservoir?
+
+
+## Draw your ideas
+

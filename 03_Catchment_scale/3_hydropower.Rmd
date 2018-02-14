@@ -1,0 +1,35 @@
+---
+title: "Hydropower"
+author: Back to [course overview](../index.html#land-use)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
+---
+
+## Plan
+
+[Agriculture and erosion](./4_land_use.html#agriculture-and-erosion)
+
+[Land use alternatives](./4_land_use.html#land-use-alternatives)
+
+[Working examples](./4_land_use.html#working-examples)
+
+[Further resources](./4_land_use.html#further-resources)
+
+
+# Agriculture and soil erosion
+
+## Meeting notes with Even
+
+The hydraulic setup in Jostedalen can make an interesting session for hydraulic exercises
+
+
+we can do an excursion starting in the Gaupne offices, and then going up to Leirdal adn possibly Nigarsbreen for a river gauging station.
+
+
+
+
