@@ -43,14 +43,14 @@ Author: Vadim Makeev [aut, cph] (shower, https://github.com/shower/shower),
   RStudio [cph],
   Mango Solutions [cph]
 Maintainer: Gábor Csárdi <gcsardi@mango-solutions.com>
-Built: R 3.3.2; ; 2017-02-17 21:40:28 UTC; windows
+Built: R 3.4.1; ; 2018-02-14 15:25:13 UTC; windows
 RemoteType: github
 RemoteHost: https://api.github.com
 RemoteRepo: rmdshower
 RemoteUsername: fbaffie
 RemoteRef: master
-RemoteSha: 9b5205d5981cbde2936162769999e6d86b8e85bc
+RemoteSha: 1602928fc529cd77dc9748fbaa706cbe3e7daaba
 GithubRepo: rmdshower
 GithubUsername: fbaffie
 GithubRef: master
-GithubSHA1: 9b5205d5981cbde2936162769999e6d86b8e85bc
+GithubSHA1: 1602928fc529cd77dc9748fbaa706cbe3e7daaba

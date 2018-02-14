@@ -1,4 +1,4 @@
-rmarkdown::render("index.Rmd", output_dir = "_gh-pages", encoding = 'UTF-8')
+# rmarkdown::render("index.Rmd", output_dir = "_gh-pages", encoding = 'UTF-8')
 rmarkdown::render("index.Rmd", encoding = 'UTF-8')
 
 subfolder = "./00_Widgets"
