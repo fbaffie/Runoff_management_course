@@ -15,6 +15,20 @@ library(nycflights13)
 tutorial_options(exercise.timelimit = 60)
 ```
 
+
+## Flow through the sand filters
+
+Copy here the exercise of the course?
+
+## steady flow in an unconfined aquifer
+
+Copy here the exercise of the course?
+
+## Conceptual modelling of surface / groundwater interactions
+
+Copy here my phd example
+
+
 ## Case study: Sogndal's valley
 
 This tutorial will teach you how to look at data with R, which is a software environment and programming language for data science. If you would like to install R on your computer, please take a moment to read the [setup instructions]().
@@ -28,6 +42,56 @@ In this tutorial, you will learn how to use R to inspect the contents of a data 
 You will also meet in this tutorial `mpg` and `flights`, two datasets that appear frequently in R examples. 
 
 The readings in this tutorial follow [_R for Data Science_](http://r4ds.had.co.nz/), sections 3.2 and 5.1. 
+
+## Catchment properties
+
+Use Nevina
+
+## Estimating yearly averages
+
+Estimate the average annual discharge in Sogndal.
+You can programm it as a parametrized function in order to take into account yearly variability.
+
+
+## Calculating the response to a melt event
+
+Setting up a temperature-index melt model
+
+## Calculating the response to a rain event
+
+
+
+## Estimating the recession behavior during dry periods
+
+Calibrating a recession curve.
+
+## Putting it all together
+
+Trying different hydrological models for the Sogndal catchment.
+
+
+## Flood frequency analysis
+
+Use the fitdistrib package to fit some data from the Sogndal valley
+
+Retrieve historical discharge data in Sogndal.
+Create a dataset of annual maximum.
+
+Find out about the methodology to compute IVF curves and dio them for Sogndal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Data frames
 

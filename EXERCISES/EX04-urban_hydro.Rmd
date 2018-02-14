@@ -1,5 +1,5 @@
 ---
-title: "Hydraulics: pipes and open channel"
+title: "Urban and rural catchments"
 output: 
   learnr::tutorial:
     progressive: true
@@ -19,6 +19,8 @@ https://www.nve.no/flaum-og-skred/fagsamlinger-2018-2019/
 
 
 
+
+
 Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
 
 Calculate much flow can be achieved in the tunnel
@@ -26,6 +28,13 @@ Calculate much flow can be achieved in the tunnel
 How much flow can be directed from the side-catchments back to the main reservoir by gravity.
 Will one of the side intake need a non-return valve to avoid a backflow through the intake?
 Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
+
+
+
+
+
+
+
 
 
 
