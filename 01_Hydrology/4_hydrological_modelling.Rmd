@@ -242,12 +242,6 @@ video on conceptual GW model
 > - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$
 
 
-
-
-
-
-
-
 ## Modelled baseflow recession
 <img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
 
