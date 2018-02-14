@@ -141,28 +141,28 @@ with $\rho_p$ and $\rho_f$ the mass densities of the sphere and fluid
 
 $R$ the particle diameter
 
-$g$ is the gravitational acceleration (m/s2)
+$g$ is the gravitational acceleration ($m/s^2$)
 
 ## Velocity V (m/s) of a sphere falling in a fluid
 $V={\frac {2}{9}}{\frac {\left(\rho _{p}-\rho _{f}\right)}{\mu }}g\,R^{2}$
 
-$\rho _{p}$ is the mass density of the particles (kg/m3)
+$\rho _{p}$ is the mass density of the particles ($kg/m^3$)
 
-$\rho _{f}$ is the mass density of the fluid (kg/m3)
+$\rho _{f}$ is the mass density of the fluid ($kg/m^3$)
 
 $\mu = 10^{-3} Pa.s$ is the dynamic viscosity.
 
-V > 0 when a particle is falling. 
+$V > 0$ when a particle is falling. 
 
-V is proportional to $R^2$
+$V$ is proportional to $R^2$
 
 ## Settling velocities: some examples
 
-Fine sand, 0.1mm: 0.7 cm/s
+Fine sand, 0.1$mm$: 0.7 $cm/s$
 
-Silt, 0.02mm: 0.03 cm/s
+Silt, 0.02$mm$: 0.03 $cm/s$
 
-Clay, 0.005mm: 0.0018 cm/s
+Clay, 0.005$mm$: 0.0018 $cm/s$
 
 ## Example from my Master's thesis: plan
 

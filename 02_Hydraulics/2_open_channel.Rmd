@@ -52,11 +52,11 @@ The **Froude number** is defined as:
 
 $Fr=\frac{v_{0}}{\sqrt{g*h_{0}}}$
 
-If F=1, the flow is **critical** and $h=2*E/3$
+If $F=1$, the flow is **critical** and $h=2*E/3$
 
-If F<1, the flow is **subcritical**
+If $F<1$, the flow is **subcritical**
 
-If F>1, the flow is **supercritical**
+If $F>1$, the flow is **supercritical**
 
 ## Transition from subcritical to supercritical
 <img src="images/subcritical_supercritical.png" height="350" width="auto">
@@ -171,7 +171,7 @@ More details: [WMO - Manual on stream gauging](https://library.wmo.int/opac/inde
 
 
 ## Stage-discharge relationship: field setup
-<img src="images/damma_runoff_station.jpg" height="500" width="auto">
+<img src="images/damma_runoff_station.JPG" height="500" width="auto">
 
 ## Streamflow measurements
 
@@ -196,7 +196,7 @@ More details: [WMO - Manual on stream gauging](https://library.wmo.int/opac/inde
 ## Streamflow measurements: current meter
 
 - Measuring average flow for a series of channel sub-sections
-- With H the height of a section, the mean velocity is at $h=0.4*H$ (logaritmic profile)
+- With $H$ the height of a section, the mean velocity is at $h=0.4*H$ (logaritmic profile)
 
 <img src="images/streamflow_computation.gif" height="400" width="auto">
 

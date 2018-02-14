@@ -38,7 +38,7 @@ output:
 
 ## Quotes
 
-- "Simplicity is the ultimate sophistication." Da Vinci
+- "Simplicity is the ultimate sophistication." LEONARDO DA VINCI
 - "Consistency is one of the most powerful usability principles: when things always behave the same, users don’t have to worry about what will happen. Instead, they know what will happen based on earlier experience." JAKOB NIELSEN
 - "If you find an element of your interface requires instructions, then you need to redesign it." DAN RUBIN
 - "A good designer finds an elegant way to put everything you need on a page. A great designer convinces you half that shit is unnecessary." MIKE MONTEIRO

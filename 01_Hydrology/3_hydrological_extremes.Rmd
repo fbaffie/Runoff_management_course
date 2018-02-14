@@ -52,12 +52,12 @@ html widget to play with distribution parameters
 
 ## Vocabulary
 > - **Annual exceedance probability**
-> - Probability (p) that a flood will be equal or greater than a specific flood discharge called return level (or design flood).
+> - Probability ($p$) that a flood will be equal or greater than a specific flood discharge called return level (or design flood).
 > - **Return period (also called return interval)?**
-> - The recurrence period (T) of a flood event equal or greater than the corresponding return level ($Q_T$)
-> - Also means: the average time until the next occurrence of an event equal or greater than $Q_T$ is T years
-> - **What is the relationship between the probability p and the return period T?**
-> - T = 1/p
+> - The recurrence period ($T$) of a flood event equal or greater than the corresponding return level ($Q_T$)
+> - Also means: the average time until the next occurrence of an event equal or greater than $Q_T$ is $T$ years
+> - **What is the relationship between the probability $p$ and the return period $T$?**
+> - $T = 1/p$
 
 ## [Flood probability exercises - see link](http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page01a.html)
 <!--
@@ -68,7 +68,7 @@ http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page13.html
 > - **Can a 100-year flood happen 2 years in a row?**
 > - Yes
 > - **What would be the probability of this happening?**
-> - 0.01*0.01 = 0.0001
+> - $0.01*0.01 = 0.0001$
 
 ## Flood probability exercises
 <img src="images/pdf.jpg" height="200" width="auto">
@@ -81,13 +81,13 @@ http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page13.html
 
 ## Last question in steps
 > - **What's the probability of a 25-year flooding event occurring each year?**
-> - 1/25 = 4%
+> - $1/25 = 4\%$
 > - **What is the probability that a 25-year flood will not occurr in any given year?**
-> - 1 - 1/25 = 96%
+> - $1 - 1/25 = 96\%$
 > -	**What's the probability that there will not be a 25-year flood in a 10 year period?**	 
 > - $0.96^{10} = 66.5\%$
 > -	**What's the probability that there will be a 25-year flood with a 10 year period?**
-> - 100 - 66.5 = 33.5%
+> - $100 - 66.5 = 33.5\%$
 
 <!--
 Good exercise table:
@@ -182,8 +182,7 @@ $\xi$ shape.
 > - A plot of precipitation intensity of a function of rain event duration for various return periods
 -->
 ## Intensity-Duration-Frequency Curve
-IDF (IVF in Norwegian) for various regions in Norway:
-https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner
+[IDF (IVF in Norwegian) for various regions in Norway: klimaservicesenter.no](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner)
 [Example for Oppstryn](./pdf/IVF_58700_OPPSTRYN.pdf)
 
 Important concept to size stormwater infrastructure in small urban catchments
@@ -224,9 +223,9 @@ http://stream1.cmatc.cn/pub/comet/HydrologyFlooding/flood/comet/hydro/basic/Floo
 
 ## Norway and Europe
 
-Klimaendring og framtidige flommer i Norge (NVE report): [local](./pdf/NVE report - Klimaendring og framtidige flommer i Norge.pdf), [web](http://publikasjoner.nve.no/rapport/2016/rapport2016_81.pdf)
+[Klimaendring og framtidige flommer i Norge (NVE report)](http://publikasjoner.nve.no/rapport/2016/rapport2016_81.pdf)
 
-Norsk Klimaservice senter: Nedbør med kort varighethttps://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/korttidsnedbor
+[Norsk Klimaservice senter: Nedbør med kort varighet](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/korttidsnedbor)
 
 NVE Reports:
 [Flommen på Vestlandet - oktober 2014](http://publikasjoner.nve.no/rapport/2015/rapport2015_11.pdf)
@@ -236,8 +235,7 @@ NVE Reports:
 
 ## World
 
-USDA: Frequency Curve Determination
-https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1042910
+[USDA: Frequency Curve Determination](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1042910)
 
 Good list of resources on flood and drought: 
 http://fdmt.iwlearn.org/en/resources-and-e-learning
@@ -257,8 +255,7 @@ http://fdmt.iwlearn.org/en/resources-and-e-learning
 California water blog - UC Davis center for watershed sciences:
 [California's drought and floods are over and just beginning](https://californiawaterblog.com/2017/04/09/californias-drought-and-floods-are-over-and-just-beginning/)
 
-World Meteorological Organisation: Manual of low-flow estimation and prediction
-http://www.wmo.int/pages/prog/hwrp/publications/low-flow_estimation_prediction/WMO%201029%20en.pdf
+World Meteorological Organisation: [Manual of low-flow estimation and prediction](http://www.wmo.int/pages/prog/hwrp/publications/low-flow_estimation_prediction/WMO%201029%20en.pdf)
 
 # Annoted video resources
 

@@ -129,7 +129,7 @@ General formulation with $q = Q/A$ the specific discharge (discharge $Q$ per uni
 
 $K$ the saturated hydraulic conductivity, 
 
-$\nabla{\phi}$ is the hydraulic gradient (H/L in Darcy's experiment)
+$\nabla{\phi}$ is the hydraulic gradient ($H/L$ in Darcy's experiment)
 
 ## Analogy to Fourier's law
 
@@ -139,9 +139,9 @@ $q=-k{\nabla }T$ where:
 
 $q$ is the local heat flux density 
 
-$k$ is the material's conductivity in W/m/K
+$k$ is the material's conductivity in $W/m/K$
 
-$\nabla{T}$ is the temperature gradient in K/m
+$\nabla{T}$ is the temperature gradient in $K/m$
 
 <!--
 is equal to the product of thermal conductivity $k$, and the negative local temperature gradient $-\nabla T$ The heat flux density is the .
@@ -204,17 +204,17 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 
 > - **Check whether this makes sense, considering what you heard on Wednesday!**
 > - **The whole thing is done here without calculator with "useful" approximations!** 
-> - The reservoir was 1000m3 and represented 6h max of daily consumption
+> - The reservoir was 1000$m3$ and represented 6h max of daily consumption
 > - So daily consumption: 4000m3
 > - The sand filters need to be able to produce the daily consumption in 24h!
 
 ## Conductivity of "Dyna Sand" sand filters
 > - **Calculate the required flow per minute**
-> - 4000 / 60x24 = 4000 / 1440 -> 4000 / 1600 (easier) = 2.5m3/min
+> - 4000 / 60x24 = 4000 / 1440 -> 4000 / 1600 (easier) = 2.5$m^3/min$
 > - **Calculate the required surface for this flow**
-> - 3.5gpm/SqFt -> 3.5x4 = 14 l/min/sqft -> 14x10 l/min/m2 = 0.14 m3/min/m2
-> - Recapitulation: 2.5m3/min is required and the sand filter has a capacity of 0.14 m3/min/m2
-> - So 15-20m2 required: 5 filters of 3-4m2
+> - 3.5$gpm/SqFt$ -> 3.5x4 = 14 $l/min/sqft$ -> 14x10 $l/min/m^2$ = 0.14 $m^3/min/m^2$
+> - Recapitulation: 2.5$m^3/min$ is required and the sand filter has a capacity of 0.14 $m^3/min/m^2$
+> - So 15-20$m^2$ required: 5 filters of 3-4$m^2$
 > - Makes sense!
 
 ## Conductivity of "Dyna Sand" sand filters
@@ -271,11 +271,11 @@ Moisture content of a soil that cannot be released by capillary forces
 
 ## Soil types and grain size
 > - **Can you list different soil grain sizes and names?**
-> - Cobble (64-256mm)
-> - Gravel (2-63mm)
-> - Sand (0.063mm - 2mm)
-> - Silt (0.002-0.063mm)
-> - Clay ( <0.002mm)
+> - Cobble (64-256$mm$)
+> - Gravel (2-63$mm$)
+> - Sand (0.063$mm$ - 2$mm$)
+> - Silt (0.002-0.063$mm$)
+> - Clay ( <0.002$mm$)
 
 ## Water in soils
 

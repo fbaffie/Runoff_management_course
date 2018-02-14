@@ -74,10 +74,8 @@ Oregon, USA | Clearfelling forest | × 39
 
 Some research on this:
 
-- Climate change effects on organic matter decomposition rates in ecosystems from the Maritime Antarctic and Falkland Islands
-http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2007.01468.x/abstract
-- Sunlight drives decay
-http://www.nature.com/nature/journal/v442/n7102/edsumm/e060803-11.html
+- [Climate change effects on organic matter decomposition rates in ecosystems from the Maritime Antarctic and Falkland Islands](http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2007.01468.x/abstract)
+- [Sunlight drives decay](http://www.nature.com/nature/journal/v442/n7102/edsumm/e060803-11.html)
 
 Case study of soil degradation in Norway:
 http://www.recare-hub.eu/case-studies/vansjo-hobol-catchment-norway
