@@ -239,11 +239,17 @@ video on conceptual GW model
 ## Total discharge as a function of $Q_{gw}(t)$
 
 > - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
-> - $Q(t) = Q_{gw}(t)*(EC_{gw} − EC_{gl}) / (EC(t) − EC_{gl})$
+> - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$
 
 
 
 
+
+
+
+
+## Modelled baseflow recession
+<img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
 
 <!--
 > - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
@@ -257,9 +263,6 @@ $Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
 ## Recession discharge
 \[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
 -->
-
-## Modelled baseflow recession
-<img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
 
 <!--
 ## Groundwater storage as a function of field GW measurements

@@ -236,8 +236,11 @@ video on conceptual GW model
 <h2>Total discharge as a function of <span class="math inline">\(Q_{gw}(t)\)</span></h2>
 <ul>
 <li class="fragment next"><strong>By substituting <span class="math inline">\(Q_{gl}(t)\)</span> in one of the previous equations, express <span class="math inline">\(Q(t)\)</span> as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(EC(t)\)</span> and the constants <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span></strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) = Q_{gw}(t)*(EC_{gw} − EC_{gl}) / (EC(t) − EC_{gl})\)</span></li>
+<li class="fragment next"><span class="math inline">\(Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}\)</span></li>
 </ul>
+</section><section id="modelled-baseflow-recession" class="slide level2">
+<h2>Modelled baseflow recession</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%202.png" height="450" width="auto"></p>
 <!--
 > - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
 $Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
@@ -249,9 +252,6 @@ $Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
 ## Recession discharge
 \[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
 -->
-</section><section id="modelled-baseflow-recession" class="slide level2">
-<h2>Modelled baseflow recession</h2>
-<p><img src="images/phd/Paper%204%20-%20Figure%202.png" height="450" width="auto"></p>
 <!--
 ## Groundwater storage as a function of field GW measurements
 \[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
@@ -276,7 +276,7 @@ with $L_{integral}(t_{end}) = L_{residual}$
 <ul>
 <li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume and the exfiltration rate <span class="math inline">\(Q_{gw}\)</span></strong></li>
 <li class="fragment next">We neglect evapotranspiration and recharge from rain</li>
-<li class="fragment next"><span class="math display">\[Q_{inf}(t) = dV(t)dt + Q_{gw}(t) \]</span></li>
+<li class="fragment next"><span class="math inline">\(Q_{inf}(t) = dV(t)dt + Q_{gw}(t)\)</span></li>
 </ul>
 <!--
 ## Figure 4
@@ -340,23 +340,22 @@ with $L_{integral}(t_{end}) = L_{residual}$
 </section><section id="nevina-web-tool-from-nve" class="slide level2">
 <h2>Nevina web tool from NVE</h2>
 <p><a href="http://nevina.nve.no/" class="uri">http://nevina.nve.no/</a></p>
-<p><a href="./pdf/NevinaRapport_Sogndal.pdf">Report for the Sogndal catchment</a></p>
+<p>TODO: structure small exercise similar to NVEs conference</p>
 <!--
 quiz theme?
 -->
 </section><section id="norway-europe" class="slide level2">
 <h2>Norway / Europe</h2>
-<p>Hydrological atlas for Norway: <a href="./pdf/Avrenningskart_Norge.pdf">local</a>, <a href="http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf">web</a></p>
-<p>Hydrological atlas of Switzerland: <a href="http://www.hydrologischeratlas.ch" class="uri">http://www.hydrologischeratlas.ch</a></p>
-<p>Models for green stormwater infrastructure <a href="http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf" class="uri">http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf</a></p>
+<p><a href="http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf">Hydrological atlas for Norway</a></p>
+<p><a href="http://www.hydrologischeratlas.ch">Hydrological atlas of Switzerland</a></p>
+<p><a href="http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf">Models for green stormwater infrastructure</a></p>
 </section><section id="resources-from-the-usda" class="slide level2">
 <h2>Resources from the USDA</h2>
-<p>National Engineering Handbook: hydrology <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063" class="uri">https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063</a></p>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063">National Engineering Handbook: hydrology</a></p>
 <p>An interesting old USGS report making analogies between conceptual hydrological models and electrical circuits: <a href="https://pubs.usgs.gov/pp/0506a/report.pdf">Use of analog models in the analysis of flood runoff</a></p>
 </section>
 <section id="annoted-video-resources" class="titleslide slide level1"><h2 class="shout">Annoted video resources</h2></section><section id="prof.hubert-savenije-breakthroughs-in-landscape-based-rainfall-runoff" class="slide level2">
-<h2>Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff</h2>
-<p><a href="https://www.youtube.com/watch?v=BTmIAA0R4Tc" class="uri">https://www.youtube.com/watch?v=BTmIAA0R4Tc</a></p>
+<h2><a href="https://www.youtube.com/watch?v=BTmIAA0R4Tc">Prof. Hubert Savenije: Breakthroughs in landscape-based rainfall-runoff</a></h2>
 <ul>
 <li>Linking landscape to hydrological modelling concepts.</li>
 <li>12: interesting sorting of landscapes that can apply to Norway: wetland, hillslope, plateau</li>
@@ -369,16 +368,16 @@ quiz theme?
 <li>41: interesting question on his model</li>
 <li>45: don’t model a catchment that you don’t know. analyse the landscape His appproach can be linked to my conceptual analysis in Damma. The idea is to have a model to learn, rather than to predict</li>
 </ul>
-</section><section id="hoshin-gupta-a-general-theory-of-learning-with-models-data-not-easy-topic" class="slide level2">
-<h2>Hoshin Gupta: A General Theory of Learning with Models &amp; Data (Not easy topic)</h2>
-<p><a href="https://www.youtube.com/watch?v=eH6vwiukIsA&amp;t=848s" class="uri">https://www.youtube.com/watch?v=eH6vwiukIsA&amp;t=848s</a></p>
+</section><section id="hoshin-gupta-a-general-theory-of-learning-with-models-data" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=eH6vwiukIsA&amp;t=848s">Hoshin Gupta: A General Theory of Learning with Models &amp; Data</a></h2>
+<p>Interesting but not easy!</p>
 <ul>
 <li>14: dynamic environmental systems models. A DESM is a simplified representation of the structure and function of a dynamical system that: enables Simulations (that are quite accurate), Testable predictions (under new circumstances), Reasoning (with an idealized framework). By encoding knowledge about: Physics, System properties (geometry and materials), Uncertainty (what we know that we don’t know)</li>
 <li>29: conceptual modelling of a watershed</li>
 <li>41: darcy’s law works well at the small / medium scale but non-uniformities at the larger scale will affect it.</li>
 </ul>
-</section><section id="hoshin-gupta-a-general-theory-of-learning-with-models-data-not-easy-topic-1" class="slide level2">
-<h2>Hoshin Gupta: A General Theory of Learning with Models &amp; Data (Not easy topic)</h2>
+</section><section id="hoshin-gupta-a-general-theory-of-learning-with-models-data-1" class="slide level2">
+<h2>Hoshin Gupta: A General Theory of Learning with Models &amp; Data</h2>
 <ul>
 <li>43: what happens when the model doesn’t work: inference process in an educated way</li>
 <li>54: trade-off between performance and uncertainty between different model structures</li>
