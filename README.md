@@ -1,3 +1,4 @@
+
 # Runoff management course
 
 This repository contains most presentation material for the course *runoff management* of the Master in *climate change management* 
@@ -25,5 +26,6 @@ Things like:
 - exploring the impact of different hydrological models on various catchments (from simple to complex).
 - interactive map tools
 - linking plots, tables and maps with R crosstalk
+- Exercise sessions using the `learnr` package
 
 
