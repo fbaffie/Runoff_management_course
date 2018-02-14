@@ -59,7 +59,7 @@ crosstalk selector
 # Modelling options
 
 ## Purpose of hydrological modelling
-<img src="../images/question.PNG" class="cover">
+<img src="../images/question.png" class="cover">
 
 > - **Why do hydrological modelling**
 > - To predict future discharge
@@ -123,7 +123,7 @@ crosstalk selector
 <img src="images/RECAP_met_param_interpolation.png" height="500" width="auto">
 
 ## Conceptual approach: linear reservoir
-<img src="../images/important.PNG" class="cover">
+<img src="../images/important.png" class="cover">
 
 <div class="double">
 <p class="double-flow">
@@ -205,7 +205,7 @@ where $\overline{Q_o}$ is the mean of observed discharges, $Q_o(t)$ and $Q_m(t)$
 > - It is much easier to have a good value with highly variable hydrographs
 
 ## Other model assessment criteria
-<img src="../images/extra.PNG" class="cover">
+<img src="../images/extra.png" class="cover">
 
 - Benchmark efficiency
 - Root Mean Square
