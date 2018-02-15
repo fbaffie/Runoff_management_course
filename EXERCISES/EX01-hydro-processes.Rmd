@@ -11,9 +11,18 @@ runtime: shiny_prerendered
 ```{r setup, include=FALSE}
 library(learnr)
 library(tidyverse)
-library(nycflights13)
 tutorial_options(exercise.timelimit = 60)
 ```
+
+## Hydrological processes
+
+In this exercise session we will practice concepts covered in class:
+- Infiltration
+- Groundwater flow
+- Evaporation
+- Snowmelt and glacier melt
+
+Check this for inspiration
 
 
 ## Flow through the sand filters
@@ -215,52 +224,4 @@ Use the code chunk below to print the contents of `flights`.
 ### The tibble display
 
 You might notice that `flights` prints a little differently from `mpg`: `flights` shows only the first few rows of the data frame and only the columns that fit on one screen. (To see the whole dataset, you can run `View(flights)` which will open the dataset in a special viewer). `flights` prints differently because it's a __tibble__. Tibbles are data frames, but slightly tweaked to be more user-friendly. For now, you don't need to worry about the differences between tibbles and data frames that are not tibbles; we'll come back to tibbles in more detail in a later tutorial.
-
-## Variable types
-
-### Type codes
- 
-```{r flights3, exercise = TRUE, exercise.eval = TRUE}
-flights
-``` 
- 
-You might have noticed that r displays a row of three (or four) letter abbreviations under the column names in `flights`. These abbreviations describe the type of variable that is stored in each column of `flights`:
-
-* `int` stands for integers.
-
-* `dbl` stands for doubles, or real numbers.
-
-* `chr` stands for character vectors, or strings.
-
-* `dttm` stands for date-times (a date + a time).
-
-There are three other common types of variables that aren't used in this dataset but are used in other datasets:
-
-* `lgl` stands for logical, vectors that contain only `TRUE` or `FALSE`.
-
-* `fctr` stands for factors, which R uses to represent categorical variables
-  with fixed possible values.
-
-* `date` stands for dates.
-
-This row of variable types is unique to tibbles and is one of the ways that tibbles try to be more user-friendly than data frames.
-
-### Test your knowledge
-
-```{r quiz2, echo=FALSE}
-question("Which types of variables does `flights` contain? Check all that apply.",
-         type = "multiple",
-         allow_retry = TRUE,
-         incorrect = "Look a little closer at `flights`.",
-         answer("integers", correct = TRUE),
-         answer("doubles", correct = TRUE),
-         answer("factors"),
-         answer("characters", correct = TRUE),
-         correct = "Great Job!"
-)
-```
-
-### Congratulations
-
-You've now met R's basic table structures, data frames and tibbles; and you have learned how to inspect their contents. When you are ready, go on to the next tutorial to begin visualizing your data.
 

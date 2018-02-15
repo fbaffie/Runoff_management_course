@@ -9,7 +9,6 @@ runtime: shiny_prerendered
 
 ```{r setup, include=FALSE}
 library(learnr)
-tutorial_options(exercise.timelimit = 60)
 knitr::opts_chunk$set(error = TRUE)
 ```
 
@@ -20,7 +19,104 @@ Every group will have to hand in an .Rmd and .html file of this exercise sheet w
 
 ## Home owner example in tucson, Arizona
 
-Copy here Tucson example
+### Overview of [Brad Lancaster's](https://www.youtube.com/watch?v=xdvmJ-AFlRA&list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli&index=2&t=256s) water harvesting strategies: street SW
+
+- Cut street curb to let SW infiltrate into a sunken mulch basin with native trees
+- We can guess a drainage grate from the municipal network in the middle of the pedestrian footpath (dirtpath).
+
+### Walking paths and lower roof
+
+- Home paths discharging into a sunken mulch basin with citrus tree
+- Raised planting bed doubles as seating area
+- Salvaged playground ladder
+- Roof turned into terrace strong enough for many people (30m2 incl. non-terraced part)
+- Roof painted white to reflect summer heat, and non-toxic
+- His roof doesn't have any edges to avoid water falling onto the sides. Maybe the roof is slightly concave
+
+### Higher roof and storage tanks
+
+- Water goes into 2*1000 gallons tanks (8000$L$ total, 2$m$ high x 2$m^2$ each)
+- Water from higher roof (3$m$ high, 50$m^2$) is gathered into a wet system which discharges onto the lower gutter (2.5$m$), before the tanks
+- Let's assume 100$mm$ downspouts
+- Rain is filtered by a self-sleaning filter before going into the tanks
+- The 2$mm$ screen is at an angle for self-cleaning
+
+### First flush
+
+- First flush goes into a 2$m$ high, 100$mm$ first flush pipe
+- Screwcap end on this pipe conveniently located close to the entrance, so that he doesn't forget emptying it
+- Grape vine to use the dirty (fertilized) water.
+- Grape will grow over the trellis to shade and cool the tanks
+- Not mentioned: we can see the pipe out of the bottom of his tanks with 2 valves
+- Youtube comment: link a slow, drip irrigation setup to the first flush pipe so that you don't even need to empty it.
+
+### Storage overflow and greywater
+
+- Overflow pipe goes behind the fence and into a mulch bed with trees
+- Not mentioned: there is a black pipe sticking out of the ground at the start of his overflow mulch / tree bed. I think it is his second overflow safety to the SW network
+There was also one sticking out of his grape (very high though)
+- Some greywater also discharges into this rather large infiltration bed
+- Soil care: no sodium soap
+- 4 options for the greywater. Every load sends its water to a different tree
+- Daylights about the mulch so no roots can grow into the pipe.
+- Meets the arizona greywater guidelines as the water goes below the mulch: nobody can come in direct contact with standing water
+
+### Wet system drainage
+
+- The wet system can be flushed into the citrus tree (T jonction + screw cap)
+- The screw cap is also conviniently placed so that he doesn't forget about it
+- Be careful with this system in cold climate
+- I think he should be careful in his climate too as roots like to attack wet pipes
+
+### Simen's comments: Pro
+
+- If emptied prior to rain flooding events it can reduce the flow spike (very locally)
+- Storage of contaminated water to fertilize plants
+- Outlet Points in case of periods below freezing to prevent destruction by thaw freeze cycles
+
+### Simen's comments: Con
+
+- Pipe runs underneath plants unclear whether or not he has accounted for roots destroying the pipe in the wet system
+- In the video things get stuck in his filter. this could contaminate the water in the tanks. If this happens emptying the tanks may prove challenging
+- If neglected for an extended period of time (vacation) all pipes and tanks may be contaminated and in need of extensive cleaning for further use
+
+## Tucson exercises
+
+### Street SW infiltration
+> - Let's say his system handles 5m of road width with a 1m wide infiltration strip
+> - So 5$m^2$ of road runoff + 1$m^2$ of infiltration strip needs to infiltrate in 1$m^2$
+> - What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100$l/s$ per Ha)
+> - By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in $m/s$). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation) for the link between infiltration rate and saturated hydraulic conductivity)
+
+```{r exercises1, exercise = TRUE}
+
+```
+
+```{r quiz1, echo = FALSE}
+quiz(caption = "Use the code chunk above to help answer these questions.",
+  question("How many columns are in the data frame named `cars`?",
+           answer("1"), 
+           answer("2", correct = TRUE),
+           answer("4"),
+           answer("more than four"),
+           incorrect = "Hint: If you inspect the contents of `cars` in the code block above, it should be pretty easy to count the number of columns.", 
+           allow_retry = TRUE
+  )
+)
+```
+
+
+### Street SW infiltration
+> - We use the rational formula for the road runoff
+> - $Q = C*i*A = 0.9*i*A$ we use 0.9 as arunoff coefficient. You could also use 1 if you neglect the small retention and infiltration properties of the asphalt.
+> - Unit conversion: 100l/Ha of precipitation intensity is $0.1m3/s$ for $10000m^2$ (1 Ha is $100*100m$)
+> - So for $5m^2$ of road $Q = C*i*A = 0.9*0.5/10000 = 4.5*10^{-5} m3/s$
+> - In addition, $Q = i*A = 0.1*1/10000 = 1*10^{-5} m3/s$ of rain fall onto the infiltrationa area
+> - So in total, for an infiltration area of 1m2, we required an infiltration rate of $4.5*10^{-5}+1*10^{-5} = 5.5*10^{-5} m/s$ 
+
+### test
+
+
 
 ## Leikanger case study
 
