@@ -21,17 +21,23 @@ https://www.nve.no/flaum-og-skred/fagsamlinger-2018-2019/
 
 
 
-Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
-
-Calculate much flow can be achieved in the tunnel
-
-How much flow can be directed from the side-catchments back to the main reservoir by gravity.
-Will one of the side intake need a non-return valve to avoid a backflow through the intake?
-Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
 
 
 
 ## Residential project in Leikanger
+
+A residential development for 100 houses is planned here. Discuss the existing hydrological condition.
+Are there existing streams running through the property?
+How easy is it to define their respective catchments?
+which risks might become more accute in such catchments with climate change?
+Design a first rough outline of the development in terms of roads, house and stormwater infrastructure.
+What is the impact of your design?
+Which physical / social / economical constraints did you take into account?
+
+Estimate what could be a 20 and a 200-year flood for the stream on the eastern boundary.
+Estimate the additional flow your initial flow development plan would add to those storm flows.
+Discuss alternative designs that would minimize this.
+Be creative: you can draw, add off-the-grid or agricultural features. 
 
 
 ## Case study in Sandane
@@ -40,6 +46,11 @@ Should this be an excursion, something to read at home and then an exercise sess
 http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2314351
 all presentation from the NVE conference there:
 https://www.nve.no/flaum-og-skred/fagsamlinger-2018-2019/foredrag-fra-fagsamlingene/
+
+
+
+
+
 
 
 

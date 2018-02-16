@@ -25,7 +25,7 @@ Discuss how Statkraft can best optimize the Leirdal reservoir
 
 The population was happy that a dam was built in order to control floods (i.e. [1979 flood](https://www.youtube.com/watch?v=9GDCZ-O6UbA)). Statkraft was allowed to built as long as they provided enough extra capacity at all times to cover an exeptional event. The top reservoir is therefore never full.
 
-## Schematics of the hydropower scheme
+### Schematics of the hydropower scheme
 
 Think about possible designs of hydropower schemes that least affect the valley and provide good returns.
 
@@ -36,7 +36,7 @@ They decided to tap into numerous side valleys to the east of Jostedalen, direct
 
 In this [document](https://www.statkraft.no/globalassets/old-contains-the-old-folder-structure/documents/jostedal-official-assessment-final-10-may-2013_tcm9-27383.pdf) you can find a schematic of the design
 
-## Mean water volumes
+### Mean water volumes
 
 Use Nevina to calculate the properties of all side catchments flowing into the hydropower infrastructure.
 
@@ -48,12 +48,21 @@ How much flow can be directed from the side-catchments back to the main reservoi
 Will one of the side intake need a non-return valve to avoid a backflow through the intake?
 Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
 
-## Specific considerations for extreme events
+### Specific considerations for extreme events
 
 Do you know other places where hydropower projects have been suggested to help mitigate flooding?
 Odda
 
-## Reconstructing the 1979 flood
+Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
+
+Calculate much flow can be achieved in the tunnel
+
+How much flow can be directed from the side-catchments back to the main reservoir by gravity.
+Will one of the side intake need a non-return valve to avoid a backflow through the intake?
+Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
+
+
+### Reconstructing the 1979 flood
 
 
 
@@ -74,15 +83,24 @@ Why do you think there is such a big difference in mass balance between Nigardsb
 
 
 
-In this tutorial, you will learn how to summarise a table of data, including:
+## Stream bank reinforcement in Lærdal
 
-* How to summarise tables with `summarise()` 
-* How to recognize the most useful families of functions to combine with `summarise()`
-* How to combine multiple dplyr operations with the pipe, `%>%`
-* How to compute counts of observations with `n()`
-* How to summarise groups of observations with `group_by()` and `summarise()`
+During the 2014 floods, the stream coming out of XX found a new flowpath and destroyed some agricultural land.
+Which measure would you suggest to avoid such an event in the future?
 
-The readings in this tutorial follow [_R for Data Science_](http://r4ds.had.co.nz/), section 5.6.
+NVE decided to build a riprap protection on the stretch of stream bank affected.
+Discuss the potential location of this riprap and calculate its necessary height to protect against a 200 year flood.
+Hint: [Nevina](www.nevina.nve.no) helps you define the catchment area and the 200-year flood.
+Hint: The riprap protection will have a very controlled geometry, making it easy to use open channel formulas.
+Hint: For a quite precise measure of steepness, you can use [hoydedata.no](www.hoydedata.no).
+
+What are potential negative downstream impacts of such a measure?
+
+Have a good look at the map in Norgeskart and try to find upstream features that could bring accrued sediments downstream.
+Hint: The Lærdal tunnel is not far.
+
+
+
 
 
 ## Further reading
