@@ -124,77 +124,11 @@ Knowledge of:
 - Use relevant computer software and GIS to identify flood-prone areas and potential problems arising from urban flooding and runoff 
 
 ## Teaching philosophy
-<img src="images/Quote_papert.jpeg" height="230" width="auto">
-
-"It is essential to see lectures as a means of helping students learn to think about the key concepts of a particular subject, rather than primarily as a means of transferring knowledge from instructor to student."
-
-## Teaching philosophy
 <img src="images/logo.png" class="cover">
 
-- Open source text-based material (for collaboration), available [online](https://fbaffie.github.io/Runoff_management_course/)
-- Links to a lot of freely available material
-- Lots of questions to force thinking / active learning
-- Freedom to choose a variety of application projects
-
-Given those course design choices:
-
-- Be active: take part in brainstorming exercises and questions
-- Be creative in your projects
-- Don't hesitate to ask questions and reach for help
-- Give feedback: The course is a living document, please suggest improvements!
-
-<!--
-1.  Intellectual Community
-2.  A high degree of interactivity between instructor and student, as well as between students.
-3.  Active Learning
-4.  Reflection
-5.  Self-directed Learning
-
-This master programm introduces you to a lot of material, which is good to give you different perspectices and widen your horizons, but it presents the risk of covering too supercially key concepts.
-In order to achieve the difficult balance between those 2 aspects, I have choosen to have simple lectures on important processes and concepts, backed by group exercises on specific case studies or scientific findings. A substantial list of written and video resources is listed at the end of each topic.
-
-It is a bit hypocritical to tell you not to do copy/paste, as I do it and it is very human to do it...
-My role is to orient you in the best way to book and interent resources for the future, while forcing you to have some internet-free discoveries during the course. The wealth of information available to us is both a miracle and a curse!
-
-Mark said that students were lacking pro-activity. He was maybe right.
--->
-
-## Soft skills: learning
-<img src="images/logo.png" class="cover">
-
-- [Deliberate practice](http://www.bulletproofmusician.com/how-many-hours-a-day-should-you-practice/) (Focus, challenge, feedback, repeat!)
-- Deconstruct skills (music, sport, coding...)
-- Learn from contradictory views, from your "opponents" (climate deniers, politics, some large companies...), or apparently unrelated fields
-- Be open to change
-- [How to get better at the things you care about? Alternate between learning zone and performing zone](https://www.ted.com/playlists/497/practice_makes_perfect)
-- [Scott Young: Interesting blog on learning strategies](https://www.scotthyoung.com/)
-- Mistakes are not failure, only [learning](https://www.youtube.com/watch?v=_xti05V24S4)
-
-## Soft skills: work / life
-<img src="images/logo.png" class="cover">
-
-- [Deep work](http://calnewport.com/books/deep-work/), grit
-- [Start with the why. How great leaders inspire action. Simon Sinek](https://www.youtube.com/watch?v=u4ZoJKF_VuA)
-- Be a helper vs a taker: the person who serves the most, prospers the most
-- See some [positive](http://www.positivityblog.com/16-things-i-wish-they-had-taught-me-in-school/) in everyone, everything (with clients, bosses, adverse situations...)
-- Recognize assumptions and test them (i.e. do the math when buying property, getting a job)
-- Steal like an artist!
-- [Useful mental models](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
-
-## Soft skills: leadership
-<img src="images/logo.png" class="cover">
-
-- Run your own race
-- Humble servant of your craft: do not behave like an expert
-- Lead without the title: leader vs victim mentality
-- Leaders criticize by [creating](http://jamesclear.com/creativity): execute your ideas
-- Leadership with a balanced ego:[the rarest commodity is leadership without ego. Bob Davids](https://www.youtube.com/watch?v=UQrPVmcgJJk)
-- Give and receive [feeback](http://www.bbc.com/future/story/20170308-why-even-the-best-feedback-can-bring-out-the-worst-in-us) with a "take it or leave it" attitude.
-
-<!--
-Implementing change requires strong convincing / argumentation abilities. Developing alternative ways to manage stormwater is for example much more difficult from an organizational point of view than from a technical aspect.
-There are probably smart introverts in your group that I hope will contribute actively.
--->
+- Active learning
+- Resource for further learning
+- [More on my teaching philosophy and notes on last year's feedback](./teaching.html)
 
 # Course schedule
 
@@ -299,6 +233,7 @@ And of course, if you want a reference letter, participating in the quizzes will
 [Lecture](01_Hydrology/1_water_cycle.html)
 
 We look at different components of the water cycle before diving into more detail.
+Climate change will impact various components of the hydrological cycle. We will quickly review potential evolutions and base our first quizz on this theme.
 
 [Quiz](01_Hydrology/1_water_cycle_quiz.html)
 
@@ -558,172 +493,12 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 - Design exercises
 -->
 
-# Suggested group projects
-
-## Design projects: Leikanger 100 dwellings, 10ha
-<img src="images/logo.png" class="cover">
-<img src="images/project_kaupanger_zoom_aerial.png" height="460" width="auto">
-
-## Design projects: site map
-<img src="images/logo.png" class="cover">
-<img src="images/project_kaupanger_zoom.png" height="520" width="auto">
-
-## Design projects: catchment
-<img src="images/logo.png" class="cover">
-<img src="images/project_kaupanger.png" height="520" width="auto">
-
-## Design projects: options
-<img src="images/logo.png" class="cover">
-Different groups could tackle different design challenges:
-
-- minimum extra outflow (least hydrological impact)
-- off the grid design
-- most agriculture / food production friendly design
-- design (incl. climate change) for its actual climate or 
-- semi-arid climate (US mid-west, middle east)
-- mediteranean climate (Marseille, California)
-- (sub)tropical climate (NSW, central America)
-
-## Design projects: example drawings
-<img src="02_Hydraulics/images/plan_initial_vancia.jpg" height="520" width="auto">
-
-## Design projects: example drawings
-<img src="02_Hydraulics/images/vancia_2_bassins_enterres.jpg" height="520" width="auto">
-
-## Design projects: other ideas
-<img src="images/logo.png" class="cover">
-
-- You can suggest another area to be developed
-- Re-design the campus for water harvesting and irrigation of urban agriculture. This could be linked to smart reservoirs.
-- Look for problems involving SW in the region and propose solutions (dirt roads, specific locations in Sogndal)
-
-## Design projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Drawings (hand, sketchup...) are encouraged. 
-- Try to specify construction requirements: inputs / outputs in materials, timing
-- Explain the process: your assumptions, calculations, context, design choices...
-- Be creative: do not give only 1 option
-- No need for huge report
-
-## Synthesis projects
-<img src="images/logo.png" class="cover">
-
-- Recommendation for green infrastructure design in Norway: which techniques are promising, where, under which circumstances...
-- Prepare a set of reference drawings / specifications on stormwater management for Western Norway?
-- Develop a cheatsheet on green SW infrastructure (i.e [nervous system](https://www.cheatography.com/davidpol/cheat-sheets/sympathetic-nervous-systems/pdf/), [R programming](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf))
-
-<img src="images/cheatsheet.jpg" height="300" width="auto">
-
-## Synthesis projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Explanation of choices
-- Steal like an artist: build upon the resources synthesized
-- Neat and practical final product
-
-## Modelling projects
-<img src="images/logo.png" class="cover">
-
-- Data exploration and hydrological modelling of the Sogndal catchment using R
-- Flood frequency analysis for the catchment
-- Relationship between measured flow at Sogndalsvatn and flow in Sogndal (can be experimental too)
-
-<!--
-- Instrument the Sogndal stream close to the campus or lower towards the outlet, do fluorometer / salt experiments and try to understand: how much more flow is there here than at Sogndalsvatn, how much time does river routing take, is it dependent on discharge rate? discuss the limitations
--->
-## Modelling projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Structured programs with R
-- Use of best practice for coding
-- Good explanation of the analysis: available data, methods, assumptions, results
-
-## Building projects
-<img src="images/logo.png" class="cover">
-
-- Design / Build a water pump or any other hydraulic  feature (i.e ram pump). 2000 Kr available. 
-
-Expectations: similar to design projects + explain why it works as it does.
-
-<img src="images/diy_ram_pump.jpg" height="300" width="auto">
-
-## Experimental projects
-<img src="images/logo.png" class="cover">
-
-- Implement a data acquisition experiment in sogndal or in the Sogndal catchment. (available equipment: portable EC/pH meter, soil moisture sensors, soil temperature sensors, water pressure sensors, fluorometer)
-- Biochar properties: available water capacity, hydraulic conductivity, erodability...
-
-## Experimental projects
-<img src="images/logo.png" class="cover">
-
-<div class="double">
-<p class="double-flow">
-Repair and experiment with the fied infiltrometer and lab permeameter. This could include a review of infiltration measurement methods and improvement of this wikipedia article:
-
-https://en.wikipedia.org/wiki/Infiltrometer
-</p><p class="double-flow">
-<img src="images/lab_permeameter.gif" height="400" width="auto">
-</p>
-</div>
-
-## Experimental projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Explain the why, what and how of experimental setup
-- Present results in a critical way: what went well and what didn't
-
-## Social projects
-<img src="images/logo.png" class="cover">
-
-- Serious game development for stormwater management in Norway
-- Analyze the barriers to implementation of innovative SW practices in Norway.
-- Compare them with other countries
-- Compare them with other topics, for example composting toilets.
-- Discuss how crowd-based approaches could influence design / planning decisions (i.e. design of the campus)
-
-## Social projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Have a scientific approach to the issue: what methods did you use, which assumptions did you make
-- High quality reporting
-
-# Project assessment
-
-
-## Project groups + second project
-<img src="images/logo.png" class="cover">
-
-People	| Main project	|  Second project
---- | --- | --- 
-People | project |  project2
-
-## Project development
-<img src="images/logo.png" class="cover">
-
-- Last 2 weeks of the course: project discussion instead of quiz
-- Every project gets 1-2h of everyone's time: come with a short presentation of the project and first ideas. 
-- Prepare good questions that the group can contribute to. 
-- Animate the discussion.
-- During the 10 day period before the exam, every project gets a 2-hour block of my time.
-
-<!--
-For example students would work on a project that develops their weak point why being client on a topic they feel more at ease with.
--->
-
-## Project reporting and presentation
-<img src="images/logo.png" class="cover">
-
-- The reports are sent to fkba@hvl.no and uploaded to fronter: Friday 9th of June. 24:00 
-- Slide show of 5 minutes per person (so 15 or 20 min total depending on the group)
-- Videos could be part of the reporting, but not only
-- The group with the same "second project" as the presenters gets priority for questions. They should have read the "second project" report in detail.
-- The individual exam will then discuss the personal project, the second project and the course material
+# Assessment
 
 ## Exam details
 <img src="images/logo.png" class="cover">
 
-1. Written group project work (+ oral presentation). The group gets one common grading. If not approved, a new version of the project work must be handed in. Grading A-F.
+1. Written group [project work](./projects.html) (+ oral presentation). The group gets one common grading. If not approved, a new version of the project work must be handed in. Grading A-F.
 2. Individual in-depth oral discussion on the project work, the "second" project and finally some aspects of the course material (remembering the most difficult equations will not be required, but they should be qualitatively understood and you should have an idea on how to apply them).
 Grading A-F.
 

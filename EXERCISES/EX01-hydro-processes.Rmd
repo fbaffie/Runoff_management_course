@@ -40,17 +40,6 @@ Copy here my phd example
 
 ## Case study: Sogndal's valley
 
-This tutorial will teach you how to look at data with R, which is a software environment and programming language for data science. If you would like to install R on your computer, please take a moment to read the [setup instructions]().
-
-In this tutorial, you will learn how to use R to inspect the contents of a data frame or tibble. Data frames and tibbles are R's structures for storing tabular data; if you inherit a tabular dataset in R, it will almost certainly come as one of these structures. Here, you will learn how to do three things with data frames and tibbles:
-
-1. look at the contents of a data frame or tibble
-2. open a help page that describes a data frame or tibble
-3. identify the variables and their types in a tibble 
-
-You will also meet in this tutorial `mpg` and `flights`, two datasets that appear frequently in R examples. 
-
-The readings in this tutorial follow [_R for Data Science_](http://r4ds.had.co.nz/), sections 3.2 and 5.1. 
 
 ## Catchment properties
 
@@ -74,10 +63,18 @@ Setting up a temperature-index melt model
 
 Calibrating a recession curve.
 
-## Putting it all together
+## Prepare potential evapotranspiration series
 
-Trying different hydrological models for the Sogndal catchment.
+Use the method of your choice to compute daily potential evapotraspiration.
 
+Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology.
+
+AirGR can also calculate it with the Oudin’s formula. The function is `Edaily_Oudin()`
+
+
+## Irrigation exercise
+
+Good exercise page 255, elements of physical hydrology
 
 ## Flood frequency analysis
 
@@ -91,10 +88,20 @@ Find out about the methodology to compute IVF curves and dio them for Sogndal.
 
 
 
+## Further ideas
 
 
+exercises
+River plastering in laerdal, calculate height
+Jostedalen, hydrology and hydraulics of the tunnels. Link to electricity production
+Estimate residence times in lakes and link it to the difficulty of managing them, like leirdal
+Drinking water in sogndal
+Hydro modelling in sogndal catchment
+Hydrology and hydraulics in sandane, look at storing water in the football field
+Propagation of floods in the sogndal valley
+Dilution gauging exercise and redoing the methodology of my last paper
 
-
+Example of reconstructing peak flow with mannings formula, based on signs left by the flood 
 
 
 

@@ -24,28 +24,28 @@ In this exercise session focusing on the Songdal catchment, we will experiment w
 
 The course material is [hydrological processes](./01_hydrology/01_hydrological_processes)
 
-### Setup
+## Data preparation
 
 Download meteorological and hydrological data for the Sogndalselvi catchment.
-
-To visualize the data, we will use the ggplot2 package that you met in [Data Visualization Basics](../02-data-vis-basics/02-data-vis-basics.html). 
-
-I've preloaded the packages for this tutorial with 
-
-```{r eval = FALSE}
-library(tidyverse) # loads dplyr, ggplot2, and others
-```
-
-## Add new variables with mutate()
-
-A data set often contains information that you can use to compute new variables. `mutate()` helps you compute those variables. Since `mutate()` always adds new columns to the end of a dataset, we'll start by creating a narrow dataset which will let us see the new variables (If we added new variables to `flights`, the new columns would run off the side of your screen, which would make them hard to see). 
+Which variables do you need?
 
 
-<div id="summariseex3-hint">
-**Hint:** Don't forget to use `na.rm = TRUE` where appropriate. 
-</div>
 
-```{r summariseex3-check}
-"Wow! You did awesome."
-```
+Hint: you can download data from there: https://www.nve.no/hydrologi/hydrologiske-data/
+With this link, snow water equivalent is only available for the past 2 months at Anestoelen
+Check Senorge and Xgeo to get longer term data
 
+NVE only has Anestoelen for temperature data. Has Metno more available data?
+Download the additional data and discuss temperature lapse rates in the catchment.
+
+
+## Link between groundwater variation and discharge recession
+
+Experiment with relationships between the drop in groundwater level at Anestoelen during the winter, and the recession in discharge at the outlet of Dalavatnet.
+
+Show that groundwater recession from an unconfined sloping aquifer with a flat bedrock (see sketch) is analog to the emptying of a linear reservoir where Q_out = constant * Volume
+page 204, elements of physical hydrology
+
+## Hydrological extremes
+
+Experiment with daily, monthly, yearly precipitation data and see how the probability distribution changes.
