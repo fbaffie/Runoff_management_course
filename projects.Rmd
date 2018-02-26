@@ -20,6 +20,8 @@ Flooding of the Opo in Odda: discussing mitigation measures, including hydropowe
 Compute IVF curves for sogndal, selseng
 Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland
 
+Muskingum flood routing for Sogndalselvi?
+
 
 ## Design projects: Leikanger 100 dwellings, 10ha
 <img src="images/logo.png" class="cover">
