@@ -1,16 +1,7 @@
 ---
 title: "Resilient design for urban stormwater"
-output: 
-  learnr::tutorial:
-    progressive: true
-    allow_skip: true
-runtime: shiny_prerendered
+output: revealjs::revealjs_presentation
 ---
-
-```{r setup, include=FALSE}
-library(learnr)
-knitr::opts_chunk$set(error = TRUE)
-```
 
 ## Exercise concept
 
@@ -88,24 +79,6 @@ There was also one sticking out of his grape (very high though)
 > - What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100$l/s$ per Ha)
 > - By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in $m/s$). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation) for the link between infiltration rate and saturated hydraulic conductivity)
 
-```{r exercises1, exercise = TRUE}
-
-```
-
-```{r quiz1, echo = FALSE}
-quiz(caption = "Use the code chunk above to help answer these questions.",
-  question("How many columns are in the data frame named `cars`?",
-           answer("1"), 
-           answer("2", correct = TRUE),
-           answer("4"),
-           answer("more than four"),
-           incorrect = "Hint: If you inspect the contents of `cars` in the code block above, it should be pretty easy to count the number of columns.", 
-           allow_retry = TRUE
-  )
-)
-```
-
-
 ### Street SW infiltration
 > - We use the rational formula for the road runoff
 > - $Q = C*i*A = 0.9*i*A$ we use 0.9 as arunoff coefficient. You could also use 1 if you neglect the small retention and infiltration properties of the asphalt.
@@ -113,10 +86,6 @@ quiz(caption = "Use the code chunk above to help answer these questions.",
 > - So for $5m^2$ of road $Q = C*i*A = 0.9*0.5/10000 = 4.5*10^{-5} m3/s$
 > - In addition, $Q = i*A = 0.1*1/10000 = 1*10^{-5} m3/s$ of rain fall onto the infiltrationa area
 > - So in total, for an infiltration area of 1m2, we required an infiltration rate of $4.5*10^{-5}+1*10^{-5} = 5.5*10^{-5} m/s$ 
-
-### test
-
-
 
 ## Leikanger case study
 

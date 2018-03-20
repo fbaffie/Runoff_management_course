@@ -1,22 +1,11 @@
 ---
 title: "Hydraulics: pipes and open channel"
-output: 
-  learnr::tutorial:
-    progressive: true
-    allow_skip: true
-runtime: shiny_prerendered
+output: revealjs::revealjs_presentation
 ---
-
-```{r setup, include=FALSE}
-library(learnr)
-tutorial_options(exercise.timelimit = 60)
-knitr::opts_chunk$set(error = TRUE)
-```
 
 ## Case study: Jostedal
 
 Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
-
 
 What is the mean residence time at water in the Styggevatn reservoir?
 What is the mean residence time in the Leirdal reservoir?
@@ -30,7 +19,6 @@ The population was happy that a dam was built in order to control floods (i.e. [
 Think about possible designs of hydropower schemes that least affect the valley and provide good returns.
 
 You can find information on built water infrastructure on the [NVE Atlas].
-
 
 They decided to tap into numerous side valleys to the east of Jostedalen, directing water towards a power station at the lower end of the valley. Design potential schemes based on this information.
 
@@ -64,9 +52,6 @@ Experiment with the behavior of those intakes during various events: intense hou
 
 ### Reconstructing the 1979 flood
 
-
-
-
 [Statkraft presentation of the Jostedalen hydropower scheme](https://www.statkraft.com/energy-sources/Power-plants/Norway/Jostedal/)
 
 [Statkraft is seeking new consessions on the western side of Jostedalen](https://www.statkraft.no/media/pressemeldinger/Pressemeldinger-arkiv/2012/statkraft-skrinlegger-overforing-av-vestsideelvene-i-jostedalen/)
@@ -80,10 +65,7 @@ You can base yourself on this [document](http://publikasjoner.nve.no/rapport/201
 
 Why do you think there is such a big difference in mass balance between Nigardsbreen and Austdalsbreen?
 
-
-
-
-## Stream bank reinforcement in Lærdal
+## Stream bank reinforcement in L?rdal
 
 During the 2014 floods, the stream coming out of XX found a new flowpath and destroyed some agricultural land.
 Which measure would you suggest to avoid such an event in the future?
@@ -97,11 +79,7 @@ Hint: For a quite precise measure of steepness, you can use [hoydedata.no](www.h
 What are potential negative downstream impacts of such a measure?
 
 Have a good look at the map in Norgeskart and try to find upstream features that could bring accrued sediments downstream.
-Hint: The Lærdal tunnel is not far.
-
-
-
-
+Hint: The L?rdal tunnel is not far.
 
 ## Further reading
 

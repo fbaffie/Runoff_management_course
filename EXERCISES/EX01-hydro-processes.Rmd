@@ -1,18 +1,7 @@
 ---
 title: "Exercises: Hydrological processes"
-output: 
-  learnr::tutorial:
-    progressive: true
-    allow_skip: true
-    df_print: default
-runtime: shiny_prerendered
+output: revealjs::revealjs_presentation
 ---
-
-```{r setup, include=FALSE}
-library(learnr)
-library(tidyverse)
-tutorial_options(exercise.timelimit = 60)
-```
 
 ## Hydrological processes
 
@@ -85,11 +74,7 @@ Create a dataset of annual maximum.
 
 Find out about the methodology to compute IVF curves and dio them for Sogndal.
 
-
-
-
 ## Further ideas
-
 
 exercises
 River plastering in laerdal, calculate height
@@ -102,133 +87,3 @@ Propagation of floods in the sogndal valley
 Dilution gauging exercise and redoing the methodology of my last paper
 
 Example of reconstructing peak flow with mannings formula, based on signs left by the flood 
-
-
-
-
-
-
-
-## Data frames
-
-### What is a data frame?
-
-R stores tabular data in two formats:
-
-1. As data frames
-2. As tibbles, which are a special type of data frame
-
-A __data frame__ is a rectangular collection of variables (in the columns) and observations (in the rows). An example is the `mpg` data frame found in the ggplot2 package (aka `ggplot2::mpg`). The `mpg` data frame contains observations collected by the US Environmental Protection Agency on 38 models of cars. To see the `mpg` data frame, type `mpg` in the code chunk below and then click "Submit Answer."
-
-```{r mpg-setup}
-mpg <- as.data.frame(mpg)
-```
-
-```{r mpg, exercise = TRUE}
-
-```
-
-<div id="mpg-hint">
-**Hint:** Type `mpg` and then click the blue button.
-</div>
-
-```{r mpg-check, echo = FALSE}
-# checking code
-```
-
-### A note about mpg
-
-Note that the code above worked because I've already loaded the ggplot2 package for you in this tutorial: `mpg` comes in that package. If you would like to look at `mpg` on your own computer, you will need to first load ggplot2. You can do that in two steps:
-
-1. First, run `install.packages('ggplot2')` to install ggplot2 if you do not yet have it.
-2. Then, load ggplot2 with the `library(ggplot2)` command
-3. After that, you will be able to access any object in ggplot2 — including `mpg` — until you close R. 
-
-### View()
-
-You can examine the contents of any data frame or tibble in R by running its name as a command. However, what you see might be overwhelming. Often a data frame or tibble contains more information than R can display in a single screen. In this case, you can look at the contents in a separate window with the `View()` command, which begins with a capital V. To use it, pass view the name of the data frame to display by writing the name between the parentheses that follow `View()`, e.g. `View(mpg)`.
-
-## Help pages
-
-### How to open a help page
-
-You can learn more about `mpg` by opening its help page. The help page will explain where the `mpg`dataset comes from and what each variable in `mpg` describes. To open the help page, type `?mpg` in the code chunk below and then click "Submit Answer".
-
-```{r help, exercise = TRUE}
-
-```
-
-<div id="help-hint">
-**Hint:** Type `?mpg` and then click the blue button.
-</div>
-
-```{r help-check, echo = FALSE}
-# checking code
-```
-
-### ? syntax
-
-You can use the same syntax to open a help page for any object that comes in R or one of its packages. To open an object's help page, type a `?` before the object's name and then run the command, as you did with `?mpg`. This technique works for more than just data frames: you can also look at the help pages of functions. 
-
-Notice that objects created by you or your colleagues will not have a help page (unless you make one).
-
-### Exercises
-
-```{r exercises1, exercise = TRUE}
-
-```
-
-```{r quiz1, echo = FALSE}
-quiz(caption = "Use the code chunk above to help answer these questions.",
-  question("What does the `drv` variable of `mpg` describe?  Read the help for `?mpg` to find out.",
-           answer("Whether or not the vehicle has driver side airbags"), 
-           answer("Whether a car is automatic or manual transmission"),
-           answer("The number of cylinders in the car's engine"),
-           answer("Something else", correct = "`drv` describes the type of drivetrain in a car: front wheel drive, rear wheel drive, or four wheel drive."), 
-           allow_retry = TRUE
-  ),
-  question("How many rows are in the data frame named `cars`?",
-           answer("2"), 
-           answer("25"),
-           answer("50", correct = TRUE),
-           answer("100"),
-           incorrect = "Hint: R numbers the rows of a data frame when it displays the contents of a data frame. As a result, you can spot the number of rows in `cars` by examining `cars` in the code block above.", 
-           allow_retry = TRUE
-  ),
-  question("How many columns are in the data frame named `cars`?",
-           answer("1"), 
-           answer("2", correct = TRUE),
-           answer("4"),
-           answer("more than four"),
-           incorrect = "Hint: If you inspect the contents of `cars` in the code block above, it should be pretty easy to count the number of columns.", 
-           allow_retry = TRUE
-  )
-)
-```
-
-## Tibbles
-
-### What is a tibble?
-
-Now let's look at a special type of data frame that you will encounter in R: the tibble.
-
-The `flights` data frame in the nycflights13 package is an example of a tibble. `flights` describes every flight that departed from New York City in 2013. The data comes from the US [Bureau of Transportation Statistics](http://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=120&Link=0), and is documented in `?flights`.
-
-Use the code chunk below to print the contents of `flights`.
-
-```{r flights, exercise = TRUE}
-
-```
-
-<div id="flights-hint">
-**Hint:** Type the name of the data frame that you want to print and then click the blue button. I've already loaded the nycflight13 package for you.
-</div>
-
-```{r flights-check}
-# checking code
-```
-
-### The tibble display
-
-You might notice that `flights` prints a little differently from `mpg`: `flights` shows only the first few rows of the data frame and only the columns that fit on one screen. (To see the whole dataset, you can run `View(flights)` which will open the dataset in a special viewer). `flights` prints differently because it's a __tibble__. Tibbles are data frames, but slightly tweaked to be more user-friendly. For now, you don't need to worry about the differences between tibbles and data frames that are not tibbles; we'll come back to tibbles in more detail in a later tutorial.
-

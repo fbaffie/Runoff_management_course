@@ -137,11 +137,11 @@ Knowledge of:
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Wed. 02 May | 09:15-12:00	| [The water cycle](01_Hydrology/1_water_cycle.html)	| Room?
-Thu. 03 May | 09:15-12:00	| [Hydrological processes 1](01_Hydrology/2_hydrological_processes_1.html) | Room?
-Thu. 03 May | 12:30-14:00	| Excursion drinking water | Same room as morning
-Fri. 04 May | 09:15-12:00	| [Hydrological processes 2](01_Hydrology/2_hydrological_processes_2.html) | Room?
-Fri. 04 May | 13:15-16:00	| Exercises: hydrology | Computer room?
+Wed. 02 May | 09:15-12:00	| [The water cycle](01_Hydrology/1_water_cycle.html)	| Svingen F2
+Thu. 03 May | 09:15-12:00	| [Hydrological processes 1](01_Hydrology/2_hydrological_processes_1.html) | Svingen F3
+Thu. 03 May | 12:30-14:00	| Excursion drinking water | Svingen F3
+Fri. 04 May | 09:15-12:00	| [Hydrological processes 2](01_Hydrology/2_hydrological_processes_2.html) | Svingen F2
+Fri. 04 May | 13:15-16:00	| Exercises: hydrology | Fossbygget-F208  Kjelda
 
 
 ## Agenda 07-09 May
@@ -149,42 +149,42 @@ Fri. 04 May | 13:15-16:00	| Exercises: hydrology | Computer room?
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Mon. 07 May | 09:15-12:00	| [Hydrological extremes](01_Hydrology/3_hydrological_extremes.html)	| Room?
-Mon. 07 May | 13:15-16:00	| Introduction to SW	| Same room as morning
-Tue. 08 May | 09:15-12:00	| [Hydrological modelling](01_Hydrology/4_hydrological_modelling.html) | Room?
-Tue. 08 May | 13:15-16:00	| Constraints in green infra. | Same room as morning
-Wed. 09 May | All day	| Project discussions | My office
+Mon. 07 May | 09:15-12:00	| [Hydrological extremes](01_Hydrology/3_hydrological_extremes.html)	| Svingen F2
+Mon. 07 May | 13:15-16:00	| Introduction to SW	| Svingen F2
+Tue. 08 May | 09:15-12:00	| [Hydrological modelling](01_Hydrology/4_hydrological_modelling.html) | Svingen F1
+Tue. 08 May | 13:15-16:00	| Constraints in green infra. | Svingen F2
+Wed. 09 May | Whenever	| Project discussions | My office
 
 ## Agenda 14-16 May
 <img src="images/logo.png" class="cover">
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Mon. 14 May | 09:15-12:00	| [Fluid dynamics](02_Hydraulics/1_fluid_dynamics.html)	| Room?
-Tue. 15 May | 09:15-12:00	| [Open channel](02_Hydraulics/2_open_channel.html)	| Room?
-Wed. 16 May | 09:15-12:00	| [Soils, erosion and deposition](02_Hydraulics/3_erosion_deposition.html)	| Room?
-Wed. 16 May | 13:15-16:00	| Exercises: hydraulics	| Computer room?
+Mon. 14 May | 09:15-12:00	| [Fluid dynamics](02_Hydraulics/1_fluid_dynamics.html)	| Svingen F2
+Tue. 15 May | 09:15-12:00	| [Open channel](02_Hydraulics/2_open_channel.html)	| Svingen F2
+Wed. 16 May | 09:15-12:00	| [Soils, erosion and deposition](02_Hydraulics/3_erosion_deposition.html)	| Svingen F2
+Wed. 16 May | 13:15-16:00	| Exercises: hydraulics	| Fossbygget-F208  Kjelda
 
 ## Agenda 22-25 May
 <img src="images/logo.png" class="cover">
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Tue. 22 May | 09:15-12:00	| [Urban hydraulics](02_Hydraulics/4_urban_hydraulics.html)	| Room?
+Tue. 22 May | 09:15-12:00	| [Urban hydraulics](02_Hydraulics/4_urban_hydraulics.html)	| Svingen F2
 Wed. 23 May | 08:00-17:30	| Excursion	| Gaupne and Jostedal
-Thu. 24 May | 09:15-12:00	| [Flood mapping](03_Catchment_scale/1_flood_mapping.html) | Room?
-Fri. 25 May | 09:15-12:00	| Exercises: urban, rural	| Computer room?
+Thu. 24 May | 09:15-12:00	| [Flood mapping](03_Catchment_scale/1_flood_mapping.html) | Svingen F2
+Fri. 25 May | 09:15-12:00	| Exercises: urban, rural	| Fossbygget-F208  Kjelda
 
 ## Agenda: 28-31 May
 <img src="images/logo.png" class="cover">   
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Mon. 28 May | 09:15-12:00	| [Land use](03_Catchment_scale/4_land_use.html)		| Room?
-Tue. 29 May | 09:15-12:00	| [Design examples](04_Urban_SW/3_design.html)	| Room?
+Mon. 28 May | 09:15-12:00	| [Land use](03_Catchment_scale/4_land_use.html)		| Svingen F2
+Tue. 29 May | 09:15-12:00	| [Design examples](04_Urban_SW/3_design.html)	| Svingen F2
 Wed. 30 May | 09:15-12:00	| Excursion	| Lærdal / Flåm
-Thu. 31 May | 09:15-12:00	| [Debriefing and keywords](./keywords/keywords.html) 	| Room?
-Thu. 31 May | 13:15-16:00	| Exercises: SW design | Same room as morning
+Thu. 31 May | 09:15-12:00	| [Debriefing and keywords](./keywords/keywords.html) 	| Svingen F2
+Thu. 31 May | 13:15-16:00	| Exercises: SW design | Svingen F2
 
 ## Agenda: 09-15 June
 <img src="images/logo.png" class="cover">
@@ -193,7 +193,7 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Fri. 08 Jun | 24:00 | Send project reports | fkba@hvl.no + fronter
 Tue. 12 Jun | 08:00-16:00 | Group presentations | ?
-Thu. 14 Jun | 08:00-17:00 | Individual exam | ? 
+Thu. 14 Jun | 08:00-17:00 | Individual exam | SOG-Møterom 3.etg Stadionbygg
 
 ## Time blocks 
 <img src="images/logo.png" class="cover">

@@ -1,18 +1,7 @@
 ---
 title: "Create new variables"
-output: 
-  learnr::tutorial:
-    progressive: true
-    allow_skip: true
-runtime: shiny_prerendered
+output: revealjs::revealjs_presentation
 ---
-
-```{r setup, include=FALSE}
-library(learnr)
-library(tidyverse)
-tutorial_options(exercise.timelimit = 60)
-knitr::opts_chunk$set(error = TRUE)
-```
 
 ## Hydrological modelling
 
