@@ -209,6 +209,10 @@ http://stream1.cmatc.cn/pub/comet/HydrologyFlooding/flood/comet/hydro/basic/Floo
 ## Flood frequency analysis
 <img src="images/ffa_example.png" height="auto" width="900">
 
+## The estimated maximum flood
+
+It is the "theoretical" largest flood that can happen in a catchment. It can be estimated based on maximum precipitable water. It can be useful for the design of spillways and other safety hydraulic constructions.
+
 ## Flood forecasting
 <img src="images/flood_forecasting_app.png" height="500" width="auto">
 

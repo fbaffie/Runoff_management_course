@@ -5,27 +5,114 @@ output: revealjs::revealjs_presentation
 
 # In the morning
 
-## Getting up
+## Getting data from web APIs
 
-- Turn off alarm
-- Get out of bed
+https://bookdown.org/rdpeng/RProgDA/reading-web-based-data.html
 
-## Breakfast
+## Page 3 of methods of flood estimation pdf
 
-- Eat eggs
-- Drink coffee
+Methodology of flood estimation
 
-# In the evening
+I probably should have a wider list of design flood estimation methods in the hydro_extremes lecture
 
-## Dinner
+# Field intuition and modelling
 
-- Eat spaghetti
-- Drink wine
+## Conceptual view of my PhD catchment
+<img src="images/phd/Paper 4 - Figure 7.png" height="450" width="auto">
 
-## Going to sleep
+## Electrical conductivity: natural tracer
+<img src="images/phd/Paper 4 - Figure 1.png" height="450" width="auto">
 
-- Get in bed
-- Count sheep
+<!--
+> - **From this graph, what can you tell about the relationship between electrical conductivity and streamflow?**
+> - There is an inverse proportionality which seems to depend on the season and the discharge.
+> - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
+> - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
+-->
 
+## Initial data and modelling results
+<img src="images/phd/Paper 4 - Figure 3.png" height="450" width="auto">
+
+## Two component mixing model
+> - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)**
+> - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$
+> - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.**
+> - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$
+
+## Total discharge as a function of $Q_{gw}(t)$
+
+> - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
+> - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$
+
+
+## Modelled baseflow recession
+<img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
+
+<!--
+> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
+$Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
+
+## GW exfiltration as a function of groundwater level
+\[Q_{gw}(t) = V_{slow}(t)*T_{slow} + V_{fast}(t) T_{fast}\]
+-->
+
+<!--
+## Recession discharge
+\[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
+-->
+
+<!--
+## Groundwater storage as a function of field GW measurements
+\[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
+with $L_{integral}(t_{end}) = L_{residual}$
+
+
+##  Total groundwater flow as a function of field GW measurements
+\[Q_{gw}(t) = baseflow_{max} + A_{fast} × L_{integral}(t) × \Phi * T_{fast}\]
+
+
+## Benchmark efficiency
+\[E = 1 − P_t (Q_{meas}(t) − Q_{mod}(t))^2 P_t (Q_{meas}(t) − Q_{bench}(t))^2\]
+
+## Verifying $A_{slow}$ with snowmelt recharge
+\[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
+-->
+
+## Aquifer recharge with snowmelt
+
+<img src="images/phd/Paper 4 - Figure 6.png" height="450" width="auto">
+
+## Mass balance verification for the infiltration rate
+
+> - **Write the infiltration rate as a function of the storage volume and the exfiltration rate $Q_{gw}$**
+> - We neglect evapotranspiration and recharge from rain 
+> - $Q_{inf}(t) = dV(t)dt + Q_{gw}(t)$
+
+<!--
+## Figure 4
+<img src="images/phd/Paper 4 - Figure 4.png" height="450" width="auto">
+-->
+
+## Seasonaly variable GW contribution
+<img src="images/phd/Paper 4 - Figure 5.png" height="450" width="auto">
+
+# Climate change PhD example
+
+## Climate change impacts
+
+> - **Remember what "downscaling" is?**
+> - Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid
+> - **Which parameters are affected?**
+> - Air temperature
+> - Precipitation
+> - Relative humidity
+> - Wind speed
+> - Wind direction
+
+
+<!--
+> - **What is an ensemble forecast?**
+> - A forecast using many different models
+-->
 
 
