@@ -1,6 +1,12 @@
 ---
 title: "Untitled"
-output: revealjs::revealjs_presentation
+output:
+  html_document:
+    highlight: tango
+    toc: true
+    toc_float:
+      collapsed: false
+    fig_caption: true
 ---
 
 # In the morning

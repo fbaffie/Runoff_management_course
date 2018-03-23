@@ -493,6 +493,43 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 - Design exercises
 -->
 
+# Exercise sessions
+## Hydrological processes
+<img src="images/logo.png" class="cover">
+
+- Some simple exercises from textbooks
+- Flow through sand filters
+- Steady flow in an unconfined aquifer
+- Data preparation for modelling the Sogndalselvi catchment
+- Key hydrological figures at various time scales
+
+## Hydrological modelling
+<img src="images/logo.png" class="cover">
+
+- Using airGR for hydrological modelling of the Sogndalselvi catchment
+- Link between groundwater drop and streamflow recession
+- Experiment with hydrological extremes at various time scales
+
+## Hydropower and hydraulics
+<img src="images/logo.png" class="cover">
+
+- Case study of Statkraft's hydropower infrastructure in Jostedal
+
+## Urban hydrology and green infrastructure
+<img src="images/logo.png" class="cover">
+
+- Some calculations and drawings based on this water harvesting video in Tucson, Arizona.
+
+## Urban and rural hydrology. Field observations and planning
+<img src="images/logo.png" class="cover">
+
+- Visit of a site where 100 new dwellings had been suggested. 
+- Field excursion and diagnostic of the existing hydrologic /  hydraulic situation
+- Presentation on past flooding events
+- Open discussion on the design of new dwellings
+- NVE case study: new flood flow paths. critical points in catchment management
+
+
 # Assessment
 
 ## Exam details
