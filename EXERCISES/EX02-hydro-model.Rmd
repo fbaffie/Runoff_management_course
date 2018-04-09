@@ -3,6 +3,12 @@ title: "Create new variables"
 output: revealjs::revealjs_presentation
 ---
 
+## Using the hydrological model "HBV Light"
+
+Jan Seibert at University of Zürich provides a model and exercises [there](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
+
+Do all exercises with his data. You can later experiment with data from the Sogndal catchment.
+
 ## Hydrological modelling
 
 In this exercise session focusing on the Songdal catchment, we will experiment with various hydrological models:
