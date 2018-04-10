@@ -18,9 +18,15 @@ Green roofs: there is good pdf from NVE, soil moisture sensors good be installed
 Flood routing in Sogndal, Jostedal
 Flooding of the Opo in Odda: discussing mitigation measures, including hydropower reservoir.
 Compute IVF curves for sogndal, selseng
+
 Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland
 
 Muskingum flood routing for Sogndalselvi?
+
+## Erosion experiment with soil moisture sensors
+
+Using the plexiglas apparatus in the geolab
+This could include piping experiments [Laboratory soil piping and internal erosion experiments](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.3508)
 
 
 ## Design projects: Leikanger 100 dwellings, 10ha
