@@ -81,6 +81,35 @@ What are potential negative downstream impacts of such a measure?
 Have a good look at the map in Norgeskart and try to find upstream features that could bring accrued sediments downstream.
 Hint: The L?rdal tunnel is not far.
 
+## Manning's equation
+Replacing the last expression for $C$ into Chézy's equation yields:
+
+\[V = {\frac{R_h^{2/3} S^{1/2}}{n}} \]
+
+$V$ is the cross-sectional average velocity
+
+$n$ is the Manning coefficient. (in $s*m^{-\frac {1}{3}}$)
+
+$R_h$ is the hydraulic radius in meters
+
+$S$ is the gradient in hydraulic head, which is the channel bed slope when the water depth is constant
+
+## Typical Manning roughness coefficients
+According to "Elements of physical hydrology"
+
+Channel material	| Manning's n
+--- | ---
+Glass	| 0.01	
+Smooth concrete	|	0.012
+Earth canal | 0.02
+Natural streams | 0.024-0.075
+
+## Application
+
+Manning coefficient: $n = 0.025$
+Hydraulic radius: $R_h$ ?
+Cross sectional area / Wetted perimeter = x*10 / (2x + 20)
+
 ## Further reading
 
 Methodology for the glacier mass balance assessments: [Reanalysis of long-term series of glaciological and geodetic mass balance for 10 Norwegian glaciers](https://www.the-cryosphere.net/10/535/2016/tc-10-535-2016.pdf)

@@ -235,10 +235,16 @@ And of course, if you want a reference letter, participating in the quizzes will
 We look at different components of the water cycle before diving into more detail.
 Climate change will impact various components of the hydrological cycle. We will quickly review potential evolutions and base our first quizz on this theme.
 
-[Quiz](01_Hydrology/1_water_cycle_quiz.html)
+
+Quiz for next monday:
+
+Send me 2 questions and answers on this scientific presentation: [Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
 
 
 <!--
+
+[Quiz](01_Hydrology/1_water_cycle_quiz.html)
+
 "Hydrology is the science which deals with terrestrial waters, their occurrence, circulation and distribution on our planet, their physical and chemical properties and their interaction with the physical and biological environment, including the effect on them of the activity of man".
 
 Session time plan:
@@ -271,7 +277,6 @@ We will first discuss hydrological processes most relevant to hydrology in Norwa
 
 We then cover groundwater, soil water and runoff generation which are important for the design of green stormwater infrastructure: [Lecture](01_Hydrology/2_hydrological_processes_2.html)
 
-The quiz focuses on the impact of forest on water resources: [Quiz](01_Hydrology/2_hydrological_processes_quiz.html)
 
 <!--
 Forest, tress and water in arid lands: a delicate balance
@@ -292,6 +297,14 @@ Present documents for the quiz: impact of forest on hydrological resources
 [Lecture](01_Hydrology/3_hydrological_extremes.html)
 
 Quantifying floods and droughts helps better designing protection / adaptation measures. 
+
+Quiz for next monday:
+
+Send me 2 questions and answers on this scientific article:
+[A restatement of the natural science evidence concerning catchment-based ‘natural’ flood management in the UK](http://rspa.royalsocietypublishing.org/content/473/2199/20160706?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Proceedings_A_TrendMD_1)
+
+or this one:
+[Differences in flood hazard projections in Europe – their causes and consequences for decision making](http://www.tandfonline.com/doi/full/10.1080/02626667.2016.1241398?src=recsys)
 
 <!--
 - Brainstorming hydrological extremes
@@ -330,6 +343,11 @@ Rational method
 [Lecture](02_Hydraulics/1_fluid_dynamics.html)
 
 We will look at water in pressure pipes. This is usually the domain of drinking water only but in somes instances, SW will have to be pumped out of a depression. Alternatively, SW could be used in off-grid design for micro-hydropower production or gravity fed irrigation schemes.
+
+Quiz for next monday:
+
+Send me 2 questions and answers on this NVE report:
+[Identification of areas exposed to flooding in Norway at a national level](https://gis3.nve.no/metadata/rapporter/SmallScaleFloodAssesment_v3.pdf)
 
 <!--
 Microhydro, ram pump, pumps, off the grid gravity fed networks...
@@ -380,7 +398,11 @@ Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 Lecture by Deborah Davies (HVL) on natural flood management.
 
 We saw how precipitation led to runoff and how water level in channels varies as a function of discharge.
-Those results are used to produce flood zoning maps. We will now focus on the bigger picture of flood management in large catchments.
+Those results are used to produce flood zoning maps. We will look at different methods to do so.
+
+Quiz for next monday:
+Send me 4 questions and answers on your group project.
+
 
 <!--
 
@@ -499,21 +521,27 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 
 - Some simple exercises from textbooks
 - Flow through sand filters
+- Designing drinking water infrastructure
 - Steady flow in an unconfined aquifer
-- Data preparation for modelling the Sogndalselvi catchment
-- Key hydrological figures at various time scales
+- Link between groundwater drop and streamflow recession
+- Temperature index modelling of snowmelt
+
+
 
 ## Hydrological modelling
 <img src="images/logo.png" class="cover">
 
-- Using airGR for hydrological modelling of the Sogndalselvi catchment
-- Link between groundwater drop and streamflow recession
+- Exercises using the hydrological model HBV light
+
+- Data preparation for modelling the Sogndalselvi catchment
+- Key hydrological figures at various time scales
 - Experiment with hydrological extremes at various time scales
 
 ## Hydropower and hydraulics
 <img src="images/logo.png" class="cover">
 
 - Case study of Statkraft's hydropower infrastructure in Jostedal
+- Designing flood protection measures in Lærdal
 
 ## Urban hydrology and green infrastructure
 <img src="images/logo.png" class="cover">

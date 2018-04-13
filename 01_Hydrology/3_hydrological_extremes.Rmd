@@ -15,6 +15,7 @@ output:
 - [Flood risk](./3_hydrological_extremes.html#flood-risk)
 - [Key probability concepts](./3_hydrological_extremes.html#key-probability-concepts)
 - [Flood frequency analysis](./3_hydrological_extremes.html#flood-frequency-analysis)
+- [Take home messages](./3_hydrological_extremes.html#take-home-messages)
 - [Further resources](./3_hydrological_extremes.html#further-resources)
 
 <!--
@@ -217,6 +218,8 @@ It is the "theoretical" largest flood that can happen in a catchment. It can be 
 <img src="images/flood_forecasting_app.png" height="500" width="auto">
 
 ## Take home messages
+<img src="../images/important.png" class="cover">
+
 - Extreme values derived for both river discharge and precipitation (IDF curves)
 - Annual exceedance probability is the probability $p$ that a flood will be **equal or greater** than a specific return level $Q_T$ (for the return period $T=1/p$)
 - Flood frequency analysis: various statistical methods based on fitting probability distributions to historical data

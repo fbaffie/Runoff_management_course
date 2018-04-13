@@ -9,6 +9,17 @@ output:
     fig_caption: true
 ---
 
+## Excursions
+
+Flood in Utvik:
+https://www.vg.no/nyheter/innenriks/vaer-og-uvaer/flommen-i-utvik-vann-ekspert-varslet-om-flomfare/a/24103915/
+
+[National engineering handbook: Part 654 - Stream Restoration Design](https://directives.sc.egov.usda.gov/viewerFS.aspx?hid=21433)
+
+
+
+
+
 # In the morning
 
 ## Getting data from web APIs
