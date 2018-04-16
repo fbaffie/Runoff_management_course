@@ -346,6 +346,13 @@ with $L_{integral}(t_{end}) = L_{residual}$
 - Know the assumptions and their impact
 - Plotting choices can influence analysis
 
+# Exercise preparation
+
+The goal is to complete exercises 1, 2 and 3 suggested by Jan Seibert with the hydrological model [HBV Light](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
+The program, accompanying data and an introduction lecture to the model can be accessed on the University of Zürich, Department of geography [webpage](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)
+You can try to install the software on your laptop but there was a resolution problem on mine.
+Otherwise, the program is installed on the computers of room: XXX
+
 # Further resources
 
 ## Book chapters
