@@ -249,6 +249,10 @@ Elements of physical hydrology: Chapter 3 (covers key topics in a clear and math
 
 ## Selected online resources
 
+US National Engineering handbook (Part 654 - Stream Restoration Design):
+[Chapter 6 - Stream hydraulics](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=17782.wba)
+
+
 More details, more equations: [Isaac Wait online lectures](https://www.youtube.com/playlist?list=PLQv9IPdrtoKjRyCQlzxss9LsvzQf2EOYa)
 
 [Bernouilli's equation](http://www.caee.utexas.edu/prof/kinnas/319LAB/Lab/lab%204-Bernoulli%27s%20equation/4-Bernoulli.htm)

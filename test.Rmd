@@ -14,17 +14,57 @@ output:
 Flood in Utvik:
 https://www.vg.no/nyheter/innenriks/vaer-og-uvaer/flommen-i-utvik-vann-ekspert-varslet-om-flomfare/a/24103915/
 
-[National engineering handbook: Part 654 - Stream Restoration Design](https://directives.sc.egov.usda.gov/viewerFS.aspx?hid=21433)
+<!-- 
+
+TO CHECK / PROCESS
+for laminar flow in open channels, Reynolds number is less than about 500.
+So nearly all open channel flows are turbulent.
+Check why the maximum velocity in a stream is slightly below the surface, friction with the air?)
+
+The explanation of the GIS techniques to come up with the automatic flood maps is interesting but hard to follow. Good example if Norwegian English  
+
+Find the green ampt infiltration formula as an exercise?
+
+Good chapter on evaporation in elements of hydrology 
+
+Copy exercises but do not put them on the internet 
+
+Exercise session 2 or 3, flood routing and the propagation of floods through reservoirs 
+
+Page 148, hydrology in practice, flow from unconfined aquifer 
+
+check  the wallingford procedure for design of stormwater infrastructure page 472 hydro in practice 
+
+Calculate flow in pipe at surcharge 
+hydrology in pratice p429 design flood estimation methodology
+
+First quizz on climate impact on the hydrological cycle (video?)
+book chapter? www.cgd.ucar.edu/staff/.../Hydrological%20cycleSpringer.pdf
+http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/
+
+another option would be a video: https://www.youtube.com/watch?v=hic_vcuO5Jo
+
+or a shorter section of this:
+https://www.youtube.com/watch?v=-RC-IrL5D0A&index=40&list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli&t=0s
+
+
+Second quizz on the UK restatement paper
+Third quizz on NVE report on flood mapping
+Fourth quizz on student projects
+
+Student project: model the Sogndal catchment with HBV light first, and then other methods
+
+
+Compulsory attendance of Simen's master presentation
+
+Climate factors adapted for each region plus uncertainty ADD THE LATEST LINK
+
+-->
 
 
 
 
-
-# In the morning
-
-## Getting data from web APIs
-
-https://bookdown.org/rdpeng/RProgDA/reading-web-based-data.html
+# XX
 
 ## Page 3 of methods of flood estimation pdf
 

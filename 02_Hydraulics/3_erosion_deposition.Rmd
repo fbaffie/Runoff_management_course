@@ -42,6 +42,18 @@ Bjørnar NVE on his master thesis?
 ## Available water capacity in soils
 <img src="images/available_water_capacity.png" height="500" width="auto">
 Source: https://stormwater.pca.state.mn.us/images/d/d5/Available_water_capacity.png
+
+The following 2 documents can help designing the reinforced river channel
+
+Technical supplement 14B to the US National Engineering handbook (Part 654 - Stream Restoration Design) 
+[Scour calculations](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=17811.wba)
+
+Technical supplement 14C to the US National Engineering handbook (Part 654  - Stream Restoration Design) 
+[Stone sizing criteria](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=17812.wba)
+
+Engineering Field Handbook (Part 650)
+[Chapter 16 - Streambank and Shoreline Protection](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=17553.wba)
+
 -->
 
 
