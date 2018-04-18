@@ -45,9 +45,8 @@ pbr = function(text) {
 - [Lectures: hydraulics](./index.html#hydraulics)
 - [Lectures: catchment-scale flooding](./index.html#catchment-scale-flooding)
 - [Lectures: urban stormwater management](./index.html#urban-stormwater-management)
-- [Suggested group projects](./index.html#suggested-group-projects)
-- [Project assessment](./index.html#project-assessment)
-- [Exam details](./index.html#exam-details)
+- [Exercise sessions](./index.html#exercise-sessions)
+- [Assessment](./index.html#assessment)
 - [Further resources](./index.html#resources)
 
 
@@ -121,7 +120,6 @@ Knowledge of:
 - Use processes understanding to have a critical view on those calculations
 - Provide input for action plans and suggests solutions for local runoff management
 - Use different measuring techniques and carry out simple dimensional calculations of green infrastructure systems for urban runoff management
-- Use relevant computer software and GIS to identify flood-prone areas and potential problems arising from urban flooding and runoff 
 
 ## Teaching philosophy
 <img src="images/logo.png" class="cover">
@@ -240,12 +238,17 @@ Quiz for next monday:
 
 Send me 2 questions and answers on this scientific presentation: [Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
 
+Or on this book chapter of "Global environmental change":
+[water cycles and climate change](http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/Hydrological%20cycleSpringer.pdf)
+
 
 <!--
 
 [Quiz](01_Hydrology/1_water_cycle_quiz.html)
 
 "Hydrology is the science which deals with terrestrial waters, their occurrence, circulation and distribution on our planet, their physical and chemical properties and their interaction with the physical and biological environment, including the effect on them of the activity of man".
+
+
 
 Session time plan:
 - Brainstorming:
@@ -260,14 +263,9 @@ What other "cycles" do they know? should we have a catch-up on the carbon cycle?
 This is a good opportunity to see what was forgotten and small discussing the relative importance of each element.
 Introduce numbers now, or get students to estimate some of them.
 
-Exercise on R: try to do general functions that could quickly be used with other catchments (I NEED TO PREPARE A PARAMETRIZED NOTEBOOK) 
+Exercise on R: 
 Sogndal catchment using historical data: catchment size, catchment altitude, catchment mean slope, % of the various land uses, mean annual flow, mean annual snow cover at Anestølen (how many days of snow cover), how many days of precipitation? mean precipitation, median precipication, mean glacier ablation rate, cumulated glacier ablation rate.
 
-Why does it rain more in Fjaerland than in Sogndal? Why is it warmer...
-
-- Quick lecture on what was not covered
-- Do exercises on the water cycle and start linking to the next sessions
-- Quiz theme: general knowledge on the water cycle in various parts of the world
 -->
 
 ## Hydrological processes
@@ -390,15 +388,14 @@ Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 
 # CATCHMENT SCALE FLOODING
 
-## Floodplain management
+## Flood vulnerability assessment
 <img src="images/logo.png" class="cover">
 <!--
 [Lecture](03_Catchment_scale/1_floodplain_management.html)
 -->
-Lecture by Deborah Davies (HVL) on natural flood management.
 
 We saw how precipitation led to runoff and how water level in channels varies as a function of discharge.
-Those results are used to produce flood zoning maps. We will look at different methods to do so.
+Those results are used to produce flood zoning maps. We will look at different methods to do so and discuss assessment of vulnerability to flooding.
 
 Quiz for next monday:
 Send me 4 questions and answers on your group project.
@@ -411,9 +408,10 @@ Send me 4 questions and answers on your group project.
 ## Flood protection works
 <img src="images/logo.png" class="cover">
 
-Based on flood zoning maps and the quantification of hydrological extremes in specifc catchments, protection measures can be designed. Those consist of dikes, diverting channels.
+Based on flood zoning maps and the quantification of hydrological extremes in specifc catchments, protection measures can be designed. Those consist of riverbank engineering features such as dikes, diverting channels. We will look at a simple design during an exercise session
 
 This session consists of a full-day excursion with Svein Vågane from NVE Førde.
+We will look at flash flooding that occured in [Utvik last autumn](https://www.vg.no/nyheter/innenriks/vaer-og-uvaer/flommen-i-utvik-vann-ekspert-varslet-om-flomfare/a/24103915/)
 
 <!--
 [Lecture](03_Catchment_scale/2_flood_protection.html)
@@ -515,7 +513,8 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 - Design exercises
 -->
 
-# Exercise sessions
+# EXERCISE SESSIONS
+
 ## Hydrological processes
 <img src="images/logo.png" class="cover">
 
@@ -558,7 +557,7 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 - NVE case study: new flood flow paths. critical points in catchment management
 
 
-# Assessment
+# ASSESSMENT
 
 ## Exam details
 <img src="images/logo.png" class="cover">
@@ -567,7 +566,7 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 2. Individual in-depth oral discussion on the project work, the "second" project and finally some aspects of the course material (remembering the most difficult equations will not be required, but they should be qualitatively understood and you should have an idea on how to apply them).
 Grading A-F.
 
-# Resources
+# RESOURCES
 
 ## Books
 <img src="images/logo.png" class="cover">
