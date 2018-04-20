@@ -38,8 +38,8 @@ Calculate flow in pipe at surcharge
 hydrology in pratice p429 design flood estimation methodology
 
 First quizz on climate impact on the hydrological cycle (video?)
-book chapter? www.cgd.ucar.edu/staff/.../Hydrological%20cycleSpringer.pdf
-http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/
+book chapter?
+http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/Hydrological%20cycleSpringer.pdf
 
 another option would be a video: https://www.youtube.com/watch?v=hic_vcuO5Jo
 
@@ -50,8 +50,6 @@ https://www.youtube.com/watch?v=-RC-IrL5D0A&index=40&list=PLsnOsjFNnFqacBToigfx0
 Second quizz on the UK restatement paper
 Third quizz on NVE report on flood mapping
 Fourth quizz on student projects
-
-Student project: model the Sogndal catchment with HBV light first, and then other methods
 
 
 Compulsory attendance of Simen's master presentation
@@ -170,5 +168,108 @@ with $L_{integral}(t_{end}) = L_{residual}$
 > - **What is an ensemble forecast?**
 > - A forecast using many different models
 -->
+# Notes for other lecture
 
+## [Dr. Keith Beven - Breakthroughs in Uncertainty Estimation](https://www.youtube.com/watch?v=dC8I9PD8V5A&list=WL&index=116)
+
+Good presentation on the modelling process
+
+
+## [Dr. Leroy Poff - Breakthroughs in Instream Flow Modelling](https://www.youtube.com/watch?v=KaGbM2-v6JA&index=126&list=WL)
+
+On natural flow regimes
+20:00 Natural flow regimes in the US
+23:00 Effects of dams
+25:00 Indictor of hydrologic alteration
+28:00 Positive effects of aritficial flow releases
+45:00 Climate change will alter historical flow regimes and pose new challenges to management decisions based on historical flow data
+45:00 Ecological regimes are also shifting
+50:00 Adaptation process, is it socially acceptable
+
+
+## [Dr. Dani Or - Breakthroughs in Soil Physics](https://www.youtube.com/watch?v=8UjCzhEbc1g&index=134&list=WL)
+
+07:30 Global evaporation figures. Evaporation consumes 25% of solar energy. Very important process. Atmosphere serves as infinite sink
+30:00 heterogeneous systems will lose more water through evaporation that homogeneous systems
+48:00 application: designing floating covers for water reservoirs
+
+Pretty interesting but difficult material
+
+## Physical hydrology, Dingman
+
+Figure 10-16 in extra pdf. Effect of reservoir on flow duration curve. Good question for students
+
+p485, good discussion on effects of land use on flows
+p500, floodplain management
+figure 10.40 freshwater withdrawals in the US. good example for the water cycle
+
+
+
+## From Vestlandforsknings [report](https://www.vestforsk.no/sites/default/files/2018-02/vf-rapport%2013-2017%20naturskadedata.pdf) page 48
+
+Tabell 8 Databaser for vurdering av naturskade 
+Navn på databasen Eier Tilgang og  eventuelle nettreferanse 
+Den nasjonale skreddatabasen 
+NVE https://www.nve.no/flaum-og-skred/skrednett/  
+NVEs flomdatabase NVE Per i dag har bare NVE tilgang. Vil bli åpen tilgang i løpet av første halvår 2018.  NASK – naturskadestatistikk Finans Norge https://www.finansnorge.no/statistikk/skadeforsikring/NaturskadestatistikkNASK/  
+VASK – vannskadestatistikk  
+Finans Norge https://www.finansnorge.no/statistikk/skadeforsikring/vask  
+Statens naturskadeordning 
+Landbruksdirektoratet https://www.landbruksdirektoratet.no/no/statistikk/naturskadeerstatning  
+Nasjonal vegdatabank 
+Statens vegvesen https://www.vegvesen.no/vegkart/  
+Kommunale veger (integrert i Nasjonal vegdatabank) 
+(se over) (se over) 
+Jernbane (Synergi og Banedata) 
+Bane NOR Bare ansatte i BaneNOR og Statens jermbanetilsyn har lesetilgang. 
+Byggskadearkivet SINTEF Byggforsk Bare ansatte i SINTEF Byggforsk har lesetilgang. 
+Vann og avløp (Gemini A) 
+Kommersielt produkt (forvaltes av Powel) 
+Brukere må kjøpe seg inn i systemet for å få tilgang 
+Kraftforsyning (Hendelsesrapporter og FASIT) 
+Statnett SF http://www.statnett.no/Kraftsystemet/Nedlastingssenter/Feilstatistikk/ (Bare tilgang for Statnett og konsesjonærer) 
+
+
+## [Sintef Review of SW management practices](https://www.sintefbok.no/book/index/1121/review_of_stormwater_management_practices)
+
+Good report
+
+Table 1 page 10, SW quality figures
+page 12, cold climate specifics
+Big focus on water quality up to p24
+Then goes through various green infrastructure techniques
+
+
+Table 7 page32, depollution figures for a wet pond in oslo
+
+p37/38: Advantages and disadvantages of source control systems. Summary of all techniques
+
+Then compares countries in their management (a bit anecdotal)
+
+A description of norwegian methods is described in: [Åstebøl and Roseth, 2014 - Vannbeskyttelse i vegplanlegging og vegbygging](https://www.vegvesen.no/_attachment/1160093/binary/1086413?fast_title=Vannbeskyttelse+i+vegplanlegging+og+vegbygging)
+Quite good document in Norwegian focusing on depollution aspects
+
+Other presentation in Norwegian focusing on water quality (https://www.fylkesmannen.no/Documents/Dokument%20FMOA/Miljø%20og%20klima/Vann/Overvannseminar%202014/Veivann%20og%20forurensninger%20-%20Svein%20Ole%20Åstebøl,%20COWI.pdf)
+
+
+Interesting to see a threshold for pollution control in Germany:
+"Maintenance of the already existing treatment methods is considered as a main priority in Germany. The treatment of runoff from roads is considered a requirement when the Annual Daily Traffic (ADT) exceeds 15,000 vehicles/day. Based on the recipient, treatment of runoff from roads is still required when the ADT is in the range of 2,000 -15,000. If the ADT value is less than 2,000 treatment of the runoff is not considered
+as mandatory."
+
+Could be a good quiz document
+
+## [Stormwater related databases](https://www.sintefbok.no/book/index/1117/stormwater-related_databases)
+
+First section on databases of flood related damages
+
+## Small hydro plans in Fjærland
+
+https://www.sognekraft.no/wp-content/uploads/2015/07/kartfjaerland.png
+https://www.sognekraft.no/blog/storsatsing-i-fjaerland/
+
+
+To get data from NVE stations
+http://sildre.nve.no/sildre/
+
+Physical hydrology p224:examles calculations of energy involved in melt phases
 

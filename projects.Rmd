@@ -9,25 +9,73 @@ output:
     theme: material
 ---
 
-# Suggested group projects
+# SUGGESTED GROUP PROJECTS
 
-## Ideas to develop
+## Effect of green roofs: runoff and soil moisture
 
-Designing new hydropower projects
 Green roofs: there is good pdf from NVE, soil moisture sensors good be installed in a roof. Maybe the roof of Sogndal hotel?
-Flood routing in Sogndal, Jostedal
-Flooding of the Opo in Odda: discussing mitigation measures, including hydropower reservoir.
+
+## Intensity duration frequency curves 
 Compute IVF curves for sogndal, selseng
 
-Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland
+##  Glacier lake outburst floods
 
-Muskingum flood routing for Sogndalselvi?
+Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland.
+Look at NVE's modelling methodology. It could be applied to Blaamannsisen. Discuss other potential modelling and surveillance methods.
+
+## Hydrological modelling in the Sogndal valley
+
+Data exploration and hydrological modelling of the Sogndal catchment using R and/or HBV-light
+This can also have an experimental aspect. Available equipment: portable EC/pH meter, soil moisture sensors, soil temperature sensors, water pressure sensors, fluorometer)
+<!--
+- Instrument the Sogndal stream close to the campus or lower towards the outlet, do fluorometer / salt experiments and try to understand: how much more flow is there here than at Sogndalsvatn, how much time does river routing take, is it dependent on discharge rate? discuss the limitations
+-->
+## Modelling projects: expectations
+<img src="images/logo.png" class="cover">
+
+- Structured programs with R
+- Use of best practice for coding
+- Good explanation of the analysis: available data, methods, assumptions, results
+
+## Flood routing for Sogndalselvi
+
+Experiment with this new [discharge app](https://discharge.ch/).
+Explain how it works.
+There is an automatic discharge station at the downstream end of Dalavatnet. Complement those data with measurements further down (or up) the valley to come up with a flood routing model for the Sogndal catchment. An interesting question can be understanding the effect of Sogndalsvatnet on flood damping.
+This project can be linked to the hydrological modelling of the Sogndal catchment.
 
 ## Erosion experiment with soil moisture sensors
 
 Using the plexiglas apparatus in the geolab
 This could include piping experiments [Laboratory soil piping and internal erosion experiments](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.3508)
 
+## Synthesis projects
+<img src="images/logo.png" class="cover">
+
+- Recommendation for green infrastructure design in Norway: which techniques are promising, where, under which circumstances...
+- Prepare a set of reference drawings / specifications on stormwater management for Western Norway?
+- Develop a cheatsheet on green SW infrastructure (i.e [nervous system](https://www.cheatography.com/davidpol/cheat-sheets/sympathetic-nervous-systems/pdf/), [R programming](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf))
+
+<img src="images/cheatsheet.jpg" height="300" width="auto">
+
+## Synthesis projects: expectations
+<img src="images/logo.png" class="cover">
+
+- Explanation of choices
+- Steal like an artist: build upon the resources synthesized
+- Neat and practical final product
+
+## Building projects
+<img src="images/logo.png" class="cover">
+
+- Design / Build a water pump or any other hydraulic  feature (i.e ram pump). 2000 Kr available. 
+
+Expectations: similar to design projects + explain why it works as it does.
+
+<img src="images/diy_ram_pump.jpg" height="300" width="auto">
+
+
+# Further development of last year's projects
 
 ## Design projects: Leikanger 100 dwellings, 10ha
 <img src="images/logo.png" class="cover">
@@ -43,7 +91,7 @@ This could include piping experiments [Laboratory soil piping and internal erosi
 
 ## Design projects: options
 <img src="images/logo.png" class="cover">
-Different groups could tackle different design challenges:
+Different design challenges:
 
 - minimum extra outflow (least hydrological impact)
 - off the grid design
@@ -75,89 +123,17 @@ Different groups could tackle different design challenges:
 - Be creative: do not give only 1 option
 - No need for huge report
 
-## Synthesis projects
-<img src="images/logo.png" class="cover">
-
-- Recommendation for green infrastructure design in Norway: which techniques are promising, where, under which circumstances...
-- Prepare a set of reference drawings / specifications on stormwater management for Western Norway?
-- Develop a cheatsheet on green SW infrastructure (i.e [nervous system](https://www.cheatography.com/davidpol/cheat-sheets/sympathetic-nervous-systems/pdf/), [R programming](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf))
-
-<img src="images/cheatsheet.jpg" height="300" width="auto">
-
-## Synthesis projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Explanation of choices
-- Steal like an artist: build upon the resources synthesized
-- Neat and practical final product
-
-## Modelling projects
-<img src="images/logo.png" class="cover">
-
-- Data exploration and hydrological modelling of the Sogndal catchment using R
-- Flood frequency analysis for the catchment
-- Relationship between measured flow at Sogndalsvatn and flow in Sogndal (can be experimental too)
-
-<!--
-- Instrument the Sogndal stream close to the campus or lower towards the outlet, do fluorometer / salt experiments and try to understand: how much more flow is there here than at Sogndalsvatn, how much time does river routing take, is it dependent on discharge rate? discuss the limitations
--->
-## Modelling projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Structured programs with R
-- Use of best practice for coding
-- Good explanation of the analysis: available data, methods, assumptions, results
-
-## Building projects
-<img src="images/logo.png" class="cover">
-
-- Design / Build a water pump or any other hydraulic  feature (i.e ram pump). 2000 Kr available. 
-
-Expectations: similar to design projects + explain why it works as it does.
-
-<img src="images/diy_ram_pump.jpg" height="300" width="auto">
-
 ## Experimental projects
 <img src="images/logo.png" class="cover">
 
-- Implement a data acquisition experiment in sogndal or in the Sogndal catchment. (available equipment: portable EC/pH meter, soil moisture sensors, soil temperature sensors, water pressure sensors, fluorometer)
-- Biochar properties: available water capacity, hydraulic conductivity, erodability...
-
-## Experimental projects
-<img src="images/logo.png" class="cover">
-
-<div class="double">
-<p class="double-flow">
-Repair and experiment with the fied infiltrometer and lab permeameter. This could include a review of infiltration measurement methods and improvement of this wikipedia article:
+Further experiment with the lab permeameter. Repair / construct a field infiltrometer.
+Use soil moisture sensors in field experiments.
 
 https://en.wikipedia.org/wiki/Infiltrometer
 </p><p class="double-flow">
 <img src="images/lab_permeameter.gif" height="400" width="auto">
 </p>
 </div>
-
-## Experimental projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Explain the why, what and how of experimental setup
-- Present results in a critical way: what went well and what didn't
-
-## Social projects
-<img src="images/logo.png" class="cover">
-
-- Serious game development for stormwater management in Norway
-- Analyze the barriers to implementation of innovative SW practices in Norway.
-- Compare them with other countries
-- Compare them with other topics, for example composting toilets.
-- Discuss how crowd-based approaches could influence design / planning decisions (i.e. design of the campus)
-
-## Social projects: expectations
-<img src="images/logo.png" class="cover">
-
-- Have a scientific approach to the issue: what methods did you use, which assumptions did you make
-- High quality reporting
-
-# Project assessment
 
 
 ## Project groups + second project
@@ -170,15 +146,9 @@ People | project |  project2
 ## Project development
 <img src="images/logo.png" class="cover">
 
-- Last 2 weeks of the course: project discussion instead of quiz
-- Every project gets 1-2h of everyone's time: come with a short presentation of the project and first ideas. 
-- Prepare good questions that the group can contribute to. 
-- Animate the discussion.
-- During the 10 day period before the exam, every project gets a 2-hour block of my time.
-
-<!--
-For example students would work on a project that develops their weak point why being client on a topic they feel more at ease with.
--->
+- Groups and subjects (including second project) to be decided before Mai 9.
+- Last quiz dedicated to projects. 4 Q/A on your project, 2 Q/A on the second project.
+- During the 10 day period before the exam, you can come consult us.
 
 ## Project reporting and presentation
 <img src="images/logo.png" class="cover">
@@ -189,4 +159,13 @@ For example students would work on a project that develops their weak point why 
 - The group with the same "second project" as the presenters gets priority for questions. They should have read the "second project" report in detail.
 - The individual exam will then discuss the personal project, the second project and the course material
 
+## Overall assessment criteria
+
+- How much work was put into it. Reasonably easy to see!
+- Creativity: I do not want only a synthesis of existing documents.
+- Rigor: discuss well the limitations of your approach
+- Overall report quality and structure: what is the problem, why? How did we tackle it? What are our results and why are they good / bad?
+- Explain the why, what and how of experimental setup
+- Present results in a critical way: what went well and what didn't
+- Shy / less eloquent presenters will not be penalized. The whole group gets one common grade.
 

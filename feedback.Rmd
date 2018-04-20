@@ -146,6 +146,26 @@ Having such various projects makes the grading harder but complements the course
 - Lack of problem solving in unclear situations
 - They don't know what they want to do later, yet some block on content expectations...
 
+
+<!--
+## Student saying I said they were lazy
+Lazyness is relative
+You can a hard worker and therefore copy paste stuff from stackoverflow to go quicker
+You can be a hard-working sportsman but somehow have the wrong mindset and lose
+-->
+
+<!--
+# Debriefing with the censor
+
+## Discussed and agreed with my philosophy
+Book: [teaching in the digital age](https://opentextbc.ca/teachinginadigitalage/part/chapter-1-fundamental-change-in-education/)
+
+"As student numbers have increased, teaching has regressed for a variety of reasons to a greater focus on information transmission and less focus on questioning, exploration of ideas, presentation of alternative viewpoints, and the development of critical or original thinking. Yet these are the very skills needed by students in a knowledge-based society."
+
+-->
+
+<!--
+
 # Specific lectures
 
 ## Erosion
@@ -156,23 +176,8 @@ A bit light on the erosion lecture but on the other hand, students seemed to hav
 
 I ran a bit through the material. There were maybe too many links in the further resources section but on the other hand, this whole topic was more formulated as a theme of further study for those interested.
 
-<!--
-## Student saying I said they were lazy
-Lazyness is relative
-You can a hard worker and therefore copy paste stuff from stackoverflow to go quicker
-You can be a hard-working sportsman but somehow have the wrong mindset and lose
 
--->
 
-# Debriefing with the censor
-
-<!--
-## Discussed and agreed with my philosophy
-Book: [teaching in the digital age](https://opentextbc.ca/teachinginadigitalage/part/chapter-1-fundamental-change-in-education/)
-
-"As student numbers have increased, teaching has regressed for a variety of reasons to a greater focus on information transmission and less focus on questioning, exploration of ideas, presentation of alternative viewpoints, and the development of critical or original thinking. Yet these are the very skills needed by students in a knowledge-based society."
-
--->
 
 ## Group exam
 
@@ -263,6 +268,10 @@ Book: [teaching in the digital age](https://opentextbc.ca/teachinginadigitalage/
 - Censor keen to keep existing concept with 50/50 share and more exercises as course requirements
 - Simon's tip on initial exam communication: "I am here to help you impress the censor for the final examination"
 - Evaluation and content: need to discuss more Master-wide
+
+
+-->
+
 
 <!--
 Say this:
