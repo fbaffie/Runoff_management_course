@@ -28,11 +28,41 @@ background_transition: none
 ---
 -->
 
-
-## Excursions
+## To check
 
 Online course: [Introduction to critical zone science](https://serc.carleton.edu/integrate/teaching_materials/critical_zone/index.html)
 
+For land use: Unit 7.2 - Agricultural Impacts
+https://serc.carleton.edu/integrate/teaching_materials/critical_zone/humans_unit2.html
+
+TO CHECK FOR POTENTIAL COMPLEMENT OF EXERCISES
+Unit 7. Low Impact Development and Green Infrastructure
+https://serc.carleton.edu/integrate/teaching_materials/water_cities/lesson7.html
+
+TO CHECK FOR THE HYDRO CYCLE SESSION
+Unit 1.2: Exploring the Hydrologic Cycle
+https://serc.carleton.edu/integrate/teaching_materials/ecosystem_water/unit1.2.html
+
+COULD BE USEFUL FOR FIRST EXERCISE SESSION
+Unit 5.2 - Water Balance Impacts
+https://serc.carleton.edu/integrate/teaching_materials/critical_zone/water_unit2.html
+
+Unit 5.1 - Water Balance of a Tree
+https://serc.carleton.edu/integrate/teaching_materials/critical_zone/water_unit1.html
+
+
+Exercises on the rational method:
+https://serc.carleton.edu/hydromodules/units/rational_method.html
+
+
+<!-- Model my watershed, probably not applicable -->
+<!-- https://serc.carleton.edu/integrate/teaching_materials/critical_zone/humans_unit1.html 
+https://wikiwatershed.org/model/
+-->
+
+Compulsory attendance of Simen's master presentation
+
+Climate factors adapted for each region plus uncertainty ADD THE LATEST LINK
 <!-- 
 
 TO CHECK / PROCESS
@@ -46,8 +76,6 @@ Find the green ampt infiltration formula as an exercise?
 
 Good chapter on evaporation in elements of hydrology 
 
-Copy exercises but do not put them on the internet 
-
 Exercise session 2 or 3, flood routing and the propagation of floods through reservoirs 
 
 Page 148, hydrology in practice, flow from unconfined aquifer 
@@ -55,140 +83,12 @@ Page 148, hydrology in practice, flow from unconfined aquifer
 check  the wallingford procedure for design of stormwater infrastructure page 472 hydro in practice 
 
 Calculate flow in pipe at surcharge 
+
 hydrology in pratice p429 design flood estimation methodology
 
-First quizz on climate impact on the hydrological cycle (video?)
-book chapter? www.cgd.ucar.edu/staff/.../Hydrological%20cycleSpringer.pdf
-http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/
-
-another option would be a video: https://www.youtube.com/watch?v=hic_vcuO5Jo
-
-or a shorter section of this:
-https://www.youtube.com/watch?v=-RC-IrL5D0A&index=40&list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli&t=0s
-
-
-Second quizz on the UK restatement paper
-Third quizz on NVE report on flood mapping
 Fourth quizz on student projects
 
-Student project: model the Sogndal catchment with HBV light first, and then other methods
 
-
-Compulsory attendance of Simen's master presentation
-
-Climate factors adapted for each region plus uncertainty ADD THE LATEST LINK
 
 -->
-
-
-
-
-# XX
-
-## Page 3 of methods of flood estimation pdf
-
-Methodology of flood estimation
-
-I probably should have a wider list of design flood estimation methods in the hydro_extremes lecture
-
-# Field intuition and modelling
-
-## Conceptual view of my PhD catchment
-<img src="images/phd/Paper 4 - Figure 7.png" height="450" width="auto">
-
-## Electrical conductivity: natural tracer
-<img src="images/phd/Paper 4 - Figure 1.png" height="450" width="auto">
-
-<!--
-> - **From this graph, what can you tell about the relationship between electrical conductivity and streamflow?**
-> - There is an inverse proportionality which seems to depend on the season and the discharge.
-> - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
-> - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
--->
-
-## Initial data and modelling results
-<img src="images/phd/Paper 4 - Figure 3.png" height="450" width="auto">
-
-## Two component mixing model
-> - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)**
-> - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$
-> - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.**
-> - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$
-
-## Total discharge as a function of $Q_{gw}(t)$
-
-> - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
-> - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$
-
-
-## Modelled baseflow recession
-<img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
-
-<!--
-> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
-$Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
-
-## GW exfiltration as a function of groundwater level
-\[Q_{gw}(t) = V_{slow}(t)*T_{slow} + V_{fast}(t) T_{fast}\]
--->
-
-<!--
-## Recession discharge
-\[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
--->
-
-<!--
-## Groundwater storage as a function of field GW measurements
-\[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
-with $L_{integral}(t_{end}) = L_{residual}$
-
-
-##  Total groundwater flow as a function of field GW measurements
-\[Q_{gw}(t) = baseflow_{max} + A_{fast} × L_{integral}(t) × \Phi * T_{fast}\]
-
-
-## Benchmark efficiency
-\[E = 1 − P_t (Q_{meas}(t) − Q_{mod}(t))^2 P_t (Q_{meas}(t) − Q_{bench}(t))^2\]
-
-## Verifying $A_{slow}$ with snowmelt recharge
-\[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
--->
-
-## Aquifer recharge with snowmelt
-
-<img src="images/phd/Paper 4 - Figure 6.png" height="450" width="auto">
-
-## Mass balance verification for the infiltration rate
-
-> - **Write the infiltration rate as a function of the storage volume and the exfiltration rate $Q_{gw}$**
-> - We neglect evapotranspiration and recharge from rain 
-> - $Q_{inf}(t) = dV(t)dt + Q_{gw}(t)$
-
-<!--
-## Figure 4
-<img src="images/phd/Paper 4 - Figure 4.png" height="450" width="auto">
--->
-
-## Seasonaly variable GW contribution
-<img src="images/phd/Paper 4 - Figure 5.png" height="450" width="auto">
-
-# Climate change PhD example
-
-## Climate change impacts
-
-> - **Remember what "downscaling" is?**
-> - Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid
-> - **Which parameters are affected?**
-> - Air temperature
-> - Precipitation
-> - Relative humidity
-> - Wind speed
-> - Wind direction
-
-
-<!--
-> - **What is an ensemble forecast?**
-> - A forecast using many different models
--->
-
 
