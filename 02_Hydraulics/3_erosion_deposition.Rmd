@@ -12,7 +12,10 @@ output:
 
 ##  Plan
 
-
+- [Erosion and deposition](./3_erosion_deposition.html#erosion-and-deposition)
+- [Examples around Sogndal](./3_erosion_deposition.html#examples-around-sogndal)
+- [Take home messages](./3_erosion_deposition.html#take-home-messages)
+- [Further resources](./3_erosion_deposition.html#further-resources)
 
 <!--
 [Soils](./3_erosion_deposition.html#soils)
@@ -20,20 +23,11 @@ grain sizes
 pollution load as a function of grain size
 -->
 
-
-[Erosion and deposition](./3_erosion_deposition.html#erosion-and-deposition)
-
 <!--
 typical mobilization velocities
 deposition velocities as a function of particle size
 solid load in rivers
 -->
-
-
-[Examples around Sogndal](./3_erosion_deposition.html#examples-around-sogndal)
-
-
-[Further resources](./3_erosion_deposition.html#further-resources)
 
 <!--
 Link to geohazards?
@@ -128,9 +122,8 @@ Engineering Field Handbook (Part 650)
 
 
 ## Stokes sphere
-<svg height="450" width="auto">
-<image xlink:href="images/Stokes_sphere.svg" src="svg.png" min-width="100%" height="450"/>
-</svg>
+
+<img src="images/Stokes_sphere.svg" height="500" width="auto">
 
 ## Stokes Law
 If we assume: laminar flow, spherical particles, homogeneous material, smooth surfaces and particles not interfering with each other.
@@ -288,6 +281,11 @@ In some sense, the inverse effect to rain is the rising of bubbles in beer. Bubb
 
 In a similar manner, small rain drops can be pull up by air currents against the force of gravity."
 -->
+
+## Take home messages
+
+- XXX
+- XXX
 
 # Further resources
 

@@ -1,6 +1,13 @@
 ---
-title: "Create new variables"
-output: revealjs::revealjs_presentation
+title: "Hydrological modelling"
+author: Back to [course overview](../index.html#exercise-sessions)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
 ---
 
 ## Using the hydrological model "HBV Light"

@@ -12,13 +12,11 @@ output:
 
 ## Plan
 
-[Flow criticality](./2_open_channel.html#flow-criticality)
-
-[Open channel equations](./2_open_channel.html#open-channel-flow)
-
-[Streamflow gauging](./2_open_channel.html#streamflow-gauging)
-
-[Further resources](./2_open_channel.html#further-resources)
+- [Flow criticality](./2_open_channel.html#flow-criticality)
+- [Open channel equations](./2_open_channel.html#open-channel-flow)
+- [Streamflow gauging](./2_open_channel.html#streamflow-gauging)
+- [Take home messages](./2_open_channel.html#take-home-messages)
+- [Further resources](./2_open_channel.html#further-resources)
 
 <!--
 Exercises

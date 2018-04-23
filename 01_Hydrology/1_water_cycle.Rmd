@@ -13,11 +13,11 @@ output:
 ## Plan
 
 - [Main components of the water cycle](./1_water_cycle.html#main-components-of-the-water-cycle)
-- Global figures: storages, fluxes and residence times
-- Water budget for Switzerland and Norway
-- Definitions and example of catchments
-- [Human impacts](./1_water_cycle.html#human-impacts)
-- Interaction with other cycles
+<!-- - Global figures: storages, fluxes and residence times -->
+<!-- - Water budget for Switzerland and Norway -->
+<!-- - Definitions and example of catchments -->
+- [Human impacts and balance calculations](./1_water_cycle.html#human-impacts)
+- [Interaction with other cycles](./1_water_cycle.html#interactions-with-other-cycles)
 - [Hydro-meteorology](./1_water_cycle.html#hydro-meteorology)
 - [Climate change and the hydrological cycle](./1_water_cycle.html#climate-change-and-the-hydrological-cycle)
 - [Take home messages](./1_water_cycle.html#take-home-messages)

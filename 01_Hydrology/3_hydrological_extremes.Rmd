@@ -109,9 +109,7 @@ http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page14.html
 
 ## Mean, median, mode
 
-<svg height="450" width="auto">
-  <image xlink:href="images/mean_median.svg" src="svg.png" min-width="100%" height="450"/>
-</svg>
+<img src="images/mean_median.svg" width="auto" height="400">
 
 ## Probability distributions moments
 > - **Name the first 3 moments (0th, first and second) of a probability distribution**

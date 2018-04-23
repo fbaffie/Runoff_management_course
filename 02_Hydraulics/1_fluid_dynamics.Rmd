@@ -12,22 +12,19 @@ output:
 
 ##  Plan
 
-[Flow neglecting friction](./1_fluid_dynamics.html#flow-neglecting-friction)
-
-[Flow with friction](./1_fluid_dynamics.html#flow-with-friction)
-
-[Types of flows](./1_fluid_dynamics.html#types-of-flows)
-
-[Further resources](./1_fluid_dynamics.html#further-resources)
+- [Flow neglecting friction](./1_fluid_dynamics.html#flow-neglecting-friction)
+- [Flow with friction](./1_fluid_dynamics.html#flow-with-friction)
+- [Types of flows](./1_fluid_dynamics.html#types-of-flows)
+- [Take home messages](./1_fluid_dynamics.html#take-home-messages)
+- [Further resources](./1_fluid_dynamics.html#further-resources)
 
 
 # Flow neglecting friction
 
 ## Pressure in atmosphere and oceans
 
-<svg height="450" width="auto">
-<image xlink:href="images/pressure_water_air.svg" src="svg.png" min-width="100%" height="450"/>
-</svg>
+<img src="images/pressure_water_air.svg" height="450" width="auto">
+
 <!--
 https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg
 
@@ -124,9 +121,7 @@ You can also look at the figures for the site in Berge: [Technical details](http
 
 ## Shear forces and viscosity
 
-<svg height="450" width="auto">
-<image xlink:href="images/shear_stresses.svg" src="svg.png" min-width="100%" height="450"/>
-</svg>
+<img src="images/shear_stresses.svg" height="450" width="auto">
 
 ## Shear stress and viscosity
 The shear stress $\tau$ (unit of pressure: Pa), is the ratio of shear forces $F$ per unit area $A$:

@@ -1,6 +1,13 @@
 ---
 title: "Urban and rural catchments"
-output: revealjs::revealjs_presentation
+author: Back to [course overview](../index.html#exercise-sessions)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
 ---
 
 ## Case study: Oslo?
@@ -23,10 +30,20 @@ Discuss alternative designs that would minimize this.
 Be creative: you can draw, add off-the-grid or agricultural features. 
 
 
+Calculate the impact on downstream runoff of a new development and try to minimize this impact.
+Design the on-site retention measures for the mean flood
+Estimate the concentration time and choose the design rain event accordingly.
+Design the development-scale retention / infiltration measures for the 20-year flood
+Provide safe flow paths for the 200-year flood.
+
 ## Case study in Sandane
 
 Should this be an excursion, something to read at home and then an exercise session?
 http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2314351
 all presentation from the NVE conference there:
 https://www.nve.no/flaum-og-skred/fagsamlinger-2018-2019/foredrag-fra-fagsamlingene/
+
+they have the option to flood their football filled. Quantify how useful this could be for different flood events.
+
+Evaluate the volume of water than can be stored in the football field. How to control the flow out of this temporary reservoir?
 

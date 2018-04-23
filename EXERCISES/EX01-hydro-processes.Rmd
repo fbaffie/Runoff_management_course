@@ -1,6 +1,13 @@
 ---
-title: "Exercises: Hydrological processes"
-output: revealjs::revealjs_presentation
+title: "Hydrological processes"
+author: Back to [course overview](../index.html#exercise-sessions)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
 ---
 
 ## Hydrological processes
@@ -13,14 +20,52 @@ In this exercise session we will practice concepts covered in class:
 
 Check this for inspiration
 
+## Conductivity of "Dyna Sand" sand filters
+I found [there](https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf) that the loading rate of the filters was 3.5gpm/SqFt
 
-## Flow through the sand filters
+> - **Check whether this makes sense, considering what you heard on Wednesday!**
+> - **The whole thing is done here without calculator with "useful" approximations!** 
+> - The reservoir was 1000$m3$ and represented 6h max of daily consumption
+> - So daily consumption: 4000m3
+> - The sand filters need to be able to produce the daily consumption in 24h!
 
-Copy here the exercise of the course?
+## Conductivity of "Dyna Sand" sand filters
+> - **Calculate the required flow per minute**
+> - 4000 / 60x24 = 4000 / 1440 -> 4000 / 1600 (easier) = 2.5$m^3/min$
+> - **Calculate the required surface for this flow**
+> - 3.5$gpm/SqFt$ -> 3.5x4 = 14 $l/min/sqft$ -> 14x10 $l/min/m^2$ = 0.14 $m^3/min/m^2$
+> - Recapitulation: 2.5$m^3/min$ is required and the sand filter has a capacity of 0.14 $m^3/min/m^2$
+> - So 15-20$m^2$ required: 5 filters of 3-4$m^2$
+> - Makes sense!
 
-## steady flow in an unconfined aquifer
+## Conductivity of "Dyna Sand" sand filters
+> - **The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand**
+> - 10 bars makes 100m of head at the inlet
+> - The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter
+> - So hydraulic head gradient across the sand filter: 95 / 4 -> 24
+> - using Darcy's Law: $q=-k \nabla{\phi}$
+> - $K*24 = 0.14m^3/min/m^2$ -> $K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s$ 
+> - Makes sense!
 
-Copy here the exercise of the course?
+## [Steady flow in an unconfined aquifer](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/6.1/6.1.html)
+
+> - **Most aquifers are thin and quite flat. Which flow direction can we neglect?**
+> - We can neglect vertical flow. Groundwater is hydrostatic (vertical equipotential lines)
+> - Groundwater discharge is proportional to the depth of the aquifer
+> - This is the Dupuit–Forchheimer assumption
+
+<img src="images/unconfined_aquifer_ex.gif" height="300" width="auto">
+
+## Find Q as a function of $K$, L, $\phi_1$ and $\phi_2$
+
+> 1. **Express Q as a function of h and q (flow per unit area)**
+> 1. **Use the conservation of mass across each $dx$ slice of aquifer**
+> 1. **With the reference level as the base of the aquifer ($\phi = h$), write Darcy's Law**
+> 1. **Combine 2 and 3**
+> 1. **We assume that *K* is uniform, integrate, and express $h^2$ and $h$ as a function of x, L, $\phi_1$ and $\phi_2$**
+> 1. **Using steps 1 and 3, we want to express $Q$ without $x$**
+> 1. Finally we have: $Q = -K\frac{(\phi_2^2-\phi_1^2)}{2L}$
+
 
 ## Conceptual modelling of surface / groundwater interactions
 
@@ -74,16 +119,15 @@ Create a dataset of annual maximum.
 
 Find out about the methodology to compute IVF curves and dio them for Sogndal.
 
-## Further ideas
+<!-- ## Further ideas -->
 
-exercises
-River plastering in laerdal, calculate height
-Jostedalen, hydrology and hydraulics of the tunnels. Link to electricity production
-Estimate residence times in lakes and link it to the difficulty of managing them, like leirdal
-Drinking water in sogndal
-Hydro modelling in sogndal catchment
-Hydrology and hydraulics in sandane, look at storing water in the football field
-Propagation of floods in the sogndal valley
-Dilution gauging exercise and redoing the methodology of my last paper
+<!-- River plastering in laerdal, calculate height -->
+<!-- Jostedalen, hydrology and hydraulics of the tunnels. Link to electricity production -->
+<!-- Estimate residence times in lakes and link it to the difficulty of managing them, like leirdal -->
+<!-- Drinking water in sogndal -->
+<!-- Hydro modelling in sogndal catchment -->
+<!-- Hydrology and hydraulics in sandane, look at storing water in the football field -->
+<!-- Propagation of floods in the sogndal valley -->
+<!-- Dilution gauging exercise and redoing the methodology of my last paper -->
 
-Example of reconstructing peak flow with mannings formula, based on signs left by the flood 
+<!-- Example of reconstructing peak flow with mannings formula, based on signs left by the flood  -->

@@ -15,7 +15,8 @@ output:
 
 - [Groundwater](./2_hydrological_processes_2.html#groundwater)
 - [Soil water](./2_hydrological_processes_2.html#soil-water)
-- [Runoff generation](./2_hydrological_processes_2.html#runoff-generation)
+- [Runoff generation](./2_hydrological_processes_2.html#runoff-generation) 
+- [Take home messages](./2_hydrological_processes_2.html#take-home-messages)
 
 <!--
 Link to snow science?
@@ -198,33 +199,6 @@ Put the recession figure from my paper, or from sogndal (february 2017)
 <!--
  <img src="images/typical_sat_K_values.png" height="500" width="auto">
 -->
-
-## Conductivity of "Dyna Sand" sand filters
-I found [there](https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf) that the loading rate of the filters was 3.5gpm/SqFt
-
-> - **Check whether this makes sense, considering what you heard on Wednesday!**
-> - **The whole thing is done here without calculator with "useful" approximations!** 
-> - The reservoir was 1000$m3$ and represented 6h max of daily consumption
-> - So daily consumption: 4000m3
-> - The sand filters need to be able to produce the daily consumption in 24h!
-
-## Conductivity of "Dyna Sand" sand filters
-> - **Calculate the required flow per minute**
-> - 4000 / 60x24 = 4000 / 1440 -> 4000 / 1600 (easier) = 2.5$m^3/min$
-> - **Calculate the required surface for this flow**
-> - 3.5$gpm/SqFt$ -> 3.5x4 = 14 $l/min/sqft$ -> 14x10 $l/min/m^2$ = 0.14 $m^3/min/m^2$
-> - Recapitulation: 2.5$m^3/min$ is required and the sand filter has a capacity of 0.14 $m^3/min/m^2$
-> - So 15-20$m^2$ required: 5 filters of 3-4$m^2$
-> - Makes sense!
-
-## Conductivity of "Dyna Sand" sand filters
-> - **The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand**
-> - 10 bars makes 100m of head at the inlet
-> - The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter
-> - So hydraulic head gradient across the sand filter: 95 / 4 -> 24
-> - using Darcy's Law: $q=-k \nabla{\phi}$
-> - $K*24 = 0.14m^3/min/m^2$ -> $K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s$ 
-> - Makes sense!
 
 ## Specific yield vs porosity
 <img src="images/porosity_specific_yield.png" height="400" width="auto">
@@ -438,7 +412,12 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 > - **If both a sandy soil and a claying soil are dry, which one will first have the highest infiltration rate?**
 -->
 
-## Take home messages: soil and GW
+## Exercise preparation
+
+Think about the design of the sand filters
+
+## Take home messages
+
 - Various types of aquifers
 - Major aquifers present in arid regions
 - Darcy's Law governs saturated flow

@@ -139,8 +139,9 @@ Wed. 02 May | 09:15-12:00	| [The water cycle](01_Hydrology/1_water_cycle.html)	|
 Thu. 03 May | 09:15-12:00	| [Hydrological processes 1](01_Hydrology/2_hydrological_processes_1.html) | Svingen F3
 Thu. 03 May | 12:30-14:00	| Excursion drinking water | Svingen F3
 Fri. 04 May | 09:15-12:00	| [Hydrological processes 2](01_Hydrology/2_hydrological_processes_2.html) | Svingen F2
-Fri. 04 May | 13:15-16:00	| Exercises: hydrology | Fossbygget-F208  Kjelda or Svingen F2
+Fri. 04 May | 13:15-16:00	| Exercises: hydrology | Fossbygget-F208  Kjelda
 
+<!-- Svingen F2 also available for exercises -->
 
 ## Agenda 07-09 May
 <img src="images/logo.png" class="cover">
@@ -171,7 +172,9 @@ Day	| Time	| Topic	| Room
 Tue. 22 May | 09:15-12:00	| [Urban hydraulics](02_Hydraulics/4_urban_hydraulics.html)	| Svingen F2
 Wed. 23 May | All day	| Excursion	| Gaupne and Jostedal
 Thu. 24 May | 09:15-12:00	| [Flood mapping](03_Catchment_scale/1_flood_mapping.html) | Svingen F2
-Fri. 25 May | 09:15-12:00	| Exercises: urban, rural	| Fossbygget-F208  Kjelda  or Svingen F2
+Fri. 25 May | 09:15-12:00	| Exercises: urban, rural	| Svingen F2
+
+<!-- Fossbygget-F208  Kjelda also available for exercises -->
 
 ## Agenda: 28-31 May
 <img src="images/logo.png" class="cover">   
@@ -302,8 +305,8 @@ Quiz for next monday:
 Send me 2 questions and answers on this scientific article:
 [A restatement of the natural science evidence concerning catchment-based ‘natural’ flood management in the UK](http://rspa.royalsocietypublishing.org/content/473/2199/20160706?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Proceedings_A_TrendMD_1)
 
-or this one:
-[Differences in flood hazard projections in Europe – their causes and consequences for decision making](http://www.tandfonline.com/doi/full/10.1080/02626667.2016.1241398?src=recsys)
+<!-- or this one: -->
+<!-- [Differences in flood hazard projections in Europe – their causes and consequences for decision making](http://www.tandfonline.com/doi/full/10.1080/02626667.2016.1241398?src=recsys) -->
 
 <!--
 - Brainstorming hydrological extremes
@@ -529,7 +532,6 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 <img src="images/logo.png" class="cover">
 
 - Exercises using the hydrological model HBV light
-
 - Data preparation for modelling the Sogndalselvi catchment
 - Key hydrological figures at various time scales
 - Experiment with hydrological extremes at various time scales
@@ -543,8 +545,11 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 ## Urban hydrology and green infrastructure
 <img src="images/logo.png" class="cover">
 
-- Some calculations and drawings based on this water harvesting video in Tucson, Arizona.
-- [Preparation work](04_Urban_SW/2_green_infra_quiz.html)
+Some calculations and drawings based on this water harvesting video in Tucson, Arizona.
+
+[Preparation work](04_Urban_SW/2_green_infra_quiz.html)
+
+<!-- [Exercises](EXERCISES/EX05-sw_design.html) -->
 
 ## Urban and rural hydrology. Field observations and planning
 <img src="images/logo.png" class="cover">

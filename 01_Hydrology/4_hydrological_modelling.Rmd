@@ -125,11 +125,9 @@ crosstalk selector
 ## Conceptual approach: linear reservoir
 <img src="../images/important.png" class="cover">
 
-<div class="double">
+<div class="double"> 
 <p class="double-flow">
-<svg height="450" width="auto">
-<image xlink:href="images/LinearReservoir.svg" src="svg.png" height="350">
-</svg>
+<img src="images/LinearReservoir.svg" height="350" width="auto">
 </p><p class="double-flow">
 Assumption:
 
@@ -169,7 +167,7 @@ $\Delta{T}$ is a small variation of T
 
 ## Example: structure of HBV model
 
-<img src="images/hbv_structure.gif" height="500" width="auto">
+<img src="images/hbv_structure.GIF" height="500" width="auto">
 
 
 ## Calibration / Validation process
@@ -365,7 +363,7 @@ Hydrology in Practice. Chapers 10, 12, 17
 
 http://nevina.nve.no/
 
-TODO: structure small exercise similar to NVEs conference
+We will use this tool in an exercise session and during the "Flood mapping" lecture.
 
 <!--
 quiz theme?
