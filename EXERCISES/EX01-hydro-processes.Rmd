@@ -1,5 +1,5 @@
 ---
-title: "Hydrological processes"
+title: "Exercises: hydrological processes"
 author: Back to [course overview](../index.html#exercise-sessions)
 output:
   rmdshower::shower_presentation:
@@ -67,31 +67,164 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 > 1. Finally we have: $Q = -K\frac{(\phi_2^2-\phi_1^2)}{2L}$
 
 
-## Conceptual modelling of surface / groundwater interactions
+# Groundwater recession
 
-Copy here my phd example
+## Modelling recession dynamics
+
+$Q = Q_{0} * e^{-ct}$
+
+$c$ is the recession constant.
+
+Groundwater recession would be a function of some (average) measure of hydraulic head:
+
+$Q = f(h(t))$
+
+If the aquifer is 1m wide, has a length L, and a storativity or specific yield S, then we can write:
+
+$SL \frac{dh}{dt} = -q_r = -f(h(t))$
+
+Proportionality between h and qr:
+
+$q_r = cSLh(t)$
+
+and by substituting we get
+
+$\frac{dh}{dt} = -ch$
+
+which then integrated gives:*
+
+$h = h_0 * e^{-ct}$
+
+where h0 is the average hydraulic head at the initial time.
+Then from the proportionality relation we have:
+
+$q_r = cSL * h_0 * e^{-ct}$
+
+or 
+
+$Q_r = Q_{r0} * e^{-ct}$
+
+So the use of the first equation implies that the groundwater reservoir behaves as a linear reservoir, the GW outflow is proportional the amount of water stored.
+
+This tool can be usefull to estimate flow throughout a dry season.
+
+# Field intuition and modelling: conceptual modelling of surface / groundwater interactions
+
+## Conceptual view of my PhD catchment
+<img src="../01_Hydrology/images/phd/Paper 4 - Figure 7.png" height="450" width="auto">
+
+## Electrical conductivity: natural tracer
+<img src="../01_Hydrology/images/phd/Paper 4 - Figure 1.png" height="450" width="auto">
+
+<!--
+> - **From this graph, what can you tell about the relationship between electrical conductivity and streamflow?**
+> - There is an inverse proportionality which seems to depend on the season and the discharge.
+> - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
+> - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
+-->
+
+## Initial data and modelling results
+<img src="../01_Hydrology/images/phd/Paper 4 - Figure 3.png" height="450" width="auto">
+
+## Two component mixing model
+> - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)**
+> - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$
+> - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.**
+> - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$
+
+## Total discharge as a function of $Q_{gw}(t)$
+
+> - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
+> - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$
 
 
-## Case study: Sogndal's valley
+## Modelled baseflow recession
+<img src="../01_Hydrology/images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
+
+<!--
+> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
+$Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
+
+## GW exfiltration as a function of groundwater level
+\[Q_{gw}(t) = V_{slow}(t)*T_{slow} + V_{fast}(t) T_{fast}\]
+-->
+
+<!--
+## Recession discharge
+\[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
+-->
+
+<!--
+## Groundwater storage as a function of field GW measurements
+\[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
+with $L_{integral}(t_{end}) = L_{residual}$
 
 
-## Catchment properties
-
-Use Nevina
-
-## Estimating yearly averages
-
-Estimate the average annual discharge in Sogndal.
-You can programm it as a parametrized function in order to take into account yearly variability.
+##  Total groundwater flow as a function of field GW measurements
+\[Q_{gw}(t) = baseflow_{max} + A_{fast} × L_{integral}(t) × \Phi * T_{fast}\]
 
 
-## Calculating the response to a melt event
+## Benchmark efficiency
+\[E = 1 − P_t (Q_{meas}(t) − Q_{mod}(t))^2 P_t (Q_{meas}(t) − Q_{bench}(t))^2\]
+
+## Verifying $A_{slow}$ with snowmelt recharge
+\[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
+-->
+
+## Aquifer recharge with snowmelt
+
+<img src="../01_Hydrology/images/phd/Paper 4 - Figure 6.png" height="450" width="auto">
+
+## Mass balance verification for the infiltration rate
+
+> - **Write the infiltration rate as a function of the storage volume and the exfiltration rate $Q_{gw}$**
+> - We neglect evapotranspiration and recharge from rain 
+> - $Q_{inf}(t) = dV(t)dt + Q_{gw}(t)$
+
+
+## Seasonaly variable GW contribution
+<img src="../01_Hydrology/images/phd/Paper 4 - Figure 5.png" height="450" width="auto">
+
+## Discussion
+
+Discuss the pros and cons of this approach.
+
+In which cases could it work better?
+
+# Modelling snowmelt
+
+## THORBEN: Calculating the response to a melt event
 
 Setting up a temperature-index melt model
 
+
+
+
+# Extras
+
+## The Sogndalselvi catchment
+
+Use nevina.no to define the catchment and automatically fetch its properties.
+
+Provide a short description of the catchment from a hydrological perspective.
+
+Based on the hydrological ad meteorological data available on xgeo.no, try to understand the main components of the hydrological cycle.
+
+What are inherent difficulties linked to the available data?
+
+Which additional measurements would be required to better close the balance of the hydrological cycle?
+
+## Estimating yearly averages
+
+Download data for several years.
+
+Calculate mean, median and extreme flow values for each year.
+
+You can programm it as a parametrized function in order to take into account yearly variability.
+
+Do a box plot on annual discharge statistics in Sogndal.
+
 ## Calculating the response to a rain event
-
-
 
 ## Estimating the recession behavior during dry periods
 
@@ -110,24 +243,13 @@ AirGR can also calculate it with the Oudin’s formula. The function is `Edaily_
 
 Good exercise page 255, elements of physical hydrology
 
-## Flood frequency analysis
 
-Use the fitdistrib package to fit some data from the Sogndal valley
 
-Retrieve historical discharge data in Sogndal.
-Create a dataset of annual maximum.
 
-Find out about the methodology to compute IVF curves and dio them for Sogndal.
 
 <!-- ## Further ideas -->
 
-<!-- River plastering in laerdal, calculate height -->
-<!-- Jostedalen, hydrology and hydraulics of the tunnels. Link to electricity production -->
-<!-- Estimate residence times in lakes and link it to the difficulty of managing them, like leirdal -->
 <!-- Drinking water in sogndal -->
-<!-- Hydro modelling in sogndal catchment -->
-<!-- Hydrology and hydraulics in sandane, look at storing water in the football field -->
-<!-- Propagation of floods in the sogndal valley -->
 <!-- Dilution gauging exercise and redoing the methodology of my last paper -->
 
-<!-- Example of reconstructing peak flow with mannings formula, based on signs left by the flood  -->
+

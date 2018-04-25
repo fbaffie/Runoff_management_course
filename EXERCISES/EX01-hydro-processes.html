@@ -1,326 +1,238 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 <head>
-
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-
-
-
-<meta name="progressive" content="true" />
-<meta name="allow-skip" content="true" />
-
-<title>Exercises: Hydrological processes</title>
-
-
-<!-- highlightjs -->
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
-
-
-
+  <title>Exercises: hydrological processes</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
 </head>
 
-<body>
+<body class="shower list">
 
+  <header class="caption">
+    <h1>Exercises: hydrological processes</h1>
+    <p>Back to <a href="../index.html#exercise-sessions">course overview</a></p>
+  </header>
 
-
-<div class="pageContent band">
-<div class="bandContent page">
-
-<div class="topics">
-
-<div id="section-hydrological-processes" class="section level2">
+    
+  
+<section id="hydrological-processes" class="slide level2">
 <h2>Hydrological processes</h2>
 <p>In this exercise session we will practice concepts covered in class: - Infiltration - Groundwater flow - Evaporation - Snowmelt and glacier melt</p>
-</div>
-<div id="section-flow-through-the-sand-filters" class="section level2">
-<h2>Flow through the sand filters</h2>
-<p>Copy here the exercise of the course?</p>
-</div>
-<div id="section-steady-flow-in-an-unconfined-aquifer" class="section level2">
-<h2>steady flow in an unconfined aquifer</h2>
-<p>Copy here the exercise of the course?</p>
-</div>
-<div id="section-conceptual-modelling-of-surface-groundwater-interactions" class="section level2">
-<h2>Conceptual modelling of surface / groundwater interactions</h2>
-<p>Copy here my phd example</p>
-</div>
-<div id="section-case-study-sogndals-valley" class="section level2">
-<h2>Case study: Sogndal’s valley</h2>
-<p>This tutorial will teach you how to look at data with R, which is a software environment and programming language for data science. If you would like to install R on your computer, please take a moment to read the <a href="">setup instructions</a>.</p>
-<p>In this tutorial, you will learn how to use R to inspect the contents of a data frame or tibble. Data frames and tibbles are R’s structures for storing tabular data; if you inherit a tabular dataset in R, it will almost certainly come as one of these structures. Here, you will learn how to do three things with data frames and tibbles:</p>
-<ol style="list-style-type: decimal">
-<li>look at the contents of a data frame or tibble</li>
-<li>open a help page that describes a data frame or tibble</li>
-<li>identify the variables and their types in a tibble</li>
+<p>Check this for inspiration</p>
+</section>
+<section id="conductivity-of-dyna-sand-sand-filters" class="slide level2">
+<h2>Conductivity of “Dyna Sand” sand filters</h2>
+<p>I found <a href="https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf">there</a> that the loading rate of the filters was 3.5gpm/SqFt</p>
+<ul>
+<li class="fragment next"><strong>Check whether this makes sense, considering what you heard on Wednesday!</strong></li>
+<li class="fragment next"><strong>The whole thing is done here without calculator with “useful” approximations!</strong></li>
+<li class="fragment next">The reservoir was 1000<span class="math inline">\(m3\)</span> and represented 6h max of daily consumption</li>
+<li class="fragment next">So daily consumption: 4000m3</li>
+<li class="fragment next">The sand filters need to be able to produce the daily consumption in 24h!</li>
+</ul>
+</section>
+<section id="conductivity-of-dyna-sand-sand-filters-1" class="slide level2">
+<h2>Conductivity of “Dyna Sand” sand filters</h2>
+<ul>
+<li class="fragment next"><strong>Calculate the required flow per minute</strong></li>
+<li class="fragment next">4000 / 60x24 = 4000 / 1440 -&gt; 4000 / 1600 (easier) = 2.5<span class="math inline">\(m^3/min\)</span></li>
+<li class="fragment next"><strong>Calculate the required surface for this flow</strong></li>
+<li class="fragment next">3.5<span class="math inline">\(gpm/SqFt\)</span> -&gt; 3.5x4 = 14 <span class="math inline">\(l/min/sqft\)</span> -&gt; 14x10 <span class="math inline">\(l/min/m^2\)</span> = 0.14 <span class="math inline">\(m^3/min/m^2\)</span></li>
+<li class="fragment next">Recapitulation: 2.5<span class="math inline">\(m^3/min\)</span> is required and the sand filter has a capacity of 0.14 <span class="math inline">\(m^3/min/m^2\)</span></li>
+<li class="fragment next">So 15-20<span class="math inline">\(m^2\)</span> required: 5 filters of 3-4<span class="math inline">\(m^2\)</span></li>
+<li class="fragment next">Makes sense!</li>
+</ul>
+</section>
+<section id="conductivity-of-dyna-sand-sand-filters-2" class="slide level2">
+<h2>Conductivity of “Dyna Sand” sand filters</h2>
+<ul>
+<li class="fragment next"><strong>The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand</strong></li>
+<li class="fragment next">10 bars makes 100m of head at the inlet</li>
+<li class="fragment next">The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter</li>
+<li class="fragment next">So hydraulic head gradient across the sand filter: 95 / 4 -&gt; 24</li>
+<li class="fragment next">using Darcy’s Law: <span class="math inline">\(q=-k \nabla{\phi}\)</span></li>
+<li class="fragment next"><span class="math inline">\(K*24 = 0.14m^3/min/m^2\)</span> -&gt; <span class="math inline">\(K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s\)</span></li>
+<li class="fragment next">Makes sense!</li>
+</ul>
+</section>
+<section id="steady-flow-in-an-unconfined-aquifer" class="slide level2">
+<h2><a href="http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/6.1/6.1.html">Steady flow in an unconfined aquifer</a></h2>
+<ul>
+<li class="fragment next"><strong>Most aquifers are thin and quite flat. Which flow direction can we neglect?</strong></li>
+<li class="fragment next">We can neglect vertical flow. Groundwater is hydrostatic (vertical equipotential lines)</li>
+<li class="fragment next">Groundwater discharge is proportional to the depth of the aquifer</li>
+<li class="fragment next">This is the Dupuit–Forchheimer assumption</li>
+</ul>
+<p><img src="images/unconfined_aquifer_ex.gif" height="300" width="auto"></p>
+</section>
+<section id="find-q-as-a-function-of-k-l-phi_1-and-phi_2" class="slide level2">
+<h2>Find Q as a function of <span class="math inline">\(K\)</span>, L, <span class="math inline">\(\phi_1\)</span> and <span class="math inline">\(\phi_2\)</span></h2>
+<ol type="1">
+<li class="fragment next"><strong>Express Q as a function of h and q (flow per unit area)</strong></li>
+<li class="fragment next"><strong>Use the conservation of mass across each <span class="math inline">\(dx\)</span> slice of aquifer</strong></li>
+<li class="fragment next"><strong>With the reference level as the base of the aquifer (<span class="math inline">\(\phi = h\)</span>), write Darcy’s Law</strong></li>
+<li class="fragment next"><strong>Combine 2 and 3</strong></li>
+<li class="fragment next"><strong>We assume that <em>K</em> is uniform, integrate, and express <span class="math inline">\(h^2\)</span> and <span class="math inline">\(h\)</span> as a function of x, L, <span class="math inline">\(\phi_1\)</span> and <span class="math inline">\(\phi_2\)</span></strong></li>
+<li class="fragment next"><strong>Using steps 1 and 3, we want to express <span class="math inline">\(Q\)</span> without <span class="math inline">\(x\)</span></strong></li>
+<li class="fragment next">Finally we have: <span class="math inline">\(Q = -K\frac{(\phi_2^2-\phi_1^2)}{2L}\)</span></li>
 </ol>
-<p>You will also meet in this tutorial <code>mpg</code> and <code>flights</code>, two datasets that appear frequently in R examples.</p>
-<p>The readings in this tutorial follow <a href="http://r4ds.had.co.nz/"><em>R for Data Science</em></a>, sections 3.2 and 5.1.</p>
-</div>
-<div id="section-catchment-properties" class="section level2">
-<h2>Catchment properties</h2>
-<p>Use Nevina</p>
-</div>
-<div id="section-estimating-yearly-averages" class="section level2">
-<h2>Estimating yearly averages</h2>
-<p>Estimate the average annual discharge in Sogndal. You can programm it as a parametrized function in order to take into account yearly variability.</p>
-</div>
-<div id="section-calculating-the-response-to-a-melt-event" class="section level2">
-<h2>Calculating the response to a melt event</h2>
+</section>
+<section id="groundwater-recession" class="titleslide slide level1"><h2 class="shout">Groundwater recession</h2></section><section id="modelling-recession-dynamics" class="slide level2">
+<h2>Modelling recession dynamics</h2>
+<p><span class="math inline">\(Q = Q_{0} * e^{-ct}\)</span></p>
+<p><span class="math inline">\(c\)</span> is the recession constant.</p>
+<p>Groundwater recession would be a function of some (average) measure of hydraulic head:</p>
+<p><span class="math inline">\(Q = f(h(t))\)</span></p>
+<p>If the aquifer is 1m wide, has a length L, and a storativity or specific yield S, then we can write:</p>
+<p><span class="math inline">\(SL \frac{dh}{dt} = -q_r = -f(h(t))\)</span></p>
+<p>Proportionality between h and qr:</p>
+<p><span class="math inline">\(q_r = cSLh(t)\)</span></p>
+<p>and by substituting we get</p>
+<p><span class="math inline">\(\frac{dh}{dt} = -ch\)</span></p>
+<p>which then integrated gives:*</p>
+<p><span class="math inline">\(h = h_0 * e^{-ct}\)</span></p>
+<p>where h0 is the average hydraulic head at the initial time. Then from the proportionality relation we have:</p>
+<p><span class="math inline">\(q_r = cSL * h_0 * e^{-ct}\)</span></p>
+<p>or</p>
+<p><span class="math inline">\(Q_r = Q_{r0} * e^{-ct}\)</span></p>
+<p>So the use of the first equation implies that the groundwater reservoir behaves as a linear reservoir, the GW outflow is proportional the amount of water stored.</p>
+<p>This tool can be usefull to estimate flow throughout a dry season.</p>
+</section>
+<section id="field-intuition-and-modelling-conceptual-modelling-of-surface-groundwater-interactions" class="titleslide slide level1"><h2 class="shout">Field intuition and modelling: conceptual modelling of surface / groundwater interactions</h2></section><section id="conceptual-view-of-my-phd-catchment" class="slide level2">
+<h2>Conceptual view of my PhD catchment</h2>
+<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 7.png" height="450" width="auto"></p>
+</section><section id="electrical-conductivity-natural-tracer" class="slide level2">
+<h2>Electrical conductivity: natural tracer</h2>
+<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 1.png" height="450" width="auto"></p>
+<!--
+> - **From this graph, what can you tell about the relationship between electrical conductivity and streamflow?**
+> - There is an inverse proportionality which seems to depend on the season and the discharge.
+> - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
+> - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
+-->
+</section><section id="initial-data-and-modelling-results" class="slide level2">
+<h2>Initial data and modelling results</h2>
+<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 3.png" height="450" width="auto"></p>
+</section><section id="two-component-mixing-model" class="slide level2">
+<h2>Two component mixing model</h2>
+<ul>
+<li class="fragment next"><strong>Write the water balance to express <span class="math inline">\(Q(t)\)</span>, the total discharge at time t, as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, the groundwater exfiltration and <span class="math inline">\(Q_{gl}(t)\)</span>, the glacier melt contribution (we neglect rain and evapotranspiration)</strong></li>
+<li class="fragment next"><span class="math inline">\(Q(t) = Q_{gw}(t) + Q_{gl}(t)\)</span></li>
+<li class="fragment next"><strong>Write the solute mass balance to express <span class="math inline">\(Q(t) EC(t)\)</span> (the mass of solutes exiting the catchment per second) as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(Q_{gl}(t)\)</span> as well as <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span>, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.</strong></li>
+<li class="fragment next"><span class="math inline">\(Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}\)</span></li>
+</ul>
+</section><section id="total-discharge-as-a-function-of-q_gwt" class="slide level2">
+<h2>Total discharge as a function of <span class="math inline">\(Q_{gw}(t)\)</span></h2>
+<ul>
+<li class="fragment next"><strong>By substituting <span class="math inline">\(Q_{gl}(t)\)</span> in one of the previous equations, express <span class="math inline">\(Q(t)\)</span> as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(EC(t)\)</span> and the constants <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span></strong></li>
+<li class="fragment next"><span class="math inline">\(Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}\)</span></li>
+</ul>
+</section><section id="modelled-baseflow-recession" class="slide level2">
+<h2>Modelled baseflow recession</h2>
+<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 2.png" height="450" width="auto"></p>
+<!--
+> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
+$Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
+
+## GW exfiltration as a function of groundwater level
+\[Q_{gw}(t) = V_{slow}(t)*T_{slow} + V_{fast}(t) T_{fast}\]
+-->
+<!--
+## Recession discharge
+\[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
+-->
+<!--
+## Groundwater storage as a function of field GW measurements
+\[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
+with $L_{integral}(t_{end}) = L_{residual}$
+
+
+##  Total groundwater flow as a function of field GW measurements
+\[Q_{gw}(t) = baseflow_{max} + A_{fast} × L_{integral}(t) × \Phi * T_{fast}\]
+
+
+## Benchmark efficiency
+\[E = 1 − P_t (Q_{meas}(t) − Q_{mod}(t))^2 P_t (Q_{meas}(t) − Q_{bench}(t))^2\]
+
+## Verifying $A_{slow}$ with snowmelt recharge
+\[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
+-->
+</section><section id="aquifer-recharge-with-snowmelt" class="slide level2">
+<h2>Aquifer recharge with snowmelt</h2>
+<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 6.png" height="450" width="auto"></p>
+</section><section id="mass-balance-verification-for-the-infiltration-rate" class="slide level2">
+<h2>Mass balance verification for the infiltration rate</h2>
+<ul>
+<li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume and the exfiltration rate <span class="math inline">\(Q_{gw}\)</span></strong></li>
+<li class="fragment next">We neglect evapotranspiration and recharge from rain</li>
+<li class="fragment next"><span class="math inline">\(Q_{inf}(t) = dV(t)dt + Q_{gw}(t)\)</span></li>
+</ul>
+</section><section id="seasonaly-variable-gw-contribution" class="slide level2">
+<h2>Seasonaly variable GW contribution</h2>
+<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 5.png" height="450" width="auto"></p>
+</section><section id="discussion" class="slide level2">
+<h2>Discussion</h2>
+<p>Discuss the pros and cons of this approach.</p>
+<p>In which cases could it work better?</p>
+</section>
+<section id="modelling-snowmelt" class="titleslide slide level1"><h2 class="shout">Modelling snowmelt</h2></section><section id="thorben-calculating-the-response-to-a-melt-event" class="slide level2">
+<h2>THORBEN: Calculating the response to a melt event</h2>
 <p>Setting up a temperature-index melt model</p>
-</div>
-<div id="section-calculating-the-response-to-a-rain-event" class="section level2">
+</section>
+<section id="extras" class="titleslide slide level1"><h2 class="shout">Extras</h2></section><section id="the-sogndalselvi-catchment" class="slide level2">
+<h2>The Sogndalselvi catchment</h2>
+<p>Use nevina.no to define the catchment and automatically fetch its properties.</p>
+<p>Provide a short description of the catchment from a hydrological perspective.</p>
+<p>Based on the hydrological ad meteorological data available on xgeo.no, try to understand the main components of the hydrological cycle.</p>
+<p>What are inherent difficulties linked to the available data?</p>
+<p>Which additional measurements would be required to better close the balance of the hydrological cycle?</p>
+</section><section id="estimating-yearly-averages" class="slide level2">
+<h2>Estimating yearly averages</h2>
+<p>Download data for several years.</p>
+<p>Calculate mean, median and extreme flow values for each year.</p>
+<p>You can programm it as a parametrized function in order to take into account yearly variability.</p>
+<p>Do a box plot on annual discharge statistics in Sogndal.</p>
+</section><section id="calculating-the-response-to-a-rain-event" class="slide level2">
 <h2>Calculating the response to a rain event</h2>
-</div>
-<div id="section-estimating-the-recession-behavior-during-dry-periods" class="section level2">
+</section><section id="estimating-the-recession-behavior-during-dry-periods" class="slide level2">
 <h2>Estimating the recession behavior during dry periods</h2>
 <p>Calibrating a recession curve.</p>
-</div>
-<div id="section-putting-it-all-together" class="section level2">
-<h2>Putting it all together</h2>
-<p>Trying different hydrological models for the Sogndal catchment.</p>
-</div>
-<div id="section-flood-frequency-analysis" class="section level2">
-<h2>Flood frequency analysis</h2>
-<p>Use the fitdistrib package to fit some data from the Sogndal valley</p>
-<p>Retrieve historical discharge data in Sogndal. Create a dataset of annual maximum.</p>
-<p>Find out about the methodology to compute IVF curves and dio them for Sogndal.</p>
-</div>
-<div id="section-data-frames" class="section level2">
-<h2>Data frames</h2>
-<div id="section-what-is-a-data-frame" class="section level3">
-<h3>What is a data frame?</h3>
-<p>R stores tabular data in two formats:</p>
-<ol style="list-style-type: decimal">
-<li>As data frames</li>
-<li>As tibbles, which are a special type of data frame</li>
-</ol>
-<p>A <strong>data frame</strong> is a rectangular collection of variables (in the columns) and observations (in the rows). An example is the <code>mpg</code> data frame found in the ggplot2 package (aka <code>ggplot2::mpg</code>). The <code>mpg</code> data frame contains observations collected by the US Environmental Protection Agency on 38 models of cars. To see the <code>mpg</code> data frame, type <code>mpg</code> in the code chunk below and then click “Submit Answer.”</p>
-<div class="tutorial-exercise-support" data-label="mpg-setup" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<pre class="text"><code>mpg &lt;- as.data.frame(mpg)</code></pre>
-</div>
-<div class="tutorial-exercise" data-label="mpg" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"default","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
-</div>
-<div id="section-mpg-hint">
-<p><strong>Hint:</strong> Type <code>mpg</code> and then click the blue button.</p>
-</div>
-<div class="tutorial-exercise-support" data-label="mpg-check" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<pre class="text"><code># checking code</code></pre>
-</div>
-</div>
-<div id="section-a-note-about-mpg" class="section level3">
-<h3>A note about mpg</h3>
-<p>Note that the code above worked because I’ve already loaded the ggplot2 package for you in this tutorial: <code>mpg</code> comes in that package. If you would like to look at <code>mpg</code> on your own computer, you will need to first load ggplot2. You can do that in two steps:</p>
-<ol style="list-style-type: decimal">
-<li>First, run <code>install.packages('ggplot2')</code> to install ggplot2 if you do not yet have it.</li>
-<li>Then, load ggplot2 with the <code>library(ggplot2)</code> command</li>
-<li>After that, you will be able to access any object in ggplot2 — including <code>mpg</code> — until you close R.</li>
-</ol>
-</div>
-<div id="section-view" class="section level3">
-<h3>View()</h3>
-<p>You can examine the contents of any data frame or tibble in R by running its name as a command. However, what you see might be overwhelming. Often a data frame or tibble contains more information than R can display in a single screen. In this case, you can look at the contents in a separate window with the <code>View()</code> command, which begins with a capital V. To use it, pass view the name of the data frame to display by writing the name between the parentheses that follow <code>View()</code>, e.g. <code>View(mpg)</code>.</p>
-</div>
-</div>
-<div id="section-help-pages" class="section level2">
-<h2>Help pages</h2>
-<div id="section-how-to-open-a-help-page" class="section level3">
-<h3>How to open a help page</h3>
-<p>You can learn more about <code>mpg</code> by opening its help page. The help page will explain where the <code>mpg</code>dataset comes from and what each variable in <code>mpg</code> describes. To open the help page, type <code>?mpg</code> in the code chunk below and then click “Submit Answer”.</p>
-<div class="tutorial-exercise" data-label="help" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"default","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
-</div>
-<div id="section-help-hint">
-<p><strong>Hint:</strong> Type <code>?mpg</code> and then click the blue button.</p>
-</div>
-<div class="tutorial-exercise-support" data-label="help-check" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<pre class="text"><code># checking code</code></pre>
-</div>
-</div>
-<div id="section-syntax" class="section level3">
-<h3>? syntax</h3>
-<p>You can use the same syntax to open a help page for any object that comes in R or one of its packages. To open an object’s help page, type a <code>?</code> before the object’s name and then run the command, as you did with <code>?mpg</code>. This technique works for more than just data frames: you can also look at the help pages of functions.</p>
-<p>Notice that objects created by you or your colleagues will not have a help page (unless you make one).</p>
-</div>
-<div id="section-exercises" class="section level3">
-<h3>Exercises</h3>
-<div class="tutorial-exercise" data-label="exercises1" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"default","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading tutorial-panel-heading">Use the code chunk above to help answer these questions.</div>
-<table class="table quiz-table">
-<tr>
-<td>
+</section><section id="prepare-potential-evapotranspiration-series" class="slide level2">
+<h2>Prepare potential evapotranspiration series</h2>
+<p>Use the method of your choice to compute daily potential evapotraspiration.</p>
+<p>Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology.</p>
+<p>AirGR can also calculate it with the Oudin’s formula. The function is <code>Edaily_Oudin()</code></p>
+</section><section id="irrigation-exercise" class="slide level2">
+<h2>Irrigation exercise</h2>
+<p>Good exercise page 255, elements of physical hydrology</p>
+<!-- ## Further ideas -->
+<!-- Drinking water in sogndal -->
+<!-- Dilution gauging exercise and redoing the methodology of my last paper -->
+</section>
 
-<div id="htmlwidget-30af2256a9f87ac11422" style="width:100%;height:auto;", class = "quiz html-widget">
-<div class="panel panel-default">
-<div class="panel-body quizArea">
-</div>
-</div>
-</div>
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
 
-<script type="application/json" data-for="htmlwidget-30af2256a9f87ac11422">{"x":{"question":"What does the <code>drv<\/code> variable of <code>mpg<\/code> describe?  Read the help for <code>?mpg<\/code> to find out.","answers":[{"option":"Whether or not the vehicle has driver side airbags","correct":false,"message":null},{"option":"Whether a car is automatic or manual transmission","correct":false,"message":null},{"option":"The number of cylinders in the car&#39;s engine","correct":false,"message":null},{"option":"Something else","correct":"`drv` describes the type of drivetrain in a car: front wheel drive, rear wheel drive, or four wheel drive.","message":null}],"label":"quiz1-1","skipStartButton":true,"perQuestionResponseAnswers":true,"perQuestionResponseMessaging":true,"preventUnanswered":true,"displayQuestionCount":false,"displayQuestionNumber":false,"disableRanking":true,"nextQuestionText":"","checkAnswerText":"Submit Answer","allowRetry":true,"randomSortAnswers":false,"json":{"info":{"name":"","main":""},"questions":[{"q":"What does the <code>drv<\/code> variable of <code>mpg<\/code> describe?  Read the help for <code>?mpg<\/code> to find out.","a":[{"option":"Whether or not the vehicle has driver side airbags","correct":false,"message":null},{"option":"Whether a car is automatic or manual transmission","correct":false,"message":null},{"option":"The number of cylinders in the car&#39;s engine","correct":false,"message":null},{"option":"Something else","correct":"`drv` describes the type of drivetrain in a car: front wheel drive, rear wheel drive, or four wheel drive.","message":null}],"correct":"Correct!","incorrect":"Incorrect."}]}},"evals":[],"jsHooks":[]}</script>
-</td>
-</tr>
-<tr>
-<td>
-
-<div id="htmlwidget-9336c432495be02d4e15" style="width:100%;height:auto;", class = "quiz html-widget">
-<div class="panel panel-default">
-<div class="panel-body quizArea">
-</div>
-</div>
-</div>
-
-<script type="application/json" data-for="htmlwidget-9336c432495be02d4e15">{"x":{"question":"How many rows are in the data frame named <code>cars<\/code>?","answers":[{"option":"2","correct":false,"message":null},{"option":"25","correct":false,"message":null},{"option":"50","correct":true,"message":null},{"option":"100","correct":false,"message":null}],"label":"quiz1-2","skipStartButton":true,"perQuestionResponseAnswers":true,"perQuestionResponseMessaging":true,"preventUnanswered":true,"displayQuestionCount":false,"displayQuestionNumber":false,"disableRanking":true,"nextQuestionText":"","checkAnswerText":"Submit Answer","allowRetry":true,"randomSortAnswers":false,"json":{"info":{"name":"","main":""},"questions":[{"q":"How many rows are in the data frame named <code>cars<\/code>?","a":[{"option":"2","correct":false,"message":null},{"option":"25","correct":false,"message":null},{"option":"50","correct":true,"message":null},{"option":"100","correct":false,"message":null}],"correct":"Correct!","incorrect":"Hint: R numbers the rows of a data frame when it displays the contents of a data frame. As a result, you can spot the number of rows in <code>cars<\/code> by examining <code>cars<\/code> in the code block above."}]}},"evals":[],"jsHooks":[]}</script>
-</td>
-</tr>
-<tr>
-<td>
-
-<div id="htmlwidget-bbb67b85af98f33d506f" style="width:100%;height:auto;", class = "quiz html-widget">
-<div class="panel panel-default">
-<div class="panel-body quizArea">
-</div>
-</div>
-</div>
-
-<script type="application/json" data-for="htmlwidget-bbb67b85af98f33d506f">{"x":{"question":"How many columns are in the data frame named <code>cars<\/code>?","answers":[{"option":"1","correct":false,"message":null},{"option":"2","correct":true,"message":null},{"option":"4","correct":false,"message":null},{"option":"more than four","correct":false,"message":null}],"label":"quiz1-3","skipStartButton":true,"perQuestionResponseAnswers":true,"perQuestionResponseMessaging":true,"preventUnanswered":true,"displayQuestionCount":false,"displayQuestionNumber":false,"disableRanking":true,"nextQuestionText":"","checkAnswerText":"Submit Answer","allowRetry":true,"randomSortAnswers":false,"json":{"info":{"name":"","main":""},"questions":[{"q":"How many columns are in the data frame named <code>cars<\/code>?","a":[{"option":"1","correct":false,"message":null},{"option":"2","correct":true,"message":null},{"option":"4","correct":false,"message":null},{"option":"more than four","correct":false,"message":null}],"correct":"Correct!","incorrect":"Hint: If you inspect the contents of <code>cars<\/code> in the code block above, it should be pretty easy to count the number of columns."}]}},"evals":[],"jsHooks":[]}</script>
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<div id="section-tibbles" class="section level2">
-<h2>Tibbles</h2>
-<div id="section-what-is-a-tibble" class="section level3">
-<h3>What is a tibble?</h3>
-<p>Now let’s look at a special type of data frame that you will encounter in R: the tibble.</p>
-<p>The <code>flights</code> data frame in the nycflights13 package is an example of a tibble. <code>flights</code> describes every flight that departed from New York City in 2013. The data comes from the US <a href="http://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=120&amp;Link=0">Bureau of Transportation Statistics</a>, and is documented in <code>?flights</code>.</p>
-<p>Use the code chunk below to print the contents of <code>flights</code>.</p>
-<div class="tutorial-exercise" data-label="flights" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<script type="application/json" data-opts-chunk="1">{"fig.width":6.5,"fig.height":4,"fig.retina":2,"fig.align":"default","fig.keep":"high","fig.show":"asis","out.width":624,"warning":true,"error":false,"message":true,"exercise.df_print":"default","exercise.timelimit":60,"exercise.checker":"NULL"}</script>
-</div>
-<div id="section-flights-hint">
-<p><strong>Hint:</strong> Type the name of the data frame that you want to print and then click the blue button. I’ve already loaded the nycflight13 package for you.</p>
-</div>
-<div class="tutorial-exercise-support" data-label="flights-check" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
-<pre class="text"><code># checking code</code></pre>
-</div>
-</div>
-<div id="section-the-tibble-display" class="section level3">
-<h3>The tibble display</h3>
-<p>You might notice that <code>flights</code> prints a little differently from <code>mpg</code>: <code>flights</code> shows only the first few rows of the data frame and only the columns that fit on one screen. (To see the whole dataset, you can run <code>View(flights)</code> which will open the dataset in a special viewer). <code>flights</code> prints differently because it’s a <strong>tibble</strong>. Tibbles are data frames, but slightly tweaked to be more user-friendly. For now, you don’t need to worry about the differences between tibbles and data frames that are not tibbles; we’ll come back to tibbles in more detail in a later tutorial.</p>
-
-<script type="application/shiny-prerendered" data-context="server-start">
-library(learnr)
-library(tidyverse)
-tutorial_options(exercise.timelimit = 60)
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-learnr:::register_http_handlers(session, metadata = NULL)
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-`tutorial-exercise-mpg-result` <- learnr:::setup_exercise_handler(reactive(req(input$`tutorial-exercise-mpg-code-editor`)), session)
-output$`tutorial-exercise-mpg-output` <- renderUI({
-  `tutorial-exercise-mpg-result`()
-})
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-`tutorial-exercise-help-result` <- learnr:::setup_exercise_handler(reactive(req(input$`tutorial-exercise-help-code-editor`)), session)
-output$`tutorial-exercise-help-output` <- renderUI({
-  `tutorial-exercise-help-result`()
-})
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-`tutorial-exercise-exercises1-result` <- learnr:::setup_exercise_handler(reactive(req(input$`tutorial-exercise-exercises1-code-editor`)), session)
-output$`tutorial-exercise-exercises1-output` <- renderUI({
-  `tutorial-exercise-exercises1-result`()
-})
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-`tutorial-exercise-flights-result` <- learnr:::setup_exercise_handler(reactive(req(input$`tutorial-exercise-flights-code-editor`)), session)
-output$`tutorial-exercise-flights-output` <- renderUI({
-  `tutorial-exercise-flights-result`()
-})
-</script>
- <!--html_preserve-->
-<script type="application/shiny-prerendered" data-context="dependencies">
-{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["1.11.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/jquery-1.11.3"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootstrap"]},{"type":"character","attributes":{},"value":["3.3.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/bootstrap-3.3.5"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["viewport"]}},"value":[{"type":"character","attributes":{},"value":["width=device-width, initial-scale=1"]}]},{"type":"character","attributes":{},"value":["js/bootstrap.min.js","shim/html5shiv.min.js","shim/respond.min.js"]},{"type":"character","attributes":{},"value":["css/cerulean.min.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["highlightjs"]},{"type":"character","attributes":{},"value":["1.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["href"]}},"value":[{"type":"character","attributes":{},"value":["EX01-hydro-processes_files/highlightjs-1.1"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["highlight.js"]},{"type":"character","attributes":{},"value":["textmate.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-autocompletion"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-autocompletion.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-diagnostics"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-diagnostics.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-format"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmarkdown/templates/tutorial/resources"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-format.js"]},{"type":"character","attributes":{},"value":["tutorial-format.css","rstudio-theme.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["1.11.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/jquery-1.11.3"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["font-awesome"]},{"type":"character","attributes":{},"value":["4.5.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/font-awesome-4.5.0"]}]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["css/font-awesome.min.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootbox"]},{"type":"character","attributes":{},"value":["4.4.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/bootbox"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["bootbox.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["localforage"]},{"type":"character","attributes":{},"value":["1.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/localforage"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["localforage.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-autocompletion"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-autocompletion.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-diagnostics"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-diagnostics.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["ace"]},{"type":"character","attributes":{},"value":["1.2.6"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/ace"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["ace.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["clipboardjs"]},{"type":"character","attributes":{},"value":["1.5.15"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/clipboardjs"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["clipboard.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["ace"]},{"type":"character","attributes":{},"value":["1.2.6"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/ace"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["ace.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["clipboardjs"]},{"type":"character","attributes":{},"value":["1.5.15"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/clipboardjs"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["clipboard.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["ace"]},{"type":"character","attributes":{},"value":["1.2.6"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/ace"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["ace.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["clipboardjs"]},{"type":"character","attributes":{},"value":["1.5.15"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/clipboardjs"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["clipboard.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["htmlwidgets"]},{"type":"character","attributes":{},"value":["1.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["www"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["htmlwidgets.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["htmlwidgets"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["quiz-binding"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["htmlwidgets"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["quiz.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[false]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["1.11.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/jquery-1.11.3"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootstrap"]},{"type":"character","attributes":{},"value":["3.3.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/bootstrap-3.3.5"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["viewport"]}},"value":[{"type":"character","attributes":{},"value":["width=device-width, initial-scale=1"]}]},{"type":"character","attributes":{},"value":["js/bootstrap.min.js","shim/html5shiv.min.js","shim/respond.min.js"]},{"type":"character","attributes":{},"value":["css/bootstrap.min.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootbox"]},{"type":"character","attributes":{},"value":["4.4.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/bootbox"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["bootbox.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["localforage"]},{"type":"character","attributes":{},"value":["1.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/localforage"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["localforage.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-autocompletion"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-autocompletion.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-diagnostics"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-diagnostics.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["slickquiz"]},{"type":"character","attributes":{},"value":["1.5.20"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["htmlwidgets/lib/slickquiz"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["js/slickQuiz.js"]},{"type":"character","attributes":{},"value":["css/slickQuiz.css","css/slickQuizTutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["ace"]},{"type":"character","attributes":{},"value":["1.2.6"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/ace"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["ace.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["clipboardjs"]},{"type":"character","attributes":{},"value":["1.5.15"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/clipboardjs"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["clipboard.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]}]}
-</script>
-<!--/html_preserve-->
-</div>
-</div>
-
-</div> <!-- topics -->
-
-<div class="topicsContainer">
-<div class="topicsPositioner">
-<div class="band">
-<div class="bandContent topicsListContainer">
-
-<!-- begin doc-metadata -->
-<div id="doc-metadata">
-<h2 class="title toc-ignore" style="display:none;">Exercises: Hydrological processes</h2>
-</div>
-<!-- end doc-metadata -->
-
-</div> <!-- bandContent.topicsListContainer -->
-</div> <!-- band -->
-</div> <!-- topicsPositioner -->
-</div> <!-- topicsContainer -->
-
-
-</div> <!-- bandContent page -->
-</div> <!-- pageContent band -->
-
-
-
-
-<script>
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-</script>
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
+    <script>renderMathInElement(document.body);</script>
+  
+  
 </body>
-
 </html>

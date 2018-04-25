@@ -260,9 +260,9 @@ And of course, if you want a reference letter, participating in the quizzes will
 We look at different components of the water cycle before diving into more detail.
 Climate change will impact various components of the hydrological cycle. We will quickly review potential evolutions and base our first quizz on this theme.
 
-Quiz for next monday:
+Quiz theme for Monday 07 May:
 
-Send me 2 questions and answers on this scientific presentation: [Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
+[Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
 
 Or on this book chapter of "Global environmental change": [water cycles and climate change](http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/Hydrological%20cycleSpringer.pdf)
 
@@ -319,11 +319,12 @@ Present documents for the quiz: impact of forest on hydrological resources
 <img src="images/logo.png" class="cover">
 <!-- [Lecture](01_Hydrology/3_hydrological_extremes.html) -->
 
-Quantifying floods and droughts helps better designing protection / adaptation measures. 
+Quantifying floods and droughts helps better designing protection / adaptation measures.
 
-Quiz for next monday:
+Please attend Simen's Master project presentation on flood frequency analysis: Wednesday 09 May, 14:30.
 
-Send me 2 questions and answers on this scientific article:
+Quiz theme for Monday 07 May:
+
 [A restatement of the natural science evidence concerning catchment-based ‘natural’ flood management in the UK](http://rspa.royalsocietypublishing.org/content/473/2199/20160706?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Proceedings_A_TrendMD_1)
 
 <!-- or this one: -->

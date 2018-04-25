@@ -10,7 +10,7 @@ output:
     lib_dir: ../
 ---
 
-## Case study: Jostedal
+# Case study: Jostedal
 
 Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.
 
@@ -21,7 +21,7 @@ Discuss how Statkraft can best optimize the Leirdal reservoir
 
 The population was happy that a dam was built in order to control floods (i.e. [1979 flood](https://www.youtube.com/watch?v=9GDCZ-O6UbA)). Statkraft was allowed to built as long as they provided enough extra capacity at all times to cover an exeptional event. The top reservoir is therefore never full.
 
-### Schematics of the hydropower scheme
+## Schematics of the hydropower scheme
 
 Think about possible designs of hydropower schemes that least affect the valley and provide good returns.
 
@@ -31,7 +31,7 @@ They decided to tap into numerous side valleys to the east of Jostedalen, direct
 
 In this [document](https://www.statkraft.no/globalassets/old-contains-the-old-folder-structure/documents/jostedal-official-assessment-final-10-may-2013_tcm9-27383.pdf) you can find a schematic of the design
 
-### Mean water volumes
+## Mean water volumes
 
 Use Nevina to calculate the properties of all side catchments flowing into the hydropower infrastructure.
 
@@ -43,7 +43,7 @@ How much flow can be directed from the side-catchments back to the main reservoi
 Will one of the side intake need a non-return valve to avoid a backflow through the intake?
 Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
 
-### Specific considerations for extreme events
+## Specific considerations for extreme events
 
 Do you know other places where hydropower projects have been suggested to help mitigate flooding?
 Odda
@@ -57,7 +57,7 @@ Will one of the side intake need a non-return valve to avoid a backflow through 
 Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events...
 
 
-### Reconstructing the 1979 flood
+## Reconstructing the 1979 flood
 
 [Statkraft presentation of the Jostedalen hydropower scheme](https://www.statkraft.com/energy-sources/Power-plants/Norway/Jostedal/)
 
@@ -72,7 +72,9 @@ You can base yourself on this [document](http://publikasjoner.nve.no/rapport/201
 
 Why do you think there is such a big difference in mass balance between Nigardsbreen and Austdalsbreen?
 
-## Stream bank reinforcement in L?rdal
+# Stream bank reinforcement in Laerdal
+
+## Background
 
 During the 2014 floods, the stream coming out of XX found a new flowpath and destroyed some agricultural land.
 Which measure would you suggest to avoid such an event in the future?
@@ -122,4 +124,7 @@ Cross sectional area / Wetted perimeter = x*10 / (2x + 20)
 Methodology for the glacier mass balance assessments: [Reanalysis of long-term series of glaciological and geodetic mass balance for 10 Norwegian glaciers](https://www.the-cryosphere.net/10/535/2016/tc-10-535-2016.pdf)
 
 This [NVE report in Norwegian](http://publikasjoner.nve.no/hydra/rapport/mi05.pdf) presents erosion in Norway, with some information on Jostedalen
+
+<!-- Hydrology and hydraulics in sandane, look at storing water in the football field -->
+<!-- Example of reconstructing peak flow with mannings formula, based on signs left by the flood  -->
     

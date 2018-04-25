@@ -11,12 +11,12 @@ output:
 
 # SUGGESTED GROUP PROJECTS
 
-## Effect of green roofs: runoff and soil moisture
+<!-- ## Effect of green roofs: runoff and soil moisture -->
 
-Green roofs: there is good pdf from NVE, soil moisture sensors good be installed in a roof. Maybe the roof of Sogndal hotel?
+<!-- Green roofs: there is good pdf from NVE, soil moisture sensors good be installed in a roof. Maybe the roof of Sogndal hotel? -->
 
-## Intensity duration frequency curves 
-Compute IVF curves for sogndal, selseng
+<!-- ## Intensity duration frequency curves  -->
+<!-- Compute IVF curves for sogndal, selseng -->
 
 ##  Glacier lake outburst floods
 
@@ -30,12 +30,15 @@ This can also have an experimental aspect. Available equipment: portable EC/pH m
 <!--
 - Instrument the Sogndal stream close to the campus or lower towards the outlet, do fluorometer / salt experiments and try to understand: how much more flow is there here than at Sogndalsvatn, how much time does river routing take, is it dependent on discharge rate? discuss the limitations
 -->
-## Modelling projects: expectations
-<img src="images/logo.png" class="cover">
 
-- Structured programs with R
-- Use of best practice for coding
-- Good explanation of the analysis: available data, methods, assumptions, results
+## Comparing discharge measurement techniques
+
+You can use several methods and compare the results:
+
+Salt dilution, dye tracer dilution, discharge app, portable flow meter.
+
+This project would work well in copperation with the next project (floodrouting).
+
 
 ## Flood routing for Sogndalselvi
 
@@ -72,14 +75,14 @@ It could also involve scenarios of further residential development.
 - Steal like an artist: build upon the resources synthesized
 - Neat and practical final product
 
-## Building projects
-<img src="images/logo.png" class="cover">
+<!-- ## Building projects -->
+<!-- <img src="images/logo.png" class="cover"> -->
 
-- Design / Build a water pump or any other hydraulic  feature (i.e ram pump). 2000 Kr available. 
+<!-- - Design / Build a water pump or any other hydraulic  feature (i.e ram pump). 2000 Kr available.  -->
 
-Expectations: similar to design projects + explain why it works as it does.
+<!-- Expectations: similar to design projects + explain why it works as it does. -->
 
-<img src="images/diy_ram_pump.jpg" height="300" width="auto">
+<!-- <img src="images/diy_ram_pump.jpg" height="300" width="auto"> -->
 
 
 # Further development of last year's projects
@@ -130,17 +133,22 @@ Different design challenges:
 - Be creative: do not give only 1 option
 - No need for huge report
 
-## Experimental projects
+## Lab permeameter / Field infiltration experiments
 <img src="images/logo.png" class="cover">
 
-Further experiment with the lab permeameter. Repair / construct a field infiltrometer.
-Use soil moisture sensors in field experiments.
+Further experiment with the lab permeameter. 
 
-https://en.wikipedia.org/wiki/Infiltrometer
-</p><p class="double-flow">
-<img src="images/lab_permeameter.gif" height="400" width="auto">
-</p>
-</div>
+Compare with simple field infiltration experiments
+
+Soil moisture sensors can be used in field experiments.
+
+Determine soil properties
+
+<!-- https://en.wikipedia.org/wiki/Infiltrometer -->
+<!-- </p><p class="double-flow"> -->
+<!-- <img src="images/lab_permeameter.gif" height="400" width="auto"> -->
+<!-- </p> -->
+<!-- </div> -->
 
 ## Further ideas
 
@@ -178,6 +186,7 @@ People | project |  project2
 - Creativity: I do not want only a synthesis of existing documents.
 - Rigor: discuss well the limitations of your approach
 - Overall report quality and structure: what is the problem, why? How did we tackle it? What are our results and why are they good / bad?
+- For experimental / modelling project: good explanation of the analysis (available data, methods, assumptions, results)
 - Explain the why, what and how of experimental setup
 - Present results in a critical way: what went well and what didn't
 - Shy / less eloquent presenters will not be penalized. The whole group gets one common grade.

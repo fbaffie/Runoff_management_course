@@ -16,6 +16,8 @@ Jan Seibert at University of Zürich provides a model and exercises [there](http
 
 Do all exercises with his data. You can later experiment with data from the Sogndal catchment.
 
+# Extras
+
 ## Hydrological modelling
 
 In this exercise session focusing on the Songdal catchment, we will experiment with various hydrological models:
@@ -30,8 +32,6 @@ The course material is [hydrological processes](./01_hydrology/01_hydrological_p
 
 Download meteorological and hydrological data for the Sogndalselvi catchment.
 Which variables do you need?
-
-
 
 Hint: you can download data from there: https://www.nve.no/hydrologi/hydrologiske-data/
 With this link, snow water equivalent is only available for the past 2 months at Anestoelen
@@ -51,3 +51,9 @@ page 204, elements of physical hydrology
 ## Hydrological extremes
 
 Experiment with daily, monthly, yearly precipitation data and see how the probability distribution changes.
+
+## Flood frequency analysis
+
+Use the fitdistrib package to fit some data from the Sogndal valley
+
+Retrieve historical discharge data in Sogndal.

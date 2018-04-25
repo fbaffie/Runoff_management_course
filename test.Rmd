@@ -60,11 +60,9 @@ https://serc.carleton.edu/hydromodules/units/rational_method.html
 https://wikiwatershed.org/model/
 -->
 
-Compulsory attendance of Simen's master presentation
-
 Climate factors adapted for each region plus uncertainty ADD THE LATEST LINK
-<!-- 
 
+<!-- 
 TO CHECK / PROCESS
 for laminar flow in open channels, Reynolds number is less than about 500.
 So nearly all open channel flows are turbulent.

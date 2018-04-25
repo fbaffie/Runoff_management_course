@@ -1,158 +1,123 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html>
 <head>
-
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-
-
-
-<meta name="progressive" content="true" />
-<meta name="allow-skip" content="true" />
-
-<title>Hydraulics: pipes and open channel</title>
-
-
-<!-- highlightjs -->
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
-
-
-
+  <title>Hydraulics: pipes and open channel</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
 </head>
 
-<body>
+<body class="shower list">
 
+  <header class="caption">
+    <h1>Hydraulics: pipes and open channel</h1>
+    <p>Back to <a href="../index.html#exercise-sessions">course overview</a></p>
+  </header>
 
-
-<div class="pageContent band">
-<div class="bandContent page">
-
-<div class="topics">
-
-<div id="section-case-study-jostedal" class="section level2">
-<h2>Case study: Jostedal</h2>
-<p>Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.</p>
-<p>What is the mean residence time at water in the Styggevatn reservoir? What is the mean residence time in the Leirdal reservoir? Which management problems are linked to the situation in Leirdal? Discuss how Statkraft can best optimize the Leirdal reservoir</p>
-<p>The population was happy that a dam was built in order to control floods (i.e. <a href="https://www.youtube.com/watch?v=9GDCZ-O6UbA">1979 flood</a>). Statkraft was allowed to built as long as they provided enough extra capacity at all times to cover an exeptional event. The top reservoir is therefore never full.</p>
-<div id="section-schematics-of-the-hydropower-scheme" class="section level3">
-<h3>Schematics of the hydropower scheme</h3>
+    
+  
+<section id="case-study-jostedal" class="titleslide slide level1"><h2 class="shout">Case study: Jostedal</h2></section><section id="schematics-of-the-hydropower-scheme" class="slide level2">
+<h2>Schematics of the hydropower scheme</h2>
 <p>Think about possible designs of hydropower schemes that least affect the valley and provide good returns.</p>
 <p>You can find information on built water infrastructure on the [NVE Atlas].</p>
 <p>They decided to tap into numerous side valleys to the east of Jostedalen, directing water towards a power station at the lower end of the valley. Design potential schemes based on this information.</p>
 <p>In this <a href="https://www.statkraft.no/globalassets/old-contains-the-old-folder-structure/documents/jostedal-official-assessment-final-10-may-2013_tcm9-27383.pdf">document</a> you can find a schematic of the design</p>
-</div>
-<div id="section-mean-water-volumes" class="section level3">
-<h3>Mean water volumes</h3>
+</section><section id="mean-water-volumes" class="slide level2">
+<h2>Mean water volumes</h2>
 <p>Use Nevina to calculate the properties of all side catchments flowing into the hydropower infrastructure.</p>
 <p>Assuming steady flow conditions, how high would the intake need to be in this side valley?</p>
 <p>Calculate how much flow can be achieved in the tunnel</p>
 <p>How much flow can be directed from the side-catchments back to the main reservoir by gravity. Will one of the side intake need a non-return valve to avoid a backflow through the intake? Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events…</p>
-</div>
-<div id="section-specific-considerations-for-extreme-events" class="section level3">
-<h3>Specific considerations for extreme events</h3>
+</section><section id="specific-considerations-for-extreme-events" class="slide level2">
+<h2>Specific considerations for extreme events</h2>
 <p>Do you know other places where hydropower projects have been suggested to help mitigate flooding? Odda</p>
 <p>Use NVE Atlas, Norgeskart, Nevina to find the catchments specific to each water intake in Jostedalen.</p>
 <p>Calculate much flow can be achieved in the tunnel</p>
 <p>How much flow can be directed from the side-catchments back to the main reservoir by gravity. Will one of the side intake need a non-return valve to avoid a backflow through the intake? Experiment with the behavior of those intakes during various events: intense hourly precipitation, big daily events…</p>
-</div>
-<div id="section-reconstructing-the-1979-flood" class="section level3">
-<h3>Reconstructing the 1979 flood</h3>
+</section><section id="reconstructing-the-1979-flood" class="slide level2">
+<h2>Reconstructing the 1979 flood</h2>
 <p><a href="https://www.statkraft.com/energy-sources/Power-plants/Norway/Jostedal/">Statkraft presentation of the Jostedalen hydropower scheme</a></p>
 <p><a href="https://www.statkraft.no/media/pressemeldinger/Pressemeldinger-arkiv/2012/statkraft-skrinlegger-overforing-av-vestsideelvene-i-jostedalen/">Statkraft is seeking new consessions on the western side of Jostedalen</a></p>
 <p>Information on <a href="https://www.nve.no/hydrologi/bre/bremalinger/massebalansemalinger/nigardsbreen">Nigardsbreen</a></p>
 <p>Calculate how much inflow can be expected into the Styggevatnet reservoir during the melt season. You can base yourself on this <a href="http://publikasjoner.nve.no/rapport/2017/rapport2017_76.pdf">document</a>, which present recent mass balance measurements at Austdalsbreen and Nigardsbreen.</p>
 <p>Why do you think there is such a big difference in mass balance between Nigardsbreen and Austdalsbreen?</p>
-</div>
-</div>
-<div id="section-stream-bank-reinforcement-in-lrdal" class="section level2">
-<h2>Stream bank reinforcement in Lærdal</h2>
+</section>
+<section id="stream-bank-reinforcement-in-laerdal" class="titleslide slide level1"><h2 class="shout">Stream bank reinforcement in Laerdal</h2></section><section id="background" class="slide level2">
+<h2>Background</h2>
 <p>During the 2014 floods, the stream coming out of XX found a new flowpath and destroyed some agricultural land. Which measure would you suggest to avoid such an event in the future?</p>
 <p>NVE decided to build a riprap protection on the stretch of stream bank affected. Discuss the potential location of this riprap and calculate its necessary height to protect against a 200 year flood. Hint: <a href="www.nevina.nve.no">Nevina</a> helps you define the catchment area and the 200-year flood. Hint: The riprap protection will have a very controlled geometry, making it easy to use open channel formulas. Hint: For a quite precise measure of steepness, you can use <a href="www.hoydedata.no">hoydedata.no</a>.</p>
 <p>What are potential negative downstream impacts of such a measure?</p>
-<p>Have a good look at the map in Norgeskart and try to find upstream features that could bring accrued sediments downstream. Hint: The Lærdal tunnel is not far.</p>
-</div>
-<div id="section-further-reading" class="section level2">
+<p>Have a good look at the map in Norgeskart and try to find upstream features that could bring accrued sediments downstream. Hint: The L?rdal tunnel is not far.</p>
+</section><section id="mannings-equation" class="slide level2">
+<h2>Manning’s equation</h2>
+<p>Replacing the last expression for <span class="math inline">\(C\)</span> into Chézy’s equation yields:</p>
+<p><span class="math display">\[V = {\frac{R_h^{2/3} S^{1/2}}{n}} \]</span></p>
+<p><span class="math inline">\(V\)</span> is the cross-sectional average velocity</p>
+<p><span class="math inline">\(n\)</span> is the Manning coefficient. (in <span class="math inline">\(s*m^{-\frac {1}{3}}\)</span>)</p>
+<p><span class="math inline">\(R_h\)</span> is the hydraulic radius in meters</p>
+<p><span class="math inline">\(S\)</span> is the gradient in hydraulic head, which is the channel bed slope when the water depth is constant</p>
+</section><section id="typical-manning-roughness-coefficients" class="slide level2">
+<h2>Typical Manning roughness coefficients</h2>
+<p>According to “Elements of physical hydrology”</p>
+<table>
+<thead>
+<tr class="header">
+<th>Channel material</th>
+<th>Manning’s n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glass</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td>Smooth concrete</td>
+<td>0.012</td>
+</tr>
+<tr class="odd">
+<td>Earth canal</td>
+<td>0.02</td>
+</tr>
+<tr class="even">
+<td>Natural streams</td>
+<td>0.024-0.075</td>
+</tr>
+</tbody>
+</table>
+</section><section id="application" class="slide level2">
+<h2>Application</h2>
+<p>Manning coefficient: <span class="math inline">\(n = 0.025\)</span> Hydraulic radius: <span class="math inline">\(R_h\)</span> ? Cross sectional area / Wetted perimeter = x*10 / (2x + 20)</p>
+</section><section id="further-reading" class="slide level2">
 <h2>Further reading</h2>
 <p>Methodology for the glacier mass balance assessments: <a href="https://www.the-cryosphere.net/10/535/2016/tc-10-535-2016.pdf">Reanalysis of long-term series of glaciological and geodetic mass balance for 10 Norwegian glaciers</a></p>
 <p>This <a href="http://publikasjoner.nve.no/hydra/rapport/mi05.pdf">NVE report in Norwegian</a> presents erosion in Norway, with some information on Jostedalen</p>
+<!-- Hydrology and hydraulics in sandane, look at storing water in the football field -->
+<!-- Example of reconstructing peak flow with mannings formula, based on signs left by the flood  -->
+</section>
 
-<script type="application/shiny-prerendered" data-context="server-start">
-library(learnr)
-tutorial_options(exercise.timelimit = 60)
-knitr::opts_chunk$set(error = TRUE)
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-learnr:::register_http_handlers(session, metadata = NULL)
-</script>
- <!--html_preserve-->
-<script type="application/shiny-prerendered" data-context="dependencies">
-{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["1.11.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/jquery-1.11.3"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootstrap"]},{"type":"character","attributes":{},"value":["3.3.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/bootstrap-3.3.5"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["viewport"]}},"value":[{"type":"character","attributes":{},"value":["width=device-width, initial-scale=1"]}]},{"type":"character","attributes":{},"value":["js/bootstrap.min.js","shim/html5shiv.min.js","shim/respond.min.js"]},{"type":"character","attributes":{},"value":["css/cerulean.min.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["pagedtable"]},{"type":"character","attributes":{},"value":["1.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/pagedtable-1.1"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["js/pagedtable.js"]},{"type":"character","attributes":{},"value":["css/pagedtable.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["highlightjs"]},{"type":"character","attributes":{},"value":["1.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["href"]}},"value":[{"type":"character","attributes":{},"value":["EX03-hydraulics_files/highlightjs-1.1"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["highlight.js"]},{"type":"character","attributes":{},"value":["textmate.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-autocompletion"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-autocompletion.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-diagnostics"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-diagnostics.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-format"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmarkdown/templates/tutorial/resources"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-format.js"]},{"type":"character","attributes":{},"value":["tutorial-format.css","rstudio-theme.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["1.11.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/jquery-1.11.3"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["font-awesome"]},{"type":"character","attributes":{},"value":["4.5.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/font-awesome-4.5.0"]}]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["css/font-awesome.min.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootbox"]},{"type":"character","attributes":{},"value":["4.4.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/bootbox"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["bootbox.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["localforage"]},{"type":"character","attributes":{},"value":["1.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/localforage"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["localforage.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-autocompletion"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-autocompletion.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-diagnostics"]},{"type":"character","attributes":{},"value":["0.9.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-diagnostics.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]}]}]}
-</script>
-<!--/html_preserve-->
-</div>
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
 
-</div> <!-- topics -->
-
-<div class="topicsContainer">
-<div class="topicsPositioner">
-<div class="band">
-<div class="bandContent topicsListContainer">
-
-<!-- begin doc-metadata -->
-<div id="doc-metadata">
-<h2 class="title toc-ignore" style="display:none;">Hydraulics: pipes and open channel</h2>
-</div>
-<!-- end doc-metadata -->
-
-</div> <!-- bandContent.topicsListContainer -->
-</div> <!-- band -->
-</div> <!-- topicsPositioner -->
-</div> <!-- topicsContainer -->
-
-
-</div> <!-- bandContent page -->
-</div> <!-- pageContent band -->
-
-
-
-
-<script>
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-</script>
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
+    <script>renderMathInElement(document.body);</script>
+  
+  
 </body>
-
 </html>
