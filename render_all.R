@@ -18,7 +18,8 @@ rmarkdown::render("projects.Rmd", encoding = 'UTF-8')
 subfolder = "./01_Hydrology"
 rmd_files_list <- list.files(path = subfolder, pattern = ".Rmd")
 for (rmd_file in rmd_files_list) {
-  rmarkdown::render(paste(subfolder, rmd_file, sep ="/"), encoding = 'UTF-8')
+  rmarkdown::render(paste(subfolder, rmd_file, sep ="/"), 
+                    encoding = 'UTF-8')
   # rmarkdown::render(paste(subfolder, rmd_file, sep ="/"), output_dir = paste("_gh-pages", subfolder, sep ="/"), encoding = 'UTF-8')
 }
 
@@ -37,7 +38,8 @@ for (rmd_file in rmd_files_list) {
 }
 
 
-subfolder = "./04_Urban_SW"
+subfolder = "./04_Urban_SW
+"
 rmd_files_list <- list.files(path = subfolder, pattern = ".Rmd")
 for (rmd_file in rmd_files_list) {
   rmarkdown::render(paste(subfolder, rmd_file, sep ="/"), encoding = 'UTF-8')
