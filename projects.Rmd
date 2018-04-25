@@ -21,7 +21,9 @@ output:
 ##  Glacier lake outburst floods
 
 Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland.
-Look at NVE's modelling methodology. It could be applied to Blaamannsisen. Discuss other potential modelling and surveillance methods.
+Look at [NVE's modelling methodology](http://publikasjoner.nve.no/rapport/1997/rapport1997_17.pdf). It could be applied to Blaamannsisen (described in this NVE [inventory of glacier-related hazardous events in Norway](http://publikasjoner.nve.no/rapport/2014/rapport2014_83.pdf). 
+
+Discuss other potential modelling and surveillance methods.
 
 ## Hydrological modelling in the Sogndal valley
 
@@ -52,13 +54,6 @@ This project can be linked to the hydrological modelling of the Sogndal catchmen
 Using the plexiglas apparatus in the geolab
 This could include piping experiments [Laboratory soil piping and internal erosion experiments](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.3508)
 
-## Field hydrology and hydraulics in Olnes
-
-The catchment above my place (Fjordhytter, Olnes) is hard to define. The flowpaths are also not straightforward.
-Overflowing could erode the apple orchards. What are the current and future risks?
-This project could involve field experiments such as flow measurements and dye tracing.
-It could also involve scenarios of further residential development.
-
 ## Synthesis projects
 <img src="images/logo.png" class="cover">
 
@@ -66,7 +61,7 @@ It could also involve scenarios of further residential development.
 - Prepare a set of reference drawings / specifications on stormwater management for Western Norway?
 - Develop a cheatsheet on green SW infrastructure (i.e [nervous system](https://www.cheatography.com/davidpol/cheat-sheets/sympathetic-nervous-systems/pdf/), [R programming](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf))
 
-<img src="images/cheatsheet.jpg" height="300" width="auto">
+<img src="images/cheatsheet.jpg" height="250" width="auto">
 
 ## Synthesis projects: expectations
 <img src="images/logo.png" class="cover">
@@ -150,12 +145,18 @@ Determine soil properties
 <!-- </p> -->
 <!-- </div> -->
 
-## Further ideas
+## Further ideas you could explore
 
-Smart water harvesting: empty tanks before significant rain
+Smart water harvesting: empty tanks before significant rain. This is well suited to arid areas with flashy rain events.
 
-Crowd sourcing hydrological / infrastructural information
+Crowd sourcing hydrological / infrastructural information (see crowdwater.ch)
 
+## Field hydrology and hydraulics in Olnes
+
+The catchment above my [place](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=17&lat=6817579.53&lon=80011.2) (Fjordhytter, Ølnes) is hard to define. The flowpaths are also not straightforward.
+Overflowing could erode the apple orchards. What are the current and future risks?
+This project could involve field experiments such as flow measurements and dye tracing.
+It could also involve scenarios of further residential development.
 
 ## Project groups + second project
 <img src="images/logo.png" class="cover">
@@ -186,8 +187,6 @@ People | project |  project2
 - Creativity: I do not want only a synthesis of existing documents.
 - Rigor: discuss well the limitations of your approach
 - Overall report quality and structure: what is the problem, why? How did we tackle it? What are our results and why are they good / bad?
-- For experimental / modelling project: good explanation of the analysis (available data, methods, assumptions, results)
-- Explain the why, what and how of experimental setup
-- Present results in a critical way: what went well and what didn't
+- For experimental / modelling projects: good explanation of the analysis (available data, methods, assumptions, results)
 - Shy / less eloquent presenters will not be penalized. The whole group gets one common grade.
 

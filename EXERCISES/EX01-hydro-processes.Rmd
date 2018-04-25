@@ -193,11 +193,26 @@ In which cases could it work better?
 
 # Modelling snowmelt
 
-## THORBEN: Calculating the response to a melt event
+## Program you own model!
 
-Setting up a temperature-index melt model
+Follow instruction of [exercise 6: Snow model](http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html) provided by Universy of Zürich
+
+## Steps
+
+Load the data into R
+
+Name model parameters and initialize modelled variables
+
+Make a "for" loop to run the model
 
 
+## Good of fit metrics
+
+Discuss different ways to assess the quality of your model.
+
+How might different objective functions be used in specific contexts?
+
+Add a goodness of fit measure to your routine and optimize the model according to this metric.
 
 
 # Extras
