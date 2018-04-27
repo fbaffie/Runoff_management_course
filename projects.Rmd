@@ -158,6 +158,21 @@ Overflowing could erode the apple orchards. What are the current and future risk
 This project could involve field experiments such as flow measurements and dye tracing.
 It could also involve scenarios of further residential development.
 
+<!-- Map the stormwater network (involves some filedwork). Understand where critical points are and how they may lead to urban flooding. -->
+
+## Design SW infrastructure in 3 steps
+
+Try different methodologies to come up with recommendations regarding the points Asplan Viak made in Skei: http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2327579
+Three steps for urban stormwater management were linked to different return periods:
+Step 1 using the mean annual flood: local infiltration / retention
+Step 2 using a 20-year: flood: neighborhood-scale measures
+Step 3 using a 200-year flood: safe overflows.
+How to design stormwater infrastructure according to those guidelines? Asplan Viak was putting forward volumes in percent of how each step is contributing to specific events. I suspect they are partly guessed. Could there be a reliable methodology?
+
+## Optimizing hydropower for flood protection
+
+Can hydro-meteorological modelling and historical statistical analysis help to optimize the management of Leirdalvatnet in autumn. The short residence time in the reservoir makes the task of optimizing flood protection versus maximizing earning potential difficult.
+
 ## Project groups + second project
 <img src="images/logo.png" class="cover">
 

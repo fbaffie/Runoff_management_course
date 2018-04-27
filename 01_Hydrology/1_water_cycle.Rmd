@@ -44,7 +44,6 @@ How does this sketch link to the next session?
 # Main components of the water cycle
 
 ##  Draw the water cycle with water storages, and processes between each storage.
-<img src="../images/question.png" class="cover">
 <!--
 ## Interactive water cycle questions:
 http://techalive.mtu.edu/meec/module01/HydrologicCycleQuiz.htm
@@ -217,7 +216,7 @@ Evapotranspiration | 235
 > - I don't think it's too big: only 1% of glacier covered areas. their mass balance is probably less negative than in Switzerland.
 
 ## Water budget at the catchment scale
-<img src="../images/important.png" class="cover">
+<!-- <img src="../images/important.png" class="cover"> -->
 
 The variation in volume of water stored in a catchment can be written as:
 \[\frac{dv}{dt} = p - r_s - gw -et\] 
@@ -329,7 +328,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 - XXX
 
 ## Take home messages
-<img src="../images/important.png" class="cover">
+<!-- <img src="../images/important.png" class="cover"> -->
 
 - Hydrology: study of water volumes and flows on and beneath the earth's surface
 - Vapor formation and transport driven by solar energy
