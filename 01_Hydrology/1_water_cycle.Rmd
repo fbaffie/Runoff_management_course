@@ -191,7 +191,7 @@ http://www.donauversickerung.info/querschnitt_1.html
 <img src="images/damma_catchment.jpg" height="500" width="auto">
 
 ## Hydropower tunnels
-<img src="images/phd/p2_fig1 - Map of the study area.JPG" height="500" width="auto">
+<img src="images/phd/p2_fig1 - Map of the study area.jpg" height="500" width="auto">
 
 ## Virtual water in agriculture
 
