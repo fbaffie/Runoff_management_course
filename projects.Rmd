@@ -1,5 +1,5 @@
 ---
-title: "Runoff management course"
+title: "Group projects"
 author: Back to [course overview](./index.html#assessment)
 output:
   rmdshower::shower_presentation:
@@ -20,42 +20,38 @@ output:
 
 ##  Glacier lake outburst floods
 
-Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland.
-Look at [NVE's modelling methodology](http://publikasjoner.nve.no/rapport/1997/rapport1997_17.pdf). It could be applied to Blaamannsisen (described in this NVE [inventory of glacier-related hazardous events in Norway](http://publikasjoner.nve.no/rapport/2014/rapport2014_83.pdf). 
-
-Discuss other potential modelling and surveillance methods.
+- Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland.
+- Look at [NVE's modelling methodology](http://publikasjoner.nve.no/rapport/1997/rapport1997_17.pdf). It could be applied to Blaamannsisen (described in this NVE [inventory of glacier-related hazardous events in Norway](http://publikasjoner.nve.no/rapport/2014/rapport2014_83.pdf). 
+- Discuss other potential modelling and surveillance methods.
 
 ## Hydrological modelling in the Sogndal valley
 
-Data exploration and hydrological modelling of the Sogndal catchment using R and/or HBV-light
-This can also have an experimental aspect. Available equipment: portable EC/pH meter, soil moisture sensors, soil temperature sensors, water pressure sensors, fluorometer)
+- Data exploration and hydrological modelling of the Sogndal catchment using R and/or HBV-light.
+- This can also have an experimental aspect. Available equipment: portable EC/pH meter, soil moisture sensors, soil temperature sensors, water pressure sensors, fluorometer)
 <!--
 - Instrument the Sogndal stream close to the campus or lower towards the outlet, do fluorometer / salt experiments and try to understand: how much more flow is there here than at Sogndalsvatn, how much time does river routing take, is it dependent on discharge rate? discuss the limitations
 -->
 
 ## Comparing discharge measurement techniques
 
-You can use several methods and compare the results:
-
-Salt dilution, dye tracer dilution, discharge app, portable flow meter.
-
-This project would work well in copperation with the next project (floodrouting).
+- You can use several methods and compare the results: salt dilution, dye tracer dilution, discharge apps (discharge.ch and crowdwater.ch), portable flow meter.
+- This project would work well in copperation with the next project (flood routing).
 
 
 ## Flood routing for Sogndalselvi
 
-Experiment with this new [discharge app](https://discharge.ch/).
-Explain how it works.
-There is an automatic discharge station at the downstream end of Dalavatnet. Complement those data with measurements further down (or up) the valley to come up with a flood routing model for the Sogndal catchment. An interesting question can be understanding the effect of Sogndalsvatnet on flood damping.
-This project can be linked to the hydrological modelling of the Sogndal catchment.
+- Experiment with this new [discharge app](https://discharge.ch/) or use results from the discharge gauging group.
+- There is an automatic discharge station at the downstream end of Dalavatnet. Complement those data with measurements further down (or up) the valley to come up with a flood routing model for the Sogndal catchment. 
+- An interesting question can be understanding the effect of Sogndalsvatnet on flood damping.
+- This project can be linked to the hydrological modelling of the Sogndal catchment.
 
 ## Erosion experiment with soil moisture sensors
 
-Using the plexiglas apparatus in the geolab
-This could include piping experiments [Laboratory soil piping and internal erosion experiments](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.3508)
+- Using the plexiglas apparatus in the geolab
+- This could include piping experiments [Laboratory soil piping and internal erosion experiments](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.3508)
 
 ## Synthesis projects
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
 - Recommendation for green infrastructure design in Norway: which techniques are promising, where, under which circumstances...
 - Prepare a set of reference drawings / specifications on stormwater management for Western Norway?
@@ -63,12 +59,12 @@ This could include piping experiments [Laboratory soil piping and internal erosi
 
 <img src="images/cheatsheet.jpg" height="250" width="auto">
 
-## Synthesis projects: expectations
-<img src="images/logo.png" class="cover">
+<!-- ## Synthesis projects: expectations -->
+<!-- <!-- <img src="images/logo.png" class="cover"> --> -->
 
-- Explanation of choices
-- Steal like an artist: build upon the resources synthesized
-- Neat and practical final product
+<!-- - Explanation of choices -->
+<!-- - Steal like an artist: build upon the resources synthesized -->
+<!-- - Neat and practical final product -->
 
 <!-- ## Building projects -->
 <!-- <img src="images/logo.png" class="cover"> -->
@@ -79,11 +75,48 @@ This could include piping experiments [Laboratory soil piping and internal erosi
 
 <!-- <img src="images/diy_ram_pump.jpg" height="300" width="auto"> -->
 
+## Design SW infrastructure in 3 steps
+
+Try different methodologies to come up with recommendations regarding the points Asplan Viak made at [an NVE conference](http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2327579)
+
+Three steps for urban stormwater management were linked to different return periods:
+
+Step 1 using the mean annual flood: local infiltration / retention
+Step 2 using a 20-year: flood: neighborhood-scale measures
+Step 3 using a 200-year flood: safe overflows.
+
+How to design stormwater infrastructure according to those guidelines? Asplan Viak was putting forward volumes in percent of how each step is contributing to specific events. I suspect they are partly guessed. Could there be a reliable methodology?
+
+## Optimizing hydropower for flood protection
+
+Can hydro-meteorological modelling and historical statistical analysis help to optimize the management of Leirdalvatnet in autumn. 
+
+The short residence time in the reservoir makes the task of optimizing flood protection versus maximizing earning potential difficult.
+
+You could look at international examples of coupled hydropower and flood mitigation (i.e. Switzerland); and discuss ecological impacts vs human benefits. 
+
+## Sites vulnerable to future changes in runoff
+
+Example: field hydrology and hydraulics in Olnes
+
+The catchment above my [place](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=17&lat=6817579.53&lon=80011.2) (Fjordhytter, Ølnes) is hard to define. The flowpaths are also not straightforward.
+
+Overflowing could erode the apple orchards. What are the current and future risks?
+
+This project could involve field experiments such as flow measurements and dye tracing.
+It could also involve scenarios of further residential development.
+
+<!-- Map the stormwater network (involves some filedwork). Understand where critical points are and how they may lead to urban flooding. -->
+
+## Further ideas you could explore
+
+- Smart water harvesting: empty tanks before significant rain. This is well suited to arid areas with flashy rain events.
+- Crowd sourcing hydrological / infrastructural information (see crowdwater.ch)
 
 # Further development of last year's projects
 
 ## Design projects: Leikanger 100 dwellings, 10ha
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 <img src="images/project_kaupanger_zoom_aerial.png" height="460" width="auto">
 
 ## Design projects: site map
@@ -91,11 +124,11 @@ This could include piping experiments [Laboratory soil piping and internal erosi
 <img src="images/project_kaupanger_zoom.png" height="520" width="auto">
 
 ## Design projects: catchment
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 <img src="images/project_kaupanger.png" height="520" width="auto">
 
 ## Design projects: options
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 Different design challenges:
 
 - minimum extra outflow (least hydrological impact)
@@ -113,14 +146,14 @@ Different design challenges:
 <img src="02_Hydraulics/images/vancia_2_bassins_enterres.jpg" height="520" width="auto">
 
 ## Design projects: other ideas
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
 - You can suggest another area to be developed
 - Re-design the campus for water harvesting and irrigation of urban agriculture. This could be linked to smart reservoirs.
 - Look for problems involving SW in the region and propose solutions (dirt roads, specific locations in Sogndal)
 
 ## Design projects: expectations
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
 - Drawings (hand, sketchup...) are encouraged. 
 - Try to specify construction requirements: inputs / outputs in materials, timing
@@ -129,15 +162,12 @@ Different design challenges:
 - No need for huge report
 
 ## Lab permeameter / Field infiltration experiments
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
-Further experiment with the lab permeameter. 
-
-Compare with simple field infiltration experiments
-
-Soil moisture sensors can be used in field experiments.
-
-Determine soil properties
+- Further experiment with the lab permeameter
+- Compare with simple field infiltration experiments
+- Soil moisture sensors can be used in field experiments
+- Determine soil properties
 
 <!-- https://en.wikipedia.org/wiki/Infiltrometer -->
 <!-- </p><p class="double-flow"> -->
@@ -145,54 +175,28 @@ Determine soil properties
 <!-- </p> -->
 <!-- </div> -->
 
-## Further ideas you could explore
-
-Smart water harvesting: empty tanks before significant rain. This is well suited to arid areas with flashy rain events.
-
-Crowd sourcing hydrological / infrastructural information (see crowdwater.ch)
-
-## Field hydrology and hydraulics in Olnes
-
-The catchment above my [place](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=17&lat=6817579.53&lon=80011.2) (Fjordhytter, Ølnes) is hard to define. The flowpaths are also not straightforward.
-Overflowing could erode the apple orchards. What are the current and future risks?
-This project could involve field experiments such as flow measurements and dye tracing.
-It could also involve scenarios of further residential development.
-
-<!-- Map the stormwater network (involves some filedwork). Understand where critical points are and how they may lead to urban flooding. -->
-
-## Design SW infrastructure in 3 steps
-
-Try different methodologies to come up with recommendations regarding the points Asplan Viak made in Skei: http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2327579
-Three steps for urban stormwater management were linked to different return periods:
-Step 1 using the mean annual flood: local infiltration / retention
-Step 2 using a 20-year: flood: neighborhood-scale measures
-Step 3 using a 200-year flood: safe overflows.
-How to design stormwater infrastructure according to those guidelines? Asplan Viak was putting forward volumes in percent of how each step is contributing to specific events. I suspect they are partly guessed. Could there be a reliable methodology?
-
-## Optimizing hydropower for flood protection
-
-Can hydro-meteorological modelling and historical statistical analysis help to optimize the management of Leirdalvatnet in autumn. The short residence time in the reservoir makes the task of optimizing flood protection versus maximizing earning potential difficult.
+# Assessment
 
 ## Project groups + second project
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
 People	| Main project	|  Second project
 --- | --- | --- 
 People | project |  project2
 
 ## Project development
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
 - Groups and subjects (including second project) to be decided before Mai 9.
 - Last quiz dedicated to projects. 4 Q/A on your project, 2 Q/A on the second project.
 - During the 10 day period before the exam, you can come consult us.
 
 ## Project reporting and presentation
-<img src="images/logo.png" class="cover">
+<!-- <img src="images/logo.png" class="cover"> -->
 
 - The reports are sent to fkba@hvl.no and uploaded to fronter: Friday 9th of June. 24:00 
 - Slide show of 5 minutes per person (so 15 or 20 min total depending on the group)
-- Videos could be part of the reporting, but not only
+- You can record your presentation in advance as an edited video (room for creative work)
 - The group with the same "second project" as the presenters gets priority for questions. They should have read the "second project" report in detail.
 - The individual exam will then discuss the personal project, the second project and the course material
 

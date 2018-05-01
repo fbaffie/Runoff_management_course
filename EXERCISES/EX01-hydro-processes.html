@@ -30,42 +30,6 @@
 <section id="hydrological-processes" class="slide level2">
 <h2>Hydrological processes</h2>
 <p>In this exercise session we will practice concepts covered in class: - Infiltration - Groundwater flow - Evaporation - Snowmelt and glacier melt</p>
-<p>Check this for inspiration</p>
-</section>
-<section id="conductivity-of-dyna-sand-sand-filters" class="slide level2">
-<h2>Conductivity of “Dyna Sand” sand filters</h2>
-<p>I found <a href="https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf">there</a> that the loading rate of the filters was 3.5gpm/SqFt</p>
-<ul>
-<li class="fragment next"><strong>Check whether this makes sense, considering what you heard on Wednesday!</strong></li>
-<li class="fragment next"><strong>The whole thing is done here without calculator with “useful” approximations!</strong></li>
-<li class="fragment next">The reservoir was 1000<span class="math inline">\(m3\)</span> and represented 6h max of daily consumption</li>
-<li class="fragment next">So daily consumption: 4000m3</li>
-<li class="fragment next">The sand filters need to be able to produce the daily consumption in 24h!</li>
-</ul>
-</section>
-<section id="conductivity-of-dyna-sand-sand-filters-1" class="slide level2">
-<h2>Conductivity of “Dyna Sand” sand filters</h2>
-<ul>
-<li class="fragment next"><strong>Calculate the required flow per minute</strong></li>
-<li class="fragment next">4000 / 60x24 = 4000 / 1440 -&gt; 4000 / 1600 (easier) = 2.5<span class="math inline">\(m^3/min\)</span></li>
-<li class="fragment next"><strong>Calculate the required surface for this flow</strong></li>
-<li class="fragment next">3.5<span class="math inline">\(gpm/SqFt\)</span> -&gt; 3.5x4 = 14 <span class="math inline">\(l/min/sqft\)</span> -&gt; 14x10 <span class="math inline">\(l/min/m^2\)</span> = 0.14 <span class="math inline">\(m^3/min/m^2\)</span></li>
-<li class="fragment next">Recapitulation: 2.5<span class="math inline">\(m^3/min\)</span> is required and the sand filter has a capacity of 0.14 <span class="math inline">\(m^3/min/m^2\)</span></li>
-<li class="fragment next">So 15-20<span class="math inline">\(m^2\)</span> required: 5 filters of 3-4<span class="math inline">\(m^2\)</span></li>
-<li class="fragment next">Makes sense!</li>
-</ul>
-</section>
-<section id="conductivity-of-dyna-sand-sand-filters-2" class="slide level2">
-<h2>Conductivity of “Dyna Sand” sand filters</h2>
-<ul>
-<li class="fragment next"><strong>The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand</strong></li>
-<li class="fragment next">10 bars makes 100m of head at the inlet</li>
-<li class="fragment next">The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter</li>
-<li class="fragment next">So hydraulic head gradient across the sand filter: 95 / 4 -&gt; 24</li>
-<li class="fragment next">using Darcy’s Law: <span class="math inline">\(q=-k \nabla{\phi}\)</span></li>
-<li class="fragment next"><span class="math inline">\(K*24 = 0.14m^3/min/m^2\)</span> -&gt; <span class="math inline">\(K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s\)</span></li>
-<li class="fragment next">Makes sense!</li>
-</ul>
 </section>
 <section id="steady-flow-in-an-unconfined-aquifer" class="slide level2">
 <h2><a href="http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/6.1/6.1.html">Steady flow in an unconfined aquifer</a></h2>
@@ -190,6 +154,7 @@ with $L_{integral}(t_{end}) = L_{residual}$
 <section id="modelling-snowmelt" class="titleslide slide level1"><h2 class="shout">Modelling snowmelt</h2></section><section id="program-you-own-model" class="slide level2">
 <h2>Program you own model!</h2>
 <p>Follow instruction of <a href="http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html">exercise 6: Snow model</a> provided by Universy of Zürich</p>
+<p>Download this article: <a href="https://www.hydrol-earth-syst-sci.net/16/3315/2012/">Teaching hydrological modeling with a user-friendly catchment-runoff-model software package</a></p>
 </section><section id="steps" class="slide level2">
 <h2>Steps</h2>
 <p>Load the data into R</p>
@@ -201,35 +166,13 @@ with $L_{integral}(t_{end}) = L_{residual}$
 <p>How might different objective functions be used in specific contexts?</p>
 <p>Add a goodness of fit measure to your routine and optimize the model according to this metric.</p>
 </section>
-<section id="extras" class="titleslide slide level1"><h2 class="shout">Extras</h2></section><section id="the-sogndalselvi-catchment" class="slide level2">
-<h2>The Sogndalselvi catchment</h2>
-<p>Use nevina.no to define the catchment and automatically fetch its properties.</p>
-<p>Provide a short description of the catchment from a hydrological perspective.</p>
-<p>Based on the hydrological ad meteorological data available on xgeo.no, try to understand the main components of the hydrological cycle.</p>
-<p>What are inherent difficulties linked to the available data?</p>
-<p>Which additional measurements would be required to better close the balance of the hydrological cycle?</p>
-</section><section id="estimating-yearly-averages" class="slide level2">
-<h2>Estimating yearly averages</h2>
-<p>Download data for several years.</p>
-<p>Calculate mean, median and extreme flow values for each year.</p>
-<p>You can programm it as a parametrized function in order to take into account yearly variability.</p>
-<p>Do a box plot on annual discharge statistics in Sogndal.</p>
-</section><section id="calculating-the-response-to-a-rain-event" class="slide level2">
-<h2>Calculating the response to a rain event</h2>
-</section><section id="estimating-the-recession-behavior-during-dry-periods" class="slide level2">
-<h2>Estimating the recession behavior during dry periods</h2>
-<p>Calibrating a recession curve.</p>
-</section><section id="prepare-potential-evapotranspiration-series" class="slide level2">
-<h2>Prepare potential evapotranspiration series</h2>
-<p>Use the method of your choice to compute daily potential evapotraspiration.</p>
-<p>Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology.</p>
-<p>AirGR can also calculate it with the Oudin’s formula. The function is <code>Edaily_Oudin()</code></p>
-</section><section id="irrigation-exercise" class="slide level2">
+<section id="extras" class="titleslide slide level1"><h2 class="shout">Extras</h2></section><section id="irrigation-exercise" class="slide level2">
 <h2>Irrigation exercise</h2>
 <p>Good exercise page 255, elements of physical hydrology</p>
-<!-- ## Further ideas -->
-<!-- Drinking water in sogndal -->
-<!-- Dilution gauging exercise and redoing the methodology of my last paper -->
+<!-- ## Prepare potential evapotranspiration series -->
+<!-- Use the method of your choice to compute daily potential evapotraspiration. -->
+<!-- Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology. -->
+<!-- AirGR can also calculate it with the Oudin’s formula. The function is `Edaily_Oudin()` -->
 </section>
 
   <!--

@@ -57,3 +57,31 @@ Experiment with daily, monthly, yearly precipitation data and see how the probab
 Use the fitdistrib package to fit some data from the Sogndal valley
 
 Retrieve historical discharge data in Sogndal.
+
+## The Sogndalselvi catchment
+
+Use nevina.no to define the catchment and automatically fetch its properties.
+
+Provide a short description of the catchment from a hydrological perspective.
+
+Based on the hydrological ad meteorological data available on xgeo.no, try to understand the main components of the hydrological cycle.
+
+What are inherent difficulties linked to the available data?
+
+Which additional measurements would be required to better close the balance of the hydrological cycle?
+
+## Estimating yearly averages
+
+Download data for several years.
+
+Calculate mean, median and extreme flow values for each year.
+
+You can programm it as a parametrized function in order to take into account yearly variability.
+
+Do a box plot on annual discharge statistics in Sogndal.
+
+## Calculating the response to a rain event
+
+## Estimating the recession behavior during dry periods
+
+Calibrating a recession curve.

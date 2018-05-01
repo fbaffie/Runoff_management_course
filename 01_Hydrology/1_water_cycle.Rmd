@@ -16,8 +16,9 @@ output:
 <!-- - Global figures: storages, fluxes and residence times -->
 <!-- - Water budget for Switzerland and Norway -->
 <!-- - Definitions and example of catchments -->
-- [Human impacts and balance calculations](./1_water_cycle.html#human-impacts)
 - [Interaction with other cycles](./1_water_cycle.html#interactions-with-other-cycles)
+- [Human impacts](./1_water_cycle.html#human-impacts)
+- [Water balance calculations](./1_water_cycle.html#water-balance-calculations)
 - [Hydro-meteorology](./1_water_cycle.html#hydro-meteorology)
 - [Climate change and the hydrological cycle](./1_water_cycle.html#climate-change-and-the-hydrological-cycle)
 - [Take home messages](./1_water_cycle.html#take-home-messages)
@@ -67,14 +68,16 @@ http://www.metlink.org/climate/ipcc-updates-for-a-level-geography/the-changing-w
 > - **How do we estimate residence times?**
 > - *T = Volume / Yearly fluxes*
 > - **Estimate the residence times in the atmosphere and lake/rivers.**
-> - Atmosphere: 0.025 yr (9 days)
-> - Rivers and lakes: 4 yr
+> - Atmosphere: 12.7 / (386+114) = 0.025 yr (9 days)
+> - Rivers and lakes: 178 / 40 = 4.45 yr
 
 ## Residence time distribution
 
 > - **What does it mean?**
 > - The previous residence times are **mean values**.
 > - They follow distributions (like probability distributions) at different scales: world, continents, catchments...
+> - **Draw the residence time distribution of: snow in the Sogndal catchment, soil moisture and groundwater in the Sahara**
+
 
 ## {.fullpage} 
 <img src="images/earth-water-distribution.png">
@@ -123,6 +126,8 @@ Total water | 1337000 | 100
 
 ## Some vocabulary
 
+There is great hydrology glossary online from the [Unesco](http://unesdoc.unesco.org/images/0022/002218/221862M.pdf)
+
 > - **Discharge (or water flow):**
 > - volume of water passing through a given point at a given time 
 > - **Runoff:**
@@ -130,8 +135,7 @@ Total water | 1337000 | 100
 > - **Watershed (or catchment):** 
 > - the geographical area drained by a watercourse. It can range from small headwater catchments to large river or lake basins
 
-There is great hydrology glossary online:
-http://unesdoc.unesco.org/images/0022/002218/221862M.pdf
+
 
 <!--
 > - **River basin:** 
@@ -158,85 +162,7 @@ Spring at Aachtopf: approx. 10m3/s
 http://www.donauversickerung.info/querschnitt_1.html
 -->
 
-# Human impacts
-
-## Exception: human alterations
-<img src="images/LA_water_map.png" height="500" width="auto">
-
-## Exception: human alterations
-<img src="images/damma_catchment.jpg" height="500" width="auto">
-
-## Swiss water budget (a)
-Musy, 2001: http://echo2.epfl.ch/VICAIRE/mod_1a/chapt_1/main.htm
-
-Water cycle component | Contribution (mm/year)
---- | ---
-Precipitation | 1546
-Total runoff | 1296
-Influx into Switzerland | 318
-Evapotranspiration | 484
-
-> - **What's missing?**
-> - The glacier melt input (84mm)
-
-## Swiss water budget (b)
-https://naturalsciences.ch/topics/water/water_balance
-
-<img src="images/swiss_water_balance.png"  height="400" width="auto">
-
-## Water balance for Switzerland
-<img src="images/swiss_virtual_water.jpg"  height="300" width="auto">
-
-> - **Anything new?**
-> - The virtual water component
-> - **Approximate country area with 1500mm of annual precipitation?**
-
-## How much glacier melt was missing?
-Glacierized areas in Switzerland: 944 km2
-<!--
-(http://adsabs.harvard.edu/abs/2014EGUGA..16..200F)
--->
-
-> - Average glacier mass balance?
-<img src="images/swiss_glacier_storage.png"  height="250" width="auto">
-> - **Which water balance seems more accurate / coherent?**
-> - The second one
-
-## What about those figures for Norway?
-
-Water cycle component | Contribution (mm/year)
---- | ---
-Precipitation | 1415
-Total runoff | 1180
-Flow from neighbours | 30
-Flow into Sweden | 30
-Evapotranspiration | 235
-
-> - **0mm for glacier melt: do you think it is a big approximation?**
-> - I don't think it's too big: only 1% of glacier covered areas. their mass balance is probably less negative than in Switzerland.
-
-## Water budget at the catchment scale
-<!-- <img src="../images/important.png" class="cover"> -->
-
-The variation in volume of water stored in a catchment can be written as:
-\[\frac{dv}{dt} = p - r_s - gw -et\] 
-
-where $p$ is the precipitation rate, $r_s$ the surface runoff, $gw$ the net rate of groundwater flow and $et$ the rate of evapotranspiration.
-
-$\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface water, snow and ice
-
-## Virtual water
-
-> - Cowspiracy says that:
-<img src="images/cowspiracy_cattle_water.png" height="150" width="auto">
-> - The USGS says that livestock withdrawals accounted for about 1 percent of total freshwater withdrawals for all uses excluding thermoelectric power.
-
-> - Crazy difference
-> - The larger estimate counts everything, including precipitation on the fields
-> - But many fields are not useable for other things
-> - **Reality probably in between**
-
-## Interactions with other cycles
+## Interactions with other natural cycles
 > - **How does the water cycle interact with carbon cycle**
 > - Water is needed for vegetation to grow and fix atmospheric carbon
 > - The weathering of silicates traps CO2: 1 Gt/year against 30 Gt/yr of emissions (https://www.skepticalscience.com/weathering.html)
@@ -255,6 +181,91 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 ## Cycles in the Artic / Norway
 
 <img src="images/RECAP_arctic_norway_cycles.png" height="500" width="auto">
+
+# Human impacts
+
+## Irrigation and drinking water
+<img src="images/LA_water_map.png" height="500" width="auto">
+
+## Hydropower
+<img src="images/damma_catchment.jpg" height="500" width="auto">
+
+## Hydropower tunnels
+<img src="images/phd/p2_fig1 - Map of the study area.JPG" height="500" width="auto">
+
+## Virtual water in agriculture
+
+> - Cowspiracy says that:
+<img src="images/cowspiracy_cattle_water.png" height="150" width="auto">
+> - The USGS says that livestock withdrawals accounted for about 1 percent of total freshwater withdrawals for all uses excluding thermoelectric power.
+
+> - Crazy difference
+> - The larger estimate counts everything, including precipitation on the fields
+> - But many fields are not useable for other crops
+> - **Reality probably in between**
+
+# Water balance calculations
+
+## Water budget at the catchment scale
+<!-- <img src="../images/important.png" class="cover"> -->
+
+The variation in volume of water stored in a catchment can be written as:
+
+> - $r_s = p - gw - et - \frac{dv}{dt}$
+> - $\frac{dv}{dt} = p - gw - et - r_s$
+> - where $p$ is the precipitation rate, $r_s$ the surface runoff, $gw$ the net rate of groundwater flow and $et$ the rate of evapotranspiration.
+
+> - $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface water, snow and ice
+
+## Swiss water budget (a)
+Musy, 2001: http://echo2.epfl.ch/VICAIRE/mod_1a/chapt_1/main.htm
+
+Water cycle component | Contribution (mm/year)
+--- | ---
+Precipitation | 1546
+Total runoff | 1296
+Influx into Switzerland | 318
+Evapotranspiration | 484
+
+> - **What's missing?**
+> - The glacier melt input (1546-1296+318-484=84mm). But the sign is wrong...
+
+## Swiss water budget (b)
+https://naturalsciences.ch/topics/water/water_balance
+
+<img src="images/swiss_water_balance.png"  height="400" width="auto">
+
+## Water balance for Switzerland
+<img src="images/swiss_virtual_water.jpg"  height="300" width="auto">
+
+> - **Anything new?**
+> - The virtual water component
+> - **Approximate country area with 1500mm of annual precipitation?**
+> -    $60 / (1.431 * 10^-3) = 42000 km^2$
+
+## How much glacier melt was missing?
+Glacierized areas in Switzerland: 944 km2
+<!--
+(http://adsabs.harvard.edu/abs/2014EGUGA..16..200F)
+-->
+
+> - Average glacier mass balance?
+<img src="images/swiss_glacier_storage.png"  height="250" width="auto">
+> - **Which water balance seems more accurate / coherent?**
+> - 85-55 km3 lost in 100 years = 0.03 km3 / year. So 0.03km3 /1000km2 = 30mm / year
+
+## What about those figures for Norway?
+
+Water cycle component | Contribution (mm/year)
+--- | ---
+Precipitation | 1415
+Total runoff | 1180
+Flow from neighbours | 30
+Flow into Sweden | 30
+Evapotranspiration | 235
+
+> - **How much glacier melt: do you think it is a big approximation?**
+> - 0mm for glacier melt. I don't think it's too big: only 1% of glacier covered areas. Their mass balance is probably less negative than in Switzerland.
 
 # Hydro-meteorology
 
@@ -310,7 +321,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 > - blows than the lee side of a mountain range
 > - **Why?**
 > - Orographic precipitation forcing
-> - Adiabatic cooling and warming with different lapse rates
+> - Adiabatic cooling and warming with different lapse rates (9.8 vs 5°C/km)
 > - **Why different lapse rates?**
 > - Less moisture means less latent heat spent to evaporate water
 > - **Geographical examples?**
@@ -323,9 +334,14 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 
 ## Potential impacts of climate change
 
-- More intense and frequent extreme rain events
-- Drier low latitudes
-- XXX
+- Water-holding capacity of the atmosphere increases exponentially by about 7% for every 1 °C
+- Increased evaporation rate of surface water
+- Intensification of the global water cycle
+- More evaporation could reduce soil moisture. Potential temperature and vegetation growth feedbacks
+- Drier tropics (low/mid latitudes)
+- Increased inequalities in water resources
+- Likely more intense and frequent extreme rain events
+- Wetter mid/high latitudes (Norway!)
 
 ## Take home messages
 <!-- <img src="../images/important.png" class="cover"> -->
@@ -336,7 +352,7 @@ $\frac{dv}{dt}$ comprises variations in any water storage: groundwater, surface 
 - Catchment: area of land in which all water flows towards a defined outlet
 - Water budget based on conservation of mass principle
 - Usually precipitation = surface runoff + evapotranspiration
-- Pay attention to ice and groundwater storages
+- Pay attention to human interactions and ice / groundwater storages
 - Questions figures you may find, especially when they are indirect (i.e. virtual water)
 
 <!--
@@ -355,25 +371,27 @@ http://www.metlink.org/climate/ipcc-updates-for-a-level-geography/the-changing-w
 
 # Further resources
 
-## Book chapters
+## Book chapters and online courses
 
-Elements of physical hydrology. Chapters 1, 2
+Elements of physical hydrology. Chapters 1, 2, 11
 
 Hydrology in Practice. Chaper 1
 
-## Online resources: Norway / Europe
+"Integrate" online course on Critical Zone science:
+[Unit 1.2: Exploring the Hydrologic Cycle](https://serc.carleton.edu/integrate/teaching_materials/ecosystem_water/unit1.2.html)
+
+## Other online resources
+Norway / Europe:
 
 - [Hydrological atlas of Switzerland](http://www.hydrologischeratlas.ch)
 - [Norwegian realtime hydrological data](https://www.nve.no/hydrologi/hydrologiske-data)
 
-## Online resources: USA
+USA:
 
 - [Post-drougth groundwater in California](https://californiawaterblog.com/2017/03/19/post-drought-groundwater-in-california-like-the-economy-after-a-deep-recession-recovery-will-be-slow/)
 - [USGS summary of the water cycle](https://water.usgs.gov/edu/watercyclesummary.html)
 
-## Climate change impact on water resources
-
-http://drought.unl.edu/DroughtBasics/ClimateChange.aspx#Water_Resources
+[Climate change impact on water resources](http://drought.unl.edu/DroughtBasics/ClimateChange.aspx#Water_Resources)
 
 ## [Manuals from the World Meteorological Organization](http://www.wmo.int/pages/prog/hwrp/manuals.php)
 
@@ -390,27 +408,27 @@ Includes:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bQ8_UZpbtz8" frameborder="0" allowfullscreen></iframe>
 
-# Annoted video resources
+<!-- # Annoted video resources -->
 
-## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change
+<!-- ## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change -->
 
-https://www.youtube.com/watch?v=zMjchti6LdM
+<!-- https://www.youtube.com/watch?v=zMjchti6LdM -->
 
-- 8: Interaction between land and atmosphere
-- 18: Dry springs followed by hot summers
-Meteorological drought: critical precipitation deficit
-Soil-moisture drought: soil-moisture deficit
-Hydrological drought: streamflow and groundwater deficit.
-- 25: How are they inter related
-- 28: Comparing 2 methods for potential evapotranspiration
+<!-- - 8: Interaction between land and atmosphere -->
+<!-- - 18: Dry springs followed by hot summers -->
+<!-- Meteorological drought: critical precipitation deficit -->
+<!-- Soil-moisture drought: soil-moisture deficit -->
+<!-- Hydrological drought: streamflow and groundwater deficit. -->
+<!-- - 25: How are they inter related -->
+<!-- - 28: Comparing 2 methods for potential evapotranspiration -->
 
-## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change
+<!-- ## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change -->
 
 
-- 29: Uncertaincy in evapotranspiration (can be up to 30%)
-- 34: Wetter gets wetter, drier gets drier? no!
-- 39: Impact of no-till farming. crop residues modify the albedo: increases the albedo. strongest cooling for the strongest temperature
-very strong asymetric impact of temperature: a bit like forest -> importance of looking at extremes and not mean
-- 45: Question: with climate change, less cloud cover more cooling? feedback loops 
-- 51: Question: how strong is the link between soil moisture storage and streamflow?
+<!-- - 29: Uncertaincy in evapotranspiration (can be up to 30%) -->
+<!-- - 34: Wetter gets wetter, drier gets drier? no! -->
+<!-- - 39: Impact of no-till farming. crop residues modify the albedo: increases the albedo. strongest cooling for the strongest temperature -->
+<!-- very strong asymetric impact of temperature: a bit like forest -> importance of looking at extremes and not mean -->
+<!-- - 45: Question: with climate change, less cloud cover more cooling? feedback loops  -->
+<!-- - 51: Question: how strong is the link between soil moisture storage and streamflow? -->
 

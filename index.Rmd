@@ -61,7 +61,9 @@ Florian Kobierska Baffie
 
 Cell: +33 78369 0626
 
-Email: fbaffie (at) gmail (dot) com
+Email: fkba (at) hvl (dot) no
+
+Office: Stadionbygget 03-11a
 
 </p>
 </div>
@@ -137,18 +139,19 @@ Before looking at two quite disctinct scenarios (in Norway):
 
 
 ## General competence
+<img src="images/logo.png" class="cover">
 
 - Assess the individual contributions to catchment hydrology from rain, snow and glacier melt and their respective timescales
 - Understand changes in catchment hydrology due to climate change and make urban areas less vulnerable to extreme events.
 - Critically evaluate their own and others’ plans, projects and reports, and communicate with specialists and the general public about issues related to urban and rural flooding
 - Consider urban runoff as a resource and a positive element in urban environments
 
-
 ## Teaching philosophy
 <img src="images/logo.png" class="cover">
 
 - Active learning
 - Resource for further learning
+- Room for freedom with group projects
 - [More on my teaching philosophy and notes on last year's feedback](./teaching.html)
 
 # Course schedule
@@ -174,7 +177,7 @@ Day	| Time	| Topic	| Room
 Mon. 07 May | 09:15-12:00	| Hydrological extremes	| Svingen F2
 Mon. 07 May | 13:15-16:00	| Introduction to SW	| Svingen F2
 Tue. 08 May | 09:15-12:00	| Hydrological modelling | Svingen F1
-Tue. 08 May | 13:15-16:00	| Constraints in green infra. | Svingen F2
+Tue. 08 May | 13:15-16:00	| Green SW infrastructure | Svingen F2
 Wed. 09 May | Whenever	| Project discussions | My office
 
 ## Agenda 14-16 May
@@ -220,7 +223,7 @@ Fri. 08 Jun | 24:00 | Send project reports | fkba@hvl.no + fronter
 Tue. 12 Jun | 08:00-16:00 | Group presentations | ?
 Thu. 14 Jun | 08:00-17:00 | Individual exam | SOG-Møterom 3.etg Stadionbygg
 
-## Time blocks 
+## Time blocks and quizzes
 <img src="images/logo.png" class="cover">
 
 Most teaching blocks will be structured as follows:
@@ -229,11 +232,11 @@ Most teaching blocks will be structured as follows:
 - 10:00-12:00 Lecture, exercises, discussion
 - Homework: prepare 2-3 questions AND answers for the next quiz. Send them latest midnight before the quiz to fkba@hvl.no in this format:
 
-`## Your Name`
+`## Your name`
 
-`> - **Your Question**`
+`> - **Your question**`
 
-`> - Your Answer`
+`> - Your answer`
 
 <!--
 <img src="images/logo.png" class="cover">
@@ -257,12 +260,11 @@ And of course, if you want a reference letter, participating in the quizzes will
 <img src="images/logo.png" class="cover">
 [Lecture](01_Hydrology/1_water_cycle.html)
 
-We look at different components of the water cycle before diving into more detail.
-Climate change will impact various components of the hydrological cycle. We will quickly review potential evolutions and base our first quizz on this theme.
+We look at different components of the water cycle. Climate change will impact various components of the hydrological cycle. We will quickly review potential evolutions and base our first quizz on this theme.
 
-Quiz theme for Monday 07 May:
+Quiz theme for Monday 07 May: 
 
-[Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
+[Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
 
 Or on this book chapter of "Global environmental change": [water cycles and climate change](http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/Hydrological%20cycleSpringer.pdf)
 
@@ -296,9 +298,9 @@ Sogndal catchment using historical data: catchment size, catchment altitude, cat
 ## Hydrological processes
 <img src="images/logo.png" class="cover">
 
-We will first discuss hydrological processes most relevant to hydrology in Norway: snow hydrology and vegetation processes. 
+We will first discuss surface hydrological processes: precipitation, snow hydrology and vegetation processes. 
 <!-- [Lecture](01_Hydrology/2_hydrological_processes_1.html) -->
-We then cover groundwater, soil water and runoff generation which are important for the design of green stormwater infrastructure. 
+We will then cover subsurface processes (groundwater, soil water and runoff generation), which are important for the design of green stormwater infrastructure. 
 <!-- [Lecture](01_Hydrology/2_hydrological_processes_2.html) -->
 
 <!--
@@ -319,11 +321,11 @@ Present documents for the quiz: impact of forest on hydrological resources
 <img src="images/logo.png" class="cover">
 <!-- [Lecture](01_Hydrology/3_hydrological_extremes.html) -->
 
-Quantifying floods and droughts helps better designing protection / adaptation measures.
+Quantifying floods and droughts helps design better protection / adaptation measures.
 
 Please attend Simen's Master project presentation on flood frequency analysis: Wednesday 09 May, 14:30.
 
-Quiz theme for Monday 07 May:
+Quiz theme for Monday 14 May:
 
 [A restatement of the natural science evidence concerning catchment-based ‘natural’ flood management in the UK](http://rspa.royalsocietypublishing.org/content/473/2199/20160706?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Proceedings_A_TrendMD_1)
 
@@ -368,10 +370,9 @@ Rational method
 
 We will look at water in pressure pipes. This is usually the domain of drinking water only but in somes instances, SW will have to be pumped out of a depression. Alternatively, SW could be used in off-grid design for micro-hydropower production or gravity fed irrigation schemes.
 
-Quiz for next monday:
+Quiz theme for tuesday May 22:
 
-Send me 2 questions and answers on this NVE report:
-[Identification of areas exposed to flooding in Norway at a national level](https://gis3.nve.no/metadata/rapporter/SmallScaleFloodAssesment_v3.pdf)
+NVE report: [Identification of areas exposed to flooding in Norway at a national level](https://gis3.nve.no/metadata/rapporter/SmallScaleFloodAssesment_v3.pdf)
 
 <!--
 Microhydro, ram pump, pumps, off the grid gravity fed networks...
@@ -381,7 +382,10 @@ Microhydro, ram pump, pumps, off the grid gravity fed networks...
 <img src="images/logo.png" class="cover">
 <!-- [Lecture](02_Hydraulics/2_open_channel.html) -->
 
-How much flow can an open channel convey? How high will the water level be for a specifc discharge rate and slope?
+How much flow can an open channel convey? 
+
+How high will the water level be for a specifc discharge rate and slope?
+
 Those questions are important when sizing infrastructure or defining the extend of flood zones.
 
 <!--
@@ -392,8 +396,9 @@ Irrigation schemes in the US west (Arizona, maps and drawings?). Open water irri
 <img src="images/logo.png" class="cover">
 <!-- [Lecture](02_Hydraulics/3_erosion_deposition.html) -->
 
-Water can mobilize particules of various sizes. In extreme cases, boulders can be taken with the flow and form devastating debris flows.
-On the other hand, the smallest suspended particules are those that carry most pollution in SW runoff
+Water can mobilize particules of various sizes. This has to be taken into account in the design of hydraulic structures.
+
+In extreme cases, boulders can be taken with the flow and form devastating debris flows. On the other hand, the smallest suspended particules are those that carry most pollution in SW runoff
 
 <!--
 [Quiz](02_Hydraulics/3_erosion_deposition_quiz.html)
@@ -405,7 +410,8 @@ Quiz on Illgraben: you tube videos...
 <!-- [Lecture](02_Hydraulics/4_urban_hydraulics.html)-->
 
 We will try to summarize how hydrology and hydraulic come into play for the design of (green) SW infrastructure.
-this will involve simplified calculations for small catchments.
+
+This will involve simplified calculations for small catchments.
 
 <!--
 [Quiz](02_Hydraulics/4_urban_hydraulics_quiz.html)
@@ -419,10 +425,10 @@ Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 <!-- [Lecture](03_Catchment_scale/1_floodplain_management.html) -->
 
 We saw how precipitation led to runoff and how water level in channels varies as a function of discharge.
-Those results are used to produce flood zoning maps. We will look at different methods to do so and discuss assessment of vulnerability to flooding.
+Those results are used to produce flood zoning maps. We will look at different methods to do so and discuss specific cases of vulnerability to flooding.
 
-Quiz for next monday:
-Send me 4 questions and answers on your group project.
+Quiz theme for monday May 28:
+Send me 4 questions and answers on your group project, and 2 on your second project.
 
 
 <!--
@@ -432,9 +438,11 @@ Send me 4 questions and answers on your group project.
 ## Flood protection works
 <img src="images/logo.png" class="cover">
 
-Based on flood zoning maps and the quantification of hydrological extremes in specifc catchments, protection measures can be designed. Those consist of riverbank engineering features such as dikes, diverting channels. We will look at a simple design during an exercise session
+Based on flood zoning maps and the quantification of hydrological extremes in specifc catchments, protection measures can be designed. Those consist of riverbank engineering features such as dikes, diverting channels. 
 
-This session consists of a full-day excursion with Svein Vågane from NVE Førde.
+Based on last year's excursion, we will look at a simple design during an exercise session
+
+This session will consist of a full-day excursion with Svein Vågane from NVE Førde.
 We will look at flash flooding that occured in [Utvik last autumn](https://www.vg.no/nyheter/innenriks/vaer-og-uvaer/flommen-i-utvik-vann-ekspert-varslet-om-flomfare/a/24103915/)
 
 <!--
@@ -452,6 +460,15 @@ Flood forecasting becomes particularly important as a reservoir may first need e
 
 Quiz / exercises on the Swiss case studies and possibilities in Norway.
 -->
+
+## Water resources management and hydropower
+<img src="images/logo.png" class="cover">
+
+Even Loe from Statkraft Gaupne will take us to Jostedal to present us the hydropower infrastructure in the valley.
+
+We will see that the hydro-electrical scheme was originally developed to mitigate flooding and discuss Statkraft's responsability in this regard.
+
+We will also visit field equipment such as meteorological and gauging stations that help optimize both production and flood protection.
 
 ## Land use 
 <img src="images/logo.png" class="cover">
@@ -478,7 +495,7 @@ Session in collaboration with Deborah: we could use the the scotish case study i
 Lecture by Kyrre Groven (Vestland Forskning)
 
 We will look at the history of reticulated networks for SW and sewage. What are their limitations?
-Which pollution and flooding problems can be caused by sW runoff?
+Which pollution and flooding problems can be caused by SW runoff?
 Green SW infrastructure techniques will be introduced.
 
 <!-- KYRRE
@@ -499,7 +516,7 @@ Lecture by Eli Heiberg (HVL)
 Role of green infrastructure in urban storm water management:
 
 Principles, measures and technology for local, open runoff management. 
-We will also discuss the multifunctionality of green infrastructure
+We will also discuss the multifunctionality of green infrastructure.
 
 <!-- ELI
 
@@ -523,7 +540,9 @@ Constructive critiscm on the blue/green factor method could be used as an exerci
 <img src="images/logo.png" class="cover">
 <!-- [Lecture](04_Urban_SW/3_design.html) -->
 
-We look at some good and bad design examples and try to understand the reasons behing design choices and possibly unintended consequences / uses. Some examples focus on SW infrastructures but not all, in an effort to distinguish important design principles and constraints. This includes legibility. practicallity, multi-functionnality...
+We look at some good and bad design examples and try to understand the reasons behing design choices and possibly unintended consequences / uses. 
+
+Some examples focus on SW infrastructures but not all, in an effort to distinguish important design principles and constraints. This includes legibility. practicality, multi-functionnality...
 
 <!--
 Quiz / exercises on design calculations / drawings (redesign the campus?)
@@ -540,22 +559,17 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 ## Hydrological processes
 <img src="images/logo.png" class="cover">
 
-- Some simple exercises from textbooks
-- Flow through sand filters
-- Designing drinking water infrastructure
+- Program a temperature-index model for snowmelt
+- Designing drinking water infrastructure: flow through sand filters
 - Steady flow in an unconfined aquifer
 - Link between groundwater drop and streamflow recession
-- Temperature index modelling of snowmelt
-
-
 
 ## Hydrological modelling
 <img src="images/logo.png" class="cover">
 
 - Exercises using the hydrological model HBV light
 - Data preparation for modelling the Sogndalselvi catchment
-- Key hydrological figures at various time scales
-- Experiment with hydrological extremes at various time scales
+- Key hydrological figures at various time scales: experiment with hydrological extremes
 
 ## Hydropower and hydraulics
 <img src="images/logo.png" class="cover">
@@ -566,28 +580,31 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 ## Urban hydrology and green infrastructure
 <img src="images/logo.png" class="cover">
 
-Some calculations and drawings based on this water harvesting video in Tucson, Arizona.
+Some calculations and drawings based on a water harvesting example in Tucson, Arizona.
 
 <!-- [Preparation work](04_Urban_SW/2_green_infra_quiz.html) -->
 
 <!-- [Exercises](EXERCISES/EX05-sw_design.html) -->
 
-## Urban and rural hydrology. Field observations and planning
+## Urban and rural hydrology: field observations and planning
 <img src="images/logo.png" class="cover">
 
-- Visit of a site where 100 new dwellings had been suggested. 
+- Visit of a site where 100 new dwellings had been suggested (Leikanger). 
 - Field excursion and diagnostic of the existing hydrologic /  hydraulic situation
 - Presentation on past flooding events
 - Open discussion on the design of new dwellings
-- NVE case study: new flood flow paths. critical points in catchment management
+
+<!-- - NVE case study: new flood flow paths. critical points in catchment management -->
 
 
 # ASSESSMENT
 
 ## Course requirements
+<img src="images/logo.png" class="cover"> 
 
-- Completed exercise sessions
-- Participation in the quizzes (sending questions and answers)
+- Send questions and answers to quizzes: I could easily have given the final grades only based on this work last year!
+- Complete the minimum requirements of exercise sessions
+- I don't care if you miss an excursion but they will be quite fun!
 
 Note: I do not give grades, I only advise the censor based on the exam and the general completion of the work requirements.
 
@@ -595,7 +612,7 @@ Note: I do not give grades, I only advise the censor based on the exam and the g
 <img src="images/logo.png" class="cover">
 
 1. Written group [project work](./projects.html) (+ oral presentation). The group gets one common grading. If not approved, a new version of the project work must be handed in. Grading A-F.
-2. Individual in-depth oral discussion on the project work, the "second" project and finally some aspects of the course material (remembering the most difficult equations will not be required, but they should be qualitatively understood and you should have an idea on how to apply them).
+2. Individual in-depth oral discussion on the project work, the "second" project and finally some aspects of the course material (focus on take home messages. Remembering the most difficult equations will not be required, but they should be qualitatively understood and you should have an idea on how to apply them).
 Grading A-F.
 
 
@@ -653,10 +670,10 @@ http://echo2.epfl.ch/VICAIRE/mod_4/chapt_8/main.htm
 
 [USDA Urban hydrology for small watersheds](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1044171.pdf)
 
-## Keywords
-<img src="images/logo.png" class="cover">
+<!-- ## Keywords -->
+<!-- <img src="images/logo.png" class="cover"> -->
 
-For future reference, here is a list of [keywords](./keywords/keywords.html) (loosely) organized in themes.
+<!-- For future reference, here is a list of [keywords](./keywords/keywords.html) (loosely) organized in themes. -->
 
 ## Referencing / credits
 <img src="images/logo.png" class="cover">
@@ -668,7 +685,7 @@ https://no.pinterest.com/fbaffie
 In parallel, I have compiled a youtube playlist for the course:
 https://www.youtube.com/playlist?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli
 
-Other credits go to Wikipedia, Google maps, Norwegian maps (https://kart.finn.no/, https://norgeskart.no), Swiss Topo (https://map.geo.admin.ch), Sebastian Mermild and previous colleagues for some pictures
+Other credits go to Wikipedia, Google maps, Norwegian maps (https://kart.finn.no/, https://norgeskart.no), Swiss Topo (https://map.geo.admin.ch), Sebastian Mermild and previous colleagues for some pictures, Jan Seibert (Uni Zürich) for HBV Light.
 
 
 

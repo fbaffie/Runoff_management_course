@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hydrological processes</title>
+  <title>Subsurface hydrological processes</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,7 @@
 <body class="shower list">
 
   <header class="caption">
-    <h1>Hydrological processes</h1>
+    <h1>Subsurface hydrological processes</h1>
     <p>Back to <a href="../index.html#hydrological-processes">course overview</a></p>
   </header>
 
@@ -304,11 +304,14 @@ How high can you suck on a straw
 <ul>
 <li class="fragment next">Soil (loam) is more conductive than sand when dry</li>
 </ul>
-</section><section id="vertical-flow-through-the-unsaturated-zone" class="slide level2">
-<h2>Vertical flow through the unsaturated zone</h2>
-<p>Richards equation:</p>
-<p><span class="math display">\[\frac{\partial \theta }{\partial t} = \frac {\partial }{\partial z}\left[K(\theta )\left({\frac {\partial h}{\partial z}}+1\right)\right]\]</span></p>
-<p><span class="math inline">\(K\)</span> is the hydraulic conductivity, <span class="math inline">\(h\)</span> is the matric head induced by capillary action, <span class="math inline">\(z\)</span> is the elevation above a vertical datum, <span class="math inline">\(\theta\)</span> is the volumetric water content, and <span class="math inline">\(t\)</span> is time.</p>
+<!-- ## Vertical flow through the unsaturated zone -->
+<!-- Richards equation: -->
+<!-- \[\frac{\partial \theta }{\partial t} = \frac {\partial }{\partial z}\left[K(\theta )\left({\frac {\partial h}{\partial z}}+1\right)\right]\] -->
+<!-- $K$ is the hydraulic conductivity, -->
+<!-- $h$ is the matric head induced by capillary action, -->
+<!-- $z$ is the elevation above a vertical datum, -->
+<!-- $\theta$  is the volumetric water content, and -->
+<!-- $t$ is time. -->
 </section><section id="heterogeneity-flow-through-macropores" class="slide level2">
 <h2>Heterogeneity: flow through macropores</h2>
 <p><img src="images/flow_through_macropores.jpg" height="450"></p>
@@ -393,9 +396,6 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 ## Questions
 > - **If both a sandy soil and a claying soil are dry, which one will first have the highest infiltration rate?**
 -->
-</section><section id="exercise-preparation" class="slide level2">
-<h2>Exercise preparation</h2>
-<p>Think about the design of the sand filters</p>
 </section><section id="take-home-messages" class="slide level2">
 <h2>Take home messages</h2>
 <ul>
@@ -417,8 +417,41 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 > - **d**: none of the above
 > - Answer: **c**
 -->
-</section><section id="exercises" class="slide level2">
-<h2>Exercises</h2>
+</section>
+<section id="exercise-application-of-darcys-law" class="titleslide slide level1"><h2 class="shout">Exercise: application of Darcy’s law</h2></section><section id="conductivity-of-dyna-sand-sand-filters" class="slide level2">
+<h2>Conductivity of “Dyna Sand” sand filters</h2>
+<p>I found <a href="https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf">there</a> that the loading rate of the filters was 3.5gpm/SqFt</p>
+<ul>
+<li class="fragment next"><strong>Check whether this makes sense, considering what you heard on Wednesday!</strong></li>
+<li class="fragment next"><strong>The whole thing is done here without calculator with “useful” approximations!</strong></li>
+<li class="fragment next">The reservoir was 1000<span class="math inline">\(m3\)</span> and represented 6h max of daily consumption</li>
+<li class="fragment next">So daily consumption: 4000m3</li>
+<li class="fragment next">The sand filters need to be able to produce the daily consumption in 24h!</li>
+</ul>
+</section><section id="conductivity-of-dyna-sand-sand-filters-1" class="slide level2">
+<h2>Conductivity of “Dyna Sand” sand filters</h2>
+<ul>
+<li class="fragment next"><strong>Calculate the required flow per minute</strong></li>
+<li class="fragment next">4000 / 60x24 = 4000 / 1440 -&gt; 4000 / 1600 (easier) = 2.5<span class="math inline">\(m^3/min\)</span></li>
+<li class="fragment next"><strong>Calculate the required surface for this flow</strong></li>
+<li class="fragment next">3.5<span class="math inline">\(gpm/SqFt\)</span> -&gt; 3.5x4 = 14 <span class="math inline">\(l/min/sqft\)</span> -&gt; 14x10 <span class="math inline">\(l/min/m^2\)</span> = 0.14 <span class="math inline">\(m^3/min/m^2\)</span></li>
+<li class="fragment next">Recapitulation: 2.5<span class="math inline">\(m^3/min\)</span> is required and the sand filter has a capacity of 0.14 <span class="math inline">\(m^3/min/m^2\)</span></li>
+<li class="fragment next">So 15-20<span class="math inline">\(m^2\)</span> required: 5 filters of 3-4<span class="math inline">\(m^2\)</span></li>
+<li class="fragment next">Makes sense!</li>
+</ul>
+</section><section id="conductivity-of-dyna-sand-sand-filters-2" class="slide level2">
+<h2>Conductivity of “Dyna Sand” sand filters</h2>
+<ul>
+<li class="fragment next"><strong>The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand</strong></li>
+<li class="fragment next">10 bars makes 100m of head at the inlet</li>
+<li class="fragment next">The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter</li>
+<li class="fragment next">So hydraulic head gradient across the sand filter: 95 / 4 -&gt; 24</li>
+<li class="fragment next">using Darcy’s Law: <span class="math inline">\(q=-k \nabla{\phi}\)</span></li>
+<li class="fragment next"><span class="math inline">\(K*24 = 0.14m^3/min/m^2\)</span> -&gt; <span class="math inline">\(K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s\)</span></li>
+<li class="fragment next">Makes sense!</li>
+</ul>
+</section><section id="online-exercises" class="slide level2">
+<h2>Online exercises</h2>
 <p><a href="http://echo2.epfl.ch/VICAIRE/mod_3/chapt_4/exercices.htm">Groundwater hydrology exercises</a></p>
 <p><a href="http://echo2.epfl.ch/VICAIRE/mod_3/chapt_4/sol_exercices.htm">Groundwater hydrology solutions</a></p>
 <p><a href="http://global.oup.com/uk/orc/geography/hendriks/01student/mcqs/">Some exercises from Hendriks: Introduction to Physical Hydrology</a></p>
@@ -447,6 +480,12 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 <h2>Physical aquifer model</h2>
 <iframe width="900" height="500" src="https://www.youtube.com/embed/AtJyKiA1vcY" frameborder="0" allowfullscreen>
 </iframe>
+</section>
+<section id="annoted-video-resources" class="titleslide slide level1"><h2 class="shout">Annoted video resources</h2></section><section id="prof.kevin-bishop-breakthroughs-in-the-biogeochemistry-of-nordic-aquatic-systems" class="slide level2">
+<h2><a href="https://www.youtube.com/watch?v=hiC32HMZ_Xk">Prof. Kevin Bishop: Breakthroughs in the biogeochemistry of Nordic aquatic systems</a></h2>
+<ul>
+<li>33: Natural pollution in sweden. influence of depth to water table riparian controls are the place to begin when looking at water quality in streams start simple and then see what we have to explain afterwards.</li>
+</ul>
 </section>
 
   <!--

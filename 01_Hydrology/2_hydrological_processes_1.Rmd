@@ -1,5 +1,5 @@
 ---
-title: "Hydrological processes"
+title: "Surface hydrological processes"
 author: Back to [course overview](../index.html#hydrological-processes)
 output:
   rmdshower::shower_presentation:
@@ -42,7 +42,8 @@ Bring sand and sil, dry and saturated to demonstrate the relationship between hy
 - Hyetograph represents: rainfall intensity as a function of time
 - Rain gauges: tend to underestimate, only point measure
 - Weather radars: variability shown, but less precise for specific locations
-
+- Various methods to interpolate measured precipitation: isohyetal method, Thiessen polygons...
+- For urban aplications, rainfall events are often modelled with a simplified shape: uniform rectangle or double triangle
 
 # Snow
 
@@ -121,7 +122,7 @@ Conceptual approaches:
 
 Other option: energy balance model
 
-Further info: [Different models for snowmelt - T. Schuler UiO](http://www.uio.no/studier/emner/matnat/geofag/GEO4430/v06/undervisningsmateriale/geo4430_meltmod_tvs.pdf)
+Recommended reading for exercise session 1: [Different models for snowmelt - T. Schuler UiO](http://www.uio.no/studier/emner/matnat/geofag/GEO4430/v06/undervisningsmateriale/geo4430_meltmod_tvs.pdf)
 
 # Vegetation
 
@@ -146,13 +147,27 @@ Further info: [Different models for snowmelt - T. Schuler UiO](http://www.uio.no
 
 ## Evapotranspiration
 > - **What is the difference between potential and actual evapotranspiration?**
-> - Potential evapotranspiration only depends on energy input. It is the ET when the soil is wet
+> - Potential evapotranspiration only depends on energy input. It is the ET without moisture limitation (most soils will be moisture-limited)
 > - Actual evapotranspiration is limited by soil moisture and can be much smaller
 > - [Typical monthly values around the world](http://www.waterandclimatechange.eu/evaporation/average-monthly-1985-1999)
+
+## Estimating evaporation
+
+- Calculating local mass transfers of water vapor (Dalton's law)
+- Calculating the local energy balance (Bowen ratio method)
+- Combining both approaches gives the Penman's equation which requires daily mean temperature instead of surface temperature
+- Additional required inputs are: wind speed, relative humidity and solar radiation.
 
 > - **How can you reduce evaporation from bare soil?**
 > - Cover it
 > - Create a wind break
+
+## Estimating actual evapotranspiration
+
+- Average catchment values can be estimated closing the hydrological balance
+- Local water balance with the help of percolation gauges / lysimeters
+- Penman Monteith equation: most widely-used for actual ET. It takes stomatal regulation into account: crop coefficients are parameters taking into account how much plants actually transpire
+
 
 <!--
 ## Penman-Montieth's equation
@@ -218,17 +233,15 @@ Written with energy flux rate
 > - Leaves litter need to be taken care of with deciduous trees
 
 ## Take home messages
-<img src="../images/important.png" class="cover">
 
 - Hyetograph: precipitation intensity versus time
 - Precipitation is non uniform. Radar measurements can help when station density is low.
-- Interception: temporary storage of precipication by vegetation
-- Evapotranspiration (ET): sum of all vaporization processes in a catchment (open water, soils, transpiration from plants)
-- Actual ET in a catchment can be estimated by closing the hydrological cycle
-- Potential ET: only depends on energy input. It is the ET if the soil is wet
-- Actual ET <= Potential ET. Substantial difference in moisture limited catchments
 - Snow storage measured in SWE: Snow Water Equivalent
 - Snowmelt models either energy-balance or degree day approach
+- Interception: temporary storage of precipication by vegetation
+- Evapotranspiration (ET): sum of all vaporization processes in a catchment (open water, soils, transpiration from plants). Can be estimated by closing the hydrological cycle, mass-transfert or energy-balance methods.
+- Potential ET is the maximum achievable ET with unlimited soil moisture supply
+- Actual ET <= Potential ET. Substantial difference in moisture-limited catchments
 
 <!--
 ## Waterlogging
@@ -240,24 +253,12 @@ Written with energy flux rate
 > - Answer: **c**
 -->
 
-## Quiz
-
-Questions on the topic "forest and water" with a focus on water quantity:
-
-FAO - Forest and water:
-
-[Executive summary](http://www.fao.org/docrep/011/i0410e/i0410e01.pdf)
-
-[Forest and water quantity](http://www.fao.org/docrep/011/i0410e/i0410e03.pdf)
-
-[Full report](http://www.fao.org/docrep/011/i0410e/i0410e00.htm)
-
 
 # Further resources
 
 ## Book chapters
 
-Elements of physical hydrology. Chapter 2
+Elements of physical hydrology. Chapter 2: good presentation of estimation methods for evapotranspiration
 
 Hydrology in Practice. Chapers 2, 3, 4, 9, 11
 
@@ -265,7 +266,7 @@ Hydrology in Practice. Chapers 2, 3, 4, 9, 11
 
 [Crop evapotranspiration - Guidelines for computing crop water requirements - FAO](http://www.fao.org/docrep/X0490E/x0490e00.htm#Contents)
 
-[FAO report - Forest and water](http://www.fao.org/docrep/011/i0410e/i0410e01.pdf)
+[FAO report - Forest and water](http://www.fao.org/docrep/011/i0410e/i0410e00.htm)
 
 # Annoted video resources
 
@@ -298,11 +299,7 @@ Field capacity and it's control on plant water use.
 Wilting point to define
 macropores, rocks in the soil...
 
-## [Prof. Kevin Bishop: Breakthroughs in the biogeochemistry of Nordic aquatic systems](https://www.youtube.com/watch?v=hiC32HMZ_Xk)
 
-- 33: Natural pollution in sweden. influence of depth to water table
-riparian controls are the place to begin when looking at water quality in streams
-start simple and then see what we have to explain afterwards.
 
 <!--
 ## Dr. Harry Vereecken - Breakthroughs in Watershed Observatory Networks

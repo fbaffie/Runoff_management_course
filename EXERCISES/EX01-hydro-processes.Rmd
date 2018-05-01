@@ -18,34 +18,7 @@ In this exercise session we will practice concepts covered in class:
 - Evaporation
 - Snowmelt and glacier melt
 
-Check this for inspiration
 
-## Conductivity of "Dyna Sand" sand filters
-I found [there](https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf) that the loading rate of the filters was 3.5gpm/SqFt
-
-> - **Check whether this makes sense, considering what you heard on Wednesday!**
-> - **The whole thing is done here without calculator with "useful" approximations!** 
-> - The reservoir was 1000$m3$ and represented 6h max of daily consumption
-> - So daily consumption: 4000m3
-> - The sand filters need to be able to produce the daily consumption in 24h!
-
-## Conductivity of "Dyna Sand" sand filters
-> - **Calculate the required flow per minute**
-> - 4000 / 60x24 = 4000 / 1440 -> 4000 / 1600 (easier) = 2.5$m^3/min$
-> - **Calculate the required surface for this flow**
-> - 3.5$gpm/SqFt$ -> 3.5x4 = 14 $l/min/sqft$ -> 14x10 $l/min/m^2$ = 0.14 $m^3/min/m^2$
-> - Recapitulation: 2.5$m^3/min$ is required and the sand filter has a capacity of 0.14 $m^3/min/m^2$
-> - So 15-20$m^2$ required: 5 filters of 3-4$m^2$
-> - Makes sense!
-
-## Conductivity of "Dyna Sand" sand filters
-> - **The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand**
-> - 10 bars makes 100m of head at the inlet
-> - The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter
-> - So hydraulic head gradient across the sand filter: 95 / 4 -> 24
-> - using Darcy's Law: $q=-k \nabla{\phi}$
-> - $K*24 = 0.14m^3/min/m^2$ -> $K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s$ 
-> - Makes sense!
 
 ## [Steady flow in an unconfined aquifer](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/6.1/6.1.html)
 
@@ -197,6 +170,8 @@ In which cases could it work better?
 
 Follow instruction of [exercise 6: Snow model](http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html) provided by Universy of Zürich
 
+Download this article: [Teaching hydrological modeling with a user-friendly catchment-runoff-model software package](https://www.hydrol-earth-syst-sci.net/16/3315/2012/)
+
 ## Steps
 
 Load the data into R
@@ -217,54 +192,15 @@ Add a goodness of fit measure to your routine and optimize the model according t
 
 # Extras
 
-## The Sogndalselvi catchment
-
-Use nevina.no to define the catchment and automatically fetch its properties.
-
-Provide a short description of the catchment from a hydrological perspective.
-
-Based on the hydrological ad meteorological data available on xgeo.no, try to understand the main components of the hydrological cycle.
-
-What are inherent difficulties linked to the available data?
-
-Which additional measurements would be required to better close the balance of the hydrological cycle?
-
-## Estimating yearly averages
-
-Download data for several years.
-
-Calculate mean, median and extreme flow values for each year.
-
-You can programm it as a parametrized function in order to take into account yearly variability.
-
-Do a box plot on annual discharge statistics in Sogndal.
-
-## Calculating the response to a rain event
-
-## Estimating the recession behavior during dry periods
-
-Calibrating a recession curve.
-
-## Prepare potential evapotranspiration series
-
-Use the method of your choice to compute daily potential evapotraspiration.
-
-Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology.
-
-AirGR can also calculate it with the Oudin’s formula. The function is `Edaily_Oudin()`
-
-
 ## Irrigation exercise
 
 Good exercise page 255, elements of physical hydrology
 
 
+<!-- ## Prepare potential evapotranspiration series -->
 
+<!-- Use the method of your choice to compute daily potential evapotraspiration. -->
 
+<!-- Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology. -->
 
-<!-- ## Further ideas -->
-
-<!-- Drinking water in sogndal -->
-<!-- Dilution gauging exercise and redoing the methodology of my last paper -->
-
-
+<!-- AirGR can also calculate it with the Oudin’s formula. The function is `Edaily_Oudin()` -->
