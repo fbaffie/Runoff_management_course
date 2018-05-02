@@ -46,24 +46,26 @@ evapotranspiration.
 Capillary Zone (or fringe): Zone immediately above the water table in which almost all of the interstices are filled with water that is under pressure less than atmospheric. 
 -->
 
-## Types of aquifers
-<img src="images/artesia_google_aerial.png" height="500" width="auto">
+<!-- ## Types of aquifers -->
+<!-- <img src="images/artesia_google_aerial.png" height="500" width="auto"> -->
 
-## Types of aquifers
+<!-- ## Types of aquifers -->
 
-> - **What's interesting about the town "Artesia"?**
-> - There's desert everywhere, except the moutain tops and the area around this town!
+<!-- > - **What's interesting about the town "Artesia"?** -->
+<!-- > - There's desert everywhere, except the moutain tops and the area around this town! -->
 
-> - **What type of aquifer is probably feeding this town?**
-> - "artesian" or "confined" aquifer: an aquifer which holds water under pressure. Its piezometric surface can lie above the ground surface  
-> - Some artesian aquifers can have elastic properties ([more details](http://www.ngwa.org/Fundamentals/hydrology/Pages/Confined-or-artesian-groundwater.aspx)) 
+<!-- > - **What type of aquifer is probably feeding this town?** -->
+<!-- > - "artesian" or "confined" aquifer: an aquifer which holds water under pressure. Its piezometric surface can lie above the ground surface   -->
+<!-- > - Some artesian aquifers can have elastic properties ([more details](http://www.ngwa.org/Fundamentals/hydrology/Pages/Confined-or-artesian-groundwater.aspx))  -->
 
-## Artesian or "confined" aquifer
-<img src="images/artesia_geology.png" height="500" width="auto">
-[www.twdb.texas.gov](http://www.twdb.texas.gov/publications/reports/limited_printing/doc/LP-22.pdf)
+<!-- ## Artesian or "confined" aquifer -->
+<!-- <img src="images/artesia_geology.png" height="500" width="auto"> -->
+<!-- [www.twdb.texas.gov](http://www.twdb.texas.gov/publications/reports/limited_printing/doc/LP-22.pdf) -->
 
-## Artesian or "confined" aquifer
-<img src="images/artesian_well.png" height="500" width="auto">
+<!-- ## Artesian or "confined" aquifer -->
+<!-- <img src="images/artesian_well.png" height="500" width="auto"> -->
+
+
 <!--
 <div class="double">
 <p class="double-flow">
@@ -75,16 +77,18 @@ Capillary Zone (or fringe): Zone immediately above the water table in which almo
 -->
 
 ## Types of aquifers
+<img src="images/aquifer_types.jpg" height="500" width="auto">
 
-> - **What in an unconfined (or water table) aquifer?**
+## Types of aquifers
+
+> - **What is an unconfined (or water table) aquifer?**
 > - An aquifer whose upper water surface is the water table and is not under pressure 
 
 > - **What is a perched aquifer?**
 > - An unconfined aquifer that lies on top of an impermeable layer (confining unit)
 
-
-## Types of aquifers
-<img src="images/aquifer_types.jpg" height="500" width="auto">
+> - **What is an "artesian" or "confined" aquifer?**
+> - An aquifer which holds water under pressure. Its piezometric surface can lie above the ground surface  
 
 ## Karst aquifers
 <img src="images/karst_processes.gif" height="500" width="auto">
@@ -190,42 +194,45 @@ Put the recession figure from my paper, or from sogndal (february 2017)
 
 ## Typical saturated hydraulic conductivities
 
-
-> - Gravel: $0.1$ - $1$ m/s
-> - Sand:  $10^{-4}$ - $10^{-2}$ m/s
-> - Silt:  $10^{-5}$ - $10^{-8}$ m/s
-> - Clay:  $< 10^{-8}$ m/s
+> - Cobble (64-256$mm$):  $> 1 m/s$
+> - Gravel (2-63$mm$): $0.1 - 1 m/s$
+> - Sand (0.063$mm$ - 2$mm$):  $10^{-4} - 10^{-2} m/s$
+> - Silt (0.002-0.063$mm$):  $10^{-5} - 10^{-8} m/s$
+> - Clay ( <0.002$mm$):  $< 10^{-8} m/s$
 
 <!--
  <img src="images/typical_sat_K_values.png" height="500" width="auto">
 -->
 
-## Specific yield vs porosity
-<img src="images/porosity_specific_yield.png" height="400" width="auto">
+<!-- ## Specific yield vs porosity -->
+<!-- <img src="images/porosity_specific_yield.png" height="400" width="auto"> -->
 
-## Maps: discuss location of streams
-<img src="images/map_example_no.png" height="500" width="auto">
+<!-- ## Maps: discuss location of streams -->
+<!-- <img src="images/map_example_no.png" height="500" width="auto"> -->
 
-## Maps: discuss location of streams
-<img src="images/map_example_ch.png" height="500" width="auto">
+<!-- ## Maps: discuss location of streams -->
+<!-- <img src="images/map_example_ch.png" height="500" width="auto"> -->
 
 ## Signs of high water table / soil moisture
 <img src="images/gw_signs1.JPG" height="500" width="auto">
 
-## Signs of high water table / soil moisture
-<img src="images/gw_signs2.JPG" height="500" width="auto">
-
-<!--
-dec1_2011.jpg
--->
 
 ## Signs of high water table / soil moisture
 - Surface ice forms in winter
 - First areas where snow disappears
-- Water loving plants (thistles in my phd catchment)
-- You can try your luck at the [water witch stick](https://water.usgs.gov/edu/dowsing.html)!
+- Water loving plants: willows, thistles in my phd catchment...
+
 
 # Soil water
+
+## Water in soils
+
+> - **Why does water up a straw?**
+> - Surface tension of water
+> - **What is this phenomenon called?**
+> - Capillarity
+> - **How do you think it could be related to water flow in soils?**
+> - Movement of water through soils can be compared to a bunch of straws
 
 ## Vocabulary
 
@@ -243,22 +250,19 @@ gravitational water has drained away.
 
 Moisture content of a soil that cannot be released by capillary forces
 
-## Soil types and grain size
-> - **Can you list different soil grain sizes and names?**
-> - Cobble (64-256$mm$)
-> - Gravel (2-63$mm$)
-> - Sand (0.063$mm$ - 2$mm$)
-> - Silt (0.002-0.063$mm$)
-> - Clay ( <0.002$mm$)
+## Soil water storage
+<img src="images/soil_water_storage.JPG" height="450">
 
-## Water in soils
+<!--
+## Soil water storage: ratios
+<img src="images/soil_water_storage_ratios.gif">
+-->
 
-> - **Why does water up a straw?**
-> - Surface tension of water
-> - **What is this phenomenon called?**
-> - Capillarity
-> - **How do you think it could be related to water flow in soils?**
-> - Movement of water through soils can be compared to a bunch of straws
+## Unsaturated hydraulic conductivity
+Darcy's Law is applicable with specific values for unsaturated hydraulic conductivity
+<img src="images/unsat_K.png" height="300" width="auto">
+
+> - Soil (loam) is more conductive than sand when dry
 
 ## Infiltration in soils
 <img src="images/infiltration.png" height="500" width="auto">
@@ -308,22 +312,6 @@ $K$ the saturated hydraulic conductivity (L/T)
 
 $F(t)$ the cumulative depth of infiltration (L)
 
-## Soil water storage
-<img src="images/soil_water_storage.JPG" height="450">
-
-<!--
-## Soil water storage: ratios
-<img src="images/soil_water_storage_ratios.gif">
--->
-
-## Unsaturated hydraulic conductivity
-Darcy's Law is applicable with specific values for unsaturated hydraulic conductivity
-<img src="images/unsat_K.png" height="300" width="auto">
-
-> - Soil (loam) is more conductive than sand when dry
-
-
-
 <!-- ## Vertical flow through the unsaturated zone -->
 
 <!-- Richards equation: -->
@@ -347,41 +335,6 @@ Darcy's Law is applicable with specific values for unsaturated hydraulic conduct
 
 ## Heterogeneity: perpendicular spread
 <img src="images/phd/paper3_fig4.jpg" height="500" width="auto">
-
-# Runoff generation
-
-## Overland flow
-> - **Infiltration excess overland flow** (also called Hortonian or unsaturated overland flow)
-> - Surface runoff when rainfall intensity exceeds the infiltration capacity
-> - Runoff from urban surfaces is quickly "infiltration excess"
-> - Can also happen in arid regions where soil infiltration is low due to surface sealing / crust
-> - **Saturation excess overland flow** 
-> - Surface runoff following full soil saturation
-> - Depends on antecendent soil moisture
-> - Typical after snowmelt in Norway
-
-## Runoff generation
-<img src="images/runoff.png" height="500" width="auto">
-
-## Stream types
-> - **A stream which doesn't have any baseflow contribution is called**
-> - **a**: perennial stream
-> - **a**: intermittent stream
-> - **a**: ephemeral stream
-> - Answer: **c**
-
-## Intermittent alpine stream
-<img src="images/damma/29apr2011_noflow.JPG" height="500" width="auto">
-
-## Stream / groundwater interactions
-> - **What is a "losing" and "gaining" reach?**
-> - Losing reach: some water leaves to the stream to recharge the aquifer
-> - Gaining reach: the aquifer recharges the stream
-
-> - **What is the most important soil zone that should be protected from pollution?**
-> - The riparian zone
-> - **Why?**
-> - Pollution is quickly mobilized in areas that are easily reached by alluvial groundwater
 
 ## Irrigation and soil water
 > - **What risks to the soil does irrigation present? (especially in arid regions)**
@@ -412,13 +365,48 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 > - **If both a sandy soil and a claying soil are dry, which one will first have the highest infiltration rate?**
 -->
 
+
+# Runoff generation
+
+## Overland flow
+> - **Infiltration excess overland flow** (also called Hortonian or unsaturated overland flow)
+> - Surface runoff when rainfall intensity exceeds the infiltration capacity
+> - Runoff from urban surfaces is quickly "infiltration excess"
+> - Can also happen in arid regions where soil infiltration is low due to surface sealing / crust
+> - **Saturation excess overland flow** 
+> - Surface runoff following full soil saturation
+> - Depends on antecendent soil moisture
+> - Typical after snowmelt in Norway
+
+## Runoff generation
+<img src="images/runoff.png" height="500" width="auto">
+
+## Stream types
+> - **A stream which doesn't have any baseflow contribution is called**
+> - **a**: perennial stream
+> - **b**: intermittent stream
+> - **c**: ephemeral stream
+> - Answer: **c**
+
+## Intermittent alpine stream
+<img src="images/damma/29apr2011_noflow.JPG" height="500" width="auto">
+
+## Stream / groundwater interactions
+> - **What is a "losing" and "gaining" reach?**
+> - Losing reach: some water leaves the stream to recharge the aquifer
+> - Gaining reach: the aquifer recharges the stream
+
+> - **What is the most important soil zone that should be protected from pollution?**
+> - The riparian zone
+> - **Why?**
+> - Pollution is quickly mobilized in areas that are easily reached by alluvial groundwater
+
 ## Take home messages
 
 - Various types of aquifers
 - Major aquifers present in arid regions
 - Darcy's Law governs saturated flow
 - GW flow is proportional to hydraulic head gradient
-- Groundwater flow often coupled to topography
 - In unsaturated soils, negative pressure is the result of capillary forces acting on curved air/water infterfaces
 - Soil water storage: porosity, field capacity, wilting point, residual water
 - Darcy's Law also applicable in unsaturated media with lower K
@@ -438,7 +426,7 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 ## Conductivity of "Dyna Sand" sand filters
 I found [there](https://www.parkson.com/sites/default/files/documents/document-dynasand-ecowash-filter-full-scale-test-report-463.pdf) that the loading rate of the filters was 3.5gpm/SqFt
 
-> - **Check whether this makes sense, considering what you heard on Wednesday!**
+> - **Considering what you heard from Kristian, Check whether the drinking water facility is well dimensioned!**
 > - **The whole thing is done here without calculator with "useful" approximations!** 
 > - The reservoir was 1000$m3$ and represented 6h max of daily consumption
 > - So daily consumption: 4000m3
@@ -462,6 +450,8 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 > - $K*24 = 0.14m^3/min/m^2$ -> $K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s$ 
 > - Makes sense!
 
+# Further resources
+
 ## Online exercises
 
 [Groundwater hydrology exercises](http://echo2.epfl.ch/VICAIRE/mod_3/chapt_4/exercices.htm)
@@ -470,19 +460,15 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 
 [Some exercises from Hendriks: Introduction to Physical Hydrology](http://global.oup.com/uk/orc/geography/hendriks/01student/mcqs/)
 
-# Further resources
-
 ## Book chapters
 
 Elements of physical hydrology. Chapters 2, 6, 7, 8
 
 Hydrology in Practice. Chapers 2, 3, 4, 5, 7, 9, 11
 
-## Online textbooks and manuals
+## Online textbooks, manuals and articles
 
-Good and very complete online material from TU Delft:
-
-[Mechanics and Transport of Flow through Porous Media](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/home.html)
+Good and very complete online material from TU Delft: [Mechanics and Transport of Flow through Porous Media](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/home.html)
 
 [USDA - Groundwater hydrology manual](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=18373.wba)
 
@@ -490,9 +476,7 @@ Good and very complete online material from TU Delft:
 
 [Soil water potential - Concepts and measurements](http://lawr.ucdavis.edu/classes/ssc107/SSC107Syllabus/chapter2-00.pdf)
 
-## Selected scientific articles
-
-[Groundwater and climate change](https://www.uni-frankfurt.de/46222973/Taylor_Scanlon_Doell_et_al_2013_groundwater_and_climate.pdf)
+Scientific paper: [Groundwater and climate change](https://www.uni-frankfurt.de/46222973/Taylor_Scanlon_Doell_et_al_2013_groundwater_and_climate.pdf)
 
 ## Videos
 
