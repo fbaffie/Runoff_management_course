@@ -18,11 +18,24 @@ output:
 <!-- ## Intensity duration frequency curves  -->
 <!-- Compute IVF curves for sogndal, selseng -->
 
-##  Glacier lake outburst floods
+<!-- ##  Glacier lake outburst floods -->
 
-- Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland.
-- Look at [NVE's modelling methodology](http://publikasjoner.nve.no/rapport/1997/rapport1997_17.pdf). It could be applied to Blaamannsisen (described in this NVE [inventory of glacier-related hazardous events in Norway](http://publikasjoner.nve.no/rapport/2014/rapport2014_83.pdf). 
-- Discuss other potential modelling and surveillance methods.
+<!-- - Glacier lake outburst flood in Norway, with focus on a specific location, like harbardsbreen, breheimen, or Blaamannsisen, Nordland. -->
+<!-- - Look at [NVE's modelling methodology](http://publikasjoner.nve.no/rapport/1997/rapport1997_17.pdf). It could be applied to Blaamannsisen .  -->
+<!-- - Discuss other potential modelling and surveillance methods. -->
+
+##  Glacier lake outburst floods: case study on Harbardsbreen, Breheimen
+
+Two lakes form every year within central parts of Harbardsbreen. The larger one has produced several jøkulhlaups during the past 20 years ([NVE report: inventory of glacier-related hazardous events in Norway](http://publikasjoner.nve.no/rapport/2014/rapport2014_83.pdf)). 
+
+The thickness of the ice dam was measured by ground-penetrating radar in the 1990s. Surface-elevation of the glacier has decreased during the past 50 years.
+
+##  Glacier lake outburst floods: case study on Harbardsbreen, Breheimen
+
+You will determine the critical water level in the lake at which the lake drains (lifting the glacier ice). Considering the areal extent and bottom topography of the lake, you will estimate the lake volume associated with critical water level. 
+
+You will outline the catchment from which the lake draws water from and estimate the time for the lake to fill, given snow water equivalent at the beginning of the summer melt period, rain and snow melt using meteorological data (senorge). Does the water input to the lake vary from year to year? Can the occurance of past jøkulhlaups be explained by certain meteorological and hydrological conditions?
+
 
 ## Hydrological modelling in the Sogndal valley
 

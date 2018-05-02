@@ -265,7 +265,7 @@ Flow into Sweden | 30
 Evapotranspiration | 235
 
 > - **How much glacier melt: do you think it is a big approximation?**
-> - 0mm for glacier melt. I don't think it's too big: only 1% of glacier covered areas. Their mass balance is probably less negative than in Switzerland.
+> - 0mm for glacier melt. According to current mass balance rates, there should about 7mm of glacier melt.
 
 # Hydro-meteorology
 
@@ -376,6 +376,8 @@ http://www.metlink.org/climate/ipcc-updates-for-a-level-geography/the-changing-w
 Elements of physical hydrology. Chapters 1, 2, 11
 
 Hydrology in Practice. Chaper 1
+
+Book chapter of "Global environmental change": [water cycles and climate change](http://www.cgd.ucar.edu/staff/trenbert/trenberth.papers/Hydrological%20cycleSpringer.pdf)
 
 "Integrate" online course on Critical Zone science:
 [Unit 1.2: Exploring the Hydrologic Cycle](https://serc.carleton.edu/integrate/teaching_materials/ecosystem_water/unit1.2.html)
