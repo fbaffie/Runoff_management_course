@@ -96,7 +96,7 @@ Bring sand and sil, dry and saturated to demonstrate the relationship between hy
 
 ## Snowmelt
 > - **When does snowmelt, as contribution of melting snow to the hydrological cycle, actually start?**
-> -  when the snowpack become isothermal: the whole snowpack has some liquid water content and water can start infiltrating into the soil or running of it's surface
+> -  when the snowpack becomes isothermal: the whole snowpack has some liquid water content and water can start infiltrating into the soil or running of it's surface
 > - **If the snowpack is deep enough, it doesn't start on the first day of positive temperature. Why?**
 > - The snowpack takes time to warm. Liquid water takes time to infiltrate through the snowpack and reach its base
 
@@ -147,7 +147,7 @@ Recommended reading for exercise session 1: [Different models for snowmelt - T. 
 
 ## Evapotranspiration
 > - **What is the difference between potential and actual evapotranspiration?**
-> - Potential evapotranspiration only depends on energy input. It is the ET without moisture limitation (most soils will be moisture-limited)
+> - Potential evapotranspiration only depends on energy input and the atmosphere's ability to transfer moisture. It is the ET without moisture limitation (most soils will be moisture-limited)
 > - Actual evapotranspiration is limited by soil moisture and can be much smaller
 > - [Typical monthly values around the world](http://www.waterandclimatechange.eu/evaporation/average-monthly-1985-1999)
 
@@ -239,9 +239,9 @@ Written with energy flux rate
 - Snow storage measured in SWE: Snow Water Equivalent
 - Snowmelt models either energy-balance or degree day approach
 - Interception: temporary storage of precipication by vegetation
-- Evapotranspiration (ET): sum of all vaporization processes in a catchment (open water, soils, transpiration from plants). Can be estimated by closing the hydrological cycle, mass-transfert or energy-balance methods.
-- Potential ET is the maximum achievable ET with unlimited soil moisture supply
-- Actual ET <= Potential ET. Substantial difference in moisture-limited catchments
+- Evapotranspiration (ET): sum of all vaporization processes in a catchment (open water, soils, transpiration from plants).
+- Potential ET is the maximum achievable ET with unlimited soil moisture supply. Function of air temperature, solar radiation, wind speed and relative humidity
+- Actual ET <= Potential ET. Substantial difference in moisture-limited catchments: can be estimated experimentally by closing the water balance.
 
 <!--
 ## Waterlogging

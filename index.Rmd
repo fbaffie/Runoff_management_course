@@ -296,8 +296,9 @@ Sogndal catchment using historical data: catchment size, catchment altitude, cat
 ## Hydrological processes
 <img src="images/logo.png" class="cover">
 
-We will first discuss surface hydrological processes: precipitation, snow hydrology and vegetation processes. 
-<!-- [Lecture](01_Hydrology/2_hydrological_processes_1.html) -->
+We will first discuss surface hydrological processes: precipitation, snow hydrology and vegetation processes: 
+[Lecture](01_Hydrology/2_hydrological_processes_1.html)
+
 We will then cover subsurface processes (groundwater, soil water and runoff generation), which are important for the design of green stormwater infrastructure. 
 <!-- [Lecture](01_Hydrology/2_hydrological_processes_2.html) -->
 
