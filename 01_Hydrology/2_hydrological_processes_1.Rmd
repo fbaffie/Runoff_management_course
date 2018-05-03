@@ -61,7 +61,7 @@ Bring sand and sil, dry and saturated to demonstrate the relationship between hy
 > - **How do you link snow depth to the "Snow Water Equivalent" (SWE) of the snowpack?**
 > - density relative to water (< 1) * height ($m$) = SWE in $m$
 > - density ($kg/m^3$) * height ($m$) = SWE in $kg/m^2$ 
-> - SWE in $kg/m^2$ = SWE in liters of water / $m^2$ = SWE in $mm/m^2$ 
+> - SWE in $kg/m^2$ = SWE in liters of water / $m^2$ = SWE in $mm$ 
 
 ## Snow and forest
 > - **What is the impact of forest on snow?**

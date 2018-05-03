@@ -300,7 +300,7 @@ We will first discuss surface hydrological processes: precipitation, snow hydrol
 [Lecture](01_Hydrology/2_hydrological_processes_1.html)
 
 We will then cover subsurface processes (groundwater, soil water and runoff generation), which are important for the design of green stormwater infrastructure. 
-<!-- [Lecture](01_Hydrology/2_hydrological_processes_2.html) -->
+[Lecture](01_Hydrology/2_hydrological_processes_2.html)
 
 <!--
 Forest, tress and water in arid lands: a delicate balance

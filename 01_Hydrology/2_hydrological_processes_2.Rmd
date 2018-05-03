@@ -115,6 +115,25 @@ https://commons.wikimedia.org/wiki/File:Renewable_Groundwater_Resources_in_mm_pe
 ## Typical aquifer residence times
 <img src="images/aquifers_USGS.jpg" height="500" width="auto">
 
+## Pressure in atmosphere and oceans
+
+<img src="../02_Hydraulics/images/pressure_water_air.svg" height="450" width="auto">
+
+<!--
+https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pressure_water_air_%28en%29.svg/1200px-Pressure_water_air_%28en%29.svg.png" alt="Pressure water air (en).svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Kdkeller" title="User:Kdkeller">Klaus-Dieter Keller</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=25608823">Link</a></p>
+-->
+
+## Air pressure and water pressure
+> - **What is the pressure under a 10m water collumn?**
+> - 1 bar = 100 kPa
+> - **Why?**
+> - 1 Pa is 1 $N/m^2$ which is equivalent to 0.1 $kg/m^2$ with $g = 10 m/s^2$
+> - So $10^5 Pa$ is equivalent to $10 000 kg/m^2$
+> - 1$m$ water is 1000$kg/m^2$
+> - 10$m$ water is 10 000$kg/m^2$
+
 ## Hydraulic head
 
 > - **Also called piezometric head, groundwater head**
@@ -123,7 +142,7 @@ https://commons.wikimedia.org/wiki/File:Renewable_Groundwater_Resources_in_mm_pe
 
 <img src="images/head.gif" height="300" width="auto">
 
-## [Darcy's experiment](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/1.1/1.1.html)
+## Darcy's experiment
 <img src="images/darcysexperiment.gif" height="auto" width="900">
 Darcy found $Q = \frac{KAH}{L}$
 
@@ -167,36 +186,11 @@ $R$ is the resistance in ohms
 Put the recession figure from my paper, or from sogndal (february 2017)
 -->
 
-## [Steady flow in an unconfined aquifer](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/6.1/6.1.html)
-
-> - **Most aquifers are thin and quite flat. Which flow direction can we neglect?**
-> - We can neglect vertical flow. Groundwater is hydrostatic (vertical equipotential lines)
-> - Groundwater discharge is proportional to the depth of the aquifer
-> - This is the Dupuit–Forchheimer assumption
-
-<img src="images/unconfined_aquifer_ex.gif" height="300" width="auto">
-
-## Find Q as a function of $K$, L, $\phi_1$ and $\phi_2$
-
-> 1. **Express Q as a function of h and q (flow per unit area)**
-> 1. **Use the conservation of mass across each $dx$ slice of aquifer**
-> 1. **With the reference level as the base of the aquifer ($\phi = h$), write Darcy's Law**
-> 1. **Combine 2 and 3**
-> 1. **We assume that *K* is uniform, integrate, and express $h^2$ and $h$ as a function of x, L, $\phi_1$ and $\phi_2$**
-> 1. **Using steps 1 and 3, we want to express $Q$ without $x$**
-> 1. Finally we have: $Q = -K\frac{(\phi_2^2-\phi_1^2)}{2L}$
-
-<!--
-## Aquifer transmissivity
-- Discharge through thickness of aquifer per unit head gradient
-- Product of conductivity and thickness
--->
-
 ## Typical saturated hydraulic conductivities
 
 > - Cobble (64-256$mm$):  $> 1 m/s$
 > - Gravel (2-63$mm$): $0.1 - 1 m/s$
-> - Sand (0.063$mm$ - 2$mm$):  $10^{-4} - 10^{-2} m/s$
+> - Sand (0.063$mm$ - 2$mm$):  $10^{-5} - 10^{-2} m/s$
 > - Silt (0.002-0.063$mm$):  $10^{-5} - 10^{-8} m/s$
 > - Clay ( <0.002$mm$):  $< 10^{-8} m/s$
 
@@ -244,11 +238,11 @@ equilibrium, through a porous permeable wall or membrane, with the water in the 
 **Field capacity:**
 
 Amount of water held in the soil after
-gravitational water has drained away.
+gravitational water has drained away. (usually -0.33 bar)
 
 **Wilting point:**
 
-Moisture content of a soil that cannot be released by capillary forces
+Moisture content of a soil that cannot be released by capillary forces (usually -15 bar)
 
 ## Soil water storage
 <img src="images/soil_water_storage.JPG" height="450">
@@ -297,20 +291,33 @@ https://www.youtube.com/watch?v=BickMFHAZR0&list=WL&index=236
 How high can you suck on a straw
 -->
 
-## Green Ampt infiltration equation
+<!-- ## Green Ampt infiltration equation -->
 
-\[i(t) = K\left[{\psi \,\Delta \theta  \over F(t)}+1\right]\]
+<!-- \[i(t) = K\left[{\psi \,\Delta \theta  \over F(t)}+1\right]\] -->
+
+<!-- where -->
+<!-- $i(t)$ is the infiltration rate -->
+
+<!-- $\psi$ the wetting front soil suction head (L) -->
+
+<!-- $\theta$  the water content (-) -->
+
+<!-- $K$ the saturated hydraulic conductivity (L/T) -->
+
+<!-- $F(t)$ the cumulative depth of infiltration (L) -->
+
+## Horton's empirical equation for infiltration
+
+\[i(t) = i_c+ (i_0 - i_c)* e^{-kt}\]
 
 where
-$i(t)$ is the infiltration rate
+$i(t)$ is the infiltration rate at time t
 
-$\psi$ the wetting front soil suction head (L)
+$i_0$ is the initial infiltration rate or maximum infiltration rate
 
-$\theta$  the water content (-)
+$i_c$ is the constant or equilibrium infiltration rate after the soil has been saturated or minimum infiltration rate;
 
-$K$ the saturated hydraulic conductivity (L/T)
-
-$F(t)$ the cumulative depth of infiltration (L)
+$K$ is the decay constant specific to the soil.
 
 <!-- ## Vertical flow through the unsaturated zone -->
 
@@ -405,11 +412,13 @@ could be used for the quiz: why do lakes create high pressures which slow winds?
 
 - Various types of aquifers
 - Major aquifers present in arid regions
-- Darcy's Law governs saturated flow
-- GW flow is proportional to hydraulic head gradient
-- In unsaturated soils, negative pressure is the result of capillary forces acting on curved air/water infterfaces
-- Soil water storage: porosity, field capacity, wilting point, residual water
+- Darcy's Law governs GW flow: it is proportional to the hydraulic head gradient
+- The proportionality factor is K, hydraulic conductivity
+- In unsaturated soils, negative pressure is the result of capillary forces acting on curved air/water interfaces
+- Various thresholds in soil water storage: porosity, field capacity, wilting point
 - Darcy's Law also applicable in unsaturated media with lower K
+- Horton's infiltration law: exponential decay
+- Runoff generation: infiltration excess and saturation excess flow
 
 <!--
 ## Waterlogging
@@ -438,7 +447,7 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 > - **Calculate the required surface for this flow**
 > - 3.5$gpm/SqFt$ -> 3.5x4 = 14 $l/min/sqft$ -> 14x10 $l/min/m^2$ = 0.14 $m^3/min/m^2$
 > - Recapitulation: 2.5$m^3/min$ is required and the sand filter has a capacity of 0.14 $m^3/min/m^2$
-> - So 15-20$m^2$ required: 5 filters of 3-4$m^2$
+> - So 15-20$m^2$ required: 4 filters of 4-5$m^2$
 > - Makes sense!
 
 ## Conductivity of "Dyna Sand" sand filters
@@ -449,6 +458,33 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 > - using Darcy's Law: $q=-k \nabla{\phi}$
 > - $K*24 = 0.14m^3/min/m^2$ -> $K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s$ 
 > - Makes sense!
+
+# Exercise for the courageous
+
+## [Steady flow in an unconfined aquifer](https://repository.tudelft.nl/islandora/object/uuid:7d4d4f4c-66f3-4312-895f-dae25f6ce563?collection=research)
+
+> - **Most aquifers are thin and quite flat. Which flow direction can we neglect?**
+> - We can neglect vertical flow. Groundwater is hydrostatic (vertical equipotential lines)
+> - Groundwater discharge is proportional to the depth of the aquifer
+> - This is the Dupuit–Forchheimer assumption
+
+<img src="images/unconfined_aquifer_ex.gif" height="300" width="auto">
+
+## Find Q as a function of $K$, L, $\phi_1$ and $\phi_2$
+
+> 1. **Express Q as a function of h and q (flow per unit area)**
+> 1. **Use the conservation of mass across each $dx$ slice of aquifer**
+> 1. **With the reference level as the base of the aquifer ($\phi = h$), write Darcy's Law**
+> 1. **Combine 2 and 3**
+> 1. **We assume that *K* is uniform, integrate, and express $h^2$ and $h$ as a function of x, L, $\phi_1$ and $\phi_2$**
+> 1. **Using steps 1 and 3, we want to express $Q$ without $x$**
+> 1. Finally we have: $Q = -K\frac{(\phi_2^2-\phi_1^2)}{2L}$
+
+<!--
+## Aquifer transmissivity
+- Discharge through thickness of aquifer per unit head gradient
+- Product of conductivity and thickness
+-->
 
 # Further resources
 
@@ -468,7 +504,7 @@ Hydrology in Practice. Chapers 2, 3, 4, 5, 7, 9, 11
 
 ## Online textbooks, manuals and articles
 
-Good and very complete online material from TU Delft: [Mechanics and Transport of Flow through Porous Media](http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/home.html)
+Good and very complete online material from TU Delft: [Mechanics and Transport of Flow through Porous Media](https://repository.tudelft.nl/islandora/object/uuid:7d4d4f4c-66f3-4312-895f-dae25f6ce563?collection=research)
 
 [USDA - Groundwater hydrology manual](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=18373.wba)
 
