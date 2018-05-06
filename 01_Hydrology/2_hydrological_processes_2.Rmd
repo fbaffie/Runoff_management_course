@@ -454,7 +454,7 @@ I found [there](https://www.parkson.com/sites/default/files/documents/document-d
 > - **The input hydraulic head was 10 bars, the sand thickness was 4m and the free water surface was about 1m higher (5m higher than the base of the filter). Calculate the hydraulic conductivity of the sand**
 > - 10 bars makes 100m of head at the inlet
 > - The free flowing water surface at the top of the filter is 5m higher, so 5m head in reference to the base of the filter
-> - So hydraulic head gradient across the sand filter: 95 / 4 -> 24
+> - So hydraulic head gradient across 4m of sand filter: (100-5)/4 -> 24
 > - using Darcy's Law: $q=-k \nabla{\phi}$
 > - $K*24 = 0.14m^3/min/m^2$ -> $K = \frac{2.3*10^{-3}}{24} = 10^{-4} m/s$ 
 > - Makes sense!

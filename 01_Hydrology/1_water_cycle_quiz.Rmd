@@ -70,6 +70,38 @@ output:
 > - Soil-moisture drought - critical soil-moisture deficit.
 > - Hydrological drought – critical streamflow and groundwater deficit.
 
+
+## Sushmitha
+>  -  **What are the different types of Droughts?**
+>  -  Metereological, hydrological, Soil Moisture
+>  -  **What does the function ω stands for in this equation E/P = 1+(Ep/P) – (1+(Ep/P)^ ω)^1/ ω)**
+>  -  A function of the vegetation cover (Budyko curve)
+>  -  **What would be the reason of Metereological Drought?**
+>  -   Lack of Precipitation.
+
+## Helge
+
+> - **Potential evaporation is a function of four drivers; What are the four drivers and what feedback-mechanisms from the land surface are these affected by?**
+> - Temperature, radiation, wind speed and relative humidity. These potential drivers are also affected by feedback from the land surface: 
+> - More evaporation will increase relative humidity
+> - Wind speed is changing due to climate change
+> - Radiation is changing due to increase in greenhouse gases in the atmosphere. Also aerosol concentration is changing. In addition, precipitation can also be affected by land-atmosphere feedback.
+
+
+
+## Famke
+
+> - **What kinds of droughts exist and what are they relating to?**
+> -	Meteorological drought, which is related to a lack of precipitation 
+> -	Soil moisture drought, which is related to a lack of moisture in the soil
+> -	Hydrological drought, which is related to a lack of stream flow
+> - for observing droughts you need to take 2 parameters into account: evapotranspiration and potential evaporation
+
+> -	**What effect has the albedo on the climate?**
+> -	Change in albedo leads to cooling of hot extremes, caused by less cloud cover and therefore more radiation, which means that the change in reflectivity is more efficient at cooling the surface. A higher albedo also leads to less drying because of less warming
+> - feedback loops: 1. Impact of albedo on temperature and 2. Delayed effect on soil moisture feedbacks
+
+
 ## Eirin
 
 > - **What is El Nino?**
