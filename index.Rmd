@@ -318,7 +318,7 @@ Present documents for the quiz: impact of forest on hydrological resources
 
 ## Hydrological extremes
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](01_Hydrology/3_hydrological_extremes.html) -->
+[Lecture](01_Hydrology/3_hydrological_extremes.html)
 
 Quantifying floods and droughts helps design better protection / adaptation measures.
 

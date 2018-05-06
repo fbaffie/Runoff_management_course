@@ -98,8 +98,8 @@ http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page14.html
 ## Probability distribution functions (pdf) 
 <img src="images/pdf.jpg" height="200" width="auto">
 
-> - **Why does the mean annual flood correspond to a return period of 2.3 years?**
-> - The Gumbel probability distribution is designed so that the average flood (arithmetic mean of all floods in the record) has a theoretical return period of 2.33 years.
+> - **Why does the mean annual flood generally correspond to a return period of 2.3 years?**
+> - The Gumbel probability distribution (often used) is designed so that the average flood (arithmetic mean of all floods in the record) has a theoretical return period of 2.33 years.
 > - **On the other hand, the median flood corresponds to a return period of ...?**
 > - 2 years, because the median corresponds to a 50% probability of occurence
 
@@ -107,12 +107,12 @@ http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page14.html
 > - **mode, mean and median?**
 > - <img src="images/Visualisation_mode_median_mean.png" width="auto" height="400">
 
-## Mean, median, mode
+## Mean, median, mode (ex. with log-normal distributions)
 
 <img src="images/mean_median.svg" width="auto" height="400">
 
 ## Probability distributions moments
-> - **Name the first 3 moments (0th, first and second) of a probability distribution**
+> - **Name the first 3 moments (1st, 2nd, 3rd) of a probability distribution**
 > - Mean, variance, skewness
 > - **Draw the impacts of an increase in mean of hydrological extremes**
 > - **Draw the impacts of an increase in variance of hydrological extremes**
@@ -124,7 +124,7 @@ http://www.sciencecourseware.com/VirtualRiver/FloodingDemo/Files/page14.html
 > - **Analog of the mean?**
 > - Center of mass
 > - **Analog of variance?**
-> - Moment of inertia (also know as angular mass or rotational area)
+> - Moment of inertia (also know as angular mass or rotational inertia)
 > - **The $0^{th}$ moment is mechanics is the weight. What is it for a pdf?**
 > - 1: the integral of the pdf is equal to a 100% probability!
 
@@ -181,10 +181,10 @@ $\xi$ shape.
 > - A plot of precipitation intensity of a function of rain event duration for various return periods
 -->
 ## Intensity-Duration-Frequency Curve
-[IDF (IVF in Norwegian) for various regions in Norway: klimaservicesenter.no](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner)
-[Example for Oppstryn](./pdf/IVF_58700_OPPSTRYN.pdf)
 
-Important concept to size stormwater infrastructure in small urban catchments
+[IDF (IVF in Norwegian) for various regions in Norway: klimaservicesenter.no](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner)
+
+Important concept to size stormwater infrastructure in small urban catchments (taking in addition [climate factors](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/fremtidig-utvikling) into account)
 
 > - **Does a 100-year storm always cause a 100-year flood?**
 > - No, there are different types of 100-year precipitation events and there are other important factors such as pre-storm ground condition, timing and spatial variability of the storm...
@@ -216,7 +216,7 @@ It is the "theoretical" largest flood that can happen in a catchment. It can be 
 <img src="images/flood_forecasting_app.png" height="500" width="auto">
 
 ## Take home messages
-<img src="../images/important.png" class="cover">
+<!-- <img src="../images/important.png" class="cover"> -->
 
 - Extreme values derived for both river discharge and precipitation (IDF curves)
 - Annual exceedance probability is the probability $p$ that a flood will be **equal or greater** than a specific return level $Q_T$ (for the return period $T=1/p$)
@@ -234,8 +234,11 @@ It is the "theoretical" largest flood that can happen in a catchment. It can be 
 
 NVE Reports:
 [Flommen på Vestlandet - oktober 2014](http://publikasjoner.nve.no/rapport/2015/rapport2015_11.pdf)
+
 [Flomsonekartprosjektet - Flomberegning for Sogndalselvi](http://publikasjoner.nve.no/dokument/2003/dokument2003_06.pdf)
+
 [Flomberegning for Flåmselvi ved Brekke bru](http://publikasjoner.nve.no/rapport/2015/rapport2015_27.pdf)
+
 [Anbefale metoder for flomberegninger i små uregulerte felt](http://publikasjoner.nve.no/rapport/2015/rapport2015_97.pdf)
 
 ## World
