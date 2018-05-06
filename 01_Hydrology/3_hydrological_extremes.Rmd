@@ -182,7 +182,7 @@ $\xi$ shape.
 -->
 ## Intensity-Duration-Frequency Curve
 
-[IDF (IVF in Norwegian) for various regions in Norway: klimaservicesenter.no](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/ivf-verdier-fra-et-utvalg-malestasjoner)
+[IDF (IVF in Norwegian) for various regions in Norway: klimaservicesenter.no](https://klimaservicesenter.no/faces/desktop/idf.xhtml)
 
 Important concept to size stormwater infrastructure in small urban catchments (taking in addition [climate factors](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/fremtidig-utvikling) into account)
 
@@ -226,39 +226,25 @@ It is the "theoretical" largest flood that can happen in a catchment. It can be 
 
 # Further resources
 
-## Norway and Europe
+## Floods
 
-[Klimaendring og framtidige flommer i Norge (NVE report)](http://publikasjoner.nve.no/rapport/2016/rapport2016_81.pdf)
-
+Norwegian guidelines:
 [Norsk Klimaservice senter: Nedbør med kort varighet](https://klimaservicesenter.no/faces/desktop/article.xhtml?uri=klimaservicesenteret/dimensjonerende-nedbor/korttidsnedbor)
-
-NVE Reports:
-[Flommen på Vestlandet - oktober 2014](http://publikasjoner.nve.no/rapport/2015/rapport2015_11.pdf)
-
-[Flomsonekartprosjektet - Flomberegning for Sogndalselvi](http://publikasjoner.nve.no/dokument/2003/dokument2003_06.pdf)
-
-[Flomberegning for Flåmselvi ved Brekke bru](http://publikasjoner.nve.no/rapport/2015/rapport2015_27.pdf)
-
 [Anbefale metoder for flomberegninger i små uregulerte felt](http://publikasjoner.nve.no/rapport/2015/rapport2015_97.pdf)
 
-## World
+NVE Reports:
+[Klimaendring og framtidige flommer i Norge (NVE report)](http://publikasjoner.nve.no/rapport/2016/rapport2016_81.pdf)
+[Flommen på Vestlandet - oktober 2014](http://publikasjoner.nve.no/rapport/2015/rapport2015_11.pdf)
+[Flomsonekartprosjektet - Flomberegning for Sogndalselvi](http://publikasjoner.nve.no/dokument/2003/dokument2003_06.pdf)
+[Flomberegning for Flåmselvi ved Brekke bru](http://publikasjoner.nve.no/rapport/2015/rapport2015_27.pdf)
 
-[USDA: Frequency Curve Determination](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1042910)
+USA: [Guidelines for determining flood flow frequency](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1042910)
 
-Good list of resources on flood and drought: 
-http://fdmt.iwlearn.org/en/resources-and-e-learning
-
-[Decision-Support for the Selection of Flood Forecasting Models](http://www.wmo.int/pages/prog/hwrp/documents/FFI/Intercomparison_of_flood_forecasting_models_for_review.pdf)
-
-## [Types of droughts](http://drought.unl.edu/DroughtBasics/TypesofDrought.aspx)
-> - **Think about different types of drought**
-> - meteorological (lack of precipitation)
-> - hydrological (lack of streamflow, soil moisture and/or groundwater)
-> - agricultural (lack of plant available water, during specific periods of growth)
-> - socioeconomic (impact human activities like energy production)
-> - ecological (long and widespread deficit in water, affecting whole ecosystems)
+<!-- [Decision-Support for the Selection of Flood Forecasting Models](http://www.wmo.int/pages/prog/hwrp/documents/FFI/Intercomparison_of_flood_forecasting_models_for_review.pdf) -->
 
 ## Low flows
+
+Different types of [drought](http://drought.unl.edu/DroughtBasics/TypesofDrought.aspx)
 
 California water blog - UC Davis center for watershed sciences:
 [California's drought and floods are over and just beginning](https://californiawaterblog.com/2017/04/09/californias-drought-and-floods-are-over-and-just-beginning/)

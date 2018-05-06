@@ -97,6 +97,7 @@ output:
 > -	Hydrological drought, which is related to a lack of stream flow
 > - for observing droughts you need to take 2 parameters into account: evapotranspiration and potential evaporation
 
+## Famke
 > -	**What effect has the albedo on the climate?**
 > -	Change in albedo leads to cooling of hot extremes, caused by less cloud cover and therefore more radiation, which means that the change in reflectivity is more efficient at cooling the surface. A higher albedo also leads to less drying because of less warming
 > - feedback loops: 1. Impact of albedo on temperature and 2. Delayed effect on soil moisture feedbacks
