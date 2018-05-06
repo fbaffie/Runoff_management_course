@@ -12,57 +12,133 @@ output:
 
 # Your quiz!
 
-## Trond
-> - **How long is the river Glomma?**
-> - 621km 
-> - **How many kilometers is Norway’s municipal pipeline for water?**
-> - Ca 46000km
-> - **How many % of Norway is covered of freshwater?**
-> - 6%   
+## Astrid Oetting
 
-## Jan
-> - **What is the difference between arid and humid climate?**
-> - Arid: mean annual potential evaporation is higher than mean annual precipitation. Humid: mean annual potential evaporation is lower than mean annual precipitation
-> - **What are the main features of continental and maritime climate regarding temperature?**
-> - Continental climate: hot summers, cold winters
-Maritime climate: cooler summers, warmer winters
 
-## Christian
-> - **What_does_isothermal_mean**
-> - it_is_a_thermodynamic_phase_change_without_temperature_change
-> - **Florian: you should have asked - what is an isothermal process? Your example is not the only one. Some gas compression processes can be isothermal.**
+> - ** Are absolute temperature extremes connected to the moisture of a soil? **
 
-## Håkon
-> - **What is the term used to describe how easily water penetrates the ground?**
-> - Permeability  
-> - **Florian's note: It is called the intrinsic permeability. It is 1 of 2 factors in hydraulic conductivity that describe the properties of the porous material (pore size). The other factor represents the fluid properties (elements of hydrology chap. 6)**
+> - Yes, the dependence is mostly linear. If the soil moisture is relatively low, the temperatures are relatively high, lower summer temperatures correlates with a high moisture of soil. Shifting in the moisture conditions (dry/wet) lead to a shift in the temperatures as well (up to 2 or 4°C). Therefore, wet conditions (before summer) lead to less hot days in summer. Very hot summers are connected to dry conditions (with a small amount of precipitation and therefore low soil moisture) in spring.
 
-## Håkon
-> - **What is Transpiration?**
-> - Water moving from the ground through a plant to then be evaporated to the atmosphere  
-> - **What is the difference between a meandering stream and a braided stream?**
-> - Meandering stream moves like an S, moves with erosion of banks. Braided stream is a combination of many smaller streams crossing each other, often full of sediments, forming a “braid”
 
-## Jostein
-> - **What was the daily average water flow (m3/s) in Sogndalselvi during the flood in October 2014? **
-> - 113,67 m3/s
-> - **What is the volume of Jostedalsbreen?**
-> - 73 km3
-> - **What is the volume of all glaciers in Norway?**
-> - 262 km3 (NVE 2015)
 
-## Simen
-> - **What is the residence time of water in rivers and lakes?**
-> - 4 years
-> - **Where does the peruvian government look to retain water supply during summer months as CC worsen?**
-> - The bofedales
-> - **Florian's note: https://shapeofthingstocome.org/2014/09/19/what-the-hell-is-a-bofedal/**
+> - ** How can the soil moisture be measured (large scale) and what are the problems? **
 
-## Calum
-> - **How has urban drainage management changed over time since 1960? (What is now thought of alongside just 'flood mitigation'). **
-> - Instead of just focusing on flood mitiagtion, management of urban drainage systems now take into account; recreation + aesthetics of system/area, using stormwater as a resource, water quality, the ecology of water course that system drains into and flow regime restoration.  
+> - The soil moisture can be measured with remote sensing. The method measures the soil moisture in the topmost 2 cm. For evapotranspiration is mostly the moisture in the root zone important, which lies below the 2 cm. Therefore, a combination of remote sensing data and data about the soil moisture in the root zone is necessary to create a reliable model. Also, the variability in the water content of the soil in the topmost 2 cm is stronger than in the root zone, as a result of the ability to store water (larger water storage in the root zone).
 
-## Calum
-> - **What are some of the obstacles to the uptake of blue green solutions in storm water management? **
-> - Path dependency - it is easier to stick to what you know rather than risk a more difficult option. BG solutions can take up a lot of space - difficult to pursuade people to allow high value sites to be used for BG solutions. Funding difficulty - BG solutions cannot be funded through water tax. People scared about running costs and maintenance (especially here in Sogndal in winter climate). ETC ETC. 
-> - **Florian's note:** automatic connection of new houses to the piped network. Kristian mentioned it here (houses that are within reasonable distance to the network). This is highlighted as a policy problem in a UK report on flooding.
+##  Vibeke Bruvoll
+
+> -  **What type of soil have most impact on changes in evaporative fraction, wet, transitional or dry and why ?**
+
+> -  Soil in the transitional regime has most impact on changing in evaporate franction as evaporation in this case is limited by amount of soil moisture. Dry soil do not have much moist to evaporate in the first place. In wet soil areas, is the amount of evaporation energy limited, and the amount of energy used in soil moisture evaporation does not depend on amount of soil moisture. Hence small variations in soil moisture don't effect the amount of energy used in this areas or the evaporation fraction.
+
+##  Vibeke Bruvoll
+
+> -  **Is the paradigm wetter region getting wetter and dry regions getting dryer valid ? Why, why not ?**
+
+> - No its not valid as most of the data that was the base of this conclusion came from ocean data on evaporation and precipitation patterns over time. Newer studies based on land data does not support this paradigm and show the need for research in regional scale on land to understand differences in the drought pattern over time.
+
+## Adam "G-Dog" Gairns
+> - ** Why cant you use remote sensing in understanding the effects of evapotranspiration in soil moisture?**
+> - Remote sensing only takes into consideration the top 2cm of soil when you need to record the soil moisture in the root level depths
+
+> - **Why is the known 'Paradigm' of 'wet gets wetter, and the dry gets drier' is not correct?**
+> - The data used was of ocean temperatures which is not a direct link to changes happening on land.
+
+## Erik Frivik Presthaug
+
+> - **What was the take-home message about the well-established paradigm of "Dry gets drier, Wet gets wetter"?**
+
+> - This paradigm is not that definitive for land areas (according to study, only true for a minority of the regions (less than half)) but more so for ocean areas. However, the paradigm holds for the global perspective (global = ocean + land) but then not so much for land.
+
+> - **What effect does post-harvest tilling of farm land have on warm extremes ("heat waves") and why is this effect claimed to be stronger in a future climate?**
+
+> - It was shown that when farm land is tilled after harvest, it reduces the albedo of the area therefore absorbing more heat. Future climate will be hotter, providing less cloud cover, meaning more radiation to surface and more heat absorption (albedo becomes even more significant). Heat wave impacts could therefore be attenuated by crop residue management (no-till farming).
+
+## Anne Waterlander
+
+> - **Extreme hot days are more expected when the surface moisture availability is**
+> - a. Dry
+> - b. Wet
+> - Answer: Dry
+
+
+> - **What are the 4 drivers of potential evapotranspiration.**
+
+> - Temperature, Radiation, Wind speed and Relative humidity
+
+
+## Ragnar Grinde
+
+> -	**Which two factors combined lead to a high frequency of abnormally hot summer days?> -**
+> - A dry winter/spring followed by anticyclonic summer weather regimes (calm, fine weather with many sunny days) strongly increased the frequency of abnormally hot days.
+
+> - **The lecture speaks of three types of droughts. What are they?**
+> - Meteorological drought – critical precipitation deficit.
+> - Soil-moisture drought - critical soil-moisture deficit.
+> - Hydrological drought – critical streamflow and groundwater deficit.
+
+## Eirin
+
+> - **What is El Nino?**
+> - a sea saw condition that hasspens in 3-7 years intervals as the ocean conditions change from one state to another (warmer-->cooler). Trade winds weaken and ocean water moves towards the east. Results in warmer ocean temperatures in South America (where there is normally upwelling of cold water during dominating conditions), this leads to more moisture in the atmosphere and rising sea levels in the east (east coast of North + South America).
+
+ 
+> - **What are five expectations/observations of a warming climate?**
+> - Decrease in: sea ice, glaciers, snow cover. Increase in: sea surface temp., ocean heat content, sea level, temp. over oceans, humidity, air temp. near surface, temp. over land.
+
+ 
+> - **Why is sea level rising faster in some areas compared to others?**
+> - This is due to the intensity of the ocean currents. 
+
+# Annoted video resources
+
+## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change
+
+https://www.youtube.com/watch?v=zMjchti6LdM
+
+- 4: heat waves with dry soil
+- 6: pause in climate change? climate sceptics using it. it's the average temperature over oceans and land (global mean temperature not relevant).
+- 7: the surface temp of the ocean does not increase as much but the ocean takes the heat.
+- 60% of precip is re-evaporated on land
+- latent heat flux uses 50% of energy on land surface
+- transitional soil moisture is where soil moisture variations have the biggest impact of the fraction of net radiation used for evapotranspiration.
+- 8: Interaction between land and atmosphere
+- 13: Increase in forecast quality (skill) with soil moisture initialization
+- 16: strong correlation between number of hot days and moisture deficit in the previous 3 months
+- southern europe, central US...
+- 18: dry conditions is a necessary but not sufficient condition for having hot extremes
+- 18: Dry springs followed by hot summers
+- 19: anticyclonic summer regimes linked to hot extremes
+- 20: microwave remote sensing
+- 21: mainly measures soil moisture in the first 2cm, rather than down at the root zone
+- dryest conditions: less variability at the top of the soil and more if you look at the root zone.
+- can be the opposite in wet conditions: the top is the first to dry.
+22: dependency of absolute temperature extremes on soil moisture is mostly linear. but leads to non-linear amplification of frequency of hot days.
+- 4 degrees difference between wet and dry (less if you look only at the latent heat fluxes)
+Meteorological drought: critical precipitation deficit
+Soil-moisture drought: soil-moisture deficit
+Hydrological drought: streamflow and groundwater deficit.
+- 25: How are they inter related
+- 28: Comparing 2 meth. Penman monteith and Thornthwaite for potential evapotranspiration (function of temperature, radiation, wind speed, relat humidity)
+
+## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change
+
+
+- 29: Uncertaincy in evapotranspiration (can be up to 30%)
+- 34: Wetter gets wetter, drier gets drier? no! Few regions with robust changes.
+- arid regions: Potential ET / precip > 2 
+- many regions were actually in the "wet gets drier" case
+- most of the signal in "wetter tropics/ high latitudes" and drier "subtropics" is over oceans
+- not relevant to infer what happens on the land from what happens globally
+- ocean trends: oceans where a lot of evoparationw as happening are evaporating even more
+- no the case on lands
+- 39: Impact of no-till farming (well established in the US). crop residues modify the albedo: increases the albedo. strongest cooling for the strongest temperature (-2deg).
+very strong asymetric impact of temperature: warming for lower temps because less evaporative cooling. During warm days, more moisture saved.
+- 42: importance of looking at extremes and not mean
+- Importance of land use management
+- During the warmer dayts, there is less cloud cover which increases the impact of albedo change
+- 45: Question: with climate change, less cloud cover more cooling? feedback loops
+Impact of albedo on temperature, additional delayed effect through soil moisture feedback
+- future change in cloud cover is model dependent. supposed to decrease. it's a feedback loop that's not very well constrained.
+- confonding effect: is a dry spring not linked already to a hot summer (long term weather fluctuations.
+- 51: Question: how strong is the link between soil moisture storage and streamflow? Deoends on the reactivity of the catchment to precipitation

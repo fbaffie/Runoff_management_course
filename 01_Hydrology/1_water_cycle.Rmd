@@ -410,27 +410,4 @@ Includes:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bQ8_UZpbtz8" frameborder="0" allowfullscreen></iframe>
 
-<!-- # Annoted video resources -->
-
-<!-- ## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change -->
-
-<!-- https://www.youtube.com/watch?v=zMjchti6LdM -->
-
-<!-- - 8: Interaction between land and atmosphere -->
-<!-- - 18: Dry springs followed by hot summers -->
-<!-- Meteorological drought: critical precipitation deficit -->
-<!-- Soil-moisture drought: soil-moisture deficit -->
-<!-- Hydrological drought: streamflow and groundwater deficit. -->
-<!-- - 25: How are they inter related -->
-<!-- - 28: Comparing 2 methods for potential evapotranspiration -->
-
-<!-- ## Sonia Seneviratne - Effects of land hydrology on atmospheric processes and climate change -->
-
-
-<!-- - 29: Uncertaincy in evapotranspiration (can be up to 30%) -->
-<!-- - 34: Wetter gets wetter, drier gets drier? no! -->
-<!-- - 39: Impact of no-till farming. crop residues modify the albedo: increases the albedo. strongest cooling for the strongest temperature -->
-<!-- very strong asymetric impact of temperature: a bit like forest -> importance of looking at extremes and not mean -->
-<!-- - 45: Question: with climate change, less cloud cover more cooling? feedback loops  -->
-<!-- - 51: Question: how strong is the link between soil moisture storage and streamflow? -->
 
