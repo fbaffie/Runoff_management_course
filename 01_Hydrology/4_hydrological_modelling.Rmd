@@ -349,7 +349,7 @@ with $L_{integral}(t_{end}) = L_{residual}$
 The goal is to complete exercises 1, 2 and 3 suggested by Jan Seibert with the hydrological model [HBV Light](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
 The program, accompanying data and an introduction lecture to the model can be accessed on the University of Zürich, Department of geography [webpage](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)
 You can try to install the software on your laptop but there was a resolution problem on mine.
-Otherwise, the program is installed on the computers of room: XXX
+Otherwise, the program is installed on the computers of room: F-208 Kjelda
 
 # Further resources
 
@@ -359,16 +359,11 @@ Elements of physical hydrology. Chapters 5, 7, 9
 
 Hydrology in Practice. Chapers 10, 12, 17
 
-## Nevina web tool from NVE
+## Norway / Europe 
 
-http://nevina.nve.no/
+Nevina web tool from NVE: http://nevina.nve.no/
 
 We will use this tool in an exercise session and during the "Flood mapping" lecture.
-
-<!--
-quiz theme?
--->
-## Norway / Europe
 
 [Hydrological atlas for Norway](http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf)
 

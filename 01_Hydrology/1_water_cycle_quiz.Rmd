@@ -14,7 +14,6 @@ output:
 
 ## Astrid Oetting
 
-
 > - **Are absolute temperature extremes connected to the moisture of a soil? **
 > - Yes, the dependence is mostly linear. If the soil moisture is relatively low, the temperatures are relatively high, lower summer temperatures correlates with a high moisture of soil. Shifting in the moisture conditions (dry/wet) lead to a shift in the temperatures as well (up to 2 or 4°C). Therefore, wet conditions (before summer) lead to less hot days in summer. Very hot summers are connected to dry conditions (with a small amount of precipitation and therefore low soil moisture) in spring.
 
@@ -33,6 +32,18 @@ output:
 
 > -  **Is the paradigm wetter region getting wetter and dry regions getting dryer valid ? Why, why not ?**
 > - No its not valid as most of the data that was the base of this conclusion came from ocean data on evaporation and precipitation patterns over time. Newer studies based on land data does not support this paradigm and show the need for research in regional scale on land to understand differences in the drought pattern over time.
+
+## Eirin
+
+> - **What is El Nino?**
+> - a sea saw condition that hasspens in 3-7 years intervals as the ocean conditions change from one state to another (warmer-->cooler). Trade winds weaken and ocean water moves towards the east. Results in warmer ocean temperatures in South America (where there is normally upwelling of cold water during dominating conditions), this leads to more moisture in the atmosphere and rising sea levels in the east (east coast of North + South America).
+
+## Eirin
+> - **What are five expectations/observations of a warming climate?**
+> - Decrease in: sea ice, glaciers, snow cover. Increase in: sea surface temp., ocean heat content, sea level, temp. over oceans, humidity, air temp. near surface, temp. over land.
+
+> - **Why is sea level rising faster in some areas compared to others?**
+> - This is due to the intensity of the ocean currents. 
 
 ## Adam "G-Dog" Gairns
 
@@ -102,18 +113,89 @@ output:
 > -	Change in albedo leads to cooling of hot extremes, caused by less cloud cover and therefore more radiation, which means that the change in reflectivity is more efficient at cooling the surface. A higher albedo also leads to less drying because of less warming
 > - feedback loops: 1. Impact of albedo on temperature and 2. Delayed effect on soil moisture feedbacks
 
+## John Sverre
 
-## Eirin
+> - **What are the drivers of potential evaporation?**
 
-> - **What is El Nino?**
-> - a sea saw condition that hasspens in 3-7 years intervals as the ocean conditions change from one state to another (warmer-->cooler). Trade winds weaken and ocean water moves towards the east. Results in warmer ocean temperatures in South America (where there is normally upwelling of cold water during dominating conditions), this leads to more moisture in the atmosphere and rising sea levels in the east (east coast of North + South America).
+> - Temperature, radiation  wind speed and relative humidity
 
-## Eirin
-> - **What are five expectations/observations of a warming climate?**
-> - Decrease in: sea ice, glaciers, snow cover. Increase in: sea surface temp., ocean heat content, sea level, temp. over oceans, humidity, air temp. near surface, temp. over land.
 
-> - **Why is sea level rising faster in some areas compared to others?**
-> - This is due to the intensity of the ocean currents. 
+> - **When can we (often) get a large percentage of hot days in a summer?**
+
+> - After a period of dry conditions (moisture deficiency) combined with acyclonic weather.
+
+ 
+> - **Why are heatwaves a big driver for droughts?**
+
+> - The increase in temperature leads to a decrease in evapotranspiration (feedback loop).
+
+## John Sverre
+
+> - **During the hiatus in increasing mean global temperatures (approx. 1998-2010), what happened to temperature extremes on land?**
+
+> - They continued to increase.
+
+
+##Tonje Karin Rio 
+
+> - **Global mean temperature-rise has slowed down from 1998, but how have the temperature-rise evolved on land - compared to globally (land+ocean)?**
+
+> - There has been a stronger increase on land than globally.
+
+
+
+> - **Why is the temperature-rise stronger on land?**
+
+> - Because heat has been taken up by the ocean. The land surface heat up more quickly, while the ocean has higher heat uptake (higher heat capacity).
+
+##Tonje Karin Rio 
+
+> - **Fill in: In a dry climate you will have mostly ___ heat flux, and in a wet climate mostly ___ heat flux.**
+
+> - Dry climate: Sensible heat flux
+Wet climate: Latent heat flux
+
+## Dag Petter Hollekim
+
+> - **Prof. Semeviratne argues that there will be an increased albedo effect in Europe and North America in the future, why is that?**
+> - Because days of extreme heat waves are most often cloudless. This allows the longwave radiation and heat to leave the atmosphere.
+
+> - **What is the limiting factor for evaporation in areas which generally (1) are wet? And what is generally the limiting factor for areas which are (2) dry?**
+
+> - 1=incoming energy, 2=soil moisture content.
+
+## Kristine
+
+> - **Global mean temperature shows less of an increase in the period 2000-2014. At the same time, there is a clear increase in number of extremely hot days on land. How can this be?**
+> - The reason for the difference between the mean temperature and data on land is that the oceans have an enormous capacity to act as a buffer for increased temperature. On land the response is much faster and more dependent on local features. The proposed theory is that number of days with extreme temperature increases is connected to drought. After a drought, the moisture available for latent heat flux is less. This heat flux would normally result in a cooling effect where the phase shift occurs.
+
+## Kristine
+
+This effect on soil moisture on extreme temperature events has been analyzed for different regions and globally, and there seems to be a positive correlation with less precipitation the previous 3 months and more temperature extremes. Allthough this is not the only factor that is controlling the temperature extremes.
+
+## Kristine
+
+> - **Prof. Seneviratne talks of drought not only as a lack of precipitation. How does she define drought, and is it possible to find any global trends?**
+> - Types of drought are meteorological drought (lack of precipitation), soil-moisture drought (lack of water in the soil) and hydrological drought (no water in streams and extremely deep groundwater table).
+The drivers of a drought event is temperature, radiation, wind speed and relative humidity. Temperature and humidity are affected by how much evapotranspiration that takes place and are therefore affected by the land cover. The potential for evapotransipration  will again depend on plant types, growing-cycle of the plants (eg. summer/winter) etc. 
+
+## Kristine
+
+Temperature, radiation and wind speed are all seen to be affected by climate change and it is clear that future projections for drought are extremely complex – this is clear when we look at the large uncertainty in the precipitation datasets for the last 60 years. Several methods and datasets also exist for evapotranspiration and these datasets show up till 30% difference.   
+
+## Kristine
+
+In a study from 2014 (Greve et al.) all these datasets were analysed to find the most robust trend. From this analysis one could find some regions where the change was robust when comparing two 20-year time-periods. So in most areas of the world the data available do not show a trend in drought. This analysis find that there are only a minority of regions that show a strengthening of existing regime -“dry gets drier and wet gets wetter”. This statement seems to be more relevant to oceans.
+
+## Theo Vreugdenhil
+> - **How does land effect the climate system?**
+> - Water: Evaporative cooling, Radiative budget (latent heat)
+> - Surface albedo (shortwave radiation balance)
+
+> - **What are drivers of drought?**
+> - Lack of precipitation (Meteorological drought)
+> - Soil moisture deficit (Soil-moisture drought)
+> - Critical streamflow and groundwater deficit (Hydrological drought) 
 
 ## Further notes
 
