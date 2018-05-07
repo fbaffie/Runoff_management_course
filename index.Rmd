@@ -175,8 +175,8 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Mon. 07 May | 09:15-12:00	| [Hydrological extremes](01_Hydrology/3_hydrological_extremes.html)	| Svingen F2
 Mon. 07 May | 13:15-16:00	| Introduction to SW	| Svingen F2
-Tue. 08 May | 09:15-12:00	| Hydrological modelling | Svingen F1
-Tue. 08 May | 13:15-16:00	| Green SW infrastructure | Svingen F2
+Tue. 08 May | 09:15-12:00	| Green SW infrastructure | Svingen F1
+Tue. 08 May | 13:15-16:00	| Hydrological modelling | Svingen F2
 Wed. 09 May | Whenever	| Project discussions | My office
 
 ## Agenda 14-16 May
@@ -264,7 +264,6 @@ We look at different components of the water cycle. Climate change will impact v
 Quiz theme for Monday 07 May: 
 
 [Effects of land hydrology on atmospheric processes and climate change](https://www.youtube.com/watch?v=zMjchti6LdM)
-
 
 <!--
 

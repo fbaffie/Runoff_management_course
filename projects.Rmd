@@ -195,13 +195,13 @@ Different design challenges:
 
 People	| Main project	|  Second project
 --- | --- | --- 
-Anna Famke Astrid | Discharge gauging |  project2
-Adam Erling Tolbjørn | Flood routing |  project2
-Erik Tonje Eirin | Sogndal's catchment |  project2
-Anne Nils Peter | Small-scale vulnerabitilies |  project2
-Ragnar Sarina Theo | To define |  project2
-Helge Kristine Vibeke | Planning Lyseparken |  project2
-John Sushmitha Willemijn | Vegvesen repair practices |  project2
+Anna Famke Astrid | Discharge gauging |  Small-scale vulnerabitilies
+Adam Erling Tolbjørn | Flood routing |  Green infrastructure synthesis
+Erik Tonje Eirin | Sogndal's catchment |  Planning Lyseparken
+Anne Nils Peter | Small-scale vulnerabitilies |  Flood routing
+Ragnar Sarina Theo | Green infrastructure synthesis |  Discharge gauging
+Helge Kristine Vibeke | Planning Lyseparken |  Vegvesen repair practices
+John Sushmitha Willemijn | Vegvesen repair practices |  Sogndal's catchment
 
 ## Project development
 <!-- <img src="images/logo.png" class="cover"> -->
