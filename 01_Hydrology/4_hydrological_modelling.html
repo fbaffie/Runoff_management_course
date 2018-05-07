@@ -31,8 +31,9 @@
 <h2>Plan</h2>
 <ul>
 <li><a href="./4_hydrological_modelling.html#modelling-options">Modelling options</a></li>
-<li><a href="./4_hydrological_modelling.html#field-intuition-and-modelling">Field intuition and modelling</a></li>
-<li><a href="./4_hydrological_modelling.html#climate-change-phd-example">Climate change - PhD example</a></li>
+<li><a href="./4_hydrological_modelling.html#climate-change-impacts-swiss-alps-example">Climate change impacts: Swiss Alps example</a></li>
+<li><a href="./4_hydrological_modelling.html#exercise-field-intuition-and-modelling">Field intuition and modelling exercise</a></li>
+<li><a href="./4_hydrological_modelling.html#take-home-messages">Take home messages</a></li>
 <li><a href="./4_hydrological_modelling.html#further-resources">Further resources</a> <!--
 ## putting text in specific location
 <div style="font-size: 60%; position: absolute; right: 5%;   width: fit-content; height: fit-content; border:3px solid blue; top:90%; z-index:10">blabla</div>
@@ -62,7 +63,6 @@ crosstalk selector
 </section>
 <section id="modelling-options" class="titleslide slide level1"><h2 class="shout">Modelling options</h2></section><section id="purpose-of-hydrological-modelling" class="slide level2">
 <h2>Purpose of hydrological modelling</h2>
-<p><img src="../images/question.png" class="cover"></p>
 <ul>
 <li class="fragment next"><strong>Why do hydrological modelling</strong></li>
 <li class="fragment next">To predict future discharge</li>
@@ -133,7 +133,6 @@ crosstalk selector
 <p><img src="images/RECAP_met_param_interpolation.png" height="500" width="auto"></p>
 </section><section id="conceptual-approach-linear-reservoir" class="slide level2">
 <h2>Conceptual approach: linear reservoir</h2>
-<p><img src="../images/important.png" class="cover"></p>
 <div class="double">
 <p class="double-flow">
 <img src="images/LinearReservoir.svg" height="350" width="auto">
@@ -193,14 +192,13 @@ $\Delta{T}$ is a small variation of T
 <ul>
 <li class="fragment next"><strong>Which value has a perfect model?</strong></li>
 <li class="fragment next">1</li>
-<li class="fragment next"><strong>Why is it not very good when used on different hydrological regimes?</strong></li>
+<li class="fragment next"><strong>Why is it not always relevant when used on different hydrological regimes?</strong></li>
 <li class="fragment next">It is much easier to have a good value with highly variable hydrographs</li>
 </ul>
 </section><section id="other-model-assessment-criteria" class="slide level2">
 <h2>Other model assessment criteria</h2>
-<p><img src="../images/extra.png" class="cover"></p>
 <ul>
-<li>Benchmark efficiency</li>
+<li>Benchmark efficiency: replace mean observed discharge by a “benchmark” model</li>
 <li>Root Mean Square</li>
 <li>Volumetric error</li>
 <li>Kling-Gupta Efficiency</li>
@@ -210,8 +208,53 @@ video on conceptual GW model
 <iframe width="800" height="450" src="https://www.youtube.com/embed/g414kKPGqDE" frameborder="0" allowfullscreen></iframe>
 -->
 </section>
-<section id="field-intuition-and-modelling" class="titleslide slide level1"><h2 class="shout">Field intuition and modelling</h2></section><section id="conceptual-view-of-my-phd-catchment" class="slide level2">
-<h2>Conceptual view of my PhD catchment</h2>
+<section id="climate-change-impacts-swiss-alps-example" class="titleslide slide level1"><h2 class="shout">Climate change impacts: Swiss Alps example</h2></section><section id="climate-change-impacts" class="slide level2">
+<h2>Climate change impacts</h2>
+<ul>
+<li class="fragment next"><strong>Remember what “downscaling” is?</strong></li>
+<li class="fragment next">Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid</li>
+<li class="fragment next"><strong>Which parameters are affected?</strong></li>
+<li class="fragment next">Air temperature</li>
+<li class="fragment next">Precipitation</li>
+<li class="fragment next">Relative humidity</li>
+<li class="fragment next">Wind speed</li>
+<li class="fragment next">Wind direction</li>
+</ul>
+<!--
+> - **What is an ensemble forecast?**
+> - A forecast using many different models
+-->
+</section><section id="climate-change-scenarios" class="slide level2">
+<h2>Climate change scenarios</h2>
+<p><img src="images/phd/p2_fig2%20-%20Climate%20change%20scenarios%20for%20station%20Guetsch.jpg" height="500" width="auto"></p>
+</section><section id="map-of-the-study-area" class="slide level2">
+<h2>Map of the study area</h2>
+<p><img src="images/phd/p2_fig1%20-%20Map%20of%20the%20study%20area.jpg" height="500" width="auto"></p>
+<!--
+## Difference between modeled and measured runoff during validation period
+<img src="images/phd/p2_fig3%20-%20Difference%20between%20modeled%20and%20measured%20runoff%20during%20the%20validation%20period.jpg" height="500" width="auto">
+-->
+</section><section id="climate-change-predictions" class="slide level2">
+<h2>Climate change predictions</h2>
+<p><img src="images/phd/p2_fig4%20Climate%20change%20predictions%20for%20PREVAH%20and%20ALPINE3D.jpg" height="500" width="auto"></p>
+</section><section id="differences-in-mean-flow" class="slide level2">
+<h2>Differences in mean flow</h2>
+<p><img src="images/phd/p2_fig5%20-Differences%20between%20the%20reference%20and%20future%20periods.jpg" height="450" width="auto"></p>
+</section><section id="differences-in-cumulative-flow" class="slide level2">
+<h2>Differences in cumulative flow</h2>
+<p><img src="images/phd/p2_fig6%20-%20Future%20variations%20in%20yearly%20and%20seasonal%20runoff.jpg" height="500" width="auto"></p>
+</section><section id="conclusions" class="slide level2">
+<h2>Conclusions</h2>
+<ul>
+<li>Both models predict similar changes in flow regimes</li>
+<li>They differ on predicting annual runoff changes</li>
+<li>The physically-based model ALPINE3D showed sensitivity of glacier melt to climate scenarios</li>
+<li>This is likely due to an over-simplification of glacier / firn albedo by the conceptual model</li>
+<li>Full article: <a href="https://www.sciencedirect.com/science/article/pii/S0309170812002205">Future runoff from a partly glaciarized watershed in Central Switzerland: a two-model approach</a></li>
+</ul>
+</section>
+<section id="exercise-field-intuition-and-modelling" class="titleslide slide level1"><h2 class="shout">Exercise: field intuition and modelling</h2></section><section id="conceptual-view-of-my-phd-catchment-published-article" class="slide level2">
+<h2>Conceptual view of my PhD catchment (<a href="https://www.hydrol-earth-syst-sci.net/19/3681/2015/">published article</a>)</h2>
 <p><img src="images/phd/Paper%204%20-%20Figure%207.png" height="450" width="auto"></p>
 </section><section id="electrical-conductivity-natural-tracer" class="slide level2">
 <h2>Electrical conductivity: natural tracer</h2>
@@ -275,9 +318,9 @@ with $L_{integral}(t_{end}) = L_{residual}$
 </section><section id="mass-balance-verification-for-the-infiltration-rate" class="slide level2">
 <h2>Mass balance verification for the infiltration rate</h2>
 <ul>
-<li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume and the exfiltration rate <span class="math inline">\(Q_{gw}\)</span></strong></li>
+<li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume <span class="math inline">\(V(t)\)</span> and the exfiltration rate <span class="math inline">\(Q_{gw}(t)\)</span></strong></li>
 <li class="fragment next">We neglect evapotranspiration and recharge from rain</li>
-<li class="fragment next"><span class="math inline">\(Q_{inf}(t) = dV(t)dt + Q_{gw}(t)\)</span></li>
+<li class="fragment next"><span class="math inline">\(Q_{inf}(t) = \frac{dV(t)}{dt} + Q_{gw}(t)\)</span></li>
 </ul>
 <!--
 ## Figure 4
@@ -286,42 +329,6 @@ with $L_{integral}(t_{end}) = L_{residual}$
 </section><section id="seasonaly-variable-gw-contribution" class="slide level2">
 <h2>Seasonaly variable GW contribution</h2>
 <p><img src="images/phd/Paper%204%20-%20Figure%205.png" height="450" width="auto"></p>
-</section>
-<section id="climate-change-phd-example" class="titleslide slide level1"><h2 class="shout">Climate change PhD example</h2></section><section id="climate-change-impacts" class="slide level2">
-<h2>Climate change impacts</h2>
-<ul>
-<li class="fragment next"><strong>Remember what “downscaling” is?</strong></li>
-<li class="fragment next">Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid</li>
-<li class="fragment next"><strong>Which parameters are affected?</strong></li>
-<li class="fragment next">Air temperature</li>
-<li class="fragment next">Precipitation</li>
-<li class="fragment next">Relative humidity</li>
-<li class="fragment next">Wind speed</li>
-<li class="fragment next">Wind direction</li>
-</ul>
-<!--
-> - **What is an ensemble forecast?**
-> - A forecast using many different models
--->
-</section><section id="climate-change-scenarios" class="slide level2">
-<h2>Climate change scenarios</h2>
-<p><img src="images/phd/p2_fig2%20-%20Climate%20change%20scenarios%20for%20station%20Guetsch.jpg" height="500" width="auto"></p>
-</section><section id="map-of-the-study-area" class="slide level2">
-<h2>Map of the study area</h2>
-<p><img src="images/phd/p2_fig1%20-%20Map%20of%20the%20study%20area.jpg" height="500" width="auto"></p>
-<!--
-## Difference between modeled and measured runoff during validation period
-<img src="images/phd/p2_fig3%20-%20Difference%20between%20modeled%20and%20measured%20runoff%20during%20the%20validation%20period.jpg" height="500" width="auto">
--->
-</section><section id="climate-change-predictions" class="slide level2">
-<h2>Climate change predictions</h2>
-<p><img src="images/phd/p2_fig4%20Climate%20change%20predictions%20for%20PREVAH%20and%20ALPINE3D.jpg" height="500" width="auto"></p>
-</section><section id="differences-in-mean-flow" class="slide level2">
-<h2>Differences in mean flow</h2>
-<p><img src="images/phd/p2_fig5%20-Differences%20between%20the%20reference%20and%20future%20periods.jpg" height="450" width="auto"></p>
-</section><section id="differences-in-cumulative-flow" class="slide level2">
-<h2>Differences in cumulative flow</h2>
-<p><img src="images/phd/p2_fig6%20-%20Future%20variations%20in%20yearly%20and%20seasonal%20runoff.jpg" height="500" width="auto"></p>
 </section><section id="take-home-messages" class="slide level2">
 <h2>Take home messages</h2>
 <ul>
@@ -334,7 +341,6 @@ with $L_{integral}(t_{end}) = L_{residual}$
 <li>Plotting choices can influence analysis</li>
 </ul>
 </section>
-<section id="exercise-preparation" class="titleslide slide level1"><h2 class="shout">Exercise preparation</h2></section></section>
 <section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="book-chapters" class="slide level2">
 <h2>Book chapters</h2>
 <p>Elements of physical hydrology. Chapters 5, 7, 9</p>
@@ -344,7 +350,6 @@ with $L_{integral}(t_{end}) = L_{residual}$
 <p>Nevina web tool from NVE: <a href="http://nevina.nve.no/" class="uri">http://nevina.nve.no/</a></p>
 <p>We will use this tool in an exercise session and during the “Flood mapping” lecture.</p>
 <p><a href="http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf">Hydrological atlas for Norway</a></p>
-<p><a href="http://www.hydrologischeratlas.ch">Hydrological atlas of Switzerland</a></p>
 <p><a href="http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf">Models for green stormwater infrastructure</a></p>
 </section><section id="resources-from-the-usda" class="slide level2">
 <h2>Resources from the USDA</h2>

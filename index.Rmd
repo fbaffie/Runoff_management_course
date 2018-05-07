@@ -553,28 +553,36 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 
 # EXERCISE SESSIONS
 
-## Hydrological processes
+## Hydrological processes exercises
 <img src="images/logo.png" class="cover">
 
-- Program a temperature-index model for snowmelt
-- Designing drinking water infrastructure: flow through sand filters
+- Program a temperature-index model for snowmelt (provided by [Uni Zürich](http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html))
+- Designing drinking water infrastructure: flow through sand filters 
 - Steady flow in an unconfined aquifer
 - Link between groundwater drop and streamflow recession
 
-## Hydrological modelling
+## Hydrological modelling exercises
 <img src="images/logo.png" class="cover">
 
-- Exercises using the hydrological model HBV light
-- Data preparation for modelling the Sogndalselvi catchment
-- Key hydrological figures at various time scales: experiment with hydrological extremes
+The goal is to complete exercises 1, 2 and 3 suggested by Jan Seibert with the hydrological model [HBV Light](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
+The program, accompanying data and an introduction lecture to the model can be accessed on the University of Zürich, Department of geography [webpage](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)
+You can try to install the software on your laptop but there was a resolution problem on mine.
+Otherwise, the program is installed on the computers of room: F-208 Kjelda
 
-## Hydropower and hydraulics
+Two exercises using the hydrological model HBV light (see [introduction lecture and manual](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)):
+
+- Calibration exercise: follow those [instructions](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-1.html)
+- Estimation of design flood: follow those [instructions](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-3.html)
+
+Put your files on a USB stick or send them to me as a .zip. Two group will present their results on May 14.
+
+## Hydropower and hydraulics exercises
 <img src="images/logo.png" class="cover">
 
 - Case study of Statkraft's hydropower infrastructure in Jostedal
 - Designing flood protection measures in Lærdal
 
-## Urban hydrology and green infrastructure
+## Urban hydrology and green infrastructure exercises
 <img src="images/logo.png" class="cover">
 
 Some calculations and drawings based on a water harvesting example in Tucson, Arizona.
@@ -583,7 +591,7 @@ Some calculations and drawings based on a water harvesting example in Tucson, Ar
 
 <!-- [Exercises](EXERCISES/EX05-sw_design.html) -->
 
-## Urban and rural hydrology: field observations and planning
+## Urban and rural hydrology exercises: field observations and planning
 <img src="images/logo.png" class="cover">
 
 - Visit of a site where 100 new dwellings had been suggested (Leikanger). 

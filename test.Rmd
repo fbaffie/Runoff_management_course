@@ -60,8 +60,6 @@ https://serc.carleton.edu/hydromodules/units/rational_method.html
 https://wikiwatershed.org/model/
 -->
 
-Climate factors adapted for each region plus uncertainty ADD THE LATEST LINK
-
 <!-- 
 TO CHECK / PROCESS
 for laminar flow in open channels, Reynolds number is less than about 500.
@@ -92,19 +90,6 @@ Fourth quizz on student projects
 
 
 # Course schedule with links
-
-## Agenda: 02-04 May
-<img src="images/logo.png" class="cover">
-
-Day	| Time	| Topic	| Room
---- | --- | --- | --- 
-Wed. 02 May | 09:15-12:00	| [The water cycle](01_Hydrology/1_water_cycle.html)	| Svingen F2
-Thu. 03 May | 09:15-12:00	| [Hydrological processes 1](01_Hydrology/2_hydrological_processes_1.html) | Svingen F3
-Thu. 03 May | 12:30-14:00	| Excursion drinking water | Svingen F3
-Fri. 04 May | 09:15-12:00	| [Hydrological processes 2](01_Hydrology/2_hydrological_processes_2.html) | Svingen F2
-Fri. 04 May | 13:15-16:00	| Exercises: hydrology | Fossbygget-F208  Kjelda
-
-<!-- Svingen F2 also available for exercises -->
 
 ## Agenda 07-09 May
 <img src="images/logo.png" class="cover">

@@ -13,8 +13,9 @@ output:
 ## Plan
 
 - [Modelling options](./4_hydrological_modelling.html#modelling-options)
-- [Field intuition and modelling](./4_hydrological_modelling.html#field-intuition-and-modelling)
-- [Climate change - PhD example](./4_hydrological_modelling.html#climate-change-phd-example)
+- [Climate change impacts: Swiss Alps example](./4_hydrological_modelling.html#climate-change-impacts-swiss-alps-example)
+- [Field intuition and modelling exercise](./4_hydrological_modelling.html#exercise-field-intuition-and-modelling)
+- [Take home messages](./4_hydrological_modelling.html#take-home-messages)
 - [Further resources](./4_hydrological_modelling.html#further-resources)
 <!--
 ## putting text in specific location
@@ -59,7 +60,6 @@ crosstalk selector
 # Modelling options
 
 ## Purpose of hydrological modelling
-<img src="../images/question.png" class="cover">
 
 > - **Why do hydrological modelling**
 > - To predict future discharge
@@ -123,7 +123,6 @@ crosstalk selector
 <img src="images/RECAP_met_param_interpolation.png" height="500" width="auto">
 
 ## Conceptual approach: linear reservoir
-<img src="../images/important.png" class="cover">
 
 <div class="double"> 
 <p class="double-flow">
@@ -199,13 +198,12 @@ where $\overline{Q_o}$ is the mean of observed discharges, $Q_o(t)$ and $Q_m(t)$
 
 > - **Which value has a perfect model?**
 > - 1
-> - **Why is it not very good when used on different hydrological regimes?**
+> - **Why is it not always relevant when used on different hydrological regimes?**
 > - It is much easier to have a good value with highly variable hydrographs
 
 ## Other model assessment criteria
-<img src="../images/extra.png" class="cover">
 
-- Benchmark efficiency
+- Benchmark efficiency: replace mean observed discharge by a "benchmark" model
 - Root Mean Square
 - Volumetric error
 - Kling-Gupta Efficiency
@@ -215,9 +213,56 @@ video on conceptual GW model
 <iframe width="800" height="450" src="https://www.youtube.com/embed/g414kKPGqDE" frameborder="0" allowfullscreen></iframe>
 -->
 
-# Field intuition and modelling
+# Climate change impacts: Swiss Alps example
 
-## Conceptual view of my PhD catchment
+## Climate change impacts
+
+> - **Remember what "downscaling" is?**
+> - Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid
+> - **Which parameters are affected?**
+> - Air temperature
+> - Precipitation
+> - Relative humidity
+> - Wind speed
+> - Wind direction
+
+
+<!--
+> - **What is an ensemble forecast?**
+> - A forecast using many different models
+-->
+
+## Climate change scenarios
+<img src="images/phd/p2_fig2 - Climate change scenarios for station Guetsch.jpg" height="500" width="auto">
+
+## Map of the study area
+<img src="images/phd/p2_fig1 - Map of the study area.jpg" height="500" width="auto">
+
+<!--
+## Difference between modeled and measured runoff during validation period
+<img src="images/phd/p2_fig3 - Difference between modeled and measured runoff during the validation period.jpg" height="500" width="auto">
+-->
+## Climate change predictions
+<img src="images/phd/p2_fig4 Climate change predictions for PREVAH and ALPINE3D.jpg" height="500" width="auto">
+
+## Differences in mean flow
+<img src="images/phd/p2_fig5 -Differences between the reference and future periods.jpg" height="450" width="auto">
+
+## Differences in cumulative flow
+<img src="images/phd/p2_fig6 - Future variations in yearly and seasonal runoff.jpg" height="500" width="auto">
+
+## Conclusions
+
+- Both models predict similar changes in flow regimes
+- They differ on predicting annual runoff changes
+- The physically-based model ALPINE3D showed sensitivity of glacier melt to climate scenarios
+- This is likely due to an over-simplification of glacier / firn albedo by the conceptual model
+- Full article: [Future runoff from a partly glaciarized watershed in Central Switzerland: a two-model approach](https://www.sciencedirect.com/science/article/pii/S0309170812002205)
+
+
+# Exercise: field intuition and modelling
+
+## Conceptual view of my PhD catchment ([published article](https://www.hydrol-earth-syst-sci.net/19/3681/2015/))
 <img src="images/phd/Paper 4 - Figure 7.png" height="450" width="auto">
 
 ## Electrical conductivity: natural tracer
@@ -284,9 +329,9 @@ with $L_{integral}(t_{end}) = L_{residual}$
 
 ## Mass balance verification for the infiltration rate
 
-> - **Write the infiltration rate as a function of the storage volume and the exfiltration rate $Q_{gw}$**
+> - **Write the infiltration rate as a function of the storage volume $V(t)$ and the exfiltration rate $Q_{gw}(t)$**
 > - We neglect evapotranspiration and recharge from rain 
-> - $Q_{inf}(t) = dV(t)dt + Q_{gw}(t)$
+> - $Q_{inf}(t) = \frac{dV(t)}{dt} + Q_{gw}(t)$
 
 <!--
 ## Figure 4
@@ -295,44 +340,6 @@ with $L_{integral}(t_{end}) = L_{residual}$
 
 ## Seasonaly variable GW contribution
 <img src="images/phd/Paper 4 - Figure 5.png" height="450" width="auto">
-
-# Climate change PhD example
-
-## Climate change impacts
-
-> - **Remember what "downscaling" is?**
-> - Downscaling adds small-scale details, like topography-induced variations, which are not seen on the GCMs larger grid
-> - **Which parameters are affected?**
-> - Air temperature
-> - Precipitation
-> - Relative humidity
-> - Wind speed
-> - Wind direction
-
-
-<!--
-> - **What is an ensemble forecast?**
-> - A forecast using many different models
--->
-
-## Climate change scenarios
-<img src="images/phd/p2_fig2 - Climate change scenarios for station Guetsch.jpg" height="500" width="auto">
-
-## Map of the study area
-<img src="images/phd/p2_fig1 - Map of the study area.jpg" height="500" width="auto">
-
-<!--
-## Difference between modeled and measured runoff during validation period
-<img src="images/phd/p2_fig3 - Difference between modeled and measured runoff during the validation period.jpg" height="500" width="auto">
--->
-## Climate change predictions
-<img src="images/phd/p2_fig4 Climate change predictions for PREVAH and ALPINE3D.jpg" height="500" width="auto">
-
-## Differences in mean flow
-<img src="images/phd/p2_fig5 -Differences between the reference and future periods.jpg" height="450" width="auto">
-
-## Differences in cumulative flow
-<img src="images/phd/p2_fig6 - Future variations in yearly and seasonal runoff.jpg" height="500" width="auto">
 
 ## Take home messages
 
@@ -343,13 +350,6 @@ with $L_{integral}(t_{end}) = L_{residual}$
 - Equifinality problem with over-parametrization
 - Know the assumptions and their impact
 - Plotting choices can influence analysis
-
-# Exercise preparation
-
-The goal is to complete exercises 1, 2 and 3 suggested by Jan Seibert with the hydrological model [HBV Light](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
-The program, accompanying data and an introduction lecture to the model can be accessed on the University of Zürich, Department of geography [webpage](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)
-You can try to install the software on your laptop but there was a resolution problem on mine.
-Otherwise, the program is installed on the computers of room: F-208 Kjelda
 
 # Further resources
 
@@ -366,8 +366,6 @@ Nevina web tool from NVE: http://nevina.nve.no/
 We will use this tool in an exercise session and during the "Flood mapping" lecture.
 
 [Hydrological atlas for Norway](http://publikasjoner.nve.no/dokument/2002/dokument2002_02.pdf)
-
-[Hydrological atlas of Switzerland](http://www.hydrologischeratlas.ch)
 
 [Models for green stormwater infrastructure](http://www.ciwem.org/wp-content/uploads/2016/04/Richard-Kellagher-Part-Two.pdf)
 

@@ -27,32 +27,6 @@
 
     
   
-<section id="hydrological-processes" class="slide level2">
-<h2>Hydrological processes</h2>
-<p>In this exercise session we will practice concepts covered in class: - Infiltration - Groundwater flow - Evaporation - Snowmelt and glacier melt</p>
-</section>
-<section id="steady-flow-in-an-unconfined-aquifer" class="slide level2">
-<h2><a href="http://www.geo.citg.tudelft.nl/~uffink/syllabusCT3320/part1/6.1/6.1.html">Steady flow in an unconfined aquifer</a></h2>
-<ul>
-<li class="fragment next"><strong>Most aquifers are thin and quite flat. Which flow direction can we neglect?</strong></li>
-<li class="fragment next">We can neglect vertical flow. Groundwater is hydrostatic (vertical equipotential lines)</li>
-<li class="fragment next">Groundwater discharge is proportional to the depth of the aquifer</li>
-<li class="fragment next">This is the Dupuit–Forchheimer assumption</li>
-</ul>
-<p><img src="images/unconfined_aquifer_ex.gif" height="300" width="auto"></p>
-</section>
-<section id="find-q-as-a-function-of-k-l-phi_1-and-phi_2" class="slide level2">
-<h2>Find Q as a function of <span class="math inline">\(K\)</span>, L, <span class="math inline">\(\phi_1\)</span> and <span class="math inline">\(\phi_2\)</span></h2>
-<ol type="1">
-<li class="fragment next"><strong>Express Q as a function of h and q (flow per unit area)</strong></li>
-<li class="fragment next"><strong>Use the conservation of mass across each <span class="math inline">\(dx\)</span> slice of aquifer</strong></li>
-<li class="fragment next"><strong>With the reference level as the base of the aquifer (<span class="math inline">\(\phi = h\)</span>), write Darcy’s Law</strong></li>
-<li class="fragment next"><strong>Combine 2 and 3</strong></li>
-<li class="fragment next"><strong>We assume that <em>K</em> is uniform, integrate, and express <span class="math inline">\(h^2\)</span> and <span class="math inline">\(h\)</span> as a function of x, L, <span class="math inline">\(\phi_1\)</span> and <span class="math inline">\(\phi_2\)</span></strong></li>
-<li class="fragment next"><strong>Using steps 1 and 3, we want to express <span class="math inline">\(Q\)</span> without <span class="math inline">\(x\)</span></strong></li>
-<li class="fragment next">Finally we have: <span class="math inline">\(Q = -K\frac{(\phi_2^2-\phi_1^2)}{2L}\)</span></li>
-</ol>
-</section>
 <section id="groundwater-recession" class="titleslide slide level1"><h2 class="shout">Groundwater recession</h2></section><section id="modelling-recession-dynamics" class="slide level2">
 <h2>Modelling recession dynamics</h2>
 <p><span class="math inline">\(Q = Q_{0} * e^{-ct}\)</span></p>
@@ -73,102 +47,24 @@
 <p><span class="math inline">\(Q_r = Q_{r0} * e^{-ct}\)</span></p>
 <p>So the use of the first equation implies that the groundwater reservoir behaves as a linear reservoir, the GW outflow is proportional the amount of water stored.</p>
 <p>This tool can be usefull to estimate flow throughout a dry season.</p>
-</section>
-<section id="field-intuition-and-modelling-conceptual-modelling-of-surface-groundwater-interactions" class="titleslide slide level1"><h2 class="shout">Field intuition and modelling: conceptual modelling of surface / groundwater interactions</h2></section><section id="conceptual-view-of-my-phd-catchment" class="slide level2">
-<h2>Conceptual view of my PhD catchment</h2>
-<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 7.png" height="450" width="auto"></p>
-</section><section id="electrical-conductivity-natural-tracer" class="slide level2">
-<h2>Electrical conductivity: natural tracer</h2>
-<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 1.png" height="450" width="auto"></p>
-<!--
-> - **From this graph, what can you tell about the relationship between electrical conductivity and streamflow?**
-> - There is an inverse proportionality which seems to depend on the season and the discharge.
-> - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
-> - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
--->
-</section><section id="initial-data-and-modelling-results" class="slide level2">
-<h2>Initial data and modelling results</h2>
-<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 3.png" height="450" width="auto"></p>
-</section><section id="two-component-mixing-model" class="slide level2">
-<h2>Two component mixing model</h2>
-<ul>
-<li class="fragment next"><strong>Write the water balance to express <span class="math inline">\(Q(t)\)</span>, the total discharge at time t, as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, the groundwater exfiltration and <span class="math inline">\(Q_{gl}(t)\)</span>, the glacier melt contribution (we neglect rain and evapotranspiration)</strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) = Q_{gw}(t) + Q_{gl}(t)\)</span></li>
-<li class="fragment next"><strong>Write the solute mass balance to express <span class="math inline">\(Q(t) EC(t)\)</span> (the mass of solutes exiting the catchment per second) as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(Q_{gl}(t)\)</span> as well as <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span>, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.</strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}\)</span></li>
-</ul>
-</section><section id="total-discharge-as-a-function-of-q_gwt" class="slide level2">
-<h2>Total discharge as a function of <span class="math inline">\(Q_{gw}(t)\)</span></h2>
-<ul>
-<li class="fragment next"><strong>By substituting <span class="math inline">\(Q_{gl}(t)\)</span> in one of the previous equations, express <span class="math inline">\(Q(t)\)</span> as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(EC(t)\)</span> and the constants <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span></strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}\)</span></li>
-</ul>
-</section><section id="modelled-baseflow-recession" class="slide level2">
-<h2>Modelled baseflow recession</h2>
-<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 2.png" height="450" width="auto"></p>
-<!--
-> - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
-$Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
-
-## GW exfiltration as a function of groundwater level
-\[Q_{gw}(t) = V_{slow}(t)*T_{slow} + V_{fast}(t) T_{fast}\]
--->
-<!--
-## Recession discharge
-\[Q_{recession}(t) = Q_{meas}(t_{end})*e^{\frac{t_{end} − t}{T_{slow}}}\]
--->
-<!--
-## Groundwater storage as a function of field GW measurements
-\[L_{integral}(t) = L_{integral}(t − 1t) + P_n i+1 L_i(t)−L_i(t−1t) n \]
-with $L_{integral}(t_{end}) = L_{residual}$
-
-
-##  Total groundwater flow as a function of field GW measurements
-\[Q_{gw}(t) = baseflow_{max} + A_{fast} × L_{integral}(t) × \Phi * T_{fast}\]
-
-
-## Benchmark efficiency
-\[E = 1 − P_t (Q_{meas}(t) − Q_{mod}(t))^2 P_t (Q_{meas}(t) − Q_{bench}(t))^2\]
-
-## Verifying $A_{slow}$ with snowmelt recharge
-\[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
--->
-</section><section id="aquifer-recharge-with-snowmelt" class="slide level2">
-<h2>Aquifer recharge with snowmelt</h2>
-<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 6.png" height="450" width="auto"></p>
-</section><section id="mass-balance-verification-for-the-infiltration-rate" class="slide level2">
-<h2>Mass balance verification for the infiltration rate</h2>
-<ul>
-<li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume and the exfiltration rate <span class="math inline">\(Q_{gw}\)</span></strong></li>
-<li class="fragment next">We neglect evapotranspiration and recharge from rain</li>
-<li class="fragment next"><span class="math inline">\(Q_{inf}(t) = dV(t)dt + Q_{gw}(t)\)</span></li>
-</ul>
-</section><section id="seasonaly-variable-gw-contribution" class="slide level2">
-<h2>Seasonaly variable GW contribution</h2>
-<p><img src="../01_Hydrology/images/phd/Paper 4 - Figure 5.png" height="450" width="auto"></p>
 </section><section id="discussion" class="slide level2">
 <h2>Discussion</h2>
-<p>Discuss the pros and cons of this approach.</p>
+<p>Discuss the pros and cons of my approach.</p>
 <p>In which cases could it work better?</p>
-</section>
-<section id="modelling-snowmelt" class="titleslide slide level1"><h2 class="shout">Modelling snowmelt</h2></section><section id="program-you-own-model" class="slide level2">
-<h2>Program you own model!</h2>
-<p>Follow instruction of <a href="http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html">exercise 6: Snow model</a> provided by Universy of Zürich</p>
-<p>Download this article: <a href="https://www.hydrol-earth-syst-sci.net/16/3315/2012/">Teaching hydrological modeling with a user-friendly catchment-runoff-model software package</a></p>
-</section><section id="steps" class="slide level2">
-<h2>Steps</h2>
-<p>Load the data into R</p>
-<p>Name model parameters and initialize modelled variables</p>
-<p>Make a “for” loop to run the model</p>
-</section><section id="good-of-fit-metrics" class="slide level2">
-<h2>Good of fit metrics</h2>
-<p>Discuss different ways to assess the quality of your model.</p>
-<p>How might different objective functions be used in specific contexts?</p>
-<p>Add a goodness of fit measure to your routine and optimize the model according to this metric.</p>
-</section>
-<section id="extras" class="titleslide slide level1"><h2 class="shout">Extras</h2></section><section id="irrigation-exercise" class="slide level2">
-<h2>Irrigation exercise</h2>
-<p>Good exercise page 255, elements of physical hydrology</p>
+<!-- # Hydrological modelling with HBV Light -->
+<!-- Follow instruction of [exercise 6: Snow model](http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html) provided by Universy of Zürich -->
+<!-- Download this article: [Teaching hydrological modeling with a user-friendly catchment-runoff-model software package](https://www.hydrol-earth-syst-sci.net/16/3315/2012/) -->
+<!-- ## Steps -->
+<!-- Load the data into R -->
+<!-- Name model parameters and initialize modelled variables -->
+<!-- Make a "for" loop to run the model -->
+<!-- ## Good of fit metrics -->
+<!-- Discuss different ways to assess the quality of your model. -->
+<!-- How might different objective functions be used in specific contexts? -->
+<!-- Add a goodness of fit measure to your routine and optimize the model according to this metric. -->
+<!-- # Extras -->
+<!-- ## Irrigation exercise -->
+<!-- Good exercise page 255, elements of physical hydrology -->
 <!-- ## Prepare potential evapotranspiration series -->
 <!-- Use the method of your choice to compute daily potential evapotraspiration. -->
 <!-- Try energy balance calculations for potential evapotranspiration. See Elements of physical hydrology. -->
