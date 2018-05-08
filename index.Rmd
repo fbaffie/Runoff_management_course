@@ -176,7 +176,7 @@ Day	| Time	| Topic	| Room
 Mon. 07 May | 09:15-12:00	| [Hydrological extremes](01_Hydrology/3_hydrological_extremes.html)	| Svingen F2
 Mon. 07 May | 13:15-16:00	| Introduction to SW	| Svingen F2
 Tue. 08 May | 09:15-12:00	| Green SW infrastructure | Svingen F1
-Tue. 08 May | 13:15-16:00	| Hydrological modelling | Svingen F2
+Tue. 08 May | 13:15-16:00	| [Hydrological modelling](01_Hydrology/4_hydrological_modelling.html) | Svingen F2
 Wed. 09 May | Whenever	| Project discussions | My office
 
 ## Agenda 14-16 May
@@ -345,7 +345,7 @@ Fit some distributions to the historical data: annual maximum, peak over thresho
 
 ## Hydrological modelling
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](01_Hydrology/4_hydrological_modelling.html) -->
+[Lecture](01_Hydrology/4_hydrological_modelling.html)
 
 Being able to model streamflow helps make better management decisions such as sizing of reservoirs, culverts or allowances for irrigation. We will look at different modelling concepts used in hydrology, their data requirements, forecasting abilities and limitations.
 
@@ -564,17 +564,15 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 ## Hydrological modelling exercises
 <img src="images/logo.png" class="cover">
 
-The goal is to complete exercises 1, 2 and 3 suggested by Jan Seibert with the hydrological model [HBV Light](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
-The program, accompanying data and an introduction lecture to the model can be accessed on the University of Zürich, Department of geography [webpage](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)
-You can try to install the software on your laptop but there was a resolution problem on mine.
-Otherwise, the program is installed on the computers of room: F-208 Kjelda
-
-Two exercises using the hydrological model HBV light (see [introduction lecture and manual](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html)):
+The goal is to complete exercises 1 and 3 suggested by Jan Seibert with the hydrological model [HBV Light](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model.html).
+The program is on Fronter, you need to download the data. You can try to install the software on your laptop but there was a resolution problem on mine.
+Otherwise, the program is installed with the data on the 8  most front computers of room: F-208 Kjelda.
+Please read the [introduction lecture and manual](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/HBV-Download.html) and try those exercises:
 
 - Calibration exercise: follow those [instructions](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-1.html)
 - Estimation of design flood: follow those [instructions](https://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-3.html)
 
-Put your files on a USB stick or send them to me as a .zip. Two group will present their results on May 14.
+Put your files on a USB stick or send them to me as a .zip. Two groups will (informally) present their results on May 14. 
 
 ## Hydropower and hydraulics exercises
 <img src="images/logo.png" class="cover">

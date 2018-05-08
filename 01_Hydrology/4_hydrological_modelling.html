@@ -253,8 +253,9 @@ video on conceptual GW model
 <li>Full article: <a href="https://www.sciencedirect.com/science/article/pii/S0309170812002205">Future runoff from a partly glaciarized watershed in Central Switzerland: a two-model approach</a></li>
 </ul>
 </section>
-<section id="exercise-field-intuition-and-modelling" class="titleslide slide level1"><h2 class="shout">Exercise: field intuition and modelling</h2></section><section id="conceptual-view-of-my-phd-catchment-published-article" class="slide level2">
-<h2>Conceptual view of my PhD catchment (<a href="https://www.hydrol-earth-syst-sci.net/19/3681/2015/">published article</a>)</h2>
+<section id="exercise-field-intuition-and-modelling" class="titleslide slide level1"><h2 class="shout">Exercise: field intuition and modelling</h2></section><section id="conceptual-view-of-my-phd-catchment" class="slide level2">
+<h2>Conceptual view of my PhD catchment</h2>
+<!-- ([published article](https://www.hydrol-earth-syst-sci.net/19/3681/2015/)) -->
 <p><img src="images/phd/Paper%204%20-%20Figure%207.png" height="450" width="auto"></p>
 </section><section id="electrical-conductivity-natural-tracer" class="slide level2">
 <h2>Electrical conductivity: natural tracer</h2>
@@ -265,27 +266,57 @@ video on conceptual GW model
 > - **From this graph, what can you tell about the relationship between stream stage and groundwater stage near and far from the stream?**
 > - **Cite another example where such dynamics happen on a daily basis. (tip: this is linked to a another periodical natural phenomenon)**
 -->
+</section><section id="seasonaly-variable-gw-contribution" class="slide level2">
+<h2>Seasonaly variable GW contribution</h2>
+<p><img src="images/phd/Paper%204%20-%20Figure%205.png" height="450" width="auto"></p>
 </section><section id="initial-data-and-modelling-results" class="slide level2">
 <h2>Initial data and modelling results</h2>
 <p><img src="images/phd/Paper%204%20-%20Figure%203.png" height="450" width="auto"></p>
-</section><section id="two-component-mixing-model" class="slide level2">
-<h2>Two component mixing model</h2>
+</section><section id="questions-two-component-mixing-model" class="slide level2">
+<h2>Questions: two component mixing model</h2>
 <ul>
 <li class="fragment next"><strong>Write the water balance to express <span class="math inline">\(Q(t)\)</span>, the total discharge at time t, as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, the groundwater exfiltration and <span class="math inline">\(Q_{gl}(t)\)</span>, the glacier melt contribution (we neglect rain and evapotranspiration)</strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) = Q_{gw}(t) + Q_{gl}(t)\)</span></li>
-<li class="fragment next"><strong>Write the solute mass balance to express <span class="math inline">\(Q(t) EC(t)\)</span> (the mass of solutes exiting the catchment per second) as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(Q_{gl}(t)\)</span> as well as <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span>, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.</strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}\)</span></li>
 </ul>
-</section><section id="total-discharge-as-a-function-of-q_gwt" class="slide level2">
-<h2>Total discharge as a function of <span class="math inline">\(Q_{gw}(t)\)</span></h2>
+<ul>
+<li class="fragment next"><strong>Write the solute mass balance to express <span class="math inline">\(Q(t) EC(t)\)</span> (the mass of solutes exiting the catchment per second) as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(Q_{gl}(t)\)</span> as well as <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span>, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.</strong></li>
+</ul>
 <ul>
 <li class="fragment next"><strong>By substituting <span class="math inline">\(Q_{gl}(t)\)</span> in one of the previous equations, express <span class="math inline">\(Q(t)\)</span> as a function of <span class="math inline">\(Q_{gw}(t)\)</span>, <span class="math inline">\(EC(t)\)</span> and the constants <span class="math inline">\(EC_{gw}\)</span> and <span class="math inline">\(EC_{gl}\)</span></strong></li>
-<li class="fragment next"><span class="math inline">\(Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}\)</span></li>
 </ul>
-</section><section id="modelled-baseflow-recession" class="slide level2">
-<h2>Modelled baseflow recession</h2>
-<p><img src="images/phd/Paper%204%20-%20Figure%202.png" height="450" width="auto"></p>
+<!-- ## Two component mixing model -->
+<!-- > - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)** -->
+<!-- > - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$ -->
+<!-- > - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.** -->
+<!-- > - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$ -->
+<!-- ## Total discharge as a function of $Q_{gw}(t)$ -->
+<!-- > - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$** -->
+<!-- > - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$ -->
+</section><section id="questions-gw-outflow-modelling-approach" class="slide level2">
+<h2>Questions: GW outflow modelling approach</h2>
+<ul>
+<li class="fragment next"><strong>We have measurements of depth to the water table available in 5 locations throughout the forefield. They are however only 1.5m deep max. We also have good data on a pure GW recession event during one late autumn. Discuss how those data can be used to model GW exfiltration into the stream.</strong></li>
+</ul>
+<ul>
+<li class="fragment next"><strong>Based on our concept of 2 superposed linear reservoirs. We can use the recession event to parametrize the underlying slow aquifer. How?</strong></li>
+</ul>
+<ul>
+<li class="fragment next"><strong>Local meteorological data is available including soil moisture. How do we extract <span class="math inline">\(baseflow_{max}\)</span> from this fit? From this, how do we find the volume of the aquifer?</strong></li>
+</ul>
+</section><section id="questions-some-verifications" class="slide level2">
+<h2>Questions: some verifications</h2>
+<ul>
+<li class="fragment next"><strong>How could we check whether the deep slow aquifer makes sense (both the concept and <span class="math inline">\(T_{slow}\)</span> constant)? An example picture (hydro. processes lecture) showing of the intermittance of the stream at S1 can help.</strong></li>
+</ul>
+<ul>
+<li class="fragment next"><strong>Why can the volume and recession constant of the fast aquifer take many different values with this approach? How can we constrain the volume of the fast aquifer to improve our model?</strong></li>
+</ul>
+<ul>
+<li class="fragment next"><strong>Criticize the overall approach!</strong></li>
+</ul>
+<!-- ## Modelled baseflow recession -->
+<!-- <img src="images/phd/Paper%204%20-%20Figure%202.png" height="450" width="auto"> -->
 <!--
+###############
 > - $Q(t)=Q_{gw}(t)*(EC_{gw}−EC_{gl})/(EC(t)−EC_{gl})$
 $Q(t) = \frac{(EC_{gw}−EC_{gl})Q_{gw}(t)}{EC(t)−EC_{gl}}$
 
@@ -311,24 +342,14 @@ with $L_{integral}(t_{end}) = L_{residual}$
 
 ## Verifying $A_{slow}$ with snowmelt recharge
 \[V_{slow}(t) = V_{slow}(t−\Delta{t}) + (R(t) − \frac{V_{slow}(t−\Delta{t})}{T_{slow}})* \Delta{t}\]
+###############
 -->
-</section><section id="aquifer-recharge-with-snowmelt" class="slide level2">
-<h2>Aquifer recharge with snowmelt</h2>
-<p><img src="images/phd/Paper%204%20-%20Figure%206.png" height="450" width="auto"></p>
-</section><section id="mass-balance-verification-for-the-infiltration-rate" class="slide level2">
-<h2>Mass balance verification for the infiltration rate</h2>
-<ul>
-<li class="fragment next"><strong>Write the infiltration rate as a function of the storage volume <span class="math inline">\(V(t)\)</span> and the exfiltration rate <span class="math inline">\(Q_{gw}(t)\)</span></strong></li>
-<li class="fragment next">We neglect evapotranspiration and recharge from rain</li>
-<li class="fragment next"><span class="math inline">\(Q_{inf}(t) = \frac{dV(t)}{dt} + Q_{gw}(t)\)</span></li>
-</ul>
-<!--
-## Figure 4
-<img src="images/phd/Paper%204%20-%20Figure%204.png" height="450" width="auto">
--->
-</section><section id="seasonaly-variable-gw-contribution" class="slide level2">
-<h2>Seasonaly variable GW contribution</h2>
-<p><img src="images/phd/Paper%204%20-%20Figure%205.png" height="450" width="auto"></p>
+<!-- ## Aquifer recharge with snowmelt -->
+<!-- <img src="images/phd/Paper%204%20-%20Figure%206.png" height="450" width="auto"> -->
+<!-- ## Mass balance verification for the infiltration rate -->
+<!-- > - **Write the infiltration rate as a function of the storage volume $V(t)$ and the exfiltration rate $Q_{gw}(t)$** -->
+<!-- > - We neglect evapotranspiration and recharge from rain  -->
+<!-- > - $Q_{inf}(t) = \frac{dV(t)}{dt} + Q_{gw}(t)$ -->
 </section><section id="take-home-messages" class="slide level2">
 <h2>Take home messages</h2>
 <ul>
