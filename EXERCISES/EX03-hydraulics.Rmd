@@ -127,4 +127,12 @@ This [NVE report in Norwegian](http://publikasjoner.nve.no/hydra/rapport/mi05.pd
 
 <!-- Hydrology and hydraulics in sandane, look at storing water in the football field -->
 <!-- Example of reconstructing peak flow with mannings formula, based on signs left by the flood  -->
+
+
+
+## Micro-hydropower exercise
+
+[NVE - småkraft potensial](https://gis3.nve.no/link/?link=smakraft): estimate the hydro-electric potential ("Produksjon") of some sites around Sogndal in GWh/year (using mean available discharge "Vannføring" and elevation difference "Brutto fallhøyde")
+
+You can also look at the figures for the site in Berge: [NVE's concession document](https://www.nve.no/konsesjonssaker/konsesjonssak/?id=4244&type=V-1)
     

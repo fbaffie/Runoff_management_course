@@ -21,16 +21,6 @@ output:
 
 # Flow neglecting friction
 
-## Pressure in atmosphere and oceans
-
-<img src="images/pressure_water_air.svg" height="450" width="auto">
-
-<!--
-https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg
-
-<p><a href="https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pressure_water_air_%28en%29.svg/1200px-Pressure_water_air_%28en%29.svg.png" alt="Pressure water air (en).svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Kdkeller" title="User:Kdkeller">Klaus-Dieter Keller</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=25608823">Link</a></p>
--->
-
 ## Air pressure and water pressure
 > - **What is the pressure under a 10m water collumn?**
 > - 1 bar = 100 kPa
@@ -89,13 +79,12 @@ http://www.rampumps.net/face/20120410150106.html
 <img src="images/ram_pump.gif" height="500" width="auto">
 
 ## How much water can it pump
-> - **Can you guess the likely formula to calculate this?**
-> - $D = E*Q*F/L$
-> - Where: $D$ amount delivered in cube meters per hour.
-> - $Q$ quantity of water supplied from the source in cube meters per hour.
+> - **Think in terms of energy balance to express $D$, the delivered flow ($m^3/s$) as a function of:**
+> - $Q$ the flow of water supplied from the source in cube meters per hour
 > - $F$ the fall or height of the source above the ram in meters.
 > - $L$ the lift height of the point of use above the ram in meters
 > - $E$ the efficiency of the ram (typically 60%)
+> - $D = E*Q*F/L$
 > - **How does the efficiency likely vary as a function of the lift / working fall ratio**
 > - The efficiency is likely to drop with high lift / working fall ratios due to more water wastage, higher velocities, turbulence...
 
@@ -110,12 +99,6 @@ http://www.rampumps.net/face/20120410150106.html
 
 > - **The cardio-vascular system also has a pulse pump. The flow in blood vessels is however more regular, like in the ram pump after the air chamber. Which mechanical property of the blood vessels plays an analog role as the air chamber?**
 > - The elasticity of the arteries
-
-## Micro-hydropower exercise
-
-[NVE - småkraft potensial](https://gis3.nve.no/link/?link=smakraft): estimate the hydro-electric potential ("Produksjon") of some sites around Sogndal in GWh/year (using mean available discharge "Vannføring" and elevation difference "Brutto fallhøyde")
-
-You can also look at the figures for the site in Berge: [Technical details](http://www.smaakraft.no/prosjekter-i-utvikling/berge/), [NVE's concession document](https://www.nve.no/konsesjonssaker/konsesjonssak/?id=4244&type=V-1)
 
 # Flow with friction
 
@@ -135,7 +118,7 @@ with $\mu$ the viscosity (in $Pa*s$), and $\frac{du}{dy}$ the velocity gradient 
 
 A head loss term $h_l$ is added to Bernouilli's equation to account for total head losses due to friction:
 
-\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l=h+{\frac {v^{2}}{2g}}+h_l\]
+\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l\]
 
 $h_l$ can be expressed as a function of a dimensionless friction factor $f$:
 
@@ -146,7 +129,7 @@ where $L$ and $D$ are the length and diameter of the pipe
 
 ## Laminar vs turbulent flows
 > - **What kind flows can we have (from a fluid dynamics perspectice)?**
-> - Laminar flow occurs when a fluid flows in parallel layers, with no disruption between the layers (viscous forces are dominant). Flow in slow canals can be laminar
+> - Laminar flow occurs when a fluid flows in parallel layers, with no disruption between the layers (viscous forces are dominant). Requires very slow flow.
 > - Turbulent flow characterized by sudden changes in pressure and flow velocity (inertial forces are dominant). White water, wind behind an obstacle are turbulent
 
 ## Characterizing turbulent flow: Reynolds number
@@ -164,7 +147,7 @@ $\mu$ is the dynamic viscosity of the fluid ($Pa.s$ or $N.s/m^2$ or $kg/(m·s)$)
 
 
 
-## Reynolds number example
+## Reynolds number example for flow in a pipe
 
 $Re < 2000$ usually qualifies as laminar
 $Re > 4000$ is clearly turbulent.
@@ -195,7 +178,7 @@ $\mu$ is the dynamic viscosity,
 $D$ is the pipe diameter.
 
 ## Hazen Williams equation for turbulent flow
-It is an empirical formula used to deisgn water networks, irrigation systems... 
+It is an empirical formula used to design water networks, irrigation systems... 
 
 $v=C{\sqrt{RS}}$
 
@@ -227,10 +210,9 @@ $S$ is the slope of the pipe
 - Bernouilli equation: conservation of total head if we ignore friction
 - Frictional losses of energy create head losses
 - If head losses are important, they must be added to Bernouilli's Law
-- Viscosity is temperature dependent. Is ratio of shear stress / velocity gradient
-- Viscosity of water at 20c is 1*10^-3 Pa.s
+- Viscosity is temperature dependent. It is ratio of shear stress / cross-sectional velocity gradient
 - Reynolds number measures importance of viscous forces
-- If Reynolds number > 2000, then turbulent flow
+- In pipes: if Reynolds number > 2000, then turbulent flow
 - Friction factor for laminar pipe flow: f = 64/R
 - This gives the mean velocity of laminar flow in a pipe (Poiseuille)
 - Mean velocity proportional to $D^2$ for laminar flow and $D^{1/2}$ for turbulent flow
@@ -252,9 +234,9 @@ More details, more equations: [Isaac Wait online lectures](https://www.youtube.c
 
 [Bernouilli's equation](http://www.caee.utexas.edu/prof/kinnas/319LAB/Lab/lab%204-Bernoulli%27s%20equation/4-Bernoulli.htm)
 
-Different kinds of pumps:
+<!-- Different kinds of pumps: IN FRENCH!-->
 
-http://www.fao.org/docrep/010/ah810f/AH810F12.htm
+<!-- http://www.fao.org/docrep/010/ah810f/AH810F12.htm -->
 
 <!--
 http://www.physics.usyd.edu.au/teach_res/jp/fluids/viscosity.pdf

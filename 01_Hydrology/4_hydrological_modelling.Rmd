@@ -262,9 +262,7 @@ video on conceptual GW model
 
 # Exercise: field intuition and modelling
 
-## Conceptual view of my PhD catchment 
-
-<!-- ([published article](https://www.hydrol-earth-syst-sci.net/19/3681/2015/)) -->
+## Conceptual view of my PhD catchment ([published article](https://www.hydrol-earth-syst-sci.net/19/3681/2015/))
 <img src="images/phd/Paper 4 - Figure 7.png" height="450" width="auto">
 
 ## Electrical conductivity: natural tracer
@@ -283,24 +281,16 @@ video on conceptual GW model
 ## Initial data and modelling results
 <img src="images/phd/Paper 4 - Figure 3.png" height="450" width="auto">
 
-## Questions: two component mixing model
-
+## Two component mixing model
 > - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)**
-
+> - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$
 > - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.**
+> - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$
+
+## Total discharge as a function of $Q_{gw}(t)$
 
 > - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$**
-
-<!-- ## Two component mixing model -->
-<!-- > - **Write the water balance to express $Q(t)$, the total discharge at time t, as a function of $Q_{gw}(t)$, the groundwater exfiltration and $Q_{gl}(t)$, the glacier melt contribution (we neglect rain and evapotranspiration)** -->
-<!-- > - $Q(t) = Q_{gw}(t) + Q_{gl}(t)$ -->
-<!-- > - **Write the solute mass balance to express $Q(t) EC(t)$ (the mass of solutes exiting the catchment per second) as a function of $Q_{gw}(t)$, $Q_{gl}(t)$ as well as $EC_{gw}$ and $EC_{gl}$, which are respectively the constant electrical conductivity values for groundwater and glacier melt. EC is a proxy for the concentration of solutes in water.** -->
-<!-- > - $Q(t) * EC(t) = Q_{gw}(t)*EC_{gw} + Q_{gl}(t)*EC_{gl}$ -->
-
-<!-- ## Total discharge as a function of $Q_{gw}(t)$ -->
-
-<!-- > - **By substituting $Q_{gl}(t)$ in one of the previous equations, express $Q(t)$ as a function of $Q_{gw}(t)$, $EC(t)$ and the constants $EC_{gw}$ and $EC_{gl}$** -->
-<!-- > - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$ -->
+> - $Q(t) = \frac{Q_{gw}(t)*(EC_{gw} - EC_{gl})}{EC(t) - EC_{gl}}$
 
 ## Questions: GW outflow modelling approach
 
@@ -310,18 +300,8 @@ video on conceptual GW model
 
 > - **Local meteorological data is available including soil moisture. How do we extract $baseflow_{max}$ from this fit? From this, how do we find the volume of the aquifer?**
 
-## Questions: some verifications
-
-> - **How could we check whether the deep slow aquifer makes sense (both the concept and $T_{slow}$ constant)? An example picture (hydro. processes lecture) showing of the intermittance of the stream at S1 can help.**
-
-> - **Why can the volume and recession constant of the fast aquifer take many different values with this approach? How can we constrain the volume of the fast aquifer to improve our model?**
-
-> - **Criticize the overall approach!**
-
-<!-- ## Modelled baseflow recession -->
-<!-- <img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto"> -->
-
-
+## Modelled baseflow recession
+<img src="images/phd/Paper 4 - Figure 2.png" height="450" width="auto">
 
 <!--
 ###############
@@ -355,19 +335,23 @@ with $L_{integral}(t_{end}) = L_{residual}$
 ###############
 -->
 
+## Questions: some verifications
 
+> - **How could we check whether the deep slow aquifer makes sense (both the concept and $T_{slow}$ constant)? An example picture (hydro. processes lecture) showing of the intermittance of the stream at S1 can help.**
 
+## Aquifer recharge with snowmelt
 
+<img src="images/phd/Paper 4 - Figure 6.png" height="450" width="auto">
 
-<!-- ## Aquifer recharge with snowmelt -->
+## Questions: some verifications
 
-<!-- <img src="images/phd/Paper 4 - Figure 6.png" height="450" width="auto"> -->
-
-<!-- ## Mass balance verification for the infiltration rate -->
-
-<!-- > - **Write the infiltration rate as a function of the storage volume $V(t)$ and the exfiltration rate $Q_{gw}(t)$** -->
-<!-- > - We neglect evapotranspiration and recharge from rain  -->
-<!-- > - $Q_{inf}(t) = \frac{dV(t)}{dt} + Q_{gw}(t)$ -->
+> - **Why can the volume and recession constant of the fast aquifer take many different values with this approach? How can we constrain the volume of the fast aquifer to improve our model?**
+> - Q linear function of volume and recession constant
+> - If the fast aquifer is too big, the infiltration could become unrealistic (negative)
+> - **Write the infiltration rate as a function of the storage volume $V(t)$ and the exfiltration rate $Q_{gw}(t)$**
+> - We neglect evapotranspiration and recharge from rain
+> - $Q_{inf}(t) = \frac{dV(t)}{dt} + Q_{gw}(t)$
+> - **Criticize the overall approach!**
 
 ## Take home messages
 

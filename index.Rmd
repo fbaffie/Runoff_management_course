@@ -183,8 +183,8 @@ Wed. 09 May | Whenever	| Project discussions | My office
 <img src="images/logo.png" class="cover">
 
 Day	| Time	| Topic	| Room
---- | --- | --- | --- 
-Mon. 14 May | 09:15-12:00	| Fluid dynamics	| Svingen F2
+--- | --- | --- | --- 	
+Mon. 14 May | 09:15-12:00	| [Fluid dynamics](02_Hydraulics/1_fluid_dynamics.html)	| Svingen F2
 Tue. 15 May | 09:15-12:00	| Open channel	| Svingen F2
 Wed. 16 May | 09:15-12:00	| Soils, erosion and deposition	| Svingen F2
 Wed. 16 May | 13:15-16:00	| Exercises: hydraulics	| Fossbygget-F208  Kjelda
@@ -363,7 +363,7 @@ Rational method
 
 ## Fluid dynamics
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](02_Hydraulics/1_fluid_dynamics.html) -->
+[Lecture](02_Hydraulics/1_fluid_dynamics.html)
 
 We will look at water in pressure pipes. This is usually the domain of drinking water only but in somes instances, SW will have to be pumped out of a depression. Alternatively, SW could be used in off-grid design for micro-hydropower production or gravity fed irrigation schemes.
 
@@ -559,7 +559,6 @@ Ask students to brainstorm their ideas on good design principles for resilient S
 - Program a temperature-index model for snowmelt (provided by [Uni Zürich](http://www.geo.uzh.ch/en/units/h2k/Services/HBV-Model/Exercise-6.html))
 - Designing drinking water infrastructure: flow through sand filters 
 - Steady flow in an unconfined aquifer
-- Link between groundwater drop and streamflow recession
 
 ## Hydrological modelling exercises
 <img src="images/logo.png" class="cover">

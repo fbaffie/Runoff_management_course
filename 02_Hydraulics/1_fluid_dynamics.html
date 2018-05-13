@@ -37,15 +37,7 @@
 <li><a href="./1_fluid_dynamics.html#further-resources">Further resources</a></li>
 </ul>
 </section>
-<section id="flow-neglecting-friction" class="titleslide slide level1"><h2 class="shout">Flow neglecting friction</h2></section><section id="pressure-in-atmosphere-and-oceans" class="slide level2">
-<h2>Pressure in atmosphere and oceans</h2>
-<p><img src="images/pressure_water_air.svg" height="450" width="auto"></p>
-<!--
-https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg
-
-<p><a href="https://commons.wikimedia.org/wiki/File:Pressure_water_air_(en).svg#/media/File:Pressure_water_air_(en).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pressure_water_air_%28en%29.svg/1200px-Pressure_water_air_%28en%29.svg.png" alt="Pressure water air (en).svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Kdkeller" title="User:Kdkeller">Klaus-Dieter Keller</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=25608823">Link</a></p>
--->
-</section><section id="air-pressure-and-water-pressure" class="slide level2">
+<section id="flow-neglecting-friction" class="titleslide slide level1"><h2 class="shout">Flow neglecting friction</h2></section><section id="air-pressure-and-water-pressure" class="slide level2">
 <h2>Air pressure and water pressure</h2>
 <ul>
 <li class="fragment next"><strong>What is the pressure under a 10m water collumn?</strong></li>
@@ -106,13 +98,12 @@ http://www.rampumps.net/face/20120410150106.html
 </section><section id="how-much-water-can-it-pump" class="slide level2">
 <h2>How much water can it pump</h2>
 <ul>
-<li class="fragment next"><strong>Can you guess the likely formula to calculate this?</strong></li>
-<li class="fragment next"><span class="math inline">\(D = E*Q*F/L\)</span></li>
-<li class="fragment next">Where: <span class="math inline">\(D\)</span> amount delivered in cube meters per hour.</li>
-<li class="fragment next"><span class="math inline">\(Q\)</span> quantity of water supplied from the source in cube meters per hour.</li>
+<li class="fragment next"><strong>Think in terms of energy balance to express <span class="math inline">\(D\)</span>, the delivered flow (<span class="math inline">\(m^3/s\)</span>) as a function of:</strong></li>
+<li class="fragment next"><span class="math inline">\(Q\)</span> the flow of water supplied from the source in cube meters per hour</li>
 <li class="fragment next"><span class="math inline">\(F\)</span> the fall or height of the source above the ram in meters.</li>
 <li class="fragment next"><span class="math inline">\(L\)</span> the lift height of the point of use above the ram in meters</li>
 <li class="fragment next"><span class="math inline">\(E\)</span> the efficiency of the ram (typically 60%)</li>
+<li class="fragment next"><span class="math inline">\(D = E*Q*F/L\)</span></li>
 <li class="fragment next"><strong>How does the efficiency likely vary as a function of the lift / working fall ratio</strong></li>
 <li class="fragment next">The efficiency is likely to drop with high lift / working fall ratios due to more water wastage, higher velocities, turbulence…</li>
 </ul>
@@ -132,10 +123,6 @@ http://www.rampumps.net/face/20120410150106.html
 <li class="fragment next"><strong>The cardio-vascular system also has a pulse pump. The flow in blood vessels is however more regular, like in the ram pump after the air chamber. Which mechanical property of the blood vessels plays an analog role as the air chamber?</strong></li>
 <li class="fragment next">The elasticity of the arteries</li>
 </ul>
-</section><section id="micro-hydropower-exercise" class="slide level2">
-<h2>Micro-hydropower exercise</h2>
-<p><a href="https://gis3.nve.no/link/?link=smakraft">NVE - småkraft potensial</a>: estimate the hydro-electric potential (“Produksjon”) of some sites around Sogndal in GWh/year (using mean available discharge “Vannføring” and elevation difference “Brutto fallhøyde”)</p>
-<p>You can also look at the figures for the site in Berge: <a href="http://www.smaakraft.no/prosjekter-i-utvikling/berge/">Technical details</a>, <a href="https://www.nve.no/konsesjonssaker/konsesjonssak/?id=4244&amp;type=V-1">NVE’s concession document</a></p>
 </section>
 <section id="flow-with-friction" class="titleslide slide level1"><h2 class="shout">Flow with friction</h2></section><section id="shear-forces-and-viscosity" class="slide level2">
 <h2>Shear forces and viscosity</h2>
@@ -148,7 +135,7 @@ http://www.rampumps.net/face/20120410150106.html
 </section><section id="bernouillis-equation-friction-factor" class="slide level2">
 <h2>Bernouilli’s equation + friction factor</h2>
 <p>A head loss term <span class="math inline">\(h_l\)</span> is added to Bernouilli’s equation to account for total head losses due to friction:</p>
-<p><span class="math display">\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l=h+{\frac {v^{2}}{2g}}+h_l\]</span></p>
+<p><span class="math display">\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l\]</span></p>
 <p><span class="math inline">\(h_l\)</span> can be expressed as a function of a dimensionless friction factor <span class="math inline">\(f\)</span>:</p>
 <p><span class="math inline">\(h_l=f*\frac{L.v^2}{D*2g}\)</span> where <span class="math inline">\(L\)</span> and <span class="math inline">\(D\)</span> are the length and diameter of the pipe</p>
 </section>
@@ -156,7 +143,7 @@ http://www.rampumps.net/face/20120410150106.html
 <h2>Laminar vs turbulent flows</h2>
 <ul>
 <li class="fragment next"><strong>What kind flows can we have (from a fluid dynamics perspectice)?</strong></li>
-<li class="fragment next">Laminar flow occurs when a fluid flows in parallel layers, with no disruption between the layers (viscous forces are dominant). Flow in slow canals can be laminar</li>
+<li class="fragment next">Laminar flow occurs when a fluid flows in parallel layers, with no disruption between the layers (viscous forces are dominant). Requires very slow flow.</li>
 <li class="fragment next">Turbulent flow characterized by sudden changes in pressure and flow velocity (inertial forces are dominant). White water, wind behind an obstacle are turbulent</li>
 </ul>
 </section><section id="characterizing-turbulent-flow-reynolds-number" class="slide level2">
@@ -167,8 +154,8 @@ http://www.rampumps.net/face/20120410150106.html
 <p><span class="math inline">\(v\)</span> is a characteristic velocity (m/s), mean velocity in our case</p>
 <p><span class="math inline">\(L\)</span> is a characteristic linear dimension. In the case of a pipe, it is its diameter</p>
 <p><span class="math inline">\(\mu\)</span> is the dynamic viscosity of the fluid (<span class="math inline">\(Pa.s\)</span> or <span class="math inline">\(N.s/m^2\)</span> or <span class="math inline">\(kg/(m·s)\)</span>)</p>
-</section><section id="reynolds-number-example" class="slide level2">
-<h2>Reynolds number example</h2>
+</section><section id="reynolds-number-example-for-flow-in-a-pipe" class="slide level2">
+<h2>Reynolds number example for flow in a pipe</h2>
 <p><span class="math inline">\(Re &lt; 2000\)</span> usually qualifies as laminar <span class="math inline">\(Re &gt; 4000\)</span> is clearly turbulent. In between is a transition between those 2 flow regimes</p>
 <ul>
 <li class="fragment next"><strong>Example: Water at 20c (<span class="math inline">\(\mu = 10^{-3}\)</span>), flowing at 0.1m/s in a 10cm wide pipe:</strong></li>
@@ -191,7 +178,7 @@ https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_
 <p><span class="math inline">\(D\)</span> is the pipe diameter.</p>
 </section><section id="hazen-williams-equation-for-turbulent-flow" class="slide level2">
 <h2>Hazen Williams equation for turbulent flow</h2>
-<p>It is an empirical formula used to deisgn water networks, irrigation systems…</p>
+<p>It is an empirical formula used to design water networks, irrigation systems…</p>
 <p><span class="math inline">\(v=C{\sqrt{RS}}\)</span></p>
 <p><span class="math inline">\(v\)</span> is the water velocity in the pipe</p>
 <p><span class="math inline">\(C\)</span> is a roughness coefficient</p>
@@ -216,10 +203,9 @@ https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_
 <li>Bernouilli equation: conservation of total head if we ignore friction</li>
 <li>Frictional losses of energy create head losses</li>
 <li>If head losses are important, they must be added to Bernouilli’s Law</li>
-<li>Viscosity is temperature dependent. Is ratio of shear stress / velocity gradient</li>
-<li>Viscosity of water at 20c is 1*10^-3 Pa.s</li>
+<li>Viscosity is temperature dependent. It is ratio of shear stress / cross-sectional velocity gradient</li>
 <li>Reynolds number measures importance of viscous forces</li>
-<li>If Reynolds number &gt; 2000, then turbulent flow</li>
+<li>In pipes: if Reynolds number &gt; 2000, then turbulent flow</li>
 <li>Friction factor for laminar pipe flow: f = 64/R</li>
 <li>This gives the mean velocity of laminar flow in a pipe (Poiseuille)</li>
 <li>Mean velocity proportional to <span class="math inline">\(D^2\)</span> for laminar flow and <span class="math inline">\(D^{1/2}\)</span> for turbulent flow</li>
@@ -233,8 +219,8 @@ https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_
 <p>US National Engineering handbook (Part 654 - Stream Restoration Design): <a href="https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=17782.wba">Chapter 6 - Stream hydraulics</a></p>
 <p>More details, more equations: <a href="https://www.youtube.com/playlist?list=PLQv9IPdrtoKjRyCQlzxss9LsvzQf2EOYa">Isaac Wait online lectures</a></p>
 <p><a href="http://www.caee.utexas.edu/prof/kinnas/319LAB/Lab/lab%204-Bernoulli%27s%20equation/4-Bernoulli.htm">Bernouilli’s equation</a></p>
-<p>Different kinds of pumps:</p>
-<p><a href="http://www.fao.org/docrep/010/ah810f/AH810F12.htm" class="uri">http://www.fao.org/docrep/010/ah810f/AH810F12.htm</a></p>
+<!-- Different kinds of pumps: IN FRENCH!-->
+<!-- http://www.fao.org/docrep/010/ah810f/AH810F12.htm -->
 <!--
 http://www.physics.usyd.edu.au/teach_res/jp/fluids/viscosity.pdf
 -->
