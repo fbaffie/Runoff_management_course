@@ -1,0 +1,114 @@
+---
+title: "Hydrological extremes quiz"
+author: Back to [course overview](../index.html#hydrological-extremes)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
+---
+
+# Your quiz!
+
+## Kristine
+
+> - **Which 6 areas have been identified in this study as having improvment posibilities?**
+> - 1) More, and more accurate, monitoring data on long-term timeframes as floods are rare events and much data is needed to explain causal realtionships between CBFM/NFM and downstream effects. 
+> - 2) Need more investigations on the scale dependencies of a model. Are models of small catchment areas valid on larger ones?
+> - 3) Need better coordination and collaboration of local and national flood risk management initiatives to fully understand the change in risk after mitigation. Which initiative gave most/ least effect?
+> - 4) More systematic long-term data on the impacts on CBFM/NFM compared to traditional engineering solutions.
+> - 5) Toolbox with practical advice and updated research results for practitioners.
+> - 6) Improved communication between all involved stakeholders.
+ 
+## Kristine
+> -**Are there scientific knowledge to say that it is possible to mitigate extremely large floods?**
+> - No. This does not mean that it is not possible, but might be because we have not implemented a large enough set of interventions to see an effect yet.
+
+##Tonje
+
+> - ** What does the letters CBFM stand for, and can you explain what it is?**
+> - Catchment Based Flood Management.
+> - «Catchment based flood management» includes interventions that seek to modify land-use, land management, river channels, floodplains and reservoirs, in order to reduce the frequency and severity of flooding. CBFM aims to reduce flood risk by looking at the wider catchment in stead of interventions locally at the point of flooding. 
+
+##Tonje
+> - **What does the letters NFM stand for, and can you explain what it is?**
+> - Natural Flood Management
+> - «Natural flood management» is one subset of CBFM, which seeks to restore catchment and river processes that have been affected by human intervention.These activities may help reduce flood hazard, as well as enhancing co-benefits such as ecosystem services, greater biodiversity, improved soil and water quality, carbon sequestration, reduced soil erosion, greater agricultural productivity and improved public health. 
+
+
+## Vibeke
+> - **Name two important factors to understand the flood potential in channels?**
+> - Sediment transport and hydrology. All changes in channel cross-section could shift the sediment load in the river and create new  depositional centers or areas with increased erosion. Reducing flood-plain availability would have impact on the floods that would normally use the floodplain as storage and flood level/ velocity dampener.  Changes in the gradient of the river would lead to increased/decreased flowrate and change in erosional potential/ depositional patterns. These factors could lead to a shift in which areas that get flooded and the magnitude of the peak.
+ 
+## Vibeke
+> - **What is CBFM? and why is it so difficult to measure the impact?**
+> - Catchment Based Flood Management look at the catcment area in a holistic way and try to mitigate flood risks downstream by doing interventions at different levels in the catchment (and not only locally where the flooding creates a problem for human settlements/ land use etc). If the interventions are done by restoring natural processes adversly affected by humans, it is called Natural Flood Management.
+The magnitude of a fluvial flood depends on where you are in the catchment. The first step in a flood process is the inflow of water from hillslopes to a river. Next it is the merging of several rivers into one, and last, the merging of different cathments. Therefore- to understand the impact of a CFBM/NFM intervention it is crucial to take into account where in this system the intervention is done. 
+This scale dependencie is also an important reason why it can be very difficult to compare CFBM/NFM interventions between different areas.
+
+## Adam
+> - ** In small and large catchment areas, the peak of the flood hydrograph is dominated by what?**
+> - Small - Surface run off, from heavy rainfalls, Large - the channel network
+
+> - **What are the differences in the three engineered activities; floodplain enroachment, distributed small-scale catchment and large-scale controlled storage on the peak flood level against flood probability** 
+> - Flood plain enroachment - increases peak flood level at lower flood probability, small-scale, reduces the peak flood level at low probabilities and large scale shows large reduction in peak floods with increasing probability 
+
+## Ragnar
+
+> - **What does CBFM and NFM stand for, and what is the difference between them?**
+> - CBFM stands for Catchment-Based Flood Management and refers to management interventions that seek to modify land-use and land management, river channels, floodplains and reservoirs in order to reduce the frequency and severity of flooding.
+NFM stands for Natural Flood Management and is a subset of CBFM. It focuses on either restoring or enhancing a natural catchment process that has been affected by human intervention.
+
+
+> - **Since the late 1990s the UK has been in a flood-rich period. Are today’s floods worse overall than flood records from the past 200 years?**
+> - Climate data point towards varying periods of flood-rich and flood-poor periods. Sedimentary deposits in small catchments also provide evidence for a similarly flood rich period to today, between 1840 and 1890. Data further shows that the seventeenth to nineteenth century UK experienced floods that were more frequent and more severe than those experienced since 1998
+
+
+## Anne Waterlander 
+
+> - **Several studies have investigated the potential effect of CBFM and NFM on flooding. Why do you have to be careful when interpreting the evidence?**
+> - Because each flood is a consequence of a unique combination of conditions. 
+> - **Why does urbanization tend to increase peak flood flows? And when does urban flooding happen most often?**
+> - Increase peak flood flow because of reduces infiltration under paved areas and rapid flow over the surface, along channelized streams and through culverts and pipes. Urban flooding is generally greatest form intense storms in summer. 
+
+## Astrid 
+
+> - **What does CBFM and NFM stand for and what are their goals?**
+> - CBFM and NFM stand for “Catchment-Based Flood Management” and “Natural Flood Management”. The goal of the CBFM is to reduce the frequency and strength of flooding. The NFM is a subset of the CBFM and aspires to restore/enhance catchment processes, which have been affected by human activity, to reduce flood hazards.
+> - **What other benefits occur with Flood Management?**
+> - Other benefits of the modification of land-use and land management, river channels, floodplains and reservoirs are enhanced ecosystem services (aquatic, riparian and terrestrial) with greater biodiversity, improved soil and water quality, carbon sequestration, reduced soil erosion, greater agricultural productivity and improved public health and well-being.
+
+## Sushmitha
+> - **How are the fluvial floods characterized?**
+> - The  fluvial (river) floods  hazard is characterized by the depth of water at locations where it may cause harm, and also by the velocity of that water, the rate of rise of water levels, duration of inundation and water quality.
+Sushmitha Kotipalli
+> - **What is CBFM all about?**
+> - Catchment-Based Flood Management(CBFM) is a management interventions that seek to modify land-use and land management, river channels, floodplains and reservoirs, in order to reduce the frequency and severity of flooding. One subset of CBFM is ‘Natural Flood Management’ (NFM), which seeks to restore or enhance catchment processes that have been affected by human intervention 
+
+## Sarina
+> - **What does the magnitude of a fluvial flood depend on?**
+> -	The run-off from hillslopes into the river channel
+> - The rate of propagation downstream into river channels 
+> - How the run-off multiple hillslopes and sub catchment areas (smaller rivers) combine via the channel network
+> - Heavy rainfall
+> - **Which landcover is significantly related to flood magnitude?**
+> - Urban landcovers 
+
+## Theo
+
+> -**What are the predictions, according to the models, about a systematic change in annual rainfall in the UK between now and 2080 (in terms of climate change)?**
+> - The projections show no significant change in annual rainfall. 80% of the simulations show between a 16% reduction and a 14% increase
+> - **What is the influence of land cover on flooding?** 
+> - for small spatial scales is not enough evidence that the land cover influences floods, for land use impacts in larger catchments is not enough data. The only land cover factor that was significantly related to the magnitude of mean annual flood in UK rivers is urban extent. The effect of land cover changes on river flows in the Thames catchment is small compared with natural climatic variability.
+
+## Willemijn
+> - **What's the more important factor influencing extreme floods in large catchments: land-use or climatic variability?**
+> - Modelling of the Thames catchment shows that the effect of land cover changes on the river flow is small. The most important land cover change factor is urbanization, but the influence of natural climatic variability is larger.
+
+> - ** What way can one restore historical data on climate variability and flood extent?**
+> - Using sedimentary deposits downstream, that provide an estimate of the sediment transported along the catchment, which is related to the amount (and velocity) of water in the stream.
+
+
+
