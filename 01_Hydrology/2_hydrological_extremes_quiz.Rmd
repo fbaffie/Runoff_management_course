@@ -89,7 +89,6 @@ NFM stands for Natural Flood Management and is a subset of CBFM. It focuses on e
 ## Sushmitha
 > - **How are the fluvial floods characterized?**
 > - The  fluvial (river) floods  hazard is characterized by the depth of water at locations where it may cause harm, and also by the velocity of that water, the rate of rise of water levels, duration of inundation and water quality.
-Sushmitha Kotipalli
 > - **What is CBFM all about?**
 > - Catchment-Based Flood Management(CBFM) is a management interventions that seek to modify land-use and land management, river channels, floodplains and reservoirs, in order to reduce the frequency and severity of flooding. One subset of CBFM is ‘Natural Flood Management’ (NFM), which seeks to restore or enhance catchment processes that have been affected by human intervention 
 
@@ -161,3 +160,25 @@ Climate projections does not show any clear trend in annual precipitation patter
 ## Torbjørn
 > - **Why should there be beavers in every stream?**
 > - Beavers rock. They build dams. Dams reduces the velocity and discharge in a stream.
+
+## Famke
+
+> - **Which monitored catchment measures are important for flood mitigation?**
+> - Small and large catchment measures give a better understanding of the benefits of CBFM and NFM. The small catchments are used to simulate the changes of land use and management in larger catchments, whereas larger catchments establish scale and spartial location of different types of catchment based intervention that has an effect on flooding.
+
+## Famke
+
+> - **What are the effects of forest on flooding?**
+> - Forests are in general expected to store more water in the soil, especially during summer, because of their greater usage of water compared to grasland. Forests produce higher evaporative losses, because of their storage of water in trees.
+If the flood is caused by storms (rarly happening) forests fuction as windblocker, so the flood is not huge.
+But if the flood is caused by other reasons there is almost no difference between forest and grasland.
+
+## Erik
+
+> - **How can livestock farming influence flooding?**
+> - Livestock farming (in particular: high density) can lead to soil compaction, which in turn decreases infiltration capacity. According to a model study, this practice gave a 7 % increase in flood peak after a storm. In another study, a plot-scale experiment, grazed (by sheep) plots were compared to tree-planted plots and found to produce 48%-78% more run-off. After five years, infiltration rates were 67 times higher.
+
+## Erik
+
+> - **What other natural processes must one be mindful of when implementing interventions intended to reduce flooding (fluvial)?**
+> - "Sedimentary, geomorphological and ecological processes in the river, as well as direct hydrological effects".
