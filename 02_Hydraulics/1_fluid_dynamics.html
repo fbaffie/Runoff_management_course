@@ -136,7 +136,7 @@ http://www.rampumps.net/face/20120410150106.html
 <h2>Bernouilli’s equation + friction factor</h2>
 <p>A head loss term <span class="math inline">\(h_l\)</span> is added to Bernouilli’s equation to account for total head losses due to friction:</p>
 <p><span class="math display">\[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l\]</span></p>
-<p><span class="math inline">\(h_l\)</span> can be expressed as a function of a dimensionless friction factor <span class="math inline">\(f\)</span>:</p>
+<p><span class="math inline">\(h_l\)</span> can be expressed as a function of a dimensionless friction factor <span class="math inline">\(f\)</span> (Darcy’s friction factor in this case):</p>
 <p><span class="math inline">\(h_l=f*\frac{L.v^2}{D*2g}\)</span> where <span class="math inline">\(L\)</span> and <span class="math inline">\(D\)</span> are the length and diameter of the pipe</p>
 </section>
 <section id="types-of-flows" class="titleslide slide level1"><h2 class="shout">Types of flows</h2></section><section id="laminar-vs-turbulent-flows" class="slide level2">
@@ -163,12 +163,12 @@ http://www.rampumps.net/face/20120410150106.html
 <li class="fragment next"><span class="math inline">\(Re = 0.1*0.1*1000/10^{-3} = 10 000 &gt; 4000\)</span></li>
 <li class="fragment next">So the flow in the pipe is turbulent</li>
 </ul>
-</section><section id="friction-factor" class="slide level2">
-<h2>Friction factor</h2>
+</section><section id="darcys-friction-factor-as-a-function-of-re-and-pipe-roughness" class="slide level2">
+<h2>Darcy’s friction factor as a function of Re and pipe roughness</h2>
 <!--
 https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_diagram.jpg
 -->
-<p><img src="images/moody_diagram.jpg" height="500" width="auto"></p>
+<p><img src="images/moody_diagram.jpg" height="450" width="auto"></p>
 </section><section id="poiseuille-law-for-laminar-flow" class="slide level2">
 <h2>Poiseuille Law for laminar flow</h2>
 <p>Can be derived theoretically</p>
@@ -179,11 +179,12 @@ https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_
 </section><section id="hazen-williams-equation-for-turbulent-flow" class="slide level2">
 <h2>Hazen Williams equation for turbulent flow</h2>
 <p>It is an empirical formula used to design water networks, irrigation systems…</p>
-<p><span class="math inline">\(v=C{\sqrt{RS}}\)</span></p>
+<p><span class="math inline">\(v=k*C*R^{0.63}*S^{0.54}\)</span></p>
 <p><span class="math inline">\(v\)</span> is the water velocity in the pipe</p>
+<p><span class="math inline">\(k\)</span> is a conversion factor for the unit system</p>
 <p><span class="math inline">\(C\)</span> is a roughness coefficient</p>
-<p><span class="math inline">\(R\)</span> is the hydraulic radius (pipe radius in case of a pipe)</p>
-<p><span class="math inline">\(S\)</span> is the slope of the pipe</p>
+<p><span class="math inline">\(R\)</span> is the hydraulic radius: cross-sectional area / wetted perimeter (half pipe radius in case of a pipe)</p>
+<p><span class="math inline">\(S\)</span> is the slope of the energy line (head loss per length of pipe)</p>
 <!--
 ## Questions
 > - **What is the typical pressure recommended for residence drinking water supply?**
@@ -205,10 +206,10 @@ https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_
 <li>If head losses are important, they must be added to Bernouilli’s Law</li>
 <li>Viscosity is temperature dependent. It is ratio of shear stress / cross-sectional velocity gradient</li>
 <li>Reynolds number measures importance of viscous forces</li>
-<li>In pipes: if Reynolds number &gt; 2000, then turbulent flow</li>
-<li>Friction factor for laminar pipe flow: f = 64/R</li>
+<li>In pipes: if Reynolds number Re &gt; 2000, then turbulent flow</li>
+<li>Friction factor for laminar pipe flow doesn’t depend in surface roughness</li>
 <li>This gives the mean velocity of laminar flow in a pipe (Poiseuille)</li>
-<li>Mean velocity proportional to <span class="math inline">\(D^2\)</span> for laminar flow and <span class="math inline">\(D^{1/2}\)</span> for turbulent flow</li>
+<li>Mean velocity proportional to <span class="math inline">\(D^2\)</span> for laminar flow and <span class="math inline">\(D^{0.63}\)</span> for turbulent flow</li>
 </ul>
 </section>
 <section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="book-chapters" class="slide level2">

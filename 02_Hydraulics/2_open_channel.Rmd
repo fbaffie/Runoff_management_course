@@ -81,7 +81,7 @@ $C$ is the flow coefficent for the structure. $C= \sqrt { \frac{8g}{27}}$ for a 
 
 $L$ is the width of the weir at its crest
 
-$H$ is the height of water over the crest (where the flow is subcritical)
+$H$ is the height of water over the crest (where the flow is critical)
 
 $n$ varies with structure (e.g., 3/2 for horizontal weir, 5/2 for v-notch weir...)
 

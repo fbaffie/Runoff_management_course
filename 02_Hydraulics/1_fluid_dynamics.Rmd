@@ -120,7 +120,7 @@ A head loss term $h_l$ is added to Bernouilli's equation to account for total he
 
 \[H = z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}} +h_l\]
 
-$h_l$ can be expressed as a function of a dimensionless friction factor $f$:
+$h_l$ can be expressed as a function of a dimensionless friction factor $f$ (Darcy's friction factor in this case):
 
 $h_l=f*\frac{L.v^2}{D*2g}$
 where $L$ and $D$ are the length and diameter of the pipe
@@ -159,11 +159,11 @@ In between is a transition between those 2 flow regimes
 > - So the flow in the pipe is turbulent
 
 
-## Friction factor
+## Darcy's friction factor as a function of Re and pipe roughness
 <!--
 https://fr.wikipedia.org/wiki/%C3%89quation_de_Darcy-Weisbach#/media/File:Moody_diagram.jpg
 -->
-<img src="images/moody_diagram.jpg" height="500" width="auto">
+<img src="images/moody_diagram.jpg" height="450" width="auto">
 
 ## Poiseuille Law for laminar flow
 Can be derived theoretically
@@ -180,15 +180,17 @@ $D$ is the pipe diameter.
 ## Hazen Williams equation for turbulent flow
 It is an empirical formula used to design water networks, irrigation systems... 
 
-$v=C{\sqrt{RS}}$
+$v=k*C*R^{0.63}*S^{0.54}$
 
 $v$ is the water velocity in the pipe
 
+$k$ is a conversion factor for the unit system
+
 $C$ is a roughness coefficient
 
-$R$ is the hydraulic radius (pipe radius in case of a pipe)
+$R$ is the hydraulic radius: cross-sectional area / wetted perimeter (half pipe radius in case of a pipe)
 
-$S$ is the slope of the pipe
+$S$ is the slope of the energy line (head loss per length of pipe)
 
 
 <!--
@@ -212,10 +214,10 @@ $S$ is the slope of the pipe
 - If head losses are important, they must be added to Bernouilli's Law
 - Viscosity is temperature dependent. It is ratio of shear stress / cross-sectional velocity gradient
 - Reynolds number measures importance of viscous forces
-- In pipes: if Reynolds number > 2000, then turbulent flow
-- Friction factor for laminar pipe flow: f = 64/R
+- In pipes: if Reynolds number Re > 2000, then turbulent flow
+- Friction factor for laminar pipe flow doesn't depend in surface roughness
 - This gives the mean velocity of laminar flow in a pipe (Poiseuille)
-- Mean velocity proportional to $D^2$ for laminar flow and $D^{1/2}$ for turbulent flow
+- Mean velocity proportional to $D^2$ for laminar flow and $D^{0.63}$ for turbulent flow
 
 
 # Further resources
