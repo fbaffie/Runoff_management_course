@@ -185,9 +185,10 @@ Wed. 09 May | Whenever	| Project discussions | My office
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 	
 Mon. 14 May | 09:15-12:00	| [Fluid dynamics](02_Hydraulics/1_fluid_dynamics.html)	| Svingen F2
-Tue. 15 May | 09:15-12:00	| Open channel	| Svingen F2
-Wed. 16 May | 09:15-12:00	| Soils, erosion and deposition	| Svingen F2
+Tue. 15 May | 09:15-12:00	| [Open channel][Lecture](02_Hydraulics/2_open_channel.html)	| Svingen F2
 Wed. 16 May | 13:15-16:00	| Exercises: hydraulics	| Fossbygget-F208  Kjelda
+
+<!-- Wed. 16 May | 09:15-12:00	| Soils, erosion and deposition	| Svingen F2 -->
 
 ## Agenda 22-25 May
 <img src="images/logo.png" class="cover">
@@ -377,7 +378,7 @@ Microhydro, ram pump, pumps, off the grid gravity fed networks...
 
 ## Open channel hydraulics
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](02_Hydraulics/2_open_channel.html) -->
+[Lecture](02_Hydraulics/2_open_channel.html)
 
 How much flow can an open channel convey? 
 
