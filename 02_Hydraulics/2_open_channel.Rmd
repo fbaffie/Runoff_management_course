@@ -113,9 +113,9 @@ where $R_h$ is the hydraulic radius and $n$ is Manning's roughness coefficient.
 ## Manning's equation
 Replacing the last expression for $C$ into Chézy's equation yields:
 
-\[V = {\frac{R_h^{2/3} S^{1/2}}{n}} \]
+\[v = {\frac{R_h^{2/3} S^{1/2}}{n}} \]
 
-$V$ is the cross-sectional average velocity
+$v$ is the cross-sectional average velocity
 
 $n$ is the Manning coefficient. (in $s*m^{-\frac {1}{3}}$)
 
@@ -135,7 +135,7 @@ Natural streams | 0.024-0.075
 
 ## Application
 > - **Calculate the flow in a rectangular earth canal (width = height= 1m) of 1% slope**
-> - $V = {\frac{R_h^{2/3} S^{1/2}}{n}}$
+> - $v = {\frac{R_h^{2/3} S^{1/2}}{n}}$
 > - $R_h = 1/3$, $S = 1/100$ and $n = 0.02$
 > - So $Q=v*1=2.4 \ m^3/s$
 

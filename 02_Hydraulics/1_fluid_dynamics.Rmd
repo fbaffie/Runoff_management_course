@@ -143,7 +143,7 @@ $v$ is a characteristic velocity (m/s), mean velocity in our case
 
 $L$ is a characteristic linear dimension. In the case of a pipe, it is its diameter
 
-$\mu$ is the dynamic viscosity of the fluid ($Pa.s$ or $N.s/m^2$ or $kg/(m·s)$)
+$\mu$ is the dynamic viscosity of the fluid ($Pa.s$ or $N.s/m^2$ or $kg/(m*s)$)
 
 
 
