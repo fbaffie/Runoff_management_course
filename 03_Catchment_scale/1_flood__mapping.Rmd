@@ -29,7 +29,7 @@ XXX
 
 ## Exercise from Lars Løkeland Slåke - NVE 
 
-[Holistic evalution of catchments](http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2314338)
+[Holistic evaluation of catchments](http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2314338)
 
 Risk and vulnerability assessment (ROS: risiko- og sårbarhetsanalyse)
 
@@ -40,20 +40,16 @@ Risk and vulnerability assessment (ROS: risiko- og sårbarhetsanalyse)
 
 ## Difficulty of defining catchments and flowpaths
 
-With the help of maps and aerial images, discuss potential damages due to flooding in Ølnes.
-There is a culvert in my [backyard](http://www.norgeskart.no/#!?project=seeiendom&layers=1003,1015&zoom=17&lat=6817577.29&lon=80018.08) that recieved a fair amount of snowmelt runoff. Discuss the size of the catchment flowing into this culvert. Why is it difficult?
-What is the risk if the culvert overflows? What could be done to minimize the risks?
-
-Discuss similarly the potential flash-flooding risks and associated uncertainties of the [Bergi hillslope](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=12&lat=6815372.32&lon=75721.05) above Sogndal.
+Discuss the potential flash-flooding risks and associated uncertainties of the [Bergi hillslope](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=12&lat=6815372.32&lon=75721.05) above Sogndal.
 
 Example of [unexpected flowpaths](https://www.aftenposten.no/norge/i/7rwM3/Utvik-kan-vare-begynnelsen-pa-ny-flomfare#&gid=1&pid=3) in Gloppen
 
 How might climate change impact this hazard?
 On top of this, which additional uncertainties do the old water networks in Sogndal create?
 
-## Example of Master thesis on flood flowpaths mapping in Oslo (Akerselva)
+## Web tools
 
-CONTACT THE MASTER STUDENT!
+[Web tools for analysis of catchments](http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2317100)
 
 ## Take home messages
 
@@ -64,12 +60,9 @@ CONTACT THE MASTER STUDENT!
 
 [Flaumfare langs bekker - Råd og tips om kartlegging](http://publikasjoner.nve.no/veileder/2015/veileder2015_03.pdf)
 
-
-
 ## New NVE database in winter 2018
 
-Flom databasen
-https://prosjekt.fylkesmannen.no/Documents/Klimaomstilling/Dokument/2017%20Vatn/4%20-%20GRØNDAHL%20STEFFESEN.pdf
+[Flom databasen](https://prosjekt.fylkesmannen.no/Documents/Klimaomstilling/Dokument/2017%20Vatn/4%20-%20GRØNDAHL%20STEFFESEN.pdf)
 
 
 
