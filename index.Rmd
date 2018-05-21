@@ -195,7 +195,7 @@ Wed. 16 May | 13:15-16:00	| Exercises: hydraulics	| Fossbygget-F208  Kjelda
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Tue. 22 May | 09:15-12:00	| Urban hydraulics	| Svingen F2
+Tue. 22 May | 09:15-12:00	| [Urban hydraulics](02_Hydraulics/4_urban_hydraulics.html)	| Svingen F2
 Wed. 23 May | All day	| Excursion	| Gaupne and Jostedal
 Thu. 24 May | 09:15-12:00	| Flood mapping | Svingen F2
 Fri. 25 May | 09:15-12:00	| Exercises: urban, rural	| Svingen F2
@@ -405,7 +405,7 @@ Quiz on Illgraben: you tube videos...
 
 ## Urban hydraulics
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](02_Hydraulics/4_urban_hydraulics.html)-->
+[Lecture](02_Hydraulics/4_urban_hydraulics.html)
 
 We will try to summarize how hydrology and hydraulic come into play for the design of (green) SW infrastructure.
 

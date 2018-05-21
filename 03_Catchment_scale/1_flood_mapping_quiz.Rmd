@@ -14,78 +14,69 @@ output:
 
 ## Astrid
 
+> - **What are the 4 different approaches to derive the maximum rise of water levels depending on the availability of data?**
+> - Data from gauging stations (discharge, waterlevels) 
+> - Catchment characteristics (catchment area, lake percentage, specific runoff) 
+> - Catchment area 
+> - Comparable rivers in the same area. 
 
-What are the 4 different approaches to derive the maximum rise of water levels depending on the availability of data?
+## Astrid
 
-- Data from gauging stations (discharge, waterlevels) 
-- Catchment characteristics (catchment area, lake percentage, specific runoff) 
-- Catchment area 
-- Comparable rivers in the same area. 
-
-
-
-What are uncertainties and inaccuracies of the hydrological method?
- 
-- Accuracy of the used Terrain model 
-- Use of Terrain model to obtain water levels 
-- Uncertainty in maximum rise of water level 
-- Implementation of regional different values 
-- Disregarding local hydraulic conditions (underestimation) 
-
-
+> - **What are uncertainties and inaccuracies of the hydrological method?**
+> - Accuracy of the used Terrain model 
+> - Use of Terrain model to obtain water levels 
+> - Uncertainty in maximum rise of water level 
+> - Implementation of regional different values 
+> - Disregarding local hydraulic conditions (underestimation) 
 
 ## Sushmitha Kotipalli
 
-What are the equations used to calculate the rise of water level?
-Area
-0-1   km2: dH(m) = 2
-1-500 km2: dH(m) = 0,965 ln(Area) + 2 
->500 km2: dH(m) = 8 
-0-1 km2: dH(m) = 2,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%
-1-500 km2: dH(m) = 2,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake% + 0,64 ln(Area) 
->500 km2: dH(m) = 6,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%
+> - **What are the equations used to calculate the rise of water level?**
+> - Area 0-1   km2: dH(m) = 2
+> - 1-500 km2: dH(m) = 0,965 ln(Area) + 2 
+> - 500 km2: dH(m) = 8 
+> - 0-1 km2: dH(m) = 2,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%
+> - 1-500 km2: dH(m) = 2,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake% + 0,64 ln(Area) 
+> - >500 km2: dH(m) = 6,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%
  
-Sushmitha Kotipalli
-Which Data is used for Hydraulic Calculations?
-•         Data from gauging stations (discharge, water levels)
-•         Catchment characteristics (catchment area, lake percentage, specific runoff) 
-•         Catchment area
-•         Comparable rivers in the same area.
+## Sushmitha Kotipalli
+
+> - **Which Data is used for Hydraulic Calculations?**
+> - Data from gauging stations (discharge, water levels)
+> - Catchment characteristics (catchment area, lake percentage, specific runoff) 
+> - Catchment area
+> - Comparable rivers in the same area.
 
 
 ## Anne
 
-1.	Which 4 different approaches were used depending on the availability of hydrological data?
-Answer 
-- Data from gauging stations
-- Catchment characteristics
-- Catchment area
-- Comparable rivers in the same area
+> - **Which 4 different approaches were used depending on the availability of hydrological data?**
+> - Data from gauging stations
+> - Catchment characteristics
+> - Catchment area
+> - Comparable rivers in the same area
 
-2. What does a hydrologic correct DTM mean?
-Answer
-It means that the DTM has been corrected in a way the calculated flow paths follow the actual rivers and streams.
+> - **What does a hydrologic correct DTM mean?**
+> - It means that the DTM has been corrected in a way the calculated flow paths follow the actual rivers and streams.
 
 
 ## Nils
 
-QUESTION 1: (page 6-8/22)
-According to the methodology “the main focus has been to investigate the possibility to derive areas prone to flooding based on […] national DTM. Methods used for small scale flood assessment in other countries […] were studied.” Due to several factors these methods were not suitable for Norway. Explain the geomorphological approach, which was implemented instead. Name critic as well.
-ANSWER: (geomorphology)
-Main hypothesis: flat areas bordering river systems were created due to sedimentation and thus prone to flooding!
-Definition of flat area: NVE uses the DTM (Digital Terrain Model) in comparison with the preexisting “flood inundation map”. The threshold value was found within ≤ 3 degree. Only areas that are interconnected with the river system. 
+<!-- QUESTION 1: (page 6-8/22) -->
 
-Critic: 
+> - **According to the methodology “the main focus has been to investigate the possibility to derive areas prone to flooding based on […] national DTM. Methods used for small scale flood assessment in other countries […] were studied.” Due to several factors these methods were not suitable for Norway. Explain the geomorphological approach, which was implemented instead. Name critic as well.**
+> - Geomorphology - Main hypothesis: flat areas bordering river systems were created due to sedimentation and thus prone to flooding!
+Definition of flat area: NVE uses the DTM (Digital Terrain Model) in comparison with the preexisting “flood inundation map”. The threshold value was found within ≤ 3 degree. Only areas that are interconnected with the river system. 
+> - Critic: 
 “Overestimation of potential flood areas” takes place in complex river systems, where many tributary rivers exist and a differentiation between flood plains and general flat areas is no longer possible.
 Underestimation happens in areas where the “flood water level” is above the ordinary altitude and the water in reality reaches areas “that are less than the 3 degree threshold that was used in the method”.
 Inaccuracy of the DTM – works with a “coarse” of resolution of 25x25m. 
 
 
-
-QUESTION 2: (page 9/22)
-Define the idea of the second (hydrological) approach and explain the setup of a “virtual water divide” (watershed).
-ANSWER: (hydrology)
-Idea: The idea is to define a method for calculating the “potential maximum rise of water levels in various kinds of rivers” as the very first. These data (flood water level) need to be interpolated to a flood plain. Combined with the DTM (Digital Terrain Model) it is possible to determine the potential inundation areas.
+## Nils
+<!-- QUESTION 2: (page 9/22) -->
+> - **Define the idea of the second (hydrological) approach and explain the setup of a “virtual water divide” (watershed)**
+> - The idea is to define a method for calculating the “potential maximum rise of water levels in various kinds of rivers” as the very first. These data (flood water level) need to be interpolated to a flood plain. Combined with the DTM (Digital Terrain Model) it is possible to determine the potential inundation areas.
 Virtual Water Divide: This method was implemented for calculating a flood plain without using measured cross sections. Therefor 25m buffers are calculated around the river. Each buffer belongs to a certain altitude / elevation (e. g. “first buffer is 1m, second buffer is 2m etc.”). Thereby the watershed in the virtual model is located on the highest altitude and in the centered in the middle between two rivers.
 
 
@@ -93,12 +84,9 @@ Virtual Water Divide: This method was implemented for calculating a flood plain 
 
 > - **Give a brief explanation of the geomorphological- and the hydrological method, and what these methods investigate.**
 
-> - 
-These methods are used for flood risk mapping at a national level, and is adjusted to Norwegian conditions.  
-
-Geomorphological method: Using our national DTM, flat areas (below a 3 degree threshold derived from existing flood inundation maps) in vicinity of rivers were identified as prone to flooding.
- 
-Hydrological method: Rise of water levels from detailed flood inundation maps have been correlated with discharge and catchment characteristics, then applied to comparable rivers across Norway. Combining maximum flood levels with the DTM, areas prone to flooding were detected.
+> - These methods are used for flood risk mapping at a national level, and is adjusted to Norwegian conditions.  
+> - Geomorphological method: Using our national DTM, flat areas (below a 3 degree threshold derived from existing flood inundation maps) in vicinity of rivers were identified as prone to flooding.
+ > - Hydrological method: Rise of water levels from detailed flood inundation maps have been correlated with discharge and catchment characteristics, then applied to comparable rivers across Norway. Combining maximum flood levels with the DTM, areas prone to flooding were detected.
 
 > - **When compared to detailed flood inundation maps, which of the two methods discussed in this paper have the best fit?**
 
@@ -107,59 +95,90 @@ Hydrological method: Rise of water levels from detailed flood inundation maps ha
 
 ## Sarina
 
-Which two factors should be combined to find potentially inundated areas in Norway?
-•	The flood plane data
-•	The digital terrain model (DTM)
-How are flood levels being calculated in Finland?
-Flood levels are being calculated using Bernoulli’s and Manning’s equations with standard river profiles. Afterwards the water levels are  being extrapolated using advanced GIS methods based on cost allocation.
+> - **Which two factors should be combined to find potentially inundated areas in Norway?**
+> - The flood plane data
+> - The digital terrain model (DTM)
+
+> - **How are flood levels being calculated in Finland?**
+> - Flood levels are being calculated using Bernoulli’s and Manning’s equations with standard river profiles. Afterwards the water levels are  being extrapolated using advanced GIS methods based on cost allocation.
 
 ## Famke 
 
-1. In how many levels is the planning process of municipalities split? Name and explain them briefly.
-1. Municipal plan: giving principal strategies for land use within the municipality, 
-2. Zoning plans: where specific areas are zoned for different land use with detailed regulations
-3. Building case: where the processing of building application is done. 
+> - **In how many levels is the planning process of municipalities split? Name and explain them briefly.**
+> - Municipal plan: giving principal strategies for land use within the municipality, 
+> - Zoning plans: where specific areas are zoned for different land use with detailed regulations
+> - Building case: where the processing of building application is done. 
 
 
-2. Combining the flood plain with the Digital Terrain Model (DTM) solves 2 fundamental problems, which?
-
-1. Water levels on the mouth of a tributary do not necessarily depend on runoff or field characteristics, but being influenced by the main river
-2. virtual DTM water divide lies beyond actual water divide
+> - **Combining the flood plain with the Digital Terrain Model (DTM) solves 2 fundamental problems, which?**
+> -  Water levels on the mouth of a tributary do not necessarily depend on runoff or field characteristics, but being influenced by the main river
+> - virtual DTM water divide lies beyond actual water divide
 
 ## Willemijn Ogg
 
 > - **What is a hydrologic correct DTM?**
-
 > - A hydrologic correct DTM means the DTM has been corrected in a way the calculated flow paths follow the actual rivers and streams.  
 
 > - ** Why isn't is so important to study the effect of using regionally differentiated formulas for calculating the maximum water level rise in the hydrological model? **
-
 > - Due to the flat topography of the valley floor, the hydrological method is relatively insensitive to the exact water level rise. Inaccuracy in the calculated flood levels has little effect on the models result.  
 
 ## Helge
 
-Question 1
-DTM – National 25x25m digital terrain was used in the mapping. What are the main limitation and what is the consequences?
-Answer
-Resolution and accuracy. The DTM is made from contours with 10m and 20m equidistance from base maps in scale of 1:50 000. The accuracy is one of the limitations, and the std. is between 4 and 6m. With the use of this coarse data, not only details will be lost, but also (relatively) larger slopes and flat terrain can be overseen by the data.
+> - **DTM – National 25x25m digital terrain was used in the mapping. What are the main limitation and what is the consequences?**
+> - Resolution and accuracy. The DTM is made from contours with 10m and 20m equidistance from base maps in scale of 1:50 000. The accuracy is one of the limitations, and the std. is between 4 and 6m. With the use of this coarse data, not only details will be lost, but also (relatively) larger slopes and flat terrain can be overseen by the data.
 
-Question 2
-The parameters used in the Hydrological method have inaccuracy. What are these?
-Answer
-The inaccuracy in the parameters leads to a significant uncertainty in the results. 
--	Accuracy of the used 
--	Use of DTM to obtain water levels
--	Uncertainty in maximum rise of water level
--	Implementation of regional different values
--	Disregarding local hydraulic conditions (underestimation)
+## Helge
+> - **The parameters used in the Hydrological method have inaccuracy. What are these?**
+> - The inaccuracy in the parameters leads to a significant uncertainty in the results. 
+> -	Accuracy of the used 
+> -	Use of DTM to obtain water levels
+> -	Uncertainty in maximum rise of water level
+> -	Implementation of regional different values
+> -	Disregarding local hydraulic conditions (underestimation)
 
 
 ## Vibeke
 > - ** What is the main hypothesis in the geomorphological, slope analysis and river network approach**
-> -The main hypothesis is that flat areas in the vicinity of rivers were created in a process of sedimentation and thus prone to flooding. So by identifying the flat areas in the terrain, potensial flooding prone areas can be identified.
+> - The main hypothesis is that flat areas in the vicinity of rivers were created in a process of sedimentation and thus prone to flooding. So by identifying the flat areas in the terrain, potensial flooding prone areas can be identified.
  
 ## Vibeke
-> - **In Finland, flood levels are calculated with the use of the Bernoulli’s and Mannings equation with standard river profiles. Why is this approach not applicable for use in Norway
-> -The variation in the Norwegian terrain makes their equation not applicable for mapping flood levels.
+> - **In Finland, flood levels are calculated with the use of the Bernoulli’s and Mannings equation with standard river profiles. Why is this approach not applicable for use in Norway**
+> - The variation in the Norwegian terrain makes their equation not applicable for mapping flood levels.
+
+## Torbjorn
+
+> - **in Finland flood levels are calculated using Bernoulli’s and Manning’s equations with standard river profiles. Why couldn't NVE do that in Norway?**
+> - The answer the report provides is this: "Because of the variations in the Norwegian terrain, standard river profiles in Bernoulli’s and Manning’s equations can not be applied". But I don't understand why. Please explain, Florian
+
+> - **What is the resolution of the DTM they used? Do they have a new one now and has that affected they methods they use?**
+> - 25x25 meters. The rest is a question to Florian.
 
 
+## Kristine
+
+> - **The revision in 2007, there was a need for a more precise and clarification of how the guide lines in the Planning and Building act could be implemented in the land use planning act. There was recommended to follow a stepwise procedure for assessing natural hazards. name the three steps and how hazards should be identified/treated?**
+
+> - Municipal plans; Potential hazards should be identified
+> - Zoning plan; The actual hazards should be described, and risk quantified (RVA).
+> - Building case; A satisfactory level of safety must be documented.
+
+## Kristine
+
+> - **Routines that were incorporated to the hydrology method to improve the inaccuracy of the results. What are the routines?**
+> - Due to the inaccuracy of the terrain model, the results could locally be very wrong.
+> - Water levels are not taken directly from the terrain model. These are first smoothed
+> - Buffer distance per watershed introduces an error can result in wrong water level calculations. Watersheds that do not share a boarder can be treated at the same time. Watersheds that being at the same iteration, can have very short distance from each other. 
+
+
+## Kristine
+
+> - Using a buffer, the watershed can be overlapping and there by provide wrong water level calculations. Hence, the use of buffers should be used with care. Calculating cross section watershed on the DTM the poor point of the rivers is used. In some cases, parts of the actual watershed do not drain to the river when the virtual terrain model is used. This results in areas where no flood level is calculated. By assigning the highest flood level from the neighbouring cells within the watershed, this error is corrected.
+> - By using a sensitivity test were the maximum water level rise is changed, extremes are eliminated. Extremes in the extent of the flood plane in case of local inaccuracy in the DTM are then corrected using the extent of the flood plane from the sensitivity calculation plus 2 times the standard deviation.
+
+
+##John Sverre
+> - **Why can the proposed model (the hydrological part of it, at least) give false inundation planes?**
+> - Because the virtual water divide used for calculating inundation is further removed from the river than the actual water divide.
+
+> - **Why are not water levels at the mouth of a tributary not exclusively dependent on runoff?**
+> - Water levels can also fluctuate due to changing water levels in the main river.

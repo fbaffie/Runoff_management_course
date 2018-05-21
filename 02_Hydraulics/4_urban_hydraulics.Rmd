@@ -14,9 +14,7 @@ output:
 
 
 - [Runoff from small catchments](./4_urban_hydraulics.html#runoff-from-small-catchments)
-- [Water harvesting example](./4_urban_hydraulics.html#water-harvesting-example)
 - [Take home messages](./4_urban_hydraulics.html#take-home-messages)
-- [Exercises](./4_urban_hydraulics.html#exercises)
 - [Further resources](./4_urban_hydraulics.html#further-resources)
 
 <!--
@@ -88,6 +86,12 @@ If the return period is high, increase the value of C:
 Sogndal's overvassnorm recommends a safety factor $S=1.2$. 
 
 Vegvesen goes up to $S=1.5$ for long lasting infrastructure
+
+Climate factors given by https://klimaservicesenter.no
+
+[Climate profile - Sogn og Fjordane](https://cms.met.no/site/2/klimaservicesenteret/klimaprofiler/klimaprofil-sogn-og-fjordane/_attachment/12038?_ts=15d9d3d51bf)
+
+[Expect climate changes per season in Sogn og Fjordane](https://cms.met.no/site/2/klimaservicesenteret/klimaprofiler/klimaprofil-sogn-og-fjordane/_attachment/10819?_ts=15972a5bf43)
 
 ## Intensity-Duration-Frequency Curve
 Which precipitation event should we choose for peak discharge?
@@ -181,14 +185,11 @@ $S = \frac{1000}{CN}-10$ where $CN$ ranges from 30 to 100; lower numbers indicat
 [Vegvesen Håndbok N200 - Vegbygging](http://www.vegvesen.no/_attachment/188382/binary/980128?fast_title=H%C3%A5ndbok+N200+Vegbygging+%2821+MB%29.pdf)
 
 <!--
-[Flaumfare langs bekker](http://publikasjoner.nve.no/veileder/2015/veileder2015_03.pdf)
 
 many other methods [there](http://echo2.epfl.ch/VICAIRE/mod_1b/chapt_10/main.htm)
 -->
 
 ## USDA National engineering handbooks
-
-[Hydrology hanbook](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063)
 
 [Engineering Field Handbook (surveying, estimating runoff, hydraulics, grassed waterways, ponds...)](https://directives.sc.egov.usda.gov/viewerFS.aspx?hid=21429)
 
