@@ -55,9 +55,7 @@
 <li class="fragment next">500 km2: dH(m) = 8</li>
 <li class="fragment next">0-1 km2: dH(m) = 2,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%</li>
 <li class="fragment next">1-500 km2: dH(m) = 2,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake% + 0,64 ln(Area)</li>
-<li class="fragment next"><blockquote>
-<p>500 km2: dH(m) = 6,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%</p>
-</blockquote></li>
+<li class="fragment next">more than 500 km2: dH(m) = 6,83 + 0,00027 * Area + 0,0009 * Runoff – 0,15 Lake%</li>
 </ul>
 </section><section id="sushmitha-kotipalli-1" class="slide level2">
 <h2>Sushmitha Kotipalli</h2>
@@ -87,30 +85,39 @@
 <ul>
 <li class="fragment next"><strong>According to the methodology “the main focus has been to investigate the possibility to derive areas prone to flooding based on […] national DTM. Methods used for small scale flood assessment in other countries […] were studied.” Due to several factors these methods were not suitable for Norway. Explain the geomorphological approach, which was implemented instead. Name critic as well.</strong></li>
 <li class="fragment next">Geomorphology - Main hypothesis: flat areas bordering river systems were created due to sedimentation and thus prone to flooding! Definition of flat area: NVE uses the DTM (Digital Terrain Model) in comparison with the preexisting “flood inundation map”. The threshold value was found within ≤ 3 degree. Only areas that are interconnected with the river system.</li>
-<li class="fragment next">Critic: “Overestimation of potential flood areas” takes place in complex river systems, where many tributary rivers exist and a differentiation between flood plains and general flat areas is no longer possible. Underestimation happens in areas where the “flood water level” is above the ordinary altitude and the water in reality reaches areas “that are less than the 3 degree threshold that was used in the method”. Inaccuracy of the DTM – works with a “coarse” of resolution of 25x25m.</li>
 </ul>
 </section><section id="nils-1" class="slide level2">
+<h2>Nils</h2>
+<ul>
+<li class="fragment next">Critic: “Overestimation of potential flood areas” takes place in complex river systems, where many tributary rivers exist and a differentiation between flood plains and general flat areas is no longer possible. Underestimation happens in areas where the “flood water level” is above the ordinary altitude and the water in reality reaches areas “that are less than the 3 degree threshold that was used in the method”. Inaccuracy of the DTM – works with a “coarse” of resolution of 25x25m.</li>
+</ul>
+</section><section id="nils-2" class="slide level2">
 <h2>Nils</h2>
 <!-- QUESTION 2: (page 9/22) -->
 <ul>
 <li class="fragment next"><strong>Define the idea of the second (hydrological) approach and explain the setup of a “virtual water divide” (watershed)</strong></li>
-<li class="fragment next">The idea is to define a method for calculating the “potential maximum rise of water levels in various kinds of rivers” as the very first. These data (flood water level) need to be interpolated to a flood plain. Combined with the DTM (Digital Terrain Model) it is possible to determine the potential inundation areas. Virtual Water Divide: This method was implemented for calculating a flood plain without using measured cross sections. Therefor 25m buffers are calculated around the river. Each buffer belongs to a certain altitude / elevation (e. g. “first buffer is 1m, second buffer is 2m etc.”). Thereby the watershed in the virtual model is located on the highest altitude and in the centered in the middle between two rivers.</li>
+<li class="fragment next">The idea is to define a method for calculating the “potential maximum rise of water levels in various kinds of rivers” as the very first. These data (flood water level) need to be interpolated to a flood plain. Combined with the DTM (Digital Terrain Model) it is possible to determine the potential inundation areas.</li>
+</ul>
+</section><section id="nils-3" class="slide level2">
+<h2>Nils</h2>
+<ul>
+<li class="fragment next">Virtual Water Divide: This method was implemented for calculating a flood plain without using measured cross sections. Therefor 25m buffers are calculated around the river. Each buffer belongs to a certain altitude / elevation (e. g. “first buffer is 1m, second buffer is 2m etc.”). Thereby the watershed in the virtual model is located on the highest altitude and in the centered in the middle between two rivers.</li>
 </ul>
 </section><section id="tonje-karin-rio" class="slide level2">
 <h2>Tonje Karin Rio</h2>
 <ul>
 <li class="fragment next"><strong>Give a brief explanation of the geomorphological- and the hydrological method, and what these methods investigate.</strong></li>
-</ul>
-<ul>
 <li class="fragment next">These methods are used for flood risk mapping at a national level, and is adjusted to Norwegian conditions.<br />
 </li>
 <li class="fragment next">Geomorphological method: Using our national DTM, flat areas (below a 3 degree threshold derived from existing flood inundation maps) in vicinity of rivers were identified as prone to flooding.</li>
+</ul>
+</section><section id="tonje-karin-rio-1" class="slide level2">
+<h2>Tonje Karin Rio</h2>
+<ul>
 <li class="fragment next">Hydrological method: Rise of water levels from detailed flood inundation maps have been correlated with discharge and catchment characteristics, then applied to comparable rivers across Norway. Combining maximum flood levels with the DTM, areas prone to flooding were detected.</li>
 </ul>
 <ul>
 <li class="fragment next"><strong>When compared to detailed flood inundation maps, which of the two methods discussed in this paper have the best fit?</strong></li>
-</ul>
-<ul>
 <li class="fragment next">Results from the hydrological method show a good match with detailed flood inundation maps, and is considered the best method for mapping areas prone to flooding. The geomorphological method encountered problems with under- and overestimation of flood levels.</li>
 </ul>
 </section><section id="sarina" class="slide level2">
@@ -219,6 +226,72 @@
 <ul>
 <li class="fragment next"><strong>Why are not water levels at the mouth of a tributary not exclusively dependent on runoff?</strong></li>
 <li class="fragment next">Water levels can also fluctuate due to changing water levels in the main river.</li>
+</ul>
+</section><section id="anna" class="slide level2">
+<h2>Anna</h2>
+<ul>
+<li class="fragment next"><strong>Why can the results of the report not be used as a flood inundation map?</strong></li>
+<li class="fragment next">Because the method used is not accurate enough. The Geomorphologic method works well in isolated areas, but in complex river systems the method does no longer work. The hydrological method works better but the parameters used in this method have their own inaccuracy.</li>
+</ul>
+</section><section id="anna-1" class="slide level2">
+<h2>Anna</h2>
+<ul>
+<li class="fragment next"><strong>Which different approaches were used during the hydrological method?</strong></li>
+<li class="fragment next">Data from gauging stations, catchment characteristics, catchment area, comparable river in the same area. These four approaches were used with the assumption that the water level could be obtained without any hydrological or hydraulic calculations.</li>
+</ul>
+</section><section id="erik-frivik-presthaug" class="slide level2">
+<h2>Erik Frivik Presthaug</h2>
+<ul>
+<li class="fragment next"><strong>What is the Strahler river order?</strong></li>
+<li class="fragment next">A system for ordering streams (and waterbodies) in a hierarchy, showing which rivers are tribunary and how they merge (their confluence points). The Strahler order is a “top-down” system where rivers “1” are the outermost tributaries. If two tributaries (at level “n”) join, the resulting stream is n+1.</li>
+</ul>
+</section><section id="erik-frivik-presthaug-1" class="slide level2">
+<h2>Erik Frivik Presthaug</h2>
+<ul>
+<li class="fragment next"><strong>Who is responsible for taking flood hazards into account in land use planning in Norway?</strong></li>
+<li class="fragment next">According to the national Planning and Building Act (Plan- og bygningsloven, <a href="https://lovdata.no/dokument/NL/lov/2008-06-27-71" class="uri">https://lovdata.no/dokument/NL/lov/2008-06-27-71</a>) the local municipality have this responsibility and could also be held liable if damage occurs.</li>
+</ul>
+</section><section id="eirin" class="slide level2">
+<h2>Eirin</h2>
+<ul>
+<li class="fragment next"><strong>What makes Norway prone to flooding?</strong> -long winters with low runoff and snow accumulating in the mountains lead to high runoff in the spring resulting in a regime with the highest floods during spring. In the western coastal areas autumn and winter floods dominate due to its milder climate.</li>
+</ul>
+</section><section id="eirin-1" class="slide level2">
+<h2>Eirin</h2>
+<ul>
+<li class="fragment next"><strong>a new integrated approach to flood management was proposed after the damaging flood in 1995. What was deemed most important to reduce flood damage in the future, and who is responsible for taking natural hazards into account?</strong></li>
+<li class="fragment next">To reduce flood damage it important to improve land use planning in flood prone areas. Local municipalities are responsible for taking natural hazards into account in land use planning and could be liable if damage occurs.</li>
+</ul>
+</section><section id="theo" class="slide level2">
+<h2>Theo</h2>
+<ul>
+<li class="fragment next"><strong>The planning process for flood risk management in a municipality is typically split into three levels. Name these three</strong></li>
+<li class="fragment next">Municipal plan, giving principal strategies for land use within the municipality</li>
+<li class="fragment next">Zoning plans, where specific areas are zoned for different land use with detailed regulations</li>
+<li class="fragment next">Building case, where the processing of building application is done.</li>
+<li class="fragment next">Municipal plan: potential hazard should be identified</li>
+<li class="fragment next">Zoning plan: the actual hazard should be described and risk quantified</li>
+<li class="fragment next">Building case: a satisfactory level of safety must be documented</li>
+</ul>
+</section><section id="theo-1" class="slide level2">
+<h2>Theo</h2>
+<ul>
+<li class="fragment next"><strong>Name 5 uncertainties and inaccuracies from the hydrological method (DTM) that was used in the project</strong></li>
+<li class="fragment next">Accuracy of the used Terrain model /5/</li>
+<li class="fragment next">Use of Terrain model to obtain water levels</li>
+<li class="fragment next">Uncertainty in maximum rise of water level</li>
+<li class="fragment next">Implementation of regional different values</li>
+<li class="fragment next">Disregarding local hydraulic conditions (underestimation)</li>
+</ul>
+</section><section id="erling" class="slide level2">
+<h2>Erling</h2>
+<ul>
+<li class="fragment next"><strong>What is the main hypothesis in the geomorphology approach?</strong></li>
+<li class="fragment next">Flat areas in the vicinity of rivers were created in a process of sedimentation and thus prone to flooding.</li>
+</ul>
+<ul>
+<li class="fragment next"><strong>What does the maps created by the hydrological method show?</strong></li>
+<li class="fragment next">It does not show what areas can possibly flood. It shows areas where the danger of flooding needs to be further assessed.</li>
 </ul>
 </section>
 
