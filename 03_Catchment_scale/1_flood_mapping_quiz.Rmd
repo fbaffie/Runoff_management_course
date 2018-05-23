@@ -123,7 +123,7 @@ Inaccuracy of the DTM – works with a “coarse” of resolution of 25x25m.
 > - **What is a hydrologic correct DTM?**
 > - A hydrologic correct DTM means the DTM has been corrected in a way the calculated flow paths follow the actual rivers and streams.  
 
-> - ** Why isn't is so important to study the effect of using regionally differentiated formulas for calculating the maximum water level rise in the hydrological model? **
+> - **Why isn't is so important to study the effect of using regionally differentiated formulas for calculating the maximum water level rise in the hydrological model?**
 > - Due to the flat topography of the valley floor, the hydrological method is relatively insensitive to the exact water level rise. Inaccuracy in the calculated flood levels has little effect on the models result.  
 
 ## Helge
@@ -142,7 +142,7 @@ Inaccuracy of the DTM – works with a “coarse” of resolution of 25x25m.
 
 
 ## Vibeke
-> - ** What is the main hypothesis in the geomorphological, slope analysis and river network approach**
+> - **What is the main hypothesis in the geomorphological, slope analysis and river network approach**
 > - The main hypothesis is that flat areas in the vicinity of rivers were created in a process of sedimentation and thus prone to flooding. So by identifying the flat areas in the terrain, potensial flooding prone areas can be identified.
  
 ## Vibeke

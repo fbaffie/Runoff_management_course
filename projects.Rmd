@@ -198,9 +198,9 @@ People	| Main project	|  Second project
 Anna Famke Astrid | Discharge gauging |  Small-scale vulnerabitilies
 Adam Erling Tolbjørn | Flood routing |  Green infrastructure synthesis
 Erik Tonje Eirin | Sogndal's catchment |  Planning Lyseparken
-Anne Nils Peter | Small-scale vulnerabitilies |  Flood routing
+Anne Nils Peter | Small-scale vulnerabitilies |  Vegvesen repair practices
 Ragnar Sarina Theo | Green infrastructure synthesis |  Discharge gauging
-Helge Kristine Vibeke | Planning Lyseparken |  Vegvesen repair practices
+Helge Kristine Vibeke | Planning Lyseparken |  Flood routing
 John Sushmitha Willemijn | Vegvesen repair practices |  Sogndal's catchment
 
 ## Project development

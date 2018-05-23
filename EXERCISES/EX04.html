@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resilient design for urban stormwater</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\\rmdshower/node_modules/shower-material/styles/screen-16x10.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-common.css">
+  <link rel="stylesheet" href="..\\rmdshower/style-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="..\\rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Resilient design for urban stormwater</h1>
+    <p>Back to <a href="../index.html#exercise-sessions">course overview</a></p>
+  </header>
+
+    
+  
+<section id="theme-water-harvesting-in-drylands" class="titleslide slide level1"><h2 class="shout">Theme: Water harvesting in drylands</h2></section><section id="brad-lancasters-water-harvesting-strategies" class="slide level2">
+<h2>Brad Lancaster’s water harvesting strategies</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdvmJ-AFlRA?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli" frameborder="0" allowfullscreen>
+</iframe>
+<p>We want to copy (<a href="https://en.wikipedia.org/wiki/Reverse_engineering">Reverse engineer</a>) his installation, focusing on sizing, functionality, some specific details. We will then do various exercises based on this setup.</p>
+</section><section id="preparation-work" class="slide level2">
+<h2>Preparation work</h2>
+<p>Do the schematics / drawings of his stormwater and greywater setup. Inspiration for drawings / schematics:</p>
+<p>Pinterest collections: <a href="https://no.pinterest.com/fbaffie/green-sw-infrastructure/">green infrastructure</a>, <a href="https://no.pinterest.com/fbaffie/drawing-examples/">drawing examples</a></p>
+<p>Lots of drawings examples in the library book (<a href="https://www.hisf.no/biblioteket/" class="uri">https://www.hisf.no/biblioteket/</a>):</p>
+<p>Public safety guidance for urban SW facilities</p>
+</section>
+<section id="small-exercises-based-on-this-home-setup" class="titleslide slide level1"><h2 class="shout">Small exercises based on this home setup</h2></section><section id="street-sw-infiltration" class="slide level2">
+<h2>Street SW infiltration</h2>
+<ul>
+<li class="fragment next">Let’s say his system handles 5m of road width with a 1m wide infiltration strip</li>
+<li class="fragment next">So 5<span class="math inline">\(m^2\)</span> of road runoff + 1<span class="math inline">\(m^2\)</span> of infiltration strip needs to infiltrate in 1<span class="math inline">\(m^2\)</span></li>
+<li class="fragment next">What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100<span class="math inline">\(l/s\)</span> per Ha)</li>
+<li class="fragment next">By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in <span class="math inline">\(m/s\)</span>). You do not need to relate it to hydraulic conductivity (see <a href="https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation">there</a> for the link between infiltration rate and saturated hydraulic conductivity)</li>
+</ul>
+<!-- ## Street SW infiltration -->
+<!-- > - We use the rational formula for the road runoff -->
+<!-- > - $Q = C*i*A = 0.9*i*A$ we use 0.9 as arunoff coefficient. You could also use 1 if you neglect the small retention and infiltration properties of the asphalt. -->
+<!-- > - Unit conversion: 100l/Ha of precipitation intensity is $0.1m3/s$ for $10000m^2$ (1 Ha is $100*100m$) -->
+<!-- > - So for $5m^2$ of road $Q = C*i*A = 0.9*0.5/10000 = 4.5*10^{-5} m3/s$ -->
+<!-- > - In addition, $Q = i*A = 0.1*1/10000 = 1*10^{-5} m3/s$ of rain fall onto the infiltrationa area -->
+<!-- > - So in total, for an infiltration area of 1m2, we required an infiltration rate of $4.5*10^{-5}+1*10^{-5} = 5.5*10^{-5} m/s$  -->
+</section><section id="amount-of-precipitation-to-fill-up-the-tank" class="slide level2">
+<h2>Amount of precipitation to fill up the tank</h2>
+<ul>
+<li class="fragment next">We assume <span class="math inline">\(80m^2\)</span> of total roof area. The total storage volume is 8000 liters</li>
+<li class="fragment next">How much precipitation is required to fill up the tanks?</li>
+</ul>
+<!-- ## Amount of precipitation to fill up the tank -->
+<!-- > - 1mm of rain is the equivalent of 1$l/m^2$. So 1$mm$ of rain gives him 80$l$ = 0.08$m^3$ -->
+<!-- > - So his tanks will need 8000/80 = 100$mm$ of rain to fill up -->
+<!-- > - Which precipitation event does it correspond to in the Oppstryn IVF? -->
+<!-- > - A 200-year 24h long precipitation event -->
+<!-- > - Considering that it rains approx 300mm/year in Tucson, he can store a lot of the year's precipitation  -->
+</section><section id="infiltration-rate-required-if-the-tank-overflows" class="slide level2">
+<h2>Infiltration rate required if the tank overflows</h2>
+<ul>
+<li class="fragment next">Assume that his tanks are already full when a 5min 10-year precipitation event happens (100<span class="math inline">\(l/s\)</span> per Ha)</li>
+<li class="fragment next">Assume that his infiltration mulch bed is 20m2 in area</li>
+<li class="fragment next">Which infiltration rate is required to avoid ponding in the infiltration area?</li>
+</ul>
+<!-- ## Infiltration rate required if the tank overflows -->
+<!-- > - If we take a runoff coefficient of 1 for the roofs, the total area contributing precipitation to the infiltration bed is 80m2 of roof + 20m2 of infiltration bed. -->
+<!-- > - So a precipitation intensity of 0.1m3/s for 10000m2 (100l/s per Ha) makes $0.1*100/10000 = 10^{-3} m^3/s$  of inflow into the infiltration area -->
+<!-- > - A 20m2 infiltration area will therefore require an infiltration rate of $10^{-3}/20 = 5*10^{-5} m/s$  -->
+<!-- > - This is consistent with our estimate of the infiltration capacity required for the road-side strip. His setup seems to be coherently sized. -->
+</section><section id="storage-volume-in-mulch-bed" class="slide level2">
+<h2>Storage volume in mulch bed</h2>
+<ul>
+<li class="fragment next">Assume that the infiltration area has the previously calculated infiltration capacity: <span class="math inline">\(5*10^{-5}\)</span> m/s</li>
+<li class="fragment next">How much ponding storage (height of the paddle in the mulch bed) is needed to handle a 3min 100-year precipitation event (200l/s per Ha)</li>
+</ul>
+<!-- ## Storage volume in mulch bed -->
+<!-- > - Intensity has doubled, so inflow has doubled: $2*10^{-3}$ m3/s of inflow into the infiltration area -->
+<!-- > - Based on the previous exercise, the extra flow (above $10^{-3} m^3/s$) is what the infiltration rate cannot handle: $2*10^{-3}-10^{-3} = 10^{-3} m^3/s$ -->
+<!-- > - So during 3 min, the accumulated volume that could not infiltrate is: $3*60*10^{-3}= 180*10^{-3}=0.180 m^{3}$  -->
+<!-- > - Spread over 20$m^2$, this makes a ponding height of: $0.180/20 = 0.009m = 9mm$ -->
+</section><section id="how-much-flow-can-the-tank-inlet-convey-before-the-filter-overflows" class="slide level2">
+<h2>How much flow can the tank inlet convey before the filter overflows</h2>
+<ul>
+<li class="fragment next">This exercise assumes that the filter has more capacity than the 10cm (diameter) pipe below and acts as a small reservoir</li>
+<li class="fragment next">The first flush pipe is already full</li>
+<li class="fragment next">There is a 20<span class="math inline">\(cm\)</span> height difference between the storage inflow pipe and the top of the filter cone / expansion</li>
+<li class="fragment next">Calculate the maximum flow into the reservoir before the water overflows from the filter’s cone / expansion</li>
+</ul>
+</section><section id="how-much-flow-can-the-tank-inlet-convey-before-the-filter-overflows-1" class="slide level2">
+<h2>How much flow can the tank inlet convey before the filter overflows</h2>
+<ul>
+<li class="fragment next"><strong>Important assumptions to discuss</strong>:</li>
+<li class="fragment next">It is easier if you assume that the tank is empty. This way you can apply Bernouilli’s equation without having to worry about extra water pressure from the tank as water flows into it (atmospheric pressure only)</li>
+<li class="fragment next">This example also includes a big approximation by assuming that the velocity of water at the top of the filter cone is nul. This makes for an easy application of Bernouilli’s Law but generates an underestimation of the water velocity at the tank inlet.</li>
+</ul>
+<!-- ## How much flow can the tank inlet convey before the filter overflows -->
+<!-- > - [There](./1_fluid_dynamics.html#exercise-flow-out-of-a-reservoir), we calculated the flow out of a reservoir in very similar conditions. In this case, the reservoir is the overflowing filter cone. -->
+<!-- > - This gives us a velocity of $v= (2gd)^{1/2} = 2m/s$ for water falling into the storage tanks. We need to multiply it by the cross-sectional area of the pipe to get the flow rate: -->
+<!-- > - Assuming a 10cm wide pipe: $Q=2*0.05^2 \pi = 0.0157 m^3/s$ -->
+<!-- > - With a capacity of $15.7*10^{-3} m^3/s$, the inlet to the reservoir has almost 16 times the capacity required to handle a 3min 100-year precipitation event  -->
+<!-- > - We neglected head loss but with such as margin, this is not an issue -->
+</section><section id="time-to-empty-the-tank-through-a-10mm-pipe" class="slide level2">
+<h2>Time to empty the tank through a 10mm pipe</h2>
+<ul>
+<li class="fragment next">Imagine the water level of the full tank is 2m higher than the r=10mm irrigation hose. The cross-sectional area of the tank is <span class="math inline">\(A = 2m^2\)</span></li>
+<li class="fragment next">How long would it take to empty the water tank through this hose?</li>
+</ul>
+<!-- ## Time to empty the tank through a 10mm pipe -->
+<!-- > - As we saw in the previous example, the velocity out of the irrigation hose: $v(t)= (2gh(t))^{1/2}$ -->
+<!-- > - Applying the conservation of mass per increment of time dt: -->
+<!-- > - Flow out of the irrigation hose = A*dh/dt = the area of the tank x small drop in water level (dh) per increment of time (dt) -->
+<!-- > - $(2gh(t))^{1/2} * r^2* \pi = A*dh/dt$ -->
+<!-- > - The trick now is to separate $dh$ and $dt$, to have only $h(t)$ and $dh$ on one side -->
+<!-- ## Time to empty the tank through a 10mm pipe -->
+<!-- > - $dt= C*h(t)^{-1/2}*dh$ with $C=A/(r^2* \pi * (2g)^{1/2})$ -->
+<!-- > - This way, we can easily integrate both sides of the equation between $t_{end} \ and \ t_0$ -->
+<!-- > - $t_{end}-t_0 = 2*C*(h_{top}^{1/2}-h_{bottom}^{1/2})$ -->
+<!-- > - $h_{bottom}$ is our reference elevation so it is nul. This yields: -->
+<!-- > - $t_{end}= 2*C*h_{top}^{1/2} = 2*2/(1.4*10^{-3})*2^{1/2} = 4028 s$ -->
+<!-- > - So 1.12 hours required to empty the reservoir  -->
+<!-- > - You could do the same to see how long it would take the first flush system to empty through a small hose as discussed earlier to avoid frost issues. -->
+</section><section id="flow-out-of-a-water-filter" class="slide level2">
+<h2>Flow out of a water filter</h2>
+<ul>
+<li class="fragment next">Imagine a water filter with charcoal (5cm length of porous media) that has a hydraulic conductivity of <span class="math inline">\(10^{-4}\)</span> m/s. Which cross sectional area should the filter have to fill up 1 L in 5 seconds when the tank is full?</li>
+<li class="fragment next">We have 2<span class="math inline">\(m\)</span> of head difference to push water through the 5<span class="math inline">\(cm\)</span> filter.</li>
+</ul>
+<!-- ## Flow out of a water filter -->
+<!-- > - We apply Darcy's Law in a very similar way to his [experiment](../01_Hydrology/2_hydrological_processes_2.html#darcys-experiment) -->
+<!-- > - Flow per unit area = hydraulic conductivity * hydraulic gradient. With 2m of head in the tank, and 0.05m of porous material, the hydraulic gradient is 2/0.05 and: -->
+<!-- > - $q=2/0.05*K = 2/0.05*10^{-4} = 0.004 m^3/s/m^2$ -->
+<!-- > - We need $Q = 1/5 = 0.2 l/s = 0.2*10^{-3} m^3/s$ -->
+<!-- > - We use the relationship $Q= q*A$ to calculate the required cross-sectional area -->
+<!-- > - $A= Q/q = 0.2*10^{-3}/0.004 = 0.05m^2 = 500cm^2$ -->
+<!-- > - This is unrealistic so this filter idea could only be considered for example with 1cm thickness of porous media with a hydraulic conductivity of $K=10^{-3}$ m/s -->
+<!-- > - In this case, the cross section becomes reasonable: $A = 10cm^2$ -->
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="..\\rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>
