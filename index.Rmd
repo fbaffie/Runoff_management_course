@@ -423,10 +423,12 @@ Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 
 We saw how precipitation led to runoff and how water level in channels varies as a function of discharge.
 Those results are used to produce flood zoning maps. 
-In the last quiz, we looked at how [flood susceptibility maps](https://temakart.nve.no/link/?link=flomaktsomhet) had been computed.
-The latest [report on this methodology](http://publikasjoner.nve.no/report/2011/report2011_07.pd) is, maybe by mistake, not linked to the map explanation.
 
-Based on group work concieved at NVE, we will work on holitisc catchment analysis and discuss specific cases of vulnerability to flooding.
+In the last quiz, we looked at how [flood susceptibility maps](https://temakart.nve.no/link/?link=flomaktsomhet) had been computed based on the explaination document: [identification of areas exposed to flooding in Norway at a national level](https://gis3.nve.no/metadata/rapporter/SmallScaleFloodAssesment_v3.pdf).
+
+A more polished report on this methodology, including a wider perspective, can be found [there](http://publikasjoner.nve.no/report/2011/report2011_07.pdf).
+
+Based on group work prepared by NVE, we will work on holistic catchment analysis and discuss specific cases of vulnerability to flooding.
 
 
 
@@ -538,7 +540,7 @@ Constructive critiscm on the blue/green factor method could be used as an exerci
 
 ## Designing resilient infrastructure
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](04_Urban_SW/3_design.html) -->
+[Lecture](04_Urban_SW/3_design.html)
 
 We look at some good and bad design examples and try to understand the reasons behing design choices and possibly unintended consequences / uses. 
 
@@ -585,11 +587,12 @@ Put your files on a USB stick or send them to me as a .zip. Two groups will (inf
 ## Urban hydrology and green infrastructure exercises
 <img src="images/logo.png" class="cover">
 
-Some calculations and drawings based on a water harvesting example in Tucson, Arizona.
+Some calculations and drawings based on a water harvesting example in Tucson, Arizona:
+[Exercise without answers](EXERCISES/EX04.html)
 
 <!-- [Preparation work](04_Urban_SW/2_green_infra_quiz.html) -->
 
-<!-- [Exercises](EXERCISES/EX05-sw_design.html) -->
+
 
 ## Urban and rural hydrology exercises: field observations and planning
 <img src="images/logo.png" class="cover">

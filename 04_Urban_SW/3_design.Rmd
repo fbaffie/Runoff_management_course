@@ -1,5 +1,5 @@
 ---
-title: "Design"
+title: "Designing resilient infrastructure"
 author: Back to [course overview](../index.html#designing-resilient-infrastructure)
 output:
   rmdshower::shower_presentation:

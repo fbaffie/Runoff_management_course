@@ -184,7 +184,7 @@ $v=k*C*R^{0.63}*S^{0.54}$
 
 $v$ is the water velocity in the pipe
 
-$k$ is a conversion factor for the unit system
+$k$ is a conversion factor for the unit system (k=0.849 for SI units)
 
 $C$ is a roughness coefficient
 

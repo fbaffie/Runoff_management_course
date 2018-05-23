@@ -16,7 +16,7 @@ output:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xdvmJ-AFlRA?list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli" frameborder="0" allowfullscreen></iframe>
 
-We want to  copy ([Reverse engineer](https://en.wikipedia.org/wiki/Reverse_engineering)) his installation, focusing on sizing, functionality, some specific details. We will then do various exercises based on this setup.
+We want to  copy ([reverse engineer](https://en.wikipedia.org/wiki/Reverse_engineering)) his installation, focusing on sizing, functionality, some specific details. We will then do various exercises based on this setup.
 
 ## Preparation work
 
@@ -35,7 +35,7 @@ Public safety guidance for urban SW facilities
 > - Let's say his system handles 5m of road width with a 1m wide infiltration strip
 > - So 5$m^2$ of road runoff + 1$m^2$ of infiltration strip needs to infiltrate in 1$m^2$
 > - What is the required infiltration rate to avoid ponding during a 5min 10-year precipitation event (100$l/s$ per Ha)
-> - By infiltration rate, I mean the vertical velocity at which water wil infiltrate into the soil (in $m/s$). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#green-ampt-infiltration-equation) for the link between infiltration rate and saturated hydraulic conductivity)
+> - By infiltration rate, I mean the vertical velocity at which water will infiltrate into the soil (in $m/s$). You do not need to relate it to hydraulic conductivity (see [there](https://fbaffie.github.io/Runoff_management_course/01_Hydrology/2_hydrological_processes_2.html#hortons-empirical-equation-for-infiltration) for the dynamic behaviour of infiltration rate in reality)
 
 <!-- ## Street SW infiltration -->
 <!-- > - We use the rational formula for the road runoff -->
@@ -77,27 +77,25 @@ Public safety guidance for urban SW facilities
 <!-- > - So during 3 min, the accumulated volume that could not infiltrate is: $3*60*10^{-3}= 180*10^{-3}=0.180 m^{3}$  -->
 <!-- > - Spread over 20$m^2$, this makes a ponding height of: $0.180/20 = 0.009m = 9mm$ -->
 
-## How much flow can the tank inlet convey before the filter overflows
-> - This exercise assumes that the filter has more capacity than the 10cm (diameter) pipe below and acts as a small reservoir
-> - The first flush pipe is already full
-> - There is a 20$cm$ height difference between the storage inflow pipe and the top of the filter cone / expansion
-> - Calculate the maximum flow into the reservoir before the water overflows from the filter's cone / expansion
+## How much flow can the wet system convey before the higher roof overflows
+> - There is a 20$cm$ height difference between end gutters of the wet system
+> - Calculate the maximum flow through the wet system before the top gutter overflows
 
-## How much flow can the tank inlet convey before the filter overflows
+## How much flow can the wet system convey before the higher roof overflows
 > - **Important assumptions to discuss**:
-> - It is easier if you assume that the tank is empty. This way you can apply Bernouilli's equation without having to worry about extra water pressure from the tank as water flows into it (atmospheric pressure only)
-> - This example also includes a big approximation by assuming that the velocity of water at the top of the filter cone is nul. This makes for an easy application of Bernouilli's Law but generates an underestimation of the water velocity at the tank inlet.
+> - This exercise assumes no frictional losses and that both gutters acts as small reservoirs
+> - A first approximation is say that the velocity of water in the upper gutter is 0. This makes for an easy application of Bernouilli's Law.
+> - How could we take into account friction? 
 
 <!-- ## How much flow can the tank inlet convey before the filter overflows -->
-<!-- > - [There](./1_fluid_dynamics.html#exercise-flow-out-of-a-reservoir), we calculated the flow out of a reservoir in very similar conditions. In this case, the reservoir is the overflowing filter cone. -->
-<!-- > - This gives us a velocity of $v= (2gd)^{1/2} = 2m/s$ for water falling into the storage tanks. We need to multiply it by the cross-sectional area of the pipe to get the flow rate: -->
+<!-- > - [There](./1_fluid_dynamics.html#exercise-flow-out-of-a-reservoir), we calculated the flow out of a reservoir in very similar conditions. In this case, the reservoirs are the gutters. -->
+<!-- > - This gives us a velocity of $v= (2gd)^{1/2} = 2m/s$ for water going through the wet system. We need to multiply it by the cross-sectional area of the pipe to get the flow rate: -->
 <!-- > - Assuming a 10cm wide pipe: $Q=2*0.05^2 \pi = 0.0157 m^3/s$ -->
-<!-- > - With a capacity of $15.7*10^{-3} m^3/s$, the inlet to the reservoir has almost 16 times the capacity required to handle a 3min 100-year precipitation event  -->
-<!-- > - We neglected head loss but with such as margin, this is not an issue -->
 
 ## Time to empty the tank through a 10mm pipe
-> - Imagine the water level of the full tank is 2m higher than the r=10mm irrigation hose. The cross-sectional area of the tank is $A = 2m^2$
+> - Imagine that the water level of the full tank is 2m higher than the r=10mm irrigation hose. The cross-sectional area of the tank is $A = 2m^2$
 > - How long would it take to empty the water tank through this hose?
+> - The trick now is to separate $dh$ and $dt$, to have only $h(t)$ and $dh$ on one side
 
 <!-- ## Time to empty the tank through a 10mm pipe -->
 <!-- > - As we saw in the previous example, the velocity out of the irrigation hose: $v(t)= (2gh(t))^{1/2}$ -->
