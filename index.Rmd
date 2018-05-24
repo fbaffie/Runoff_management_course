@@ -197,7 +197,7 @@ Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
 Tue. 22 May | 09:15-12:00	| [Urban hydraulics](02_Hydraulics/4_urban_hydraulics.html)	| Svingen F2
 Wed. 23 May | All day	| Excursion	| Gaupne and Jostedal
-Thu. 24 May | 09:15-12:00	| Exercises: water harvesting | Svingen F2
+Thu. 24 May | 09:15-12:00	| [Exercises: water harvesting](EXERCISES/EX04.html) | Svingen F2
 
 
 <!-- Fossbygget-F208  Kjelda also available for exercises -->

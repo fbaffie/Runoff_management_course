@@ -68,8 +68,8 @@ Public safety guidance for urban SW facilities
 <!-- > - This is consistent with our estimate of the infiltration capacity required for the road-side strip. His setup seems to be coherently sized. -->
 
 ## Storage volume in mulch bed
-> - Assume that the infiltration area has the previously calculated infiltration capacity: $5*10^{-5}$ m/s
-> - How much ponding storage (height of the paddle in the mulch bed) is needed to handle a 3min 100-year precipitation event (200l/s per Ha)
+> - Assume that the mulch bed always infiltrates at the previously calculated infiltration rate: $5*10^{-5}$ m/s
+> - How much ponding storage (height of the water paddle in the mulch bed) is needed to handle a 3min 100-year precipitation event (200l/s per Ha)
 
 <!-- ## Storage volume in mulch bed -->
 <!-- > - Intensity has doubled, so inflow has doubled: $2*10^{-3}$ m3/s of inflow into the infiltration area -->
