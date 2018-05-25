@@ -196,7 +196,7 @@ Different design challenges:
 People	| Main project	|  Second project
 --- | --- | --- 
 Anna Famke Astrid | Discharge gauging |  Small-scale vulnerabitilies
-Adam Erling Tolbjørn | Flood routing |  Green infrastructure synthesis
+Adam Erling Torbjørn | Flood routing |  Green infrastructure synthesis
 Erik Tonje Eirin | Sogndal's catchment |  Planning Lyseparken
 Anne Nils Peter | Small-scale vulnerabitilies |  Vegvesen repair practices
 Ragnar Sarina Theo | Green infrastructure synthesis |  Discharge gauging
