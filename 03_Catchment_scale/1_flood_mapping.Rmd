@@ -1,0 +1,78 @@
+---
+title: "Flood vulnerability assessment"
+author: Back to [course overview](../index.html#flood-vulnerability-assessment)
+output:
+  rmdshower::shower_presentation:
+    self_contained: false
+    katex: true
+    ratio: 16x10
+    theme: material
+    lib_dir: ../
+---
+
+## Plan
+
+[Group exercises](./1_flood_mapping#group-exercises)
+
+[Take home messages](./1_flood_mapping#take-home-messages)
+
+[Further resources](./1_flood_mapping#further-resources)
+
+# Group exercises
+
+## Exercises from Lars Løkeland Slåke - NVE 
+
+[Holistic evaluation of catchments](http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2314338)
+
+Risk and vulnerability assessment (ROS: risiko- og sårbarhetsanalyse)
+
+[Tools for mapping of overland flow paths](http://webfileservice.nve.no/API/PublishedFiles/Download/201707426/2314341)
+
+## Application to Leikanger
+
+We first look at the previously [suggested develoment of 100 new dwellings](../projects.html#design-projects-leikanger-100-dwellings-10ha)
+
+We then discuss the whole catchment at Leikanger / Hermansverk
+
+Some previous flooding events: 
+
+[Eroded gravel road](https://drive.google.com/open?id=1iJ9ovlEa8ZSY-Iq3u9dioJwvTDh_4oau)
+
+[Flood and erosion at Henjavegen, Dec 2017](https://drive.google.com/open?id=1i0mSuP8dIHA1sajpDh3TcZkydCaZAH6M)
+
+
+## Difficulty of defining catchments and flowpaths
+
+Discuss the potential flash-flooding risks and associated uncertainties of the [Bergi hillslope](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=12&lat=6815372.32&lon=75721.05) above Sogndal.
+
+How might climate change impact this hazard?
+On top of this, which additional uncertainties do the old water networks in Sogndal create?
+
+Example of [unexpected flowpaths](https://www.aftenposten.no/norge/i/7rwM3/Utvik-kan-vare-begynnelsen-pa-ny-flomfare#&gid=1&pid=3) in Utvik
+
+
+## Take home messages
+
+- Norway is quite prone to unexpected flood flowpaths
+- Think worst case scenario: is everything "failsafe"
+- Look for local knowledge
+- Identify critical points in the infrastructure
+- Use NVE web tools to do a preliminary study of your catchment
+- This should usually be complemented by a walk-over to verify existing infrastructure, natural and built constraints
+
+# Further resources
+
+## Norway
+
+[All presentations from NVE conference](https://www.nve.no/flaum-og-skred/fagsamlinger-2018-2019/foredrag-fra-fagsamlingene/)
+
+[Flaumfare langs bekker - Råd og tips om kartlegging](http://publikasjoner.nve.no/veileder/2015/veileder2015_03.pdf)
+
+New NVE database in winter 2018: [Flom databasen](https://prosjekt.fylkesmannen.no/Documents/Klimaomstilling/Dokument/2017%20Vatn/4%20-%20GRØNDAHL%20STEFFESEN.pdf)
+
+Laerdal flood maps: see excursion documents on Fronter.
+
+
+
+
+

@@ -12,7 +12,7 @@ output:
 
 ## Plan
 
-[Agriculture and erosion](./4_land_use.html#agriculture-and-erosion)
+[Agriculture and erosion](./4_land_use.html#agriculture-and-soil-erosion)
 
 [Land use alternatives](./4_land_use.html#land-use-alternatives)
 
@@ -66,7 +66,7 @@ Oregon, USA | Clearfelling forest | × 39
 
 ## Soil carbon
 
-> - **At the carbon capture conference, a forestry expert showed that the north side of a grass roof had accumulated soil over it's lifetime but no on the south side: why?**
+> - **A forestry expert showed that the north side of a grass roof had accumulated soil over it's lifetime but no on the south side: why?**
 > - The organic matter in the soil decomposes quicker when exposed to sunlight and higher temperatures. 
 > - The annual rate of biomass production <= rate of decomposition
 
@@ -75,7 +75,7 @@ Oregon, USA | Clearfelling forest | × 39
 Some research on this:
 
 - [Climate change effects on organic matter decomposition rates in ecosystems from the Maritime Antarctic and Falkland Islands](http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2007.01468.x/abstract)
-- [Sunlight drives decay](http://www.nature.com/nature/journal/v442/n7102/edsumm/e060803-11.html)
+- Sunlight also drives oxidation of soil organic matter
 
 Case study of soil degradation in Norway:
 http://www.recare-hub.eu/case-studies/vansjo-hobol-catchment-norway
@@ -125,10 +125,10 @@ components of OM;
 </div>
 
 
-## Wind breaks
+## Wind breaks in lower Rhone Valley
 <img src="images/wind_breaks_provence_googlemap.png" height="500" width="auto">
 
-## Wind breaks
+## Wind breaks in lower Rhone Valley
 <img src="images/wind_breaks_provence_googlemap2.png" height="400" width="auto">
 
 > - Protection from which winds?
@@ -259,9 +259,10 @@ Intensive rotational grazing with an adaptative plan:
 - can improve root depth by stressing the grass more but less often
 - can thus help sequester more carbon
 
+
 ## [Pasture cropping](http://www.pasturecropping.com/articles)
 
-Planting winter cereals directly in a pasture
+An extreme version of no-till crop farming for warm climates: winter cereals are planted directly into a beef pasture
 
 Case study in [Australia](http://www.pasturecropping.com/images/PDF/Winona%20Case%20Study.pdf)
 
@@ -278,12 +279,9 @@ Many of the examples that follow are inspired by the Permaculture movement:
 
 - Approx 10 Ha
 - 59N, Sunne, Sweden
-
-Richard Perkins: one permaculture farm where swales are banned
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ro2J4IIJyxY" frameborder="0" allowfullscreen></iframe>
-
-[Irrigation on the farm](https://www.youtube.com/watch?v=S3eXR6_MxNQ)
+- Richard Perkins' inspiring presentation: [Hacking the food system](https://www.youtube.com/watch?v=3Knn7ZH4Tiw&index=46&t=344s&list=PLsnOsjFNnFqacBToigfx0YeDee7Tlqeli).
+- An interesting view on swales: [one permaculture farm where swales are banned](https://www.youtube.com/watch?v=Ro2J4IIJyxY)
+- [Irrigation on the farm](https://www.youtube.com/watch?v=S3eXR6_MxNQ)
 
 
 ## [Polyface farm](http://www.polyfacefarms.com/)
@@ -305,7 +303,6 @@ Homesteader in Vermont: [Ben Falk - Whole Systems Design](http://www.wholesystem
 
 Interesting orchard concept in Quebec, Canada: [Miracle orchard](https://miracle.farm/en/)
 
-Grant Schulz - Versaland: Iowa, USA: [Water farming upstream - Silvopasture on keyline](http://ppc.uiowa.edu/sites/default/files/schultz_solutions_for_water_quality.pdf)
 
 # Further resources
 
@@ -324,9 +321,8 @@ Interesting debate on a TED talk from [Willie Smits](https://www.ted.com/about/p
 
 [The carbon farming solution](http://carbonfarmingsolution.com/resources)
 
-## On vegetated buffer and mixed cropping
+## [On vegetated buffer and mixed cropping](http://www.resilience.org/stories/2017-01-31/multifunctional-agriculture-a-new-paradigm-of-mixed-cropping/)
 
-from http://www.resilience.org/stories/2017-01-31/multifunctional-agriculture-a-new-paradigm-of-mixed-cropping/
 "The ability of some perennial forage and bioenergy crops to tolerate wet conditions makes it feasible to design harvestable saturated buffers or seasonal wetlands in which nitrate that would otherwise reach surface waters, fertilizes a biomass crop lower on the landscape."
 
 
@@ -463,25 +459,18 @@ System establishment distinguished from system maintenance
 
 Vermont: "non britle" climate
 
-## Increasing the roughness value of the flood plain
+## Agroforestry
 
-Flooding and Drought: Designing Agroforestry Systems to Create Ecosystem Resilience
-https://www.youtube.com/watch?v=k7PO3SHeIPE&index=223&list=WL
+[Flooding and Drought: Designing Agroforestry Systems to Create Ecosystem Resilience](https://www.youtube.com/watch?v=k7PO3SHeIPE&index=223&list=WL)
 
-with a riparian buffer before it hits productive land
-Perennial wild rices in flood plains
-Conventional pasture vs silvopasture
-With silvopasture: earlier start in spring, then lower than conventional mid summer, then continues later in fall
+<!-- with a riparian buffer before it hits productive land -->
+<!-- Perennial wild rices in flood plains -->
+<!-- Conventional pasture vs silvopasture -->
+<!-- With silvopasture: earlier start in spring, then lower than conventional mid summer, then continues later in fall -->
+<!-- advantage of root depth differences -->
 
-advantage of root depth differences
+[Introduction to Agroforestry Systems](https://www.youtube.com/watch?v=nuplHZRijqg)
 
-## Introduction to Agroforestry Systems
-https://www.youtube.com/watch?v=nuplHZRijqg
-
-
-## Soil aggregation and water infiltration
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/d1M7EFqqsMM" frameborder="0" allowfullscreen></iframe>
 
 <!--
 ## Forests and water quality

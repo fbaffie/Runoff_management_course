@@ -207,8 +207,8 @@ Thu. 24 May | 09:15-12:00	| [Exercises: water harvesting](EXERCISES/EX04.html) |
 
 Day	| Time	| Topic	| Room
 --- | --- | --- | --- 
-Wed. 30 May | 09:15-12:00	| Soils, erosion and deposition	| Svingen F2
-Wed. 30 May | 13:15-16:00	| Flood mapping | Svingen F2
+Wed. 30 May | 09:15-12:00	| [Soils, erosion and deposition](02_Hydraulics/3_erosion_deposition.html)	| Svingen F2
+Wed. 30 May | 13:15-16:00	| [Flood vulnerability](03_Catchment_scale/1_flood_mapping.html) | Svingen F2
 Thu. 31 May | 09:15-12:00	| Excursion	| Leikanger
 Fri. 1 Jun  | 09:15-12:00	| Debrief: excursion and course | Svingen F2
 Fri. 1 Jun  | 13:15-16:00	| Projects discussions | Svingen F2
@@ -405,7 +405,7 @@ Irrigation schemes in the US west (Arizona, maps and drawings?). Open water irri
 
 ## Soils, erosion and deposition
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](02_Hydraulics/3_erosion_deposition.html) -->
+[Lecture](02_Hydraulics/3_erosion_deposition.html)
 
 Water can mobilize particules of various sizes. This has to be taken into account in the design of hydraulic structures.
 
@@ -431,18 +431,15 @@ Sets of drawings / infrastructure in Sogndal (visit 3 waters network)
 
 # CATCHMENT SCALE FLOODING
 
-## Flood mapping
+## Flood vulnerability assessment
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](03_Catchment_scale/1_floodplain_management.html) -->
 
 We saw how precipitation led to runoff and how water level in channels varies as a function of discharge.
 Those results are used to produce flood zoning maps. 
 
-In the last quiz, we looked at how [flood susceptibility maps](https://temakart.nve.no/link/?link=flomaktsomhet) had been computed based on the explaination document: [identification of areas exposed to flooding in Norway at a national level](https://gis3.nve.no/metadata/rapporter/SmallScaleFloodAssesment_v3.pdf).
+In the last quiz, we looked at how [flood susceptibility maps](https://temakart.nve.no/link/?link=flomaktsomhet) had been computed based on the explaination document: [identification of areas exposed to flooding in Norway at a national level](https://gis3.nve.no/metadata/rapporter/SmallScaleFloodAssesment_v3.pdf). A more polished report on this methodology, including a wider perspective, can be found [there](http://publikasjoner.nve.no/report/2011/report2011_07.pdf).
 
-A more polished report on this methodology, including a wider perspective, can be found [there](http://publikasjoner.nve.no/report/2011/report2011_07.pdf).
-
-Based on group work prepared by NVE, we will work on holistic catchment analysis and discuss specific cases of vulnerability to flooding.
+Based on group work prepared by NVE, we will work on holistic catchment analysis and discuss specific cases of vulnerability to flooding: [lecture](03_Catchment_scale/1_flood_mapping.html)
 
 
 
@@ -488,7 +485,7 @@ We will also visit field equipment such as meteorological and gauging stations t
 
 ## Land use 
 <img src="images/logo.png" class="cover">
-<!-- [Lecture](03_Catchment_scale/4_land_use.html) -->
+[Lecture (extra, not covered in class)](03_Catchment_scale/4_land_use.html)
 
 We will see how alternative land uses may help mitigate catchment-scale flooding and erosion. Some agricultural practices could be applied in urban areas to link SW green infrastrure to local food production.
 
@@ -554,7 +551,7 @@ Constructive critiscm on the blue/green factor method could be used as an exerci
 
 ## Designing resilient infrastructure
 <img src="images/logo.png" class="cover">
-[Lecture](04_Urban_SW/3_design.html)
+[Lecture (extra, not covered in class)](04_Urban_SW/3_design.html)
 
 We look at some good and bad design examples and try to understand the reasons behing design choices and possibly unintended consequences / uses. 
 
@@ -688,14 +685,14 @@ A (not very good looking) resource, but very complete on most aspects of this co
 
 http://echo2.epfl.ch/VICAIRE/mod_4/chapt_8/main.htm
 
-[USDA National Engineering Handbook - Hydrology](C:\Privat\fkba\Nedlastinger\USDA Handbook - Hydrology\National Engineering Handbook Hydrology Chapters _ NRCS.html)
+[USDA National Engineering Handbook - Hydrology](https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/manage/hydrology/?cid=stelprdb1043063)
 
 [USDA Urban hydrology for small watersheds](https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1044171.pdf)
 
-<!-- ## Keywords -->
-<!-- <img src="images/logo.png" class="cover"> -->
+## Keywords
+<img src="images/logo.png" class="cover">
 
-<!-- For future reference, here is a list of [keywords](./keywords/keywords.html) (loosely) organized in themes. -->
+For future reference, here is a list of [keywords](./keywords/keywords.html) (loosely) organized in themes.
 
 ## Referencing / credits
 <img src="images/logo.png" class="cover">

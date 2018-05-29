@@ -31,8 +31,9 @@
 <h2>Plan</h2>
 <ul>
 <li><a href="./3_erosion_deposition.html#erosion-and-deposition">Erosion and deposition</a></li>
-<li><a href="./3_erosion_deposition.html#examples-around-sogndal">Examples around Sogndal</a></li>
 <li><a href="./3_erosion_deposition.html#take-home-messages">Take home messages</a></li>
+<li><a href="./3_erosion_deposition.html#examples-around-sogndal">Examples around Sogndal</a></li>
+<li><a href="./3_erosion_deposition.html#application-exercise">Exercise: sizing flood protection infrastructure</a></li>
 <li><a href="./3_erosion_deposition.html#further-resources">Further resources</a></li>
 </ul>
 <!--
@@ -80,6 +81,9 @@ Engineering Field Handbook (Part 650)
 </section><section id="hjulstrom-curve" class="slide level2">
 <h2>Hjulström curve</h2>
 <p><img src="images/hjulstrom.gif" height="500" width="auto"></p>
+</section><section id="shields-diagram" class="slide level2">
+<h2><a href="https://www4.uwsp.edu/geo/faculty/lemke/geomorphology/lectures/03_stream_sediment.html">Shields diagram</a></h2>
+<p><img src="https://www4.uwsp.edu/geo/faculty/lemke/geomorphology/images/03_shields_diagram.gif" height="500" width="auto"> <!-- https://www4.uwsp.edu/geo/faculty/lemke/geomorphology/images/03_shields_diagram.gif --></p>
 </section><section id="soil-textural-triangle" class="slide level2">
 <h2>Soil textural triangle</h2>
 <p><img src="images/empty_soil_texture_triangle.png" height="500" width="auto"></p>
@@ -87,16 +91,7 @@ Engineering Field Handbook (Part 650)
 <h2>Soil textural triangle</h2>
 <p><img src="images/soil_textural_triangle.jpg" height="500" width="auto"></p>
 <!--
-## QUestions (TO CHECK)
-> - **The minimum size of stone that will remain at rest in a channel of longitudinal slope S and hydraulic mean deph R is:**
-> - **a**: 4*RS
-> - **b**: 11*RS
-> - **c**: 7*RS
-> - **d**: 15*RS
-> - Answer: **b** 
-
 ## Erosion / deposition processes as a function of grain size
-
 > - **How are erosion / deposition processes related to grain size?**
 > - 
 > - **What is the impact of water reservoirs on those processes?**
@@ -125,6 +120,19 @@ Engineering Field Handbook (Part 650)
 > - **What is the relation between grain size and pollution in stormwater?**
 > -
 -->
+</section><section id="types-of-sediment-load" class="slide level2">
+<h2>Types of sediment load</h2>
+<ul>
+<li>Bed load: particles that are transported along the stream bed</li>
+<li>Suspended load: particles that are kept suspended by turbulence. Usually clay, sil or fine sand.</li>
+<li>Dissolved load: particles that have been dissolved by water (electrical conductivity is a proxy)</li>
+</ul>
+</section><section id="impact-of-reservoirs-on-erosion" class="slide level2">
+<h2>Impact of reservoirs on erosion</h2>
+<ul>
+<li>Water flowing out of reservoirs lacks sediment load. The shear stresses are not damped by a protective “layer of sediments, which makes the erosion potential higher.</li>
+<li>This is how sediment-starved water can have an impact on downstream habitats</li>
+</ul>
 </section><section id="pollution-in-sediments" class="slide level2">
 <h2><a href="http://www.fao.org/docrep/W2598E/w2598e05.htm">Pollution in sediments</a></h2>
 <ul>
@@ -174,13 +182,23 @@ $A=RKLSCP$ The USLE has another concept of experimental importance, the unit plo
 
 $K=A/R$ A simpler method to predict $K$ was presented by Wischmeier et al.[7] which includes the particle size of the soil, organic matter content, soil structure and profile permeability. The soil erodibility factor $K$ can be approximated from a nomograph if this information is known. The $LS$ factors can easily be determined from a slope effect chart by knowing the length and gradient of the slope. The cropping management factor ($C$) and conservation practices factor ($P$) are more difficult to obtain and must be determined empirically from plot data. They are described in soil loss ratios ($C$ or $P$ with / $C$ or $P$ without).
 -->
+</section><section id="take-home-messages" class="slide level2">
+<h2>Take home messages</h2>
+<ul>
+<li>Particule density, shear stress from viscous forces and soil cohesive forces at play for erosion</li>
+<li>Hjulström diagram: erosion, transportation and deposition as a function of velocity and particle size</li>
+<li>Harder to initiate motion than to maintain motion</li>
+<li>Different types of sediment loads: bed load, suspended load or dissolved load</li>
+<li>Low sediment load downstream of reservoirs can lead to erosion</li>
+<li>Deposition velocity proportional to <span class="math inline">\(R2\)</span> (Stoke’s law)</li>
+<li>SW pollution often bonded to fine sediments (adsorbtion): need to design for sedimentation</li>
+</ul>
 </section>
 <section id="examples-around-sogndal" class="titleslide slide level1"><h2 class="shout">Examples around Sogndal</h2></section><section id="internal-erosion-piping-through-dams" class="slide level2">
 <h2>Internal erosion: Piping through dams</h2>
 <p>Water flow through soils can lead to (internal) soil erosion if quick enough.</p>
 <p>It is a common cause of failure for earth dams and levees (dikes) as it is often detected too late. This is why they need to be regularly monitored.</p>
 <p>It is one of the reasons for not planting vegetation on dikes</p>
-<p><a href="http://www.ecy.wa.gov/programs/wr/dams/EmergencyBroetje_Block_96.html">Brotje Block 96 Dam Breach - Piping Failure</a></p>
 <p><a href="https://www.youtube.com/watch?v=PC58mGG55io">Video: Piping failures at dams</a></p>
 </section><section id="hydro-dam-below-breidesetevatnet" class="slide level2">
 <h2>Hydro dam below Breidesetevatnet</h2>
@@ -235,16 +253,69 @@ $K=A/R$ A simpler method to predict $K$ was presented by Wischmeier et al.[7] wh
 <li>But clear-cutting steep slopes can still lead to erosion</li>
 <li>In dry mediteranean, this could be more dramatic</li>
 </ul>
-<!--
-## Other examples
-## Infiltration / decantation basins: modelling results
-<img src="images/modelling_results_decantation_infiltration_epida.png" height="500" width="auto">
-
-## Take home messages
-Pollution is usually attached to finer particles (adsorbtion)
--->
 </section>
-<section id="exercise" class="titleslide slide level1"><h2 class="shout">Exercise</h2></section><section id="sedimentation-analogy-why-dont-clouds-fall" class="slide level2">
+<section id="application-exercises" class="titleslide slide level1"><h2 class="shout">Application exercises</h2></section><section id="sizing-flood-protection-infrastructure-in-laerdal" class="slide level2">
+<h2>Sizing flood protection infrastructure in Laerdal</h2>
+<p>During the 2014 floods, the stream coming out of <a href="http://www.norgeskart.no/#!?project=seeiendom&amp;layers=1002,1015&amp;zoom=13&amp;lat=6791235.68&amp;lon=97316.62">Tynjadalen</a> found a new flowpath and destroyed some agricultural land.</p>
+<ul>
+<li class="fragment next"><strong>Which measure would you suggest to avoid such an event in the future?</strong></li>
+<li class="fragment next">NVE decided to build a riprap protection on the stretch of stream bank affected. Discuss the potential location of this riprap and calculate its necessary height to protect against a 100 or 200 year flood.</li>
+</ul>
+</section><section id="key-words-and-hints" class="slide level2">
+<h2>Key words and hints</h2>
+<ul>
+<li>Streambank restauration design</li>
+<li>Stream channel / bank protection</li>
+<li>Open channel flow</li>
+<li>Hint: <a href="www.nevina.nve.no">Nevina</a> helps you define the catchment area and the 200-year flood.</li>
+<li>Hint: The riprap protection will have a very controlled geometry, making it easy to use open channel formulas.</li>
+<li>Hint: For a quite precise measure of steepness, you can use <a href="www.hoydedata.no">hoydedata.no</a>.</li>
+<li>Sizing of rocks for riprap</li>
+<li>Hint: <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/water/manage/restoration/?cid=stelprdb1044707">Stream Restoration Design (National Engineering Handbook 654)</a></li>
+</ul>
+</section><section id="mannings-equation" class="slide level2">
+<h2>Manning’s equation</h2>
+<p>Replacing the last expression for <span class="math inline">\(C\)</span> into Chézy’s equation yields:</p>
+<p><span class="math display">\[V = {\frac{R_h^{2/3} S^{1/2}}{n}} \]</span></p>
+<p><span class="math inline">\(V\)</span> is the cross-sectional average velocity</p>
+<p><span class="math inline">\(n\)</span> is the Manning coefficient. (in <span class="math inline">\(s*m^{-\frac {1}{3}}\)</span>)</p>
+<p><span class="math inline">\(R_h\)</span> is the hydraulic radius in meters</p>
+<p><span class="math inline">\(S\)</span> is the gradient in hydraulic head, which is the channel bed slope when the water depth is constant</p>
+</section><section id="typical-manning-roughness-coefficients" class="slide level2">
+<h2>Typical Manning roughness coefficients</h2>
+<p>According to “Elements of physical hydrology”</p>
+<table>
+<thead>
+<tr class="header">
+<th>Channel material</th>
+<th>Manning’s n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glass</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td>Smooth concrete</td>
+<td>0.012</td>
+</tr>
+<tr class="odd">
+<td>Earth canal</td>
+<td>0.02</td>
+</tr>
+<tr class="even">
+<td>Natural streams</td>
+<td>0.024-0.075</td>
+</tr>
+</tbody>
+</table>
+</section><section id="application-and-criticism" class="slide level2">
+<h2>Application and criticism</h2>
+<p>Potential geometry which fits data from hoydedata.no: 10m base width,20m full width, 1.7m water height. Max velocity: 5.34m/s. D50 of at least 40-50cm required for the riprap material (see “Technical supplement: stone sizing criteria”)</p>
+<p>What are potential negative downstream impacts of such a measure? Speeds up flow through this section. The whole section needs to be well designed and constructed.</p>
+<p>Have a good look at the map in Norgeskart / NVE Atlas and try to find upstream features that could bring accrued sediments downstream. Hint: The Laerdal tunnel is not far.</p>
+</section><section id="sedimentation-analogy-why-dont-clouds-fall" class="slide level2">
 <h2>Sedimentation analogy: <a href="http://lamp.tu-graz.ac.at/~hadley/whydontcloudsfall.html">Why don’t clouds fall?</a></h2>
 <ul>
 <li class="fragment next"><strong>Clouds can hold a lot of water so why don’t they fall?</strong></li>
@@ -263,14 +334,12 @@ In some sense, the inverse effect to rain is the rising of bubbles in beer. Bubb
 
 In a similar manner, small rain drops can be pull up by air currents against the force of gravity."
 -->
-</section><section id="take-home-messages" class="slide level2">
-<h2>Take home messages</h2>
-<ul>
-<li>XXX</li>
-<li>XXX</li>
-</ul>
 </section>
-<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="norway-europe" class="slide level2">
+<section id="further-resources" class="titleslide slide level1"><h2 class="shout">Further resources</h2></section><section id="online-courses-and-technical-documentation" class="slide level2">
+<h2>Online courses and technical documentation</h2>
+<p>MIT Open courseware: <a href="https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-090-introduction-to-fluid-motions-sediment-transport-and-current-generated-sedimentary-structures-fall-2006/course-textbook/">Introduction to fluid motions, sediment transport and current-generated sedimentary structures</a></p>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/water/manage/restoration/?cid=stelprdb1044707">Stream Restoration Design (National Engineering Handbook 654)</a></p>
+</section><section id="norway-europe" class="slide level2">
 <h2>Norway / Europe</h2>
 <p>The <a href="http://www.recare-hub.eu/">RECARE</a> project presents 17 case studies in Europe dealing with prevention and mitigation of soil degradation.</p>
 <p>One of the case studies is in a Norwegian catchment: <a href="http://www.recare-hub.eu/case-studies/vansjo-hobol-catchment-norway">preventing soil degradation in the Vansjø-Hobøl catchment</a></p>
@@ -285,40 +354,33 @@ In a similar manner, small rain drops can be pull up by air currents against the
 <p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/vt/home/?cid=nrcs142p2_010552">Erosion control practices and systems</a></p>
 <p><a href="https://www.ers.usda.gov/publications/pub-details/?pubid=41202">Adoption of Agricultural Production Practices: Lessons Learned from the U.S. Department of Agriculture Area Studies Project</a></p>
 <p>Includes <a href="https://www.ers.usda.gov/webdocs/publications/41192/32127_aer792e_002.pdf?v=41304">soil management</a> and <a href="https://www.ers.usda.gov/webdocs/publications/41192/32128_aer792f_002.pdf?v=41304">water management</a></p>
-</section><section id="usda-soils-and-erosion-control-in-agriculture" class="slide level2">
-<h2>USDA: Soils and erosion control in agriculture</h2>
-<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/college/">Educational resources on soil</a></p>
+</section><section id="soils-and-erosion-control-in-agriculture" class="slide level2">
+<h2>Soils and erosion control in agriculture</h2>
+<p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/college/">USDA Educational resources on soil</a></p>
 <p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/edu/?cid=nrcs142p2_054311">USDA Guide to soil texture by feel</a></p>
 <p><a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/health/assessment/?cid=nrcs142p2_053870">Soil health for educators</a></p>
 <p><a href="https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051576.pdf">Soil infiltration</a></p>
-</section><section id="other-links" class="slide level2">
-<h2>Other links</h2>
 <p><a href="https://nrcca.cals.cornell.edu/soil/CA5/">Cornell University: great online documents on soil conservation from an agricultural perspective</a></p>
-<p><a href="https://nrcca.cals.cornell.edu/soil/CA5/CA0545.php">The Revised Universal Soil Loss Equation (RUSLE)</a></p>
 <p><a href="http://www.topps-life.org/uploads/8/0/0/3/8003583/bmp_runoff_16_09_2015.pdf">Presentation on erosion from agricultural areas</a></p>
 </section>
 <section id="annoted-video-resources" class="titleslide slide level1"><h2 class="shout">Annoted video resources</h2></section><section id="erosion-and-soil-cover" class="slide level2">
 <h2>Erosion and soil cover</h2>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/im4HVXMGI68" frameborder="0" allowfullscreen>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/im4HVXMGI68" frameborder="0" allowfullscreen>
 </iframe>
+<p>Impact of stable soil aggregates on erodability: <a href="https://www.youtube.com/watch?v=d1M7EFqqsMM">Soil aggregation and water infiltration</a></p>
 </section><section id="rainfall-simulator-soil-management-impacts-on-water-infiltration-very-good" class="slide level2">
 <h2>Rainfall simulator: Soil Management Impacts on Water Infiltration (very good)</h2>
 <iframe width="800" height="450" src="https://www.youtube.com/embed/4IIoyFYEcBc" frameborder="0" allowfullscreen>
 </iframe>
-</section><section id="green-stormwater-infrastructure-low-impact-development-toolbox-of-solutions" class="slide level2">
-<h2><a href="https://www.youtube.com/watch?v=CyCDQlguKPg">Green Stormwater Infrastructure / Low-Impact Development Toolbox of Solutions</a></h2>
-<p>15:00 Compost blankets for erosion control during contruction -&gt; buildingsoils.org</p>
-</section><section id="dr.efi-foufoula-georgiou---breakthroughs-in-engineering-hydrology" class="slide level2">
-<h2><a href="https://www.youtube.com/watch?v=auqXqTqhbSM">Dr. Efi Foufoula-Georgiou - Breakthroughs in Engineering Hydrology</a></h2>
+<!-- ## [Green Stormwater Infrastructure / Low-Impact Development Toolbox of Solutions](https://www.youtube.com/watch?v=CyCDQlguKPg) -->
+<!-- 15:00 Compost blankets for erosion control during contruction -->
+<!-- -> buildingsoils.org -->
+</section><section id="scientific-presentations" class="slide level2">
+<h2>Scientific presentations</h2>
+<p><a href="https://www.youtube.com/watch?v=auqXqTqhbSM">Dr. Efi Foufoula-Georgiou - Breakthroughs in Engineering Hydrology</a></p>
 <p>20:00 reasons and effects of changes in erosion 23:00 sand transport velocity. non libear relationship with slope 36:00 definitions of resilience 49:00 EPA conlusions on expected change sin erosion / pollution patterns</p>
-</section><section id="the-evolution-of-floodplain-complexity" class="slide level2">
-<h2><a href="https://www.youtube.com/watch?v=l7mLNc63lzg&amp;list=WL&amp;index=203">The evolution of floodplain complexity</a></h2>
+<p><a href="https://www.youtube.com/watch?v=l7mLNc63lzg&amp;list=WL&amp;index=203">The evolution of floodplain complexity</a></p>
 <p>Research combining erosion, sediment load and open channel flow (long and difficult)</p>
-</section><section id="impact-of-stable-soil-aggregates-on-erodability" class="slide level2">
-<h2>Impact of stable soil aggregates on erodability</h2>
-<p><a href="https://www.youtube.com/watch?v=9_ItEhCrLoQ" class="uri">https://www.youtube.com/watch?v=9_ItEhCrLoQ</a></p>
-<p><a href="https://www.youtube.com/watch?v=Rpl09XP_f-w">Comparing infiltration properties at tilled vs non-tilled land</a></p>
-<p><a href="https://www.youtube.com/channel/UCKULTAeygQyCD_lLmex0eJA">Linking no till cereal farming with grazing cover crops</a></p>
 </section>
 
   <!--
