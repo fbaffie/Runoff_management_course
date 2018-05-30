@@ -210,8 +210,7 @@ Day	| Time	| Topic	| Room
 Wed. 30 May | 09:15-12:00	| [Soils, erosion and deposition](02_Hydraulics/3_erosion_deposition.html)	| Svingen F2
 Wed. 30 May | 13:15-16:00	| [Flood vulnerability](03_Catchment_scale/1_flood_mapping.html) | Svingen F2
 Thu. 31 May | 09:15-12:00	| Excursion	| Leikanger
-Fri. 1 Jun  | 09:15-12:00	| Debrief: excursion and course | Svingen F2
-Fri. 1 Jun  | 13:15-16:00	| Projects discussions | Svingen F2
+Fri. 1 Jun  | 09:15-12:00	| Debrief: excursion, projects and course | Svingen F2
 Mon. 04 Jun | All day	| Excursion	| Utvik
 
 ## Agenda: 09-15 June
