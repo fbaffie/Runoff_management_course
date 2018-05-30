@@ -13,6 +13,7 @@ output:
 ##  Plan
 
 - [Erosion and deposition](./3_erosion_deposition.html#erosion-and-deposition)
+- [Sedimentation rates](./3_erosion_deposition.html#sedimentation-rates)
 - [Take home messages](./3_erosion_deposition.html#take-home-messages)
 - [Examples around Sogndal](./3_erosion_deposition.html#examples-around-sogndal)
 - [Exercise: sizing flood protection infrastructure](./3_erosion_deposition.html#application-exercise)
@@ -63,6 +64,15 @@ Engineering Field Handbook (Part 650)
 > - **Where do silting and scouring happen in a river bend?**
 > - silting on the convex side
 > - scouring on the concave side
+
+## Velocity gradients drive shear stress and erosion
+
+> - **Where does erosion preferentially occur: stream bed  or stream bank?**
+> - **For Wide and shallow river channels?**
+> - Steeper gradient along bed than along banks: promotes bed erosion
+> - **For narrow, deep channels?**
+> - Steeper gradient along banks than along bed: promotes bank erosion
+
 
 ## Hjulström curve
 <img src="images/hjulstrom.gif" height="500" width="auto">
@@ -117,8 +127,10 @@ Engineering Field Handbook (Part 650)
 
 ## Impact of reservoirs on erosion
 
-- Water flowing out of reservoirs lacks sediment load. The shear stresses are not damped by a protective "layer of sediments, which makes the erosion potential higher.
+- Water flowing out of reservoirs lacks sediment load. The shear stresses are not damped by a "protective layer" of sediments, which makes the erosion potential higher.
 - This is how sediment-starved water can have an impact on downstream habitats
+
+# Sedimentation rates
 
 ## [Pollution in sediments](http://www.fao.org/docrep/W2598E/w2598e05.htm)
 
