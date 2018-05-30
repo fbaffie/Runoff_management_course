@@ -324,10 +324,14 @@ Smooth concrete	|	0.012
 Earth canal | 0.02
 Natural streams | 0.024-0.075
 
+A first approach would be to use a value in the natural streams interval. Looking for more [precise values](http://www.fsl.orst.edu/geowater/FX3/help/8_Hydraulic_Reference/Mannings_n_Tables.htm) indicates that 0.04-0.05 would be most realistic (see 4.d: rock cuts).
+
 ## Application and criticism
 
-Potential geometry which fits data from hoydedata.no: 10m base width,20m full width, 1.7m water height.
-Max velocity: 5.34m/s. D50 of at least 40-50cm required for the riprap material (see "Technical supplement: stone sizing criteria")
+With n = 0.04, a potential geometry which fits data from hoydedata.no could be: 
+
+10m base width, 20m full width, 1.7m water height.
+Max velocity: 5.27m/s. $D_{50}$ (minimum diameter of 50% of the rock mass used) of at least 40-50cm required for the riprap material (see "Technical supplement: stone sizing criteria" or Vassdragshandboka)
 
 What are potential negative downstream impacts of such a measure?
 Speeds up flow through this section. The whole section needs to be well designed and constructed.
