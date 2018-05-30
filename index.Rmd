@@ -223,18 +223,18 @@ Fri. 08 Jun | 24:00 | Send project reports | fkba@hvl.no + fronter
 Tue. 12 Jun | 08:00-16:00 | Group presentations | Stadionbygg Auditorium
 Thu. 14 Jun | 08:00-17:00 | Individual exam | SOG-Møterom 3.etg Stadionbygg
 
-<!-- ## Group presentations in Stadionbygget Auditorium: Tue. 12 June -->
-<!-- <img src="images/logo.png" class="cover"> -->
+## Group presentations in Stadionbygget Auditorium: Tue. 12 June
+<img src="images/logo.png" class="cover">
 
-<!-- Time	| Group	| Project -->
-<!-- --- | --- | ---  -->
-<!-- 09:00 | Anna Astrid Famke | Discharge gauging -->
-<!-- 09:20 | Nils Anne Dag Peter | Small-scale vulnerabitilies -->
-<!-- 09:40 | John Sushmitha Willemijn | Vegvesen repair practices -->
-<!-- 10:20 | Erik Tonje Eirin | Sogndal's catchment -->
-<!-- 10:40 | Helge Kristine Vibeke | Planning Lyseparken | -->
-<!-- 11:00 | Adam Erling Torbjørn | Flood routing  -->
-<!-- 11:20 | Ragnar Sarina Theo | Green infrastructure synthesis -->
+Time	| Group	| Project
+--- | --- | ---
+09:00 | Anna Astrid Famke | Discharge gauging
+09:20 | Nils Anne Dag Peter | Small-scale vulnerabitilies
+09:40 | John Sushmitha Willemijn | Vegvesen repair practices
+10:20 | Erik Tonje Eirin | Sogndal's catchment
+10:40 | Helge Kristine Vibeke | Planning Lyseparken |
+11:00 | Adam Erling Torbjørn | Flood routing
+11:20 | Ragnar Sarina Theo | Green infrastructure synthesis
 
 ## Time blocks and quizzes
 <img src="images/logo.png" class="cover">
