@@ -598,7 +598,7 @@ Put your files on a USB stick or send them to me as a .zip. Two groups will (inf
 <img src="images/logo.png" class="cover">
 
 Some calculations and drawings based on a water harvesting example in Tucson, Arizona:
-[Exercise without answers](EXERCISES/EX04.html)
+[Exercise with answers](EXERCISES/EX04-with-answers.html)
 
 <!-- [Preparation work](04_Urban_SW/2_green_infra_quiz.html) -->
 

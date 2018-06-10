@@ -87,8 +87,8 @@ Public safety guidance for urban SW facilities
 > - A first approximation is say that the velocity of water in the upper gutter is 0. This makes for an easy application of Bernouilli's Law.
 > - How could we take into account friction? 
 
-## How much flow can the tank inlet convey before the filter overflows
-> - [There](./1_fluid_dynamics.html#exercise-flow-out-of-a-reservoir), we calculated the flow out of a reservoir in very similar conditions. In this case, the reservoirs are the gutters.
+## How much flow can the wet system convey before the higher roof overflows
+> - In the application exercise of Bernouilli's Equation, we calculated the flow out of a reservoir in very similar conditions. In this case, the reservoirs are the gutters.
 > - This gives us a velocity of $v= (2gd)^{1/2} = 2m/s$ for water going through the wet system. We need to multiply it by the cross-sectional area of the pipe to get the flow rate:
 > - Assuming a 10cm wide pipe: $Q=2*0.05^2 \pi = 0.0157 m^3/s$
 
