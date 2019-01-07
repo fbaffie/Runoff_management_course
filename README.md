@@ -6,7 +6,7 @@ at Høgskulen for Vestlandet (HVL), Norway.
 
 The presentations have been prepared in the R Markdown format with the held of the `rmdshower` [package](https://github.com/MangoTheCat/rmdshower).
 
-The course website is accessible [there](http://fbaffie.github.io/Runoff_management_course)
+The course website is not online anymore. You can download the gh-pages branch for a local copy.
 
 ## References
 I have used pictures gleaned from the internet and have on most occasions not referenced them directly within the course material to keep it simple. All the source websites and pictures are however listed in my pinterest collections:
