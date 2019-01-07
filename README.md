@@ -12,7 +12,7 @@ The course website is not online anymore. You can download the gh-pages branch f
 I have used pictures gleaned from the internet and have on most occasions not referenced them directly within the course material to keep it simple. All the source websites and pictures are however listed in my pinterest collections:
 https://no.pinterest.com/fbaffie/
 
-Credits for sources that are not in the pinterest collections are listed [there](https://fbaffie.github.io/Runoff_management_course/#referencing-credits).
+Credits for sources that are not in the pinterest collections are listed in the introductory lecture.
 
 If a reference is missing, or you are unhappy about the use of an image, please raise an issue.
 
